@@ -3,11 +3,11 @@ ds = [{
         date:   `2023-07-20`,
         text:   `Példaprogramokat tároló adatszerkezet, forráskód-megjelenítő`,
         files: [{
-            type:   `javascript`,
-            fn:     `data.js`
-        }, {
             type:   `language-html`,
             fn:     `index.html`
+        }, {
+            type:   `javascript`,
+            fn:     `data.js`
         }, {
             type:   `language-css`,
             fn:     `style.css`
