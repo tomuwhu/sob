@@ -19,6 +19,16 @@ td {
     padding: 5px;
     background-color: rgb(15, 35, 28);
 }
+td.k1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+td.bt {
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+}
 td.bt {
     color: rgb(238, 145, 145);
     cursor: pointer;
@@ -26,7 +36,6 @@ td.bt {
 }
 td.bt:hover {
     color: rgb(238, 182, 182);
-
 }
 #code {
     margin: 10px auto;
