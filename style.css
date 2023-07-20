@@ -59,6 +59,7 @@ td.bt i:hover, a:hover {
 #code {
     margin: 10px auto;
     padding: 16px;
+    font-size: 11px;
     text-align: left;
     display: inline-block;
     border: solid 1px white;
