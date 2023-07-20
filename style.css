@@ -17,6 +17,16 @@ td {
     border-radius: 5px;
     border: solid 1px white;
     padding: 5px;
+    background-color: rgb(15, 35, 28);
+}
+td.bt {
+    color: rgb(238, 145, 145);
+    cursor: pointer;
+    background-color: rgb(12, 38, 56);
+}
+td.bt:hover {
+    color: rgb(238, 182, 182);
+
 }
 #code {
     margin: 10px auto;
@@ -27,11 +37,6 @@ td {
     border-radius: 4px;
     box-shadow: 1px 1px 3px inset black;
 }
-td.bt {
-    color: rgb(238, 145, 145);
-    cursor: pointer;
-    background-color: rgb(14, 12, 56);
-}
-td.bt:hover {
-    color: rgb(238, 182, 182);
+i {
+    color: yellowgreen;
 }
