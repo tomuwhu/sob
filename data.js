@@ -17,7 +17,8 @@ ds = [{
     }]
 s = `${ds.map((e, i) => `<div class="c">
     <div>${e.date}</div>
-    <div>${e.name} <u class="k1">(${e.text})</u></div>
+    <div>${e.name}</div>
+    <div><u class="k1">${e.text}</u></div>
     <div><table>
     <td class="test bt">Próba: <a href="${e.git[2]}" target="git">${e.git[0]}</a></td>
     <td class="bt">Forrás:</td>
