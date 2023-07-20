@@ -15,17 +15,17 @@ ds = [{
         }
         ]
     }]
-s = `<table>${ds.map((e, i) => `<tr>
-    <td>${e.date}</td>
-    <td>${e.name}</td>
-    <td class="k1">${e.text}</td>
-    <td><table>
+s = `${ds.map((e, i) => `<div class="c">
+    <div>${e.date}</div>
+    <div>${e.name} <u class="k1">(${e.text})</u></div>
+    <div><table>
     <td class="test bt">Próba: <a href="${e.git[2]}" target="git">${e.git[0]}</a></td>
     <td class="bt">Forrás:</td>
     ${e.files.map((fi, j) => `<td onclick='f(${i}, ${j})' class="bt"><i>${fi.fn}</i></td>` ).join('')}
     <td class="git bt">Git: <a href="${e.git[1]}" target="git">${e.git[0]}</a></td>
-    </table></td>
-</tr>`).join('')}</table>`
+    </table></div>
+    </div>
+`).join('')}`
 $(() => {
     $('#content').html(s)
 })
