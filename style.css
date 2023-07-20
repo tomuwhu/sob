@@ -34,8 +34,8 @@ td.bt {
     cursor: pointer;
     background-color: rgb(12, 38, 56);
 }
-td.bt:hover {
-    color: rgb(238, 182, 182);
+td.bt i:hover {
+    color: rgb(216, 207, 97);
 }
 #code {
     margin: 10px auto;
