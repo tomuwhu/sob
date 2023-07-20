@@ -16,7 +16,7 @@ ds = [{
         name:   `adatszerkezet`,
         date:   `2023-07-20`,
         text:   `Példaprogramokat tároló adatszerkezet: css`,
-        type:   `language-html`,
+        type:   `language-css`,
         fn:     `./style.css`
     }]
 s = `<table>${ds.map((e, i) => `<tr>
@@ -31,7 +31,8 @@ $(() => {
 function f(i) {
     $.get(ds[i].fn, data => {
         $(`#code`).text(data)
-        $(`#code`).className = `ds[i].type`
+        $(`#code`).removeAttr('class')
+        $(`#code`).addClass(ds[i].type)
         hljs.highlightAll()
     })
 }
