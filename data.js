@@ -46,6 +46,7 @@ s = x => `${x.map((e, i) => `<div class="c">
 `).join('')}`
 sz = t => {
     $('#content').html(s(ds.filter( r => {
+        if (!t.value.length) return true
         lt = new Levenshtein(r.name.toUpperCase(), t.value.toUpperCase()).distance
         len = r.name.length
         lt2 = new Levenshtein(r.text.toUpperCase(), t.value.toUpperCase()).distance
