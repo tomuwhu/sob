@@ -16,7 +16,8 @@ ds = [{
             fn:     `style.css`
         }
         ]
-    }, {name: 'cica'}, {name: 'kutya'}, {name: 'szamár'}, {name: 'zsiráf'}, {name: 'zebra'}, {name: '7'}, {name: '8'}, {name: '9'}, {name: '10'}]
+    }]
+    //, {name: 'cica'}, {name: 'kutya'}, {name: 'szamár'}, {name: 'zsiráf'}, {name: 'zebra'}, {name: '7'}, {name: '8'}, {name: '9'}, {name: '10'}
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
     <div class="x">${e.name}</div>
