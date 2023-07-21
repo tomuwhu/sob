@@ -29,7 +29,7 @@ s = x => `${x.map((e, i) => `<div class="c">
     ` ).join('') : '<td class="bt"> --- <b>Nem listázható</b> --- </td>'} 
     ${e.git && e.git[1].length ? `<td class="git bt">Git: <a href="${e.git[1]}" target="git">${e.git[0]}</a></td>` : ``}
     </table></div>
-    </div>
+    </div><div class="break"></div>
 `).join('')}`
 ar = () => ds.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) 
 té = (bsz, hsz1, hsz2) => {
@@ -56,7 +56,6 @@ function disp() {
     } 
     if (k <= 0) $('#fny').hide()
     ar()
-    console.log(k, ds.slice(k, k + n) );
     $('#content').html(s(ds.slice(k, k + n)))
     if (ds.length > n) {
         $('input').css('display','inline-block')

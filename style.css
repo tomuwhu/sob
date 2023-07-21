@@ -102,3 +102,7 @@ input, hr, pre {
     cursor: pointer;
     user-select: none;
 }
+.break {
+    flex-basis: 100%;
+    height: 0px;
+}
