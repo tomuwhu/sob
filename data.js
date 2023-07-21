@@ -39,12 +39,13 @@ s = x => `${x.map((e, i) => `<div class="c">
     <div><table>
     <td class="test bt">Próba: <a href="${e.git[2]}" target="git">${e.git[0]}</a></td>
     <td class="bt">Forrás:</td>
-    ${e.files.map((fi, j) => `<td onclick='f(${i}, ${j})' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></td>` ).join('')}
+    ${e.files.map((fi, j) => `<td onclick='f(${i}, ${j}, "${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></td>` ).join('')}
     <td class="git bt">Git: <a href="${e.git[1]}" target="git">${e.git[0]}</a></td>
     </table></div>
     </div>
 `).join('')}`
 sz = t => {
+    $(`#code`).text("")
     $('#content').html(s(ds.filter( r => {
         if (!t.value.length) return true
         lt = new Levenshtein(r.name.toUpperCase(), t.value.toUpperCase()).distance
@@ -57,8 +58,8 @@ sz = t => {
 $(() => {
     $('#content').html(s(ds))
 })
-function f(i, j) {
-    $.get(ds[i].files[j].fn, data => {
+function f(i, j, fn) {
+    $.get(fn, data => {
         $(`#code`).text(data)
         $(`#code`).removeAttr('class')
         $(`#code`).addClass(ds[i].files[j].type)

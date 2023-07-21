@@ -96,3 +96,7 @@ td.active {
 td.active i {
     color: bisque;
 }
+input {
+    font-family: Impact, Haettenschweiler;
+    font-size: 11px;
+}
