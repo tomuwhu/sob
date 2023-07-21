@@ -14,8 +14,25 @@ ds = [{
             fn:     `style.css`
         }
         ]
+    },
+    {
+        name:   ` Cica kód` ,
+        date:   `2023-07-20`,
+        text:   `Példaprogramokat tároló adatszer`,
+        git:    [`SOB`, `https://github.com/tomuwhu/sob`, `http://sob.es6.eu/`],
+        files: [{
+            type:   `language-html`,
+            fn:     `indexdfg.html`
+        }, {
+            type:   `javascript`,
+            fn:     `datadfgfdg.js`
+        }, {
+            type:   `language-css`,
+            fn:     `styledfgdfg.css`
+        }
+        ]
     }]
-s = `${ds.map((e, i) => `<div class="c">
+s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
     <div class="x">${e.name}</div>
     <div class="x"><u class="k1">${e.text}</u></div>
@@ -27,8 +44,17 @@ s = `${ds.map((e, i) => `<div class="c">
     </table></div>
     </div>
 `).join('')}`
+sz = t => {
+    $('#content').html(s(ds.filter( r => {
+        lt = new Levenshtein(r.name.toUpperCase(), t.value.toUpperCase()).distance
+        len = r.name.length
+        lt2 = new Levenshtein(r.text.toUpperCase(), t.value.toUpperCase()).distance
+        len2 = r.text.length
+        return (lt/len < 0.9) || (lt2/len2 < 0.92)
+    } )))
+}
 $(() => {
-    $('#content').html(s)
+    $('#content').html(s(ds))
 })
 function f(i, j) {
     $.get(ds[i].files[j].fn, data => {
