@@ -88,6 +88,10 @@ i, a, a:visited, a:active {
     font-family: 'Lucida Sans';
 }
 td.active {
-    background-color: rgb(6, 26, 26);
+    background-color: rgb(57, 67, 3);
     box-shadow: 1px 1px 3px inset black;
+}
+
+td.active i {
+    color: bisque;
 }
