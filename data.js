@@ -16,7 +16,7 @@ ds = [{
         ]
     },
     {   name:   `Répa télapó`,
-        date:   `2023-08-02`,
+        date:   `2023-08-12`,
         text:   `Karácsonyra megígért rágógumi`},
     {   name:   `Hangszóró`,
         date:   `2023-08-02`,
@@ -35,7 +35,7 @@ s = x => `${x.map((e, i) => `<div class="c">
     </table></div>
     </div>
 `).join('')}`
-
+ar = () => ds.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) 
 té = (bsz, hsz1, hsz2) => {
     lt = new Levenshtein(hsz1, bsz).distance
     len = hsz1.length
@@ -43,19 +43,19 @@ té = (bsz, hsz1, hsz2) => {
     len2 = hsz2.length
     return Math.min(lt/len + lt2/len2)
 }
-
 sz = t => {
     $(`#code`).text("")
-    ds.sort( (r1, r2) => {
-        if (!t.value.length) return true
+    if (!t.value.length) ar()
+    else ds.sort( (r1, r2) => {
         e1 = té(t.value.toUpperCase(), r1.name.toUpperCase(), r1.text.toUpperCase())
         e2 = té(t.value.toUpperCase(), r2.name.toUpperCase(), r2.text.toUpperCase())
         return e1 - e2
     } )
-    $('#content').html(s(ds.slice(0, 2)))
+    $('#content').html(s(ds.slice(0, 10)))
 }
 $(() => {
-    $('#content').html(s(ds.slice(0, 2)))
+    ar()
+    $('#content').html(s(ds.slice(0, 10)))
 })
 function f(i, j, fn) {
     $.get(fn, data => {
