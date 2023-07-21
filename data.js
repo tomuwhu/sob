@@ -14,23 +14,6 @@ ds = [{
             fn:     `style.css`
         }
         ]
-    },
-    {
-        name:   ` Cica kód` ,
-        date:   `2023-07-20`,
-        text:   `Példaprogramokat tároló adatszer`,
-        git:    [`SOB`, `https://github.com/tomuwhu/sob`, `http://sob.es6.eu/`],
-        files: [{
-            type:   `language-html`,
-            fn:     `indexdfg.html`
-        }, {
-            type:   `javascript`,
-            fn:     `datadfgfdg.js`
-        }, {
-            type:   `language-css`,
-            fn:     `styledfgdfg.css`
-        }
-        ]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
