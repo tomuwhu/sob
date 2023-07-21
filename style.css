@@ -46,23 +46,13 @@ div.c div {
 div.x {
     padding-top: 7px;
 }
-td {
-    white-space: nowrap;
-    text-align: left;
-    border-radius: 5px;
-    border: solid 1px white;
-    padding: 5px;
-    background-color: rgb(15, 35, 28);
-}
-table {
-    margin: auto;
-}
 u.k1 {
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 13px;
 }
 td.bt {
+    text-align: left;
     padding: 5px;
     border: none;
     color: rgb(238, 145, 145);
@@ -91,13 +81,20 @@ i, a, a:visited, a:active, b {
     font-family: 'Lucida Sans';
 }
 td.active {
-    background-color: rgb(57, 67, 3);
-    box-shadow: 1px 1px 3px inset black;
+    border-radius: 6px;
+    background-color: rgb(127, 126, 26);
+    box-shadow: 1px 1px 4px inset black;
 }
 td.active i {
     color: bisque;
 }
 input {
-    font-family: Impact, Haettenschweiler;
+    font-family: Haettenschweiler;
     font-size: 11px;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
 }
+input, hr, pre {
+    display: none;
+}    

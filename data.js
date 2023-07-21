@@ -1,3 +1,4 @@
+n = 6
 ds = [{
         name:   `Weboldal forráskód`,
         date:   `2023-07-20`,
@@ -45,14 +46,19 @@ sz = t => {
         e2 = té(t.value.toUpperCase(), r2.name.toUpperCase(), r2.text.toUpperCase())
         return e1 - e2
     } )
-    $('#content').html(s(ds.slice(0, 10)))
+    $('#content').html(s(ds.slice(0, n)))
 }
 $(() => {
     ar()
-    $('#content').html(s(ds.slice(0, 10)))
+    $('#content').html(s(ds.slice(0, n)))
+    if (ds.length > n) {
+        $('input').css('display','inline-block')
+        $('hr').css('display','block')
+    }
 })
 function f(i, j, fn) {
     $.get(fn, data => {
+        $('pre').css('display','inline-block')
         $(`#code`).text(data)
         $(`#code`).removeAttr('class')
         $(`#code`).addClass(ds[i].files[j].type)
