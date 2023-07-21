@@ -22,7 +22,9 @@ s = x => `${x.map((e, i) => `<div class="c">
     <div><table>
     <td class="test bt">Próba: <a href="${e.git[2]}" target="git">${e.git[0]}</a></td>
     <td class="bt">Forrás:</td>
-    ${e.files.map((fi, j) => `<td onclick='f(${i}, ${j}, "${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></td>` ).join('')}
+    ${e.files.map((fi, j) => `
+    <td onclick='f(${i}, ${j}, "${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></td>
+    ` ).join('')}
     <td class="git bt">Git: <a href="${e.git[1]}" target="git">${e.git[0]}</a></td>
     </table></div>
     </div>
