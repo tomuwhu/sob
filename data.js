@@ -14,13 +14,7 @@ ds = [{
             fn:     `style.css`
         }
         ]
-    },
-    {   name:   `Répa télapó`,
-        date:   `2023-08-12`,
-        text:   `Karácsonyra megígért rágógumi`},
-    {   name:   `Hangszóró`,
-        date:   `2023-08-02`,
-        text:   `Tüskecumi`}]
+    }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
     <div class="x">${e.name}</div>
