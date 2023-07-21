@@ -71,13 +71,13 @@ td.bt i:hover, a:hover {
     color: rgb(216, 207, 97);
 }
 #code {
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 16px;
     font-size: 11px;
     text-align: left;
     display: inline-block;
-    border: solid 1px white;
-    border-radius: 4px;
+    border: solid 1px rgb(166, 168, 158);
+    border-radius: 7px;
     box-shadow: 1px 1px 3px inset black;
 }
 i, a, a:visited, a:active {
@@ -91,7 +91,6 @@ td.active {
     background-color: rgb(57, 67, 3);
     box-shadow: 1px 1px 3px inset black;
 }
-
 td.active i {
     color: bisque;
 }
