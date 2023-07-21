@@ -17,18 +17,21 @@ ds = [{
         }
         ]
     }]
-    //, {name: 'cica'}, {name: 'kutya'}, {name: 'szamár'}, {name: 'zsiráf'}, {name: 'zebra'}, {name: '7'}, {name: '8'}, {name: '9'}, {name: '10'}
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
     <div class="x">${e.name}</div>
     <div class="x"><u class="k1">${e.text}</u></div>
     <div><table>
-    ${e.git && e.git[2].length ? `<td class="test bt">Próba: <a href="${e.git[2]}" target="git">${e.git[0]}</a></td>` : ``}
+    ${e.git && e.git[2].length ? 
+    `<td class="test bt">Próba: <a href="${e.git[2]}" target="git">${e.git[0]}</a></td>`
+    : ``}
     <td class="bt">Forrás:</td>
     ${e.files ? e.files.map((fi, j) => `
     <td onclick='f(${i}, ${j}, "${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></td>
     ` ).join('') : '<td class="bt"> --- <b>Nem listázható</b> --- </td>'} 
-    ${e.git && e.git[1].length ? `<td class="git bt">Git: <a href="${e.git[1]}" target="git">${e.git[0]}</a></td>` : ``}
+    ${e.git && e.git[1].length ? 
+    `<td class="git bt">Git: <a href="${e.git[1]}" target="git">${e.git[0]}</a></td>`
+    : ``}
     </table></div>
     </div><div class="break"></div>
 `).join('')}`
