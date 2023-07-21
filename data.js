@@ -1,4 +1,5 @@
-n = 6
+k = 0
+n = 20
 ds = [{
         name:   `Weboldal forráskód`,
         date:   `2023-07-20`,
@@ -15,7 +16,7 @@ ds = [{
             fn:     `style.css`
         }
         ]
-    }]
+    }, {name: 'cica'}, {name: 'kutya'}, {name: 'szamár'}, {name: 'zsiráf'}, {name: 'zebra'}, {name: '7'}, {name: '8'}, {name: '9'}, {name: '10'}]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
     <div class="x">${e.name}</div>
@@ -46,16 +47,45 @@ sz = t => {
         e2 = té(t.value.toUpperCase(), r2.name.toUpperCase(), r2.text.toUpperCase())
         return e1 - e2
     } )
-    $('#content').html(s(ds.slice(0, n)))
+    $('#content').html(s(ds.slice(k, k + n)))
 }
-$(() => {
+$(() => disp())
+function disp() {
+    if (ds.length <= k + n) {
+        $('#lny').hide()
+    } 
+    if (k <= 0) $('#fny').hide()
     ar()
-    $('#content').html(s(ds.slice(0, n)))
+    console.log(k, ds.slice(k, k + n) );
+    $('#content').html(s(ds.slice(k, k + n)))
     if (ds.length > n) {
         $('input').css('display','inline-block')
         $('hr').css('display','block')
     }
-})
+}
+function pd(x) {
+    if (x == 5) {
+        if (ds.length > k + 5) {
+            k += 5
+            $('#lny').show()
+        } 
+        disp()
+        $('#fny').show()
+
+    }
+    if (x == -5) {
+        if (0 < k) {
+            k -= 5
+            $('#fny').show()
+        } 
+        disp()
+        if (0 >= k) {
+            $('#fny').hide()
+            k = 0
+        }
+        $('#lny').show() 
+    }
+}
 function f(i, j, fn) {
     $.get(fn, data => {
         $('pre').css('display','inline-block')

@@ -97,4 +97,8 @@ input {
 }
 input, hr, pre {
     display: none;
-}    
+}
+#lny, #fny {
+    cursor: pointer;
+    user-select: none;
+}
