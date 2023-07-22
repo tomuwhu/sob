@@ -1,7 +1,7 @@
 <script>
 //  @ts-nocheck
     var next = "O"
-    var table = Array(20).fill(0).map(v => Array(20).fill(""))
+    var table = Array(20).fill(0).map(() => Array(20).fill(""))
     function f(event) {
         var x, y
         [,x,y] = event.target.id.split("o")
