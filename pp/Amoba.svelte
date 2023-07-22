@@ -1,22 +1,24 @@
 <script>
   //@ts-nocheck
-    var next = "O"
-    var table = Array(20).fill(0).map(() => Array(20).fill(""))
-    function f(event) {
-      var x, y
-      [,x,y] = event.target.id.split("o")
-      table[y][x] = next == "O" ? next = "X" : next = "O"
-    }
+  var next = "O";
+  var table = Array(20)
+    .fill(0)
+    .map(() => Array(20).fill(""));
+  function f(event) {
+    var x, y;
+    [, x, y] = event.target.id.split("o");
+    table[y][x] = next == "O" ? (next = "X") : (next = "O");
+  }
 </script>
-  
+
 <div>
   <table>
     {#each table as row, y}
-    <tr>
-      {#each row as cell, x}
-      <td on:click={f} id=o{x}o{y}o class={cell}>{cell}</td>
-      {/each}
-    </tr>
+      <tr>
+        {#each row as cell, x}
+          <td on:click={f} id="o{x}o{y}o" class={cell}>{cell}</td>
+        {/each}
+      </tr>
     {/each}
   </table>
 </div>
