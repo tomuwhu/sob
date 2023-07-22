@@ -1,5 +1,5 @@
 <script>
-// 	@ts-nocheck
+//  @ts-nocheck
     var next = "O"
     var table = Array(20).fill("").map(v => Array(20).fill(""))
     function f(event) {
@@ -14,7 +14,7 @@
         {#each table as row, y}
         <tr>
             {#each row as cell, x}
-                <td on:click={f} id=o{x}o{y}o class={cell}>{cell}</td>
+            <td on:click={f} id=o{x}o{y}o class={cell}>{cell}</td>
             {/each}
         </tr>
         {/each}
