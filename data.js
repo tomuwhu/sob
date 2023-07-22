@@ -19,7 +19,7 @@ ds = [{
     },
     {
         name:   `Amőba Svelte`,
-        date:   `2023-07-20`,
+        date:   `2023-07-22`,
         text:   `Amőba-kezdemény (Svelte KIT Frontend Component Framework)`,
         git:    [`SOB`, `https://github.com/tomuwhu/sv01`, `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
         files: [{
