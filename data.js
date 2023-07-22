@@ -16,6 +16,16 @@ ds = [{
             fn:     `style.css`
         }
         ]
+    },
+    {
+        name:   `Amőba Svelte`,
+        date:   `2023-07-20`,
+        text:   `Amőba-kezdemény (Svelte KIT Frontend Component Framework)`,
+        git:    [`SOB`, `https://github.com/tomuwhu/sv01`, `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
+        files: [{
+            type:   `svelte`,
+            fn:     `pp/Amoba.svelte`
+        }]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
