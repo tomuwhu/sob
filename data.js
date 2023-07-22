@@ -18,9 +18,11 @@ ds = [{
         ]
     },
     {
-        name:   `Amőba Svelte`,
+        name:   `Amőba <a href="https://svelte.dev/" target="x">Svelte</a>`,
         date:   `2023-07-22`,
-        text:   `Amőba-kezdemény (Svelte KIT Frontend Component Framework)`,
+        text:   `Amőba-kezdemény
+        <a  href="https://en.wikipedia.org/wiki/Svelte"
+            target="x">Svelte KIT Frontend Component Framework</a>`,
         git:    [`SOB`, `https://github.com/tomuwhu/sv01`, `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
         files: [{
             type:   `svelte`,
