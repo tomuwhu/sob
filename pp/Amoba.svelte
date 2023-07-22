@@ -25,7 +25,7 @@
   td {
     width: 20px;
     height: 20px;
-    border: solid 1px black;
+    border: solid 1px rgb(147, 121, 50);
     user-select: none;
     cursor: pointer;
     border-radius: 5px;
