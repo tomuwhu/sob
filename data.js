@@ -80,6 +80,7 @@ function tget(fn) {
 $(() => {
     $('#t1').click(() => { tget('frontend.md') })
     $('#t2').click(() => { tget('backend.md') })
+    $('#t3').click(() => { tget('mobile.md') })
     disp()
 })
 function disp() {
