@@ -4,7 +4,7 @@ ds = [{
         name:   `Weboldal forráskód`,
         date:   `2023-07-20`,
         text:   `Példaprogramokat tároló adatszerkezet, forráskód-megjelenítő`,
-        git:    [`SOB`, `https://github.com/tomuwhu/sob`, `http://sob.es6.eu/`],
+        git:    [`SOB`, `https://github.com/tomuwhu/sob`, ``],
         files: [{
             type:   `language-html`,
             fn:     `index.html`
