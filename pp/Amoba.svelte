@@ -11,6 +11,7 @@
     {#each table as row, y}
       <tr>
         {#each row as c, x}
+          <!-- svelte-ignore a11y-click-events-have-key-events -->
           <td on:click={(e) => {
               if (table[y][x] == "")
                 table[y][x] = next == "O" ? 

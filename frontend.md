@@ -31,6 +31,8 @@
 
 ## JQUERY
 
+    -  
+
 ## Axios, RestAPI, CORS
 
 ## NodeJS frontend-hez
