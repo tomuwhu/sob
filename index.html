@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/levenshtein/1.0.5/levenshtein.min.js"></script>
@@ -8,18 +9,33 @@
     <title>SOB SZFTK</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="data.js"></script>
-    <link rel="stylesheet" 
-    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/base16/zenburn.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/base16/zenburn.min.css">
 </head>
+
 <body>
     <h1>SOB Szoftverfejlesztő és -tesztelő képzés 2023/2024</h1>
-    <h3><div>Frontend és Backend alkalmazásfejlesztés</div><div>(Dr. Németh Tamás)</div></h3>
-    <hr><input type="text" onkeyup="sz(this)" placeholder="kereső"><hr>
+    <h3>
+        <div>Frontend és Backend alkalmazásfejlesztés</div>
+        <div>(Dr. Németh Tamás)</div>
+    </h3>
+    <hr><input type="text" onkeyup="sz(this)" placeholder="kereső">
+    <hr>
     <div onclick="pd(-5)" id="fny">↑</div>
     <div id="content"></div>
     <div onclick="pd(5)" id="lny">↓</div>
+    <div class="c">
+        <div class="x">
+            <i id="t1">Frontend alkalmazásfejlesztés tematika</i>
+        </div>
+        <div class="x">
+            <i id="t2">Backend alkalmazásfejlesztés tematika</i>
+        </div>
+    </div>
+    <br>
+    <hr>
     <pre><code id='code'></code></pre>
 </body>
+
 </html>

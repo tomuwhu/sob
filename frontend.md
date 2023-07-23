@@ -22,8 +22,8 @@
 ## JavaScript fogások
 
     - String template
+    - Array.map
     - Callback
-    - Array map
     - Promisse
     - Modulok, CDN
 

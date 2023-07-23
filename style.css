@@ -58,7 +58,7 @@ td.bt {
     color: rgb(238, 145, 145);
     background-color: rgb(12, 38, 56);
 }
-td.bt i:hover, td.bt a:hover {
+i:hover, td.bt a:hover {
     color: rgb(216, 207, 97);
     cursor: pointer;
 }

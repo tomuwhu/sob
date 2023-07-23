@@ -65,7 +65,23 @@ sz = t => {
     } )
     $('#content').html(s(ds.slice(k, k + n)))
 }
-$(() => disp())
+function tget(fn) {
+    $.get(fn, data => {
+        $('pre').css('display','inline-block')
+        $(`#code`).html(
+            marked.parse(data, {mangle: false, headerIds: false})
+        )
+        $(`#code`).removeAttr('class')
+        $(`#code`).addClass('markdown')
+        $(`.bt`).removeClass("active")
+        hljs.highlightAll()
+    }, "text")
+}
+$(() => {
+    $('#t1').click(() => { tget('frontend.md') })
+    $('#t2').click(() => { tget('backend.md') })
+    disp()
+})
 function disp() {
     if (ds.length <= k + n) {
         $('#lny').hide()
@@ -86,7 +102,6 @@ function pd(x) {
         } 
         disp()
         $('#fny').show()
-
     }
     if (x == -5) {
         if (0 < k) {
