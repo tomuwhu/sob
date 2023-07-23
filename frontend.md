@@ -1,5 +1,7 @@
 # Frontend alkalmazásfejlesztés tematika
 
+---
+
 ## JavaScript Szintaxis
 
     - JavaScript megjelenítés
