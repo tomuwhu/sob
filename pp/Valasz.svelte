@@ -2,14 +2,14 @@
   import axios from "axios"
   var adat = "?"
 </script>
-<h1>Frontend példa</h1>
-A válasz mindenre:
+<h1>Frontend példa</h1>A válasz mindenre:
 <div>{adat}</div>
-<button on:click={() => axios
+<button 
+  on:click={() => axios
     .get("/get_the_answer_to_life_the_universe_and_everything/")
-    .then(res => adat = res.data.Answer) // {"Answer": 42}
+    .then(res => adat = res.data.Answer)
     .catch(() => adat = "Nincs válasz")
-  } 
+  }
   class:hide={typeof adat == "number"}
   >Lekérdez</button> 
 <style>
