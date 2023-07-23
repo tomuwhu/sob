@@ -1,11 +1,11 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <script>
-  var n = "O"
-  var t = 
-    Array(20)
+  var n = "O", sx = 30, sy = 20
+  var t = // Üres táblázat
+    Array(sy)
       .fill(0)
       .map(() => 
-        Array(20).fill("")
+        Array(sx).fill("")
       )
 </script>
 
