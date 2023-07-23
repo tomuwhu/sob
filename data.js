@@ -21,9 +21,11 @@ ds = [{
         name:   `Amőba <a href="https://svelte.dev/" target="x">Svelte</a>`,
         date:   `2023-07-22`,
         text:   `Amőba-kezdemény
-        <a  href="https://en.wikipedia.org/wiki/Svelte"
-            target="x">Svelte KIT Frontend Component Framework</a>`,
-        git:    [`SV01`, `https://github.com/tomuwhu/sv01`, `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
+                <a  href="https://en.wikipedia.org/wiki/Svelte"
+                    target="x">Svelte KIT Frontend Component Framework</a>`,
+        git:    [   `SV01`, 
+                    `https://github.com/tomuwhu/sv01`, 
+                    `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
         files: [{
             type:   `svelte`,
             fn:     `pp/Amoba.svelte`
@@ -33,9 +35,11 @@ ds = [{
         name:   `A válasz mindenre <a href="https://svelte.dev/" target="x">Svelte</a> Példa`,
         date:   `2023-07-23`,
         text:   `RestAPI FrontEnd with
-        <a  href="https://en.wikipedia.org/wiki/Svelte"
-            target="x">Svelte KIT Frontend Component Framework</a>`,
-        git:    [`SV01/question`, `https://github.com/tomuwhu/sv01/tree/question`, `http://www.inf.u-szeged.hu/~tnemeth/sv01_question/`],
+                <a  href="https://en.wikipedia.org/wiki/Svelte"
+                    target="x">Svelte KIT Frontend Component Framework</a>`,
+        git:    [   `SV01/question`,
+                    `https://github.com/tomuwhu/sv01/tree/question`,
+                    `http://www.inf.u-szeged.hu/~tnemeth/sv01_question/`],
         files: [{
             type:   `svelte`,
             fn:     `pp/Valasz.svelte`
