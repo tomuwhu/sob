@@ -1,23 +1,24 @@
 <script>
   //@ts-nocheck
-  var next = "O";
+  var next = "O"
   var table = Array(20)
     .fill(0)
-    .map(() => Array(20).fill(""));
-  function f(event) {
-    var x, y;
-    [, x, y] = event.target.id.split("o");
-    table[y][x] = next == "O" ? (next = "X") : (next = "O");
-  }
+    .map(() => Array(20).fill(""))
 </script>
 
 <div>
   <table>
     {#each table as row, y}
       <tr>
-        {#each row as cell, x}
-          <!-- svelte-ignore a11y-click-events-have-key-events -->
-          <td on:click={f} id="o{x}o{y}o" class={cell}>{cell}</td>
+        {#each row as c, x}
+          <td
+            on:click={(e) => {
+              if (table[y][x] == "")
+                table[y][x] = next == "O" ? 
+                (next = "X") : (next = "O")
+            }}
+            class={c}>{c}</td
+          >
         {/each}
       </tr>
     {/each}
@@ -35,13 +36,7 @@
     box-shadow: 1px 1px 3px inset gray;
     background-color: blanchedalmond;
   }
-  .O {
-    background-color: aquamarine;
-  }
-  .X {
-    background-color: rgb(235, 103, 59);
-  }
-  table {
-    margin: auto;
-  }
+  .O { background-color: aquamarine; }
+  .X { background-color: rgb(235, 103, 59); }
+  table { margin: auto; }
 </style>
