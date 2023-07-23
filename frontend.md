@@ -20,6 +20,7 @@
     - Osztályok
 
 ## JavaScript fogások
+
     - String template
     - Callback
     - Array map

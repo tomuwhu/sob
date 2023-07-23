@@ -16,6 +16,7 @@
     {#each table as row, y}
       <tr>
         {#each row as cell, x}
+          <!-- svelte-ignore a11y-click-events-have-key-events -->
           <td on:click={f} id="o{x}o{y}o" class={cell}>{cell}</td>
         {/each}
       </tr>
