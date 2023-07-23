@@ -1,7 +1,7 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <script>
   // @ts-nocheck
-  export let ad
+  export let ad = "Ötöd-ölő"
   var n = "O", sx = 30, sy = 20
   var t = // Üres táblázat
     Array(sy)
