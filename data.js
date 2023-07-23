@@ -31,7 +31,7 @@ ds = [{
     },
     {
         name:   `A válasz mindenre <a href="https://svelte.dev/" target="x">Svelte</a> Példa`,
-        date:   `2023-07-22`,
+        date:   `2023-07-23`,
         text:   `RestAPI FrontEnd with
         <a  href="https://en.wikipedia.org/wiki/Svelte"
             target="x">Svelte KIT Frontend Component Framework</a>`,
