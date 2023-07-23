@@ -29,13 +29,16 @@ body {
 }
 
 div.c {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 2px auto;
+    padding: 0px;
     user-select: none;
     grid-template-columns: 20% 40% 60%;
     justify-content: center;
+    background-color: rgb(60, 103, 140);
+    box-shadow: 1px 1px 4px inset black;
 }
 
 div.c div {
@@ -51,6 +54,7 @@ div.c div {
 
 div.x {
     padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 u.k1 {
@@ -67,8 +71,7 @@ td.bt {
     background-color: rgb(12, 38, 56);
 }
 
-i:hover,
-td.bt a:hover {
+i:hover, td.bt a:hover {
     color: rgb(216, 207, 97);
     cursor: pointer;
 }
@@ -85,11 +88,7 @@ td.bt a:hover {
     color: rgb(201, 201, 176);
 }
 
-i,
-a,
-a:visited,
-a:active,
-b {
+i, a, a:visited, a:active, b {
     font-weight: normal;
     font-style: normal;
     color: rgb(105, 141, 35);
@@ -116,14 +115,11 @@ input {
     padding: 5px;
 }
 
-input,
-hr,
-pre {
+input, hr, pre {
     display: none;
 }
 
-#lny,
-#fny {
+#lny, #fny {
     cursor: pointer;
     user-select: none;
 }
@@ -131,7 +127,4 @@ pre {
 .break {
     flex-basis: 100%;
     height: 0px;
-}
-div.z {
-    padding-bottom: 9px;
 }
