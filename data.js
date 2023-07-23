@@ -35,7 +35,7 @@ ds = [{
         text:   `RestAPI FrontEnd with
         <a  href="https://en.wikipedia.org/wiki/Svelte"
             target="x">Svelte KIT Frontend Component Framework</a>`,
-        git:    [`SV01/question`, `https://github.com/tomuwhu/sv01/tree/question`, `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
+        git:    [`SV01/question`, `https://github.com/tomuwhu/sv01/tree/question`, `http://www.inf.u-szeged.hu/~tnemeth/sv01_question/`],
         files: [{
             type:   `svelte`,
             fn:     `pp/Valasz.svelte`
