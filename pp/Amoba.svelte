@@ -16,8 +16,9 @@
         {#each row as c, x}
           <td 
             on:click = {() => {
-              n = n != "O" ? "O" : "X"
-              if (!t[y][x]) t[y][x] = n
+              if (!t[y][x]) {
+                t[y][x] = n = n != "O" ? "O" : "X"
+              }
             }}
             class = { c }
           >{ c }</td>
