@@ -11,11 +11,10 @@
     {#each table as row, y}
       <tr>
         {#each row as c, x}
-          <td
-            on:click={(e) => {
+          <td on:click={(e) => {
               if (table[y][x] == "")
                 table[y][x] = next == "O" ? 
-                (next = "X") : (next = "O")
+                next = "X" : next = "O"
             }}
             class={c}>{c}</td
           >
@@ -40,3 +39,4 @@
   .X { background-color: rgb(235, 103, 59); }
   table { margin: auto; }
 </style>
+
