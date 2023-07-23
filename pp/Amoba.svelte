@@ -1,3 +1,4 @@
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <script>
   //@ts-nocheck
   var n = "O"
