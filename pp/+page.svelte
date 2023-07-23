@@ -1,13 +1,13 @@
 <script>
-	import Amoba from './Amoba.svelte'
+  import Amoba from './Amoba.svelte'
   import Valasz from './Valasz.svelte'
-	var ap = 1, h1 = ["Amőba", "Válasz mindenre", "Mindkettő"]
+  var ap = 1, h1 = ["Amőba", "Válasz mindenre", "Mindkettő"]
   $: hap = h1[ap]
 </script>
 
 <svelte:head>
-	<title>{hap}</title>
-	<meta name="description" content="Svelte demo app" />
+  <title>{hap}</title>
+  <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <section>
