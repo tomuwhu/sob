@@ -1,11 +1,12 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <script>
   var n = "O"
-  var t = Array(20)
-            .fill(0)
-            .map(() => 
-              Array(20).fill("")
-            )
+  var t = 
+    Array(20)
+      .fill(0)
+      .map(() => 
+        Array(20).fill("")
+      )
 </script>
 
 <div>
