@@ -1,6 +1,5 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <script>
-  //@ts-nocheck
   var n = "O"
   var t = Array(20)
             .fill(0)
