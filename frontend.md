@@ -31,7 +31,12 @@
 
 ## JQUERY
 
-    -  
+    - Szintaxis
+    - Szelektorok
+    - Események
+    - html, text, css
+    - méretek
+    - filterek
 
 ## Axios, RestAPI, CORS
 
