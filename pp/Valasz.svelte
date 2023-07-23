@@ -6,7 +6,7 @@
 A válasz mindenre:
 <div>{adat}</div>
 <button on:click={() => axios
-    .get("data2.txt")
+    .get("/get_the_answer_to_life_the_universe_and_everything/")
     .then(res => adat = res.data.Answer)
     .catch(() => adat = "Nincs válasz")
   } 
