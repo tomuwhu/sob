@@ -8,4 +8,4 @@
 
 ## JQuery Mobile
 
-## SVelte UI
+## SVelteUI

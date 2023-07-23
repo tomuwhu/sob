@@ -1,7 +1,7 @@
 <script>
   import Amoba from './Amoba.svelte'
   import Valasz from './Valasz.svelte'
-  var ap = 0, h1 = ["Amőba", "Válasz"]
+  var ap = 0, h1 = ["Amőba", "Válasz mindenre"]
 </script>
 
 <svelte:head>
