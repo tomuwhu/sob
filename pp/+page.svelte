@@ -24,7 +24,7 @@
 
 <style>
   * {
-        user-select: none;
+    user-select: none;
   }
   h1, button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -43,6 +43,6 @@
     color: red;
   }
   .hide {
-    display: none !important;
+    display: none;
   }
 </style>

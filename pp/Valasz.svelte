@@ -13,7 +13,7 @@ A válasz mindenre:
   >Lekérdez</button> 
 <style>
   .hide {
-    display: none !important;
+    display: none;
   }
   button {
     cursor: pointer;
