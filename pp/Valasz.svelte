@@ -7,7 +7,7 @@ A válasz mindenre:
 <div>{adat}</div>
 <button on:click={() => axios
     .get("data2.txt")
-    .then(resp => adat = resp.data.Answer)
+    .then(res => adat = res.data.Answer)
     .catch(() => adat = "Nincs válasz")
   } 
   class:hide={typeof adat == "number"}
