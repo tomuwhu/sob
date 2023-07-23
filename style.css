@@ -6,6 +6,7 @@ h1 {
     padding: 0px;
     margin: 0px;
 }
+
 h3 {
     display: inline-flex;
     flex-direction: row;
@@ -14,16 +15,19 @@ h3 {
     padding: 0px;
     margin: 0px;
 }
+
 h3 div {
     padding: 10px;
 }
+
 body {
     margin: 0px;
     margin-top: 15px;
     background-color: rgb(12, 12, 12);
-    color:rgb(152, 174, 177);
+    color: rgb(152, 174, 177);
     text-align: center;
 }
+
 div.c {
     display: inline-flex;
     flex-direction: row;
@@ -33,6 +37,7 @@ div.c {
     grid-template-columns: 20% 40% 60%;
     justify-content: center;
 }
+
 div.c div {
     background-color: rgb(17, 31, 56);
     font-family: 'Franklin Gothic Medium';
@@ -43,14 +48,17 @@ div.c div {
     border-bottom: solid 0.5px white;
     border-top: solid 0.5px white;
 }
+
 div.x {
     padding-top: 7px;
 }
+
 u.k1 {
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 13px;
 }
+
 td.bt {
     text-align: left;
     padding: 5px;
@@ -58,10 +66,13 @@ td.bt {
     color: rgb(238, 145, 145);
     background-color: rgb(12, 38, 56);
 }
-i:hover, td.bt a:hover {
+
+i:hover,
+td.bt a:hover {
     color: rgb(216, 207, 97);
     cursor: pointer;
 }
+
 #code {
     margin: 5px auto;
     padding: 16px;
@@ -71,8 +82,14 @@ i:hover, td.bt a:hover {
     border: solid 1px rgb(166, 168, 158);
     border-radius: 7px;
     box-shadow: 1px 1px 3px inset black;
+    color: rgb(201, 201, 176);
 }
-i, a, a:visited, a:active, b {
+
+i,
+a,
+a:visited,
+a:active,
+b {
     font-weight: normal;
     font-style: normal;
     color: rgb(105, 141, 35);
@@ -80,14 +97,17 @@ i, a, a:visited, a:active, b {
     font-size: 12px;
     font-family: 'Lucida Sans';
 }
+
 td.active {
     border-radius: 6px;
     background-color: rgb(127, 126, 26);
     box-shadow: 1px 1px 4px inset black;
 }
+
 td.active i {
     color: bisque;
 }
+
 input {
     font-family: Haettenschweiler;
     font-size: 11px;
@@ -95,13 +115,19 @@ input {
     border: none;
     padding: 5px;
 }
-input, hr, pre {
+
+input,
+hr,
+pre {
     display: none;
 }
-#lny, #fny {
+
+#lny,
+#fny {
     cursor: pointer;
     user-select: none;
 }
+
 .break {
     flex-basis: 100%;
     height: 0px;
