@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>SV01</title>
+  <title>Svelte gyakorlatok</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
