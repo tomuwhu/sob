@@ -1,15 +1,14 @@
 <script>
-  async function f() {
-    adat = (await 
-      (await fetch("data.txt")).json()
-    ).Answer
-  }
+  import axios from "axios"
   var adat = "?"
 </script>
 <h1>Frontend példa</h1>
 A válasz mindenre:
 <div>{adat}</div>
-<button on:click={f} 
+<button on:click={() => axios
+    .get("data.txt")
+    .then(resp => adat = resp.data.Answer)
+  } 
   class:hide={typeof adat == "number"}
   >Lekérdez</button> 
 <style>
