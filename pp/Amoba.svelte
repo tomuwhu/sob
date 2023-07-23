@@ -1,5 +1,7 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <script>
+  // @ts-nocheck
+  export let ad
   var n = "O", sx = 30, sy = 20
   var t = // Üres táblázat
     Array(sy)
@@ -10,6 +12,7 @@
 </script>
 
 <div>
+  <h1>{ad}</h1>
   <table>
     {#each t as row, y}
       <tr>
