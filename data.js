@@ -23,7 +23,7 @@ ds = [{
         text:   `Amőba-kezdemény
         <a  href="https://en.wikipedia.org/wiki/Svelte"
             target="x">Svelte KIT Frontend Component Framework</a>`,
-        git:    [`SOB`, `https://github.com/tomuwhu/sv01`, `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
+        git:    [`SV01`, `https://github.com/tomuwhu/sv01`, `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
         files: [{
             type:   `svelte`,
             fn:     `pp/Amoba.svelte`
