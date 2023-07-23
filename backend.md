@@ -2,7 +2,9 @@
 
 ---
 
-## NodeJS
+## XAMPP, PHP, MySQL
+
+## NodeJS, SQLite, NeDB
 
 ## ExpressJS
 
