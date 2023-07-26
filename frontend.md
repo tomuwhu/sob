@@ -7,6 +7,7 @@ _Frontend alkalmazásfejlesztés tematika_
   - document.write()
   - window.alert()
   - console.log()
+  - UTF-8, Szimbólumok
 - Szintaxis
   - Értékek (számok, szöveg)
   - Változók
