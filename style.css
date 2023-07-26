@@ -147,6 +147,8 @@ div#html ul {
 div.cx {
     margin: 18px;
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: rgb(36, 54, 58);
 }
 div.cx p em {
