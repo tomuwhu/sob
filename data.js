@@ -87,10 +87,8 @@ sz = t => {
 function tget(fn) {
     $.get(fn, data => {
         $('pre').css('display','inline-block')
-        $(`#code`).html(
-            marked.parse(data, {mangle: false, headerIds: false})
-        )
-        $(`#code`).removeAttr('class')
+        $(`#code`).text( data )
+        $(`#code`).removeAttr('class')  
         $(`#code`).addClass('markdown')
         $(`.bt`).removeClass("active")
         hljs.highlightAll()

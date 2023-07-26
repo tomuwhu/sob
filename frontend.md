@@ -1,50 +1,50 @@
-    _' Frontend alkalmazásfejlesztés tematika '_
+_Frontend alkalmazásfejlesztés tematika_
 
-    ## JavaScript Szintaxis
+# JavaScript Szintaxis
 
-    - JavaScript megjelenítés
-      - .innerHTML()
-      - document.write()
-      - window.alert()
-      - console.log()
-    - Szintaxis
-      - Értékek (számok, szöveg)
-      - Változók
-      - Operátorok
-      - Kifejezések, precedencia
-      - Kulcsszavak
-      - Kommentek
-    - Függvények
-    - Tömbök (listák)
-    - Objektumok
-    - Osztályok
+- JavaScript megjelenítés
+  - .innerHTML()
+  - document.write()
+  - window.alert()
+  - console.log()
+- Szintaxis
+  - Értékek (számok, szöveg)
+  - Változók
+  - Operátorok
+  - Kifejezések, precedencia
+  - Kulcsszavak
+  - Kommentek
+- Függvények
+- Tömbök (listák)
+- Objektumok
+- Osztályok
 
-    ## JavaScript fogások
+# JavaScript fogások
 
-    - String template
-    - Array.map
-    - Callback
-    - Promisse
-    - Modulok, CDN
+- String template
+- Array.map
+- Callback
+- Promisse
+- Modulok, CDN
 
-    ## Browser JavaScript
+# Browser JavaScript
 
-    - Browser DevTools
-    - Helyi tárhey
-    - IndexedDB
-    - WebSQL
+- Browser DevTools
+- Helyi tárhey
+- IndexedDB
+- WebSQL
 
-    ## JQUERY
+# JQUERY
 
-    - Szintaxis
-    - Szelektorok
-    - Események
-    - html, text, css
-    - méretek
-    - filterek
+- Szintaxis
+- Szelektorok
+- Események
+- html, text, css
+- méretek
+- filterek
 
-    ## Axios, RestAPI, CORS
+# Axios, RestAPI, CORS
 
-    ## NodeJS frontend-hez
+# NodeJS frontend-hez
 
-    ## Svelte Kit
+# Svelte Kit

@@ -1,11 +1,9 @@
-# Mobil alkalmazásfejlesztés tematika
+_Mobil alkalmazásfejlesztés tematika_
 
----
+# JQuery UI
 
-## JQuery UI
+# JQuery Mobile
 
-## JQuery Mobile
+# Multiplatform alkalmazásfejlesztés: Elekton
 
-## Multiplatform alkalmazásfejlesztés: Elekton
-
-## SVelteUI
+# SVelteUI
