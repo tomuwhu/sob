@@ -1,6 +1,5 @@
     # Frontend alkalmazásfejlesztés tematika
-
----
+    ----------------------------------------
 
     ## JavaScript Szintaxis
 

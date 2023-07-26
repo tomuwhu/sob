@@ -1,6 +1,5 @@
     # Backend alkalmazásfejlesztés tematika
-
----
+    ---------------------------------------
 
     ## XAMPP, PHP, MySQL
 
