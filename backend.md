@@ -3,24 +3,24 @@ _Backend alkalmazásfejlesztés tematika_
 # XAMPP, PHP, MySQL
 
 - XAMPP
-    - Tools
-    - Install
+  - Tools
+  - Install
 - PHP
-    - Szintaxis
-    - Változók, mommentek, típusok
-    - Vezérlési szerkezetek, asszociatív tömb
-    - Osztályok, objektumok
+  - Szintaxis
+  - Változók, mommentek, típusok
+  - Vezérlési szerkezetek, asszociatív tömb
+  - Osztályok, objektumok
 - MySQL
-    - SELECT
-    - WHERE
-    - AND, OR, NOT
-    - ORDER BY
-    - INSERT INTO
-    - UPDATE
-    - DELETE
-    - LIMIT
-    - LIKE
-    - JOIN, LEFT JOIN
+  - SELECT
+  - WHERE
+  - AND, OR, NOT
+  - ORDER BY
+  - INSERT INTO
+  - UPDATE
+  - DELETE
+  - LIMIT
+  - LIKE
+  - JOIN, LEFT JOIN
 
 # NodeJS, SQLite, NeDB
 
@@ -52,4 +52,3 @@ _Backend alkalmazásfejlesztés tematika_
 # BlockChain Serverless Keretrendszerek
 
 # Peer-To-Peer hálózatok
-

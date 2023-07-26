@@ -87,8 +87,12 @@ sz = t => {
 function tget(fn) {
     $.get(fn, data => {
         $('pre').css('display','inline-block')
-        $(`#code`).text( data )
-        $(`#code`).removeAttr('class')  
+        $(`#html`).html(
+            marked.parse(data, {mangle: false, headerIds: false})
+        )
+        $(`#html`).show()
+        $(`#code`).text(data)
+        $(`#code`).removeAttr('class')
         $(`#code`).addClass('markdown')
         $(`.bt`).removeClass("active")
         hljs.highlightAll()
@@ -99,6 +103,7 @@ $(() => {
     $('#t2').click(() => { tget('backend.md') })
     $('#t3').click(() => { tget('mobile.md') })
     disp()
+    $(`#html`).hide()
 })
 function disp() {
     if (ds.length <= k + n) {
@@ -137,6 +142,7 @@ function pd(x) {
 function f(i, j, fn) {
     $.get(fn, data => {
         $('pre').css('display','inline-block')
+        $(`#html`).hide()
         $(`#code`).text(data)
         $(`#code`).removeAttr('class')
         $(`#code`).addClass(ds[i].files[j].type)
