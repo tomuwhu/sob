@@ -1,5 +1,4 @@
-    # Backend alkalmazásfejlesztés tematika
-    ---------------------------------------
+    _' Backend alkalmazásfejlesztés tematika '_
 
     ## XAMPP, PHP, MySQL
 
@@ -53,3 +52,4 @@
     ## BlockChain Serverless Keretrendszerek
 
     ## Peer-To-Peer hálózatok
+
