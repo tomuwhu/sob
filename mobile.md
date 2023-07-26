@@ -26,9 +26,13 @@ _Mobil alkalmazásfejlesztés tematika_
 
 # SVelteUI
 
+    - Theming
     - Components
+      - Typography
       - Inputs & Actions
+      - Navigation
       - Data Display
       - Feedback
       - Overlays
       - Dates
+    - Motion
