@@ -1,8 +1,8 @@
-# Backend alkalmazásfejlesztés tematika
+    # Backend alkalmazásfejlesztés tematika
 
 ---
 
-## XAMPP, PHP, MySQL
+    ## XAMPP, PHP, MySQL
 
     - XAMPP
       - Tools
@@ -45,12 +45,12 @@
     - response
     - CORS
 
-## Full-stack webalkalmazás lészítése
+    ## Full-stack webalkalmazás lészítése
 
-## RestAPI, SSE, WebSocket
+    ## RestAPI, SSE, WebSocket
 
-## Autentikáció, Oatuh
+    ## Autentikáció, Oatuh
 
-## BlockChain Serverless Keretrendszerek
+    ## BlockChain Serverless Keretrendszerek
 
-## Peer-To-Peer hálózatok
+    ## Peer-To-Peer hálózatok
