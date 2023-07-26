@@ -30,8 +30,9 @@
 - npm
 - események
 - fájlrendszer
-- Node.js NeDB
-- Node.js SQLLite
+- NodeJs NeDB
+- NodeJs SQLite
+- NodeJS MySQL
 - http
 
 ## ExpressJS
@@ -43,6 +44,8 @@
   - express.json (body)
 - response
 - CORS
+
+## Full-stack webalkalmazás lészítése
 
 ## RestAPI, SSE, WebSocket
 
