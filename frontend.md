@@ -2,7 +2,7 @@
 
 ---
 
-    # JavaScript Szintaxis
+    ## JavaScript Szintaxis
 
     - JavaScript megjelenítés
       - .innerHTML()
@@ -21,7 +21,7 @@
     - Objektumok
     - Osztályok
 
-    # JavaScript fogások
+    ## JavaScript fogások
 
     - String template
     - Array.map
@@ -29,14 +29,14 @@
     - Promisse
     - Modulok, CDN
 
-    # Browser JavaScript
+    ## Browser JavaScript
 
     - Browser DevTools
     - Helyi tárhey
     - IndexedDB
     - WebSQL
 
-    # JQUERY
+    ## JQUERY
 
     - Szintaxis
     - Szelektorok
@@ -45,8 +45,8 @@
     - méretek
     - filterek
 
-    # Axios, RestAPI, CORS
+    ## Axios, RestAPI, CORS
 
-    # NodeJS frontend-hez
+    ## NodeJS frontend-hez
 
-    # Svelte Kit
+    ## Svelte Kit
