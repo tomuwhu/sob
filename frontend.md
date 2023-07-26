@@ -29,6 +29,13 @@
     - Promisse
     - Modulok, CDN
 
+## Browser JavaScript
+
+    - Browser DevTools
+    - Helyi tárhey
+    - IndexedDB
+    - WebSQL
+
 ## JQUERY
 
     - Szintaxis
