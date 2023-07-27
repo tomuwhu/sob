@@ -27,13 +27,12 @@ _Frontend alkalmazásfejlesztés tematika_
 - Callback
 - Promisse
 - Modulok, CDN
-
-# Browser JavaScript
-
-- Browser DevTools
-- Helyi tárhey
-- IndexedDB
-- WebSQL
+  - levenshtein
+  - marked
+  - highlight.js
+  - Chart.js
+  - vis.js
+  - jQuery
 
 # JQUERY
 
@@ -43,6 +42,13 @@ _Frontend alkalmazásfejlesztés tematika_
 - html, text, css
 - méretek
 - filterek
+
+# Browser JavaScript
+
+- Browser DevTools
+- Helyi tárhey
+- IndexedDB
+- WebSQL
 
 # Axios, RestAPI, CORS
 
