@@ -106,6 +106,7 @@ function tget(fn) {
         $(`#code`).addClass('markdown')
         $(`.bt`).removeClass("active")
         hljs.highlightAll()
+        $(`#code`).addClass("cx")
     }, "text")
 }
 $(() => {
