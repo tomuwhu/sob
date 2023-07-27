@@ -119,7 +119,7 @@ input, hr, pre {
     display: none;
 }
 
-#lny, #fny {
+#lny, #fny, .click, .cx {
     cursor: pointer;
     user-select: none;
 }

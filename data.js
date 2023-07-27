@@ -86,12 +86,22 @@ sz = t => {
 }
 function tget(fn) {
     $.get(fn, data => {
+        $(`#html`).hide()
+        $(`#code`).show()
+        $(`#code`).parent().addClass('click')
         $('pre').css('display','inline-block')
         $(`#html`).html(
             marked.parse(data, {mangle: false, headerIds: false})
         )
-        $(`#html`).show()
+        $(`#html`).click(() => {
+            $(`#html`).hide()
+            $(`#code`).show()
+        })
         $(`#code`).text(data)
+        $(`#code`).click(() => {
+            $(`#html`).show()
+            $(`#code`).hide()
+        })
         $(`#code`).removeAttr('class')
         $(`#code`).addClass('markdown')
         $(`.bt`).removeClass("active")
@@ -141,6 +151,10 @@ function pd(x) {
 }
 function f(i, j, fn) {
     $.get(fn, data => {
+        $(`#html`).hide()
+        $(`#code`).show()
+        $(`#code`).unbind('click')
+        $(`#code`).parent().removeClass('click')
         $('pre').css('display','inline-block')
         $(`#html`).hide()
         $(`#code`).text(data)
