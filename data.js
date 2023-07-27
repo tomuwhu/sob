@@ -36,7 +36,7 @@ ds = [{
         date:   `2023-07-23`,
         text:   `<a  href="https://kit.svelte.dev/"
         target="x">SvelteKIT</a> RestAPI FrontEnd`,
-        git:    [   `SV01/question`,
+        git:    [   `svelte.es6.eu`,
                     `https://github.com/tomuwhu/sv01/tree/question`,
                     `http://svelte.es6.eu/`],
         files: [{
