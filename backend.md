@@ -43,12 +43,9 @@ _Backend alkalmazásfejlesztés tematika_
 - response
 - CORS
 
-# Full-stack webalkalmazás lészítése
+# Full-stack webalkalmazás készítése
 
-# RestAPI, SSE, WebSocket
-
-# Autentikáció, Oatuh
-
-# BlockChain Serverless Keretrendszerek
-
-# Peer-To-Peer hálózatok
+- RestAPI, SSE, WebSocket
+- Autentikáció, Oatuh
+- BlockChain Serverless Keretrendszerek
+- Peer-To-Peer hálózatok, WebRTC
