@@ -1,6 +1,6 @@
-_Frontend alkalmazásfejlesztés tematika_
+# Frontend alkalmazásfejlesztés tematika
 
-# JavaScript Szintaxis
+## JavaScript Szintaxis
 
 - JavaScript megjelenítés
   - .innerHTML()
@@ -20,7 +20,7 @@ _Frontend alkalmazásfejlesztés tematika_
 - Objektumok
 - Osztályok
 
-# JavaScript fogások
+## JavaScript fogások
 
 - String template
 - Array.map
@@ -34,7 +34,7 @@ _Frontend alkalmazásfejlesztés tematika_
   - vis.js
   - jQuery
 
-# JQUERY
+## JQUERY
 
 - Szintaxis
 - Szelektorok
@@ -43,15 +43,15 @@ _Frontend alkalmazásfejlesztés tematika_
 - méretek
 - filterek
 
-# Browser JavaScript
+## Browser JavaScript
 
 - Browser DevTools
 - Helyi tárhey
 - IndexedDB
 - WebSQL
 
-# Axios, RestAPI, CORS
+## Axios, RestAPI, CORS
 
-# NodeJS frontend-hez
+## NodeJS frontend-hez
 
-# Svelte Kit
+## Svelte Kit

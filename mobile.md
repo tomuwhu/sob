@@ -1,6 +1,6 @@
-_Mobil alkalmazásfejlesztés tematika_
+# Mobil alkalmazásfejlesztés tematika
 
-# JQuery UI
+## JQuery UI
 
 - HTML
 - JavaScript
@@ -13,18 +13,18 @@ _Mobil alkalmazásfejlesztés tematika_
 - Effektek
 - Eszközök
 
-# JQuery Mobile
+## JQuery Mobile
 
 - ThemeRoller
 - Eszközök
 
-# Multiplatform alkalmazásfejlesztés: Elekton
+## Multiplatform alkalmazásfejlesztés: Elekton
 
 - Telepítés
 - Hello World
 - Make
 
-# SVelteUI
+## SVelteUI
 
 - Theming
 - Components

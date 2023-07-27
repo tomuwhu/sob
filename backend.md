@@ -1,6 +1,6 @@
-_Backend alkalmazásfejlesztés tematika_
+# Backend alkalmazásfejlesztés tematika
 
-# XAMPP, PHP, MySQL
+## XAMPP, PHP, MySQL
 
 - XAMPP
   - Tools
@@ -22,7 +22,7 @@ _Backend alkalmazásfejlesztés tematika_
   - LIKE
   - JOIN, LEFT JOIN
 
-# NodeJS, SQLite, NeDB
+## NodeJS, SQLite, NeDB
 
 - modulok
 - npm
@@ -33,7 +33,7 @@ _Backend alkalmazásfejlesztés tematika_
 - NodeJS MySQL
 - http
 
-# ExpressJS
+## ExpressJS
 
 - hello world
 - routing
@@ -43,7 +43,7 @@ _Backend alkalmazásfejlesztés tematika_
 - response
 - CORS
 
-# Full-stack webalkalmazás készítése
+## Full-stack webalkalmazás készítése
 
 - RestAPI, SSE, WebSocket
 - Autentikáció, Oatuh

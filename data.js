@@ -86,8 +86,8 @@ sz = t => {
 }
 function tget(fn) {
     $.get(fn, data => {
-        $(`#html`).hide()
-        $(`#code`).show()
+        $(`#html`).show()
+        $(`#code`).hide()
         $(`#code`).parent().addClass('click')
         $('pre').css('display','inline-block')
         $(`#html`).html(
