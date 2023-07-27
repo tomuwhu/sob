@@ -38,7 +38,7 @@ ds = [{
         target="x">SvelteKIT</a> RestAPI FrontEnd`,
         git:    [   `SV01/question`,
                     `https://github.com/tomuwhu/sv01/tree/question`,
-                    `http://www.inf.u-szeged.hu/~tnemeth/sv01_question/`],
+                    `http://svelte.es6.eu/`],
         files: [{
             type:   `svelte`,
             fn:     `pp/Valasz.svelte`
