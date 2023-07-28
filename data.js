@@ -23,8 +23,8 @@ ds = [{
     {
         name:   `A válasz mindenre <a href="https://svelte.dev/" target="x">Svelte</a> Példa`,
         date:   `2023-07-23`,
-        text:   `<a  href="https://kit.svelte.dev/"
-        target="x">SvelteKIT</a> RestAPI FrontEnd`,
+        text:   `<a href="https://kit.svelte.dev/"
+                    target="x">SvelteKIT</a> RestAPI FrontEnd`,
         git:    [   `sv01/question`,
                     `https://github.com/tomuwhu/sv01/tree/question`,
                     `https://tomuwhu.github.io/sv01/`],
