@@ -4,18 +4,7 @@ ds = [{
         name:   `Weboldal forráskód`,
         date:   `2023-07-20`,
         text:   `Példaprogramokat tároló adatszerkezet, forráskód-megjelenítő`,
-        git:    [`SOB`, `https://github.com/tomuwhu/sob`, ``],
-        files: [{
-            type:   `language-html`,
-            fn:     `index.html`
-        }, {
-            type:   `javascript`,
-            fn:     `data.js`
-        }, {
-            type:   `language-css`,
-            fn:     `style.css`
-        }
-        ]
+        git:    [`SOB`, `https://github.com/tomuwhu/sob`, ``]
     },
     {
         name:   `Amőba <a href="https://svelte.dev/" target="x">Svelte</a>`,
@@ -28,7 +17,7 @@ ds = [{
                     `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
         files: [{
             type:   `svelte`,
-            fn:     `pp/Amoba.svelte`
+            fn:     `Amoba.svelte`
         }]
     },
     {
@@ -41,11 +30,11 @@ ds = [{
                     `https://tomuwhu.github.io/sv01/`],
         files: [{
             type:   `svelte`,
-            fn:     `pp/Valasz.svelte`
+            fn:     `Valasz.svelte`
         },
         {
             type:   `svelte`,
-            fn:     `pp/+page.svelte`
+            fn:     `+page.svelte`
         }]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
@@ -56,10 +45,10 @@ s = x => `${x.map((e, i) => `<div class="c">
     ${e.git && e.git[2].length ? 
     `<td class="test bt">Próba: <a href="${e.git[2]}" target="git">${e.git[0]}</a></td>`
     : ``}
-    <td class="bt">Forrás:</td>
+    ${e.files ? `<td class="bt">Forrás:</td>` : ``}
     ${e.files ? e.files.map((fi, j) => `
-    <td onclick='f(${i}, ${j}, "${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></td>
-    ` ).join('') : '<td class="bt"> --- <b>Nem listázható</b> --- </td>'} 
+    <td onclick='f(${i}, ${j}, "pp/${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></td>
+    ` ).join('') : ''} 
     ${e.git && e.git[1].length ? 
     `<td class="git bt">Git: <a href="${e.git[1]}" target="git">${e.git[0]}</a></td>`
     : ``}
