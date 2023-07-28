@@ -32,6 +32,9 @@
 </div>
 
 <style>
+  * {
+    text-align: center;
+  }
   table {
     border: solid 1px gray;
     border-radius: 6px;

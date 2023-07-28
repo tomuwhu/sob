@@ -55,3 +55,5 @@
 ## NodeJS frontend-hez
 
 ## Svelte Kit
+
+  - Svelte preview
