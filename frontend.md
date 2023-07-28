@@ -16,17 +16,20 @@
   - Live Server
   - Live Share
   - Markdown All in One
-  - Svelte preview
-  - Svelte counter példaalkalmazás
+  - _Svelte preview_
+  - _Svelte counter példaalkalmazás_
 
 ## JavaScript/TypeScript Szintaxis
 
 - JavaScript megjelenítés
   - böngésző funkciók (.innerHTML(), ...)
   - console.log()
-  - svelte {}, bind:
+  - _{}, bind:value, ..._
+- Eseménykezelés
+  - böngésző események (onclick, ...)
+  - _események (on:click, bind:value, ...)_
 - Szintaxis
-  - Értékek (számok, szöveg)
+  - Értékek, típusok (számok, szöveg)
   - Változók
   - Operátorok
   - Kifejezések, precedencia
@@ -34,6 +37,11 @@
   - Kommentek
 - Függvények
 - Tömbök (listák)
+- Utasítások
+  - if, elseif, else, switch-case
+  - for, .forEach(ண), .map(ண), ...
+  - _{#if ண} ... {:else if ண} ... {:else} ... {/if}_
+  - _{#each ஃ as ୦} ... {/each}_
 - Objektumok
 - Osztályok
 
@@ -71,4 +79,4 @@
 
 ## NodeJS frontend-hez
 
-## Svelte Kit
+## _Svelte Kit_
