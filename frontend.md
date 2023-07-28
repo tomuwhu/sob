@@ -58,6 +58,16 @@
   - highlight.js
   - Chart.js
   - vis.js
+  - jQuery
+
+## JQUERY (ha lesz idő)
+
+- Szintaxis
+- Szelektorok
+- Események
+- html, text, css
+- méretek
+- filterek
 
 ## Browser JavaScript
 
@@ -71,3 +81,5 @@
 ## NodeJS frontend-hez
 
 ## _Svelte Kit_
+
+## _SvelteUI_
