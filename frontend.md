@@ -10,6 +10,7 @@
 ## VSCode használata
 
 - kód bevitel
+- UTF-8, Szimbólumok
 - témák használata
 - pluginek
   - Live Server
@@ -18,14 +19,12 @@
   - Svelte preview
   - Svelte counter példaalkalmazás
 
-## JavaScript Szintaxis
+## JavaScript/TypeScript Szintaxis
 
 - JavaScript megjelenítés
-  - .innerHTML()
-  - document.write()
-  - window.alert()
+  - böngésző funkciók (.innerHTML(), ...)
   - console.log()
-  - UTF-8, Szimbólumok
+  - svelte {}, bind:
 - Szintaxis
   - Értékek (számok, szöveg)
   - Változók
