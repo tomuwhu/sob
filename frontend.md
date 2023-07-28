@@ -36,6 +36,7 @@
   - Kulcsszavak
   - Kommentek
 - Függvények
+- _Számított értékek ($: ௐ) [reaktivity]_
 - Tömbök (listák)
 - Utasítások
   - if, elseif, else, switch-case
@@ -57,16 +58,6 @@
   - highlight.js
   - Chart.js
   - vis.js
-  - jQuery
-
-## JQUERY
-
-- Szintaxis
-- Szelektorok
-- Események
-- html, text, css
-- méretek
-- filterek
 
 ## Browser JavaScript
 
