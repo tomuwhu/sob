@@ -1,8 +1,16 @@
 # Frontend alkalmazásfejlesztés tematika
 
+## GitHub
+
+- github regisztráció
+- git telepítés
+- git beállítása
+- GitHub Desktop
+
 ## VSCode használata
 
 - kód bevitel
+- témák használata
 - pluginek
   - Live Server
   - Live Share
