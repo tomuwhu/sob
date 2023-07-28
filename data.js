@@ -43,14 +43,15 @@ s = x => `${x.map((e, i) => `<div class="c">
     <div class="x"><u class="k1">${e.text}</u></div>
     <div><table>
     ${e.git && e.git[2].length ? 
-    `<td class="test bt">Próba: <a href="${e.git[2]}" target="git">${e.git[0]}</a></td>`
+    `<td class="test bt"><a class="ap" href="${e.git[2]}" target="git">Próba</a></td>`
     : ``}
-    ${e.files ? `<td class="bt">Forrás:</td>` : ``}
+    ${e.files ? `<td class="bt">Forrás:` : ``}
     ${e.files ? e.files.map((fi, j) => `
-    <td onclick='f(${i}, ${j}, "pp/${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></td>
+    <span onclick='f(${i}, ${j}, "pp/${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></span>
     ` ).join('') : ''} 
+    ${e.files ? `</td>` : ``}
     ${e.git && e.git[1].length ? 
-    `<td class="git bt">Git: <a href="${e.git[1]}" target="git">${e.git[0]}</a></td>`
+    `<td class="git bt"><a class="ap" href="${e.git[1]}" target="git">GitHub</a></td>`
     : ``}
     </table></div>
     </div><div class="break"></div>

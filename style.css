@@ -177,3 +177,12 @@ div.c2 {
     grid-template-columns: 20% 40% 60%;
     justify-content: center;
 }
+a.ap {
+    font-size: 13px;
+    color: rgb(129, 167, 98);
+}
+span.bt {
+    background-color: rgb(30, 46, 41);
+    padding: 3px;
+    border-radius: 5px;
+}
