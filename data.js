@@ -1,5 +1,6 @@
 k = 0
 n = 20
+a = [-1, -1]
 ds = [{
         name:   `Weboldal forráskód`,
         date:   `2023-07-20`,
@@ -76,35 +77,45 @@ sz = t => {
     } )
     $('#content').html(s(ds.slice(k, k + n)))
 }
-function tget(fn) {
-    $.get(fn, data => {
-        $(`#html`).show()
-        $(`#code`).hide()
-        $(`#code`).parent().addClass('click')
-        $('pre').css('display','inline-block')
-        $(`#html`).html(
-            marked.parse(data, {mangle: false, headerIds: false})
-        )
-        $(`#html`).click(() => {
-            $(`#html`).hide()
-            $(`#code`).show()
-        })
-        $(`#code`).text(data)
-        $(`#code`).click(() => {
+function tget(fn, id) {
+    if (a[0] != id) {
+        a[0] = id
+        $.get(fn, data => {
             $(`#html`).show()
             $(`#code`).hide()
-        })
-        $(`#code`).removeAttr('class')
-        $(`#code`).addClass('markdown')
-        $(`.bt`).removeClass("active")
-        hljs.highlightAll()
-        $(`#code`).addClass("cx")
-    }, "text")
+            $(`#code`).parent().addClass('click')
+            $('pre').css('display','inline-block')
+            $(`#html`).html(
+                marked.parse(data, {mangle: false, headerIds: false})
+            )
+            $(`#html`).click(() => {
+                $(`#html`).hide()
+                $(`#code`).show()
+            })
+            $(`#code`).text(data)
+            $(`#code`).click(() => {
+                $(`#html`).show()
+                $(`#code`).hide()
+            })
+            $(`#code`).removeAttr('class')
+            $(`#code`).addClass('markdown')
+            $(`.bt`).removeClass("active")
+            $(`.md`).removeClass("active")
+            $(`#${id}`).addClass("active")
+            hljs.highlightAll()
+            $(`#code`).addClass("cx")
+        }, "text")
+    } else {
+        $(`.md`).removeClass("active")
+        a[0] = -1
+        $(`#html`).hide()
+        $(`#code`).hide()
+    }
 }
 $(() => {
-    $('#t1').click(() => { tget('frontend.md') })
-    $('#t2').click(() => { tget('backend.md') })
-    $('#t3').click(() => { tget('mobile.md') })
+    $('#t1').click(() => { tget('frontend.md','t1') })
+    $('#t2').click(() => { tget('backend.md', 't2') })
+    $('#t3').click(() => { tget('mobile.md',  't3') })
     disp()
     $(`#html`).hide()
 })
@@ -143,18 +154,29 @@ function pd(x) {
     }
 }
 function f(i, j, fn) {
-    $.get(fn, data => {
-        $(`#html`).hide()
-        $(`#code`).show()
-        $(`#code`).unbind('click')
-        $(`#code`).parent().removeClass('click')
-        $('pre').css('display','inline-block')
-        $(`#html`).hide()
-        $(`#code`).text(data)
-        $(`#code`).removeAttr('class')
-        $(`#code`).addClass(ds[i].files[j].type)
+    if (a[0] == i && a[1] == j) {
+        $(`#code`).hide()
         $(`.bt`).removeClass("active")
-        $(`#g${i}-${j}`).addClass("active")
-        hljs.highlightAll()
-    }, "text")
+        a[0] = -1
+        a[1] = -1
+    } 
+    else {
+        $.get(fn, data => {
+            $(`#html`).hide()
+            $(`#code`).show()
+            $(`#code`).unbind('click')
+            $(`#code`).parent().removeClass('click')
+            $('pre').css('display','inline-block')
+            $(`#html`).hide()
+            $(`#code`).text(data)
+            $(`#code`).removeAttr('class')
+            $(`#code`).addClass(ds[i].files[j].type)
+            $(`.bt`).removeClass("active")
+            $(`.md`).removeClass("active")
+            $(`#g${i}-${j}`).addClass("active")
+            hljs.highlightAll()
+        }, "text")
+        a[0] = i
+        a[1] = j
+    }
 }
