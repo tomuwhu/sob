@@ -97,16 +97,6 @@ i, a, a:visited, a:active, b {
     font-family: 'Lucida Sans';
 }
 
-td.active {
-    border-radius: 6px;
-    background-color: rgb(127, 126, 26);
-    box-shadow: 1px 1px 4px inset black;
-}
-
-td.active i {
-    color: bisque;
-}
-
 input {
     font-family: Haettenschweiler;
     font-size: 11px;
@@ -185,4 +175,15 @@ span.bt {
     background-color: rgb(30, 46, 41);
     padding: 3px;
     border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+span.active {
+    background-color: rgb(119, 118, 29);
+    box-shadow: 1px 1px 4px inset black;
+}
+
+span.active i {
+    color: bisque;
 }
