@@ -1,5 +1,15 @@
 # Frontend alkalmazásfejlesztés tematika
 
+## VSCode használata
+
+- kód bevitel
+- pluginek
+  - Live Server
+  - Live Share
+  - Markdown All in One
+  - Svelte preview
+  - Svelte counter példaalkalmazás
+
 ## JavaScript Szintaxis
 
 - JavaScript megjelenítés
@@ -55,5 +65,3 @@
 ## NodeJS frontend-hez
 
 ## Svelte Kit
-
-  - Svelte preview

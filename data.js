@@ -37,6 +37,15 @@ ds = [{
             type:   `svelte`,
             fn:     `+page.svelte`
         }]
+    },
+    {
+        name: `Számláló`,
+        date: `2023-07-28`,
+        text: `Mintaalkalmazás a telepítés ellenőrzéséhez`,
+        files: [{
+            type:   `svelte`,
+            fn:     `Counter.svelte`
+        }]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
@@ -49,7 +58,7 @@ s = x => `${x.map((e, i) => `<div class="c">
     <td> | </td>
     ${e.files ? `<td class="bt">Forrás:` : ``}
     ${e.files ? e.files.map((fi, j) => `
-    <span onclick='f(${i}, ${j}, "pp/${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn}</i></span>
+    <span onclick='f(${i}, ${j}, "pp/${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn.split(".")[0]}</i></span>
     ` ).join('') : ''} 
     ${e.files ? `</td>` : ``}
     ${e.git && e.git[1].length ? 

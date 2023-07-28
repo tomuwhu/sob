@@ -1,5 +1,5 @@
 <script>
-    var a = 6
+    var a = 0
 </script>
 
 <button
