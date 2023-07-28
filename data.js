@@ -12,7 +12,7 @@ ds = [{
         text:   `Amőba-kezdemény
                 <a  href="https://kit.svelte.dev/"
                     target="x">Svelte KIT Frontend Component Framework</a>`,
-        git:    [   `SV01`, 
+        git:    [   `sv01`, 
                     `https://github.com/tomuwhu/sv01`, 
                     `http://www.inf.u-szeged.hu/~tnemeth/sv_amoba0/`],
         files: [{
@@ -25,7 +25,7 @@ ds = [{
         date:   `2023-07-23`,
         text:   `<a  href="https://kit.svelte.dev/"
         target="x">SvelteKIT</a> RestAPI FrontEnd`,
-        git:    [   `sv01`,
+        git:    [   `sv01/question`,
                     `https://github.com/tomuwhu/sv01/tree/question`,
                     `https://tomuwhu.github.io/sv01/`],
         files: [{
