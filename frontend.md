@@ -33,10 +33,11 @@
   - Változók
   - Operátorok
   - Kifejezések, precedencia
+  - Feltételes értékadás: ண ? ண : ண
   - Kulcsszavak
-  - Kommentek
+  - Kommentek: //, /*, &lt;!-- ண -->
 - Függvények
-- _Számított értékek ($: ௐ) [reaktivity]_
+- _Számított értékek: $: ௐ_
 - Tömbök (listák)
 - Utasítások
   - if, elseif, else, switch-case
