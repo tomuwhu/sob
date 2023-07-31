@@ -46,6 +46,15 @@ ds = [{
             type:   `svelte`,
             fn:     `Counter.svelte`
         }]
+    },
+    {
+        name: `Lista kezelése`,
+        date: `2023-07-31`,
+        text: `Array TS mintaalkalmazás`,
+        files: [{
+            type:   `svelte`,
+            fn:     `Array.svelte`
+        }]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>

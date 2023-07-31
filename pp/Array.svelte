@@ -5,29 +5,27 @@
       .map((v, i) => 2 ** i)
   var i: number
 </script>
-<div>
-    <span class="h">i</span>: <span class="h">2<sup>i</sup></span>
-</div>
+<table>
+<tr>
+    <th class="h">i: </th>
+    <th class="h">2<sup>i</sup></th>
+</tr>
 {#each t as o, i}
-<div>
-  <span>{i+1}</span>: <span>{o}</span>
-</div>
+  <tr>
+    <td>{i+1}: </td> 
+    <td>{o}</td>
+  </tr>
 {/each}
-
+</table>
 <style>
-  span {
-    text-align: right;
-    width: 50px;
-    display: inline-block;
-    background-color: rgb(211, 232, 237);
-    border-radius: 6px;
-    padding: 6px;
-    margin: 6px;
-    box-shadow: 1px 1px 3px black;
-    color: rgb(33, 68, 37);
-    font-size: 30px;
+  table {
+    border-spacing: 6px;
   }
-  .h {
-    background-color: rgb(191, 152, 152);
+  td, th {
+    border: solid 1px black;
+    text-align: right;
+    padding: 6px;
+    border-radius: 6px;
+    width: 60px;
   }
 </style>
