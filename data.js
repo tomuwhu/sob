@@ -1,5 +1,5 @@
 k = 0
-n = 20
+n = 5
 a = [-1, -1]
 ds = [{
         name:   `Weboldal forráskód`,
