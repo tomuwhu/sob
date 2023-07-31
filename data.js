@@ -61,6 +61,17 @@ ds = [{
             type:   `svelte`,
             fn:     `Array.svelte`
         }]
+    }, {
+        name: `Damerau–Levenshtein távolság`,
+        date: `2023-08-01`,
+        text: `Két szöveg hasonlósága`,
+        git:    [   `svnt2`,
+                    `https://github.com/tomuwhu/svnt2`,
+                    `https://tomuwhu.github.io/svnt2/`],
+        files: [{
+            type:   `svelte`,
+            fn:     `Damerau.svelte`
+        }]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
