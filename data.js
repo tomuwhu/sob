@@ -42,6 +42,9 @@ ds = [{
         name: `Számláló`,
         date: `2023-07-28`,
         text: `Mintaalkalmazás a telepítés ellenőrzéséhez`,
+        git:    [   `sv01/question`,
+                    `https://github.com/tomuwhu/sv01/tree/question`,
+                    `https://tomuwhu.github.io/sv01/Counter`],
         files: [{
             type:   `svelte`,
             fn:     `Counter.svelte`
@@ -51,6 +54,9 @@ ds = [{
         name: `Lista kezelése`,
         date: `2023-07-31`,
         text: `Array TS mintaalkalmazás`,
+        git:    [   `sv01/question`,
+                    `https://github.com/tomuwhu/sv01/tree/question`,
+                    `https://tomuwhu.github.io/sv01/Array`],
         files: [{
             type:   `svelte`,
             fn:     `Array.svelte`
