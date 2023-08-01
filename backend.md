@@ -29,6 +29,7 @@
 
 ## NodeJS, NeDB, MongoDB, SQLite, MySQL
 
+- NodeJS telepítése, alapok, event-loop
 - modulok
 - npm
 - események

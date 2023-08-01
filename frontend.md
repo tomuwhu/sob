@@ -19,6 +19,15 @@
   - _Svelte preview_
   - _Svelte counter példaalkalmazás_
 
+## HTML/CSS/Markdown ismétlés
+
+- HTML objektumok, attribútumok, szelektorok
+- CSS szelektorok, FlexBox
+- Táblázatok
+- Űrlapok, Űrlapelemek
+- Események
+- CSS Animációk
+
 ## JavaScript/TypeScript Szintaxis
 
 - JavaScript megjelenítés
