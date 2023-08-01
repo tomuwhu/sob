@@ -72,6 +72,18 @@ ds = [{
             type:   `svelte`,
             fn:     `Damerau.svelte`
         }]
+    },
+    {
+        name:   `A válasz mindenre`,
+        date:   `2023-08-02`,
+        text:   `JavaScript RestAPI FrontEnd`,
+        git:    [   ``,
+                    ``,
+                    `pp/Fetch.html`],
+        files: [{
+            type:   `language-html`,
+            fn:     `Fetch.html`
+        }]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
