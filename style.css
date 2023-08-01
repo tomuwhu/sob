@@ -71,12 +71,14 @@ td.bt {
     background-color: rgb(12, 38, 56);
 }
 
-i:hover, td.bt a:hover {
+i:hover,
+td.bt a:hover {
     color: rgb(216, 207, 97);
     cursor: pointer;
 }
 
-#code, div.cx {
+#code,
+div.cx {
     margin: 5px auto;
     padding: 16px;
     font-size: 11px;
@@ -88,7 +90,11 @@ i:hover, td.bt a:hover {
     color: rgb(201, 201, 176);
 }
 
-i, a, a:visited, a:active, b {
+i,
+a,
+a:visited,
+a:active,
+b {
     font-weight: normal;
     font-style: normal;
     color: rgb(105, 141, 35);
@@ -105,11 +111,16 @@ input {
     padding: 5px;
 }
 
-input, hr, pre {
+input,
+hr,
+pre {
     display: none;
 }
 
-#lny, #fny, .click, .cx {
+#lny,
+#fny,
+.click,
+.cx {
     cursor: pointer;
     user-select: none;
 }
@@ -118,11 +129,13 @@ input, hr, pre {
     flex-basis: 100%;
     height: 0px;
 }
+
 div#html {
     text-align: left;
     display: inline-block;
     font-family: Tahoma;
 }
+
 div#html h1 {
     color: rgb(216, 153, 153);
     font-size: 14px;
@@ -143,6 +156,7 @@ div#html ul {
     color: rgb(213, 216, 167);
     font-size: 10px;
 }
+
 div.cx {
     margin: 18px;
     padding: 10px;
@@ -150,13 +164,16 @@ div.cx {
     padding-right: 30px;
     background-color: rgb(36, 54, 58);
 }
+
 .cx:hover {
     background-color: rgb(50, 80, 70);
 }
+
 div.cx p em {
     color: rgb(216, 153, 153);
     font-size: 14px;
 }
+
 div.c2 {
     display: flex;
     flex-direction: row;
@@ -167,11 +184,14 @@ div.c2 {
     grid-template-columns: 20% 40% 60%;
     justify-content: center;
 }
+
 a.ap {
     font-size: 13px;
     color: rgb(129, 167, 98);
 }
-span.bt, i.md {
+
+span.bt,
+i.md {
     background-color: rgb(30, 46, 41);
     padding: 3px;
     border-radius: 5px;
@@ -179,18 +199,22 @@ span.bt, i.md {
     padding-right: 6px;
 }
 
-span.active, i.active {
+span.active,
+i.active {
     background-color: rgb(119, 118, 29);
     box-shadow: 1px 1px 4px inset black;
 }
 
-span.active i, i.md.active {
+span.active i,
+i.md.active {
     color: bisque;
 }
+
 i.md {
     padding: 5px;
     border-radius: 5px;
 }
+
 em {
     color: pink;
 }

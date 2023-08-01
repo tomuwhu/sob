@@ -57,7 +57,7 @@
 
 ## Full-stack webalkalmazás készítése
 
-    {Tárgyak közötti együttműködésel}
+  {Tárgyak közötti együttműködésel}
 
 - Felhasználó kezelő modul
   - Bejelentkező űrlap *
