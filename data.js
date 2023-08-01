@@ -132,6 +132,7 @@ function tget(fn, id) {
     if (a[0] != id) {
         a[0] = id
         $.get(fn, data => {
+            navigator.clipboard.writeText(data)
             $(`#html`).show()
             $(`#code`).hide()
             $(`#code`).parent().addClass('click')
@@ -232,4 +233,3 @@ function f(i, j, fn) {
         a[1] = j
     }
 }
-
