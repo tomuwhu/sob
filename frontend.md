@@ -62,6 +62,8 @@
 - Array.map
 - Callback
 - Promisse
+- SetInterval, SetTimeout
+- Fetch
 - Modulok, CDN
   - levenshtein
   - marked
