@@ -172,7 +172,7 @@ function tget(fn, id) {
             $(`#html`).show()
             $(`#code`).hide()
             $(`#code`).parent().addClass('click')
-            $('pre').css('display','inline-block')
+            $('pre.click').css('display','inline-block')
             $(`#html`).html(
                 marked.parse(data, {mangle: false, headerIds: false})
             )
@@ -190,8 +190,8 @@ function tget(fn, id) {
             $(`.bt`).removeClass("active")
             $(`.md`).removeClass("active")
             $(`#${id}`).addClass("active")
-            hljs.highlightAll()
             $(`#code`).addClass("cx")
+            hljs.highlightAll()
         }, "text")
     } else {
         $(`.md`).removeClass("active")

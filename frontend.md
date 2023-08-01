@@ -5,7 +5,14 @@
 - github regisztráció
 - git telepítés
 - git beállítása
+  - git init
+  - .gitignore
 - GitHub Desktop
+
+```text
+git config --global user.name "Your Name"
+git config --global user.email "<youremail@yourdomain.com>"
+```
 
 ## VSCode használata
 
@@ -44,7 +51,7 @@
   - Kifejezések, precedencia
   - Feltételes értékadás: ண ? ண : ண
   - Kulcsszavak
-  - Kommentek: //, /*, &lt;!-- ண -->
+  - Kommentek: //, /⁕ &lt;!-- ண -->
 - Függvények
 - _Számított értékek: $: ௐ_
 - Tömbök (listák)
@@ -101,10 +108,10 @@
   {Tárgyak közötti együttműködésel}
 
 - Felhasználó kezelő modul
-  - Bejelentkező űrlap *
-  - Regisztrációs űrlap *
-  - Felhasználói profil szerkesztő *
-- Funkcionális modul *
+  - Bejelentkező űrlap¹
+  - Regisztrációs űrlap¹
+  - Felhasználói profil szerkesztő¹
+- Funkcionális modul¹
   - Rendszerelemek, komponensek azonosítása
   - Komponensek tervezése
   - Komponenstesztek tervezése
@@ -113,4 +120,4 @@
 - Elkészült rendszer tesztelése
 - Elkészült rendszer közzététele
 
-  {* tervezése és fejlesztése}
+  {¹ tervezése és fejlesztése}
