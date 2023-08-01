@@ -76,7 +76,8 @@ ds = [{
     {
         name:   `A válasz mindenre`,
         date:   `2023-08-02`,
-        text:   `JavaScript RestAPI FrontEnd`,
+        text: `<a   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+                    target="_blank">JavaScript</a> RestAPI FrontEnd`,
         git:    [   ``,
                     ``,
                     `pp/Fetch.html`],
