@@ -1,0 +1,9 @@
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script>
+    f = () => $
+        .get("answer.txt")
+        .then(ans => $("div").html(ans))
+</script>
+<button onclick="f()">A válasz mindenre</button>
+<hr>
+<div></div>

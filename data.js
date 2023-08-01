@@ -87,6 +87,9 @@ ds = [{
         },{
             type:   `language-html`,
             fn:     `Fetch2.html`
+        },{
+            type:   `language-html`,
+            fn:     `Fetch3.html`
         }]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
