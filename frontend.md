@@ -84,3 +84,22 @@
 ## _Svelte Kit_
 
 ## _SvelteUI_
+
+## Full-stack webalkalmazás készítése
+
+    {Tárgyak közötti együttműködésel}
+
+- Felhasználó kezelő modul
+  - Bejelentkező űrlap *
+  - Regisztrációs űrlap *
+  - Felhasználói profil szerkesztő *
+- Funkcionális modul *
+  - Rendszerelemek, komponensek azonosítása
+  - Komponensek tervezése
+  - Komponenstesztek tervezése
+  - Komponensek fejlesztése
+  - Komponensek tesztelése
+- Elkészült rendszer tesztelése
+- Elkészült rendszer közzététele
+
+  {* tervezése és fejlesztése}
