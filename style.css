@@ -72,7 +72,7 @@ td.bt {
 }
 
 i:hover,
-td.bt a:hover {
+td.bt, a:hover {
     color: rgb(216, 207, 97);
     cursor: pointer;
 }
@@ -165,7 +165,8 @@ div.cx {
     background-color: rgb(36, 54, 58);
 }
 
-.cx:hover {
+.cx:hover,
+a:hover {
     background-color: rgb(50, 80, 70);
 }
 
@@ -191,7 +192,8 @@ a.ap {
 }
 
 span.bt,
-i.md {
+i.md,
+a {
     background-color: rgb(30, 46, 41);
     padding: 3px;
     border-radius: 5px;
@@ -223,4 +225,7 @@ em {
     font-size: 9px;
     margin-top: -10px;
     color: rgb(107, 137, 151);
+}
+.nev {
+    font-size: 18px;
 }
