@@ -132,7 +132,13 @@ function tget(fn, id) {
     if (a[0] != id) {
         a[0] = id
         $.get(fn, data => {
-            navigator.clipboard.writeText(data)
+            const copyContent = async () => {
+                try {
+                    await navigator.clipboard.writeText(data);
+                } catch (err) {
+                    console.error('Failed to copy: ', err);
+                }
+            }
             $(`#html`).show()
             $(`#code`).hide()
             $(`#code`).parent().addClass('click')
@@ -214,7 +220,13 @@ function f(i, j, fn) {
     } 
     else {
         $.get(fn, data => {
-            navigator.clipboard.writeText(data)
+            const copyContent = async () => {
+                try {
+                    await navigator.clipboard.writeText(data);
+                } catch (err) {
+                    console.error('Failed to copy: ', err);
+                }
+            }
             $(`#html`).hide()
             $(`#code`).show()
             $(`#code`).unbind('click')
