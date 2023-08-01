@@ -128,17 +128,18 @@ sz = t => {
     } )
     $('#content').html(s(ds.slice(k, k + n)))
 }
+const copyContent = async data => {
+    try {
+        await navigator.clipboard.writeText(data);
+    } catch (err) {
+        console.error('Failed to copy: ', err);
+    }
+}
 function tget(fn, id) {
     if (a[0] != id) {
         a[0] = id
         $.get(fn, data => {
-            const copyContent = async () => {
-                try {
-                    await navigator.clipboard.writeText(data);
-                } catch (err) {
-                    console.error('Failed to copy: ', err);
-                }
-            }
+            copyContent(data)
             $(`#html`).show()
             $(`#code`).hide()
             $(`#code`).parent().addClass('click')
@@ -220,13 +221,7 @@ function f(i, j, fn) {
     } 
     else {
         $.get(fn, data => {
-            const copyContent = async () => {
-                try {
-                    await navigator.clipboard.writeText(data);
-                } catch (err) {
-                    console.error('Failed to copy: ', err);
-                }
-            }
+            copyContent(data)
             $(`#html`).hide()
             $(`#code`).show()
             $(`#code`).unbind('click')
