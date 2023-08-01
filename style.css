@@ -218,3 +218,9 @@ i.md {
 em {
     color: pink;
 }
+
+.cx h2+p {
+    font-size: 9px;
+    margin-top: -10px;
+    color: rgb(107, 137, 151);
+}
