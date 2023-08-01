@@ -96,7 +96,7 @@
 
 ## _SvelteUI_
 
-## Full-stack webalkalmazás készítése
+## Full-stack multiplatform alkalmazás készítése
 
   {Tárgyak közötti együttműködésel}
 
