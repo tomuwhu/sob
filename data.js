@@ -213,6 +213,7 @@ function f(i, j, fn) {
     } 
     else {
         $.get(fn, data => {
+            navigator.clipboard.writeText(data)
             $(`#html`).hide()
             $(`#code`).show()
             $(`#code`).unbind('click')
@@ -231,3 +232,4 @@ function f(i, j, fn) {
         a[1] = j
     }
 }
+
