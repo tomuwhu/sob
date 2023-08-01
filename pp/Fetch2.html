@@ -1,0 +1,10 @@
+<script>
+    function f() {
+        fetch("answer.txt")
+            .then(x => x.json())
+            .then(data => document.write(data))
+    }
+</script>
+<button onclick="f()">
+    A válasz mindenre
+</button>

@@ -1,8 +1,8 @@
 <script>
     async function f() {
-        const response = await fetch("answer.txt");
-        const ans = await response.json();
-        document.write(ans);
+        var res = await fetch("answer.txt")
+        var ans = await res.json()
+        document.write(ans)
     }
 </script>
 <button onclick="f()">

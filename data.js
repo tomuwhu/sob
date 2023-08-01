@@ -83,6 +83,9 @@ ds = [{
         files: [{
             type:   `language-html`,
             fn:     `Fetch.html`
+        },{
+            type:   `language-html`,
+            fn:     `Fetch2.html`
         }]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
