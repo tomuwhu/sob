@@ -12,6 +12,7 @@
   - GET, POST, SESSION
   - Osztályok, objektumok
   - FullStack: HTML FORM POST
+  - CORS
 - MySQL
   - SELECT
   - WHERE
@@ -26,13 +27,14 @@
 - Hagyományos FullStack alkalmazás fejlesztése
 - Ajax-os Full Stack alkalmazás fejlesztése
 
-## NodeJS, SQLite, NeDB
+## NodeJS, NeDB, MongoDB, SQLite, MySQL
 
 - modulok
 - npm
 - események
 - fájlrendszer
 - NodeJs NeDB
+- NodeJS MongoDB, Mongoose
 - NodeJs SQLite
 - NodeJS MySQL
 - http
