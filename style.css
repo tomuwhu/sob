@@ -254,3 +254,33 @@ div.tz {
     box-shadow: 1px 1px 4px black;
     color: black;
 }
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+td.b1,
+td.b3 {
+    width: 220px;
+}
+
+td.b1 {
+    text-align: left;
+}
+
+td.b3 {
+    text-align: right;
+}
+
+img {
+    width: 60px;
+}
+
+td.b1 a,
+td.b3 a {
+    background: transparent;
+}
