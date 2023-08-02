@@ -128,8 +128,10 @@ s = x => `${x.map((e, i) => `<div class="c">
 `).join('')}`
 ar = () => ds.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) 
 té = (bsz, hsz1, hsz2) => {
+    hsz1 = hsz1.split("<")[0]
     lt = new Levenshtein(hsz1, bsz).distance
     len = hsz1.length
+    hsz2 = hsz2.split("<")[0]
     lt2 = new Levenshtein(hsz2, bsz).distance
     len2 = hsz2.length
     return Math.min(lt/len + lt2/len2)
