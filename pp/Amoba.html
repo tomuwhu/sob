@@ -17,10 +17,10 @@
     setTimeout(() => {
       document.querySelectorAll("div")[0].innerHTML = `
                 <table>
-                    ${Array(10).fill(0).map((_, i) => `
+                    ${Array(10).fill(0).map(_ => `
                         <tr>
-                            ${Array(10).fill(0).map((_, j) => `
-                                <td class="b" onclick="f(this, ${i}, ${j})"></td>    
+                            ${Array(10).fill(0).map(_ => `
+                                <td class="b" onclick="f(this)"></td>    
                             `).join("")}
                         </tr>    
                     `).join("")}
