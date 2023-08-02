@@ -113,6 +113,7 @@ input {
     padding-left: 7px;
     margin: 5px;
     box-shadow: 1px 1px 3px inset black;
+    width: 190px;
 }
 
 input,
