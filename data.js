@@ -78,8 +78,8 @@ ds = [{
         date:   `2023-08-02`,
         text: `<a   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
                     target="_blank">JavaScript</a> RestAPI FrontEnd`,
-        git:    [   ``,
-                    ``,
+        git:    [   `Amőba`,
+                    `https://github.com/tomuwhu/sob/blob/main/pp/Fetch.html`,
                     `pp/Fetch.html`],
         files: [{
             type:   `language-html`,
@@ -97,8 +97,8 @@ ds = [{
         date:   `2023-08-03`,
         text: `HTML / CSS / <a   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
                     target="_blank">JS</a> példaprogram`,
-        git:    [   ``,
-                    ``,
+        git:    [   `Amőba`,
+                    `https://github.com/tomuwhu/sob/blob/main/pp/Amoba.html`,
                     `pp/Amoba.html`],
         files: [{
             type:   `language-html`,
