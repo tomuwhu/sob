@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    next = "X"
+    f = o => {
+      if (o.innerHTML == "") {
+        o.innerHTML = next
+        o.setAttribute("class", next)
+        next = next == "X" ? "O" : "X"
+      }
+    }
+    setTimeout(() => {
+      document.querySelectorAll("div")[0].innerHTML = `
+                <table>
+                    ${Array(10).fill(0).map((_, i) => `
+                        <tr>
+                            ${Array(10).fill(0).map((_, j) => `
+                                <td class="b" onclick="f(this, ${i}, ${j})"></td>    
+                            `).join("")}
+                        </tr>    
+                    `).join("")}
+                </table>
+            `
+    }, 100)
+  </script>
+  <style>
+    h1 {
+      text-align: center;
+      color: rgb(15, 71, 60);
+    }
+
+    td {
+      width: 30px;
+      height: 30px;
+      background-color: rgb(195, 231, 219);
+      box-shadow: 1px 1px 3px black;
+      cursor: pointer;
+      text-align: center;
+      color: brown;
+    }
+
+    td.O {
+      background-color: rgb(184, 170, 202);
+    }
+
+    td.X {
+      background-color: rgb(121, 160, 183);
+    }
+
+    td.b:hover {
+      background-color: rgb(208, 172, 81);
+    }
+
+    table {
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Amőba</h1>
+  <div></div>
+</body>
+
+</html>

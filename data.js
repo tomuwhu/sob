@@ -91,6 +91,19 @@ ds = [{
             type:   `language-html`,
             fn:     `Fetch3.html`
         }]
+    },
+    {
+        name:   `Amőba`,
+        date:   `2023-08-03`,
+        text: `HTML / CSS / <a   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+                    target="_blank">JS</a> példaprogram`,
+        git:    [   ``,
+                    ``,
+                    `pp/Amoba.html`],
+        files: [{
+            type:   `language-html`,
+            fn:     `Amoba.html`
+        }]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
