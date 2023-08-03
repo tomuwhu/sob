@@ -116,7 +116,7 @@ s = x => `${x.map((e, i) => `<div class="c">
     <td> | </td>
     ${e.files ? `<td class="bt">Forrás:` : ``}
     ${e.files ? e.files.map((fi, j) => `
-    <span onclick='f(${i}, ${j}, "pp/${fi.fn}")' class="bt" id="g${i}-${j}"><i>${fi.fn.split(".")[0]}</i></span>
+    <span onclick='f(${i}, ${j}, "pp/${fi.fn}", "${fi.type}")' class="bt" id="g${i}-${j}"><i>${fi.fn.split(".")[0]}</i></span>
     ` ).join('') : ''} 
     ${e.files ? `</td>` : ``}
     ${e.git && e.git[1].length ? 
@@ -256,7 +256,7 @@ function pd(x) {
         $('#lny').show() 
     }
 }
-function f(i, j, fn) {
+function f(i, j, fn, type) {
     if (a[0] == i && a[1] == j) {
         $(`#code`).hide()
         $(`.bt`).removeClass("active")
@@ -274,7 +274,7 @@ function f(i, j, fn) {
             $(`#html`).hide()
             $(`#code`).text(data)
             $(`#code`).removeAttr('class')
-            $(`#code`).addClass(ds[i].files[j].type)
+            $(`#code`).addClass(type)
             $(`.bt`).removeClass("active")
             $(`.md`).removeClass("active")
             $(`#g${i}-${j}`).addClass("active")
