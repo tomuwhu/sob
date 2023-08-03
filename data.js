@@ -81,7 +81,7 @@ ds = [{
         date: `2023-08-01`,
         text: `Két szöveg hasonlósága`,
         git:    [   `svnt2`,
-                    `https://github.com/tomuwhu/svnt2`,
+                    `https://github.com/tomuwhu/svnt2/blob/master/src/routes/%2Bpage.svelte`,
                     `https://tomuwhu.github.io/svnt2/`],
         files: [{
             type:   `svelte`,
@@ -133,7 +133,7 @@ ds = [{
         date: `2023-08-04`,
         text: `Gráf adatszerkezet alkalmazása, SVG`,
         git:    [   `svnt2`,
-                    `https://github.com/tomuwhu/svnt2`,
+                    `https://github.com/tomuwhu/svnt2/blob/master/src/routes/malom_v01/%2Bpage.svelte`,
                     `https://tomuwhu.github.io/svnt2/malom_v01`],
         files: [{
             type:   `language-html`,
