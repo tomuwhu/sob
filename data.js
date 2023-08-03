@@ -136,7 +136,7 @@ ds = [{
                     `https://github.com/tomuwhu/svnt2`,
                     `https://tomuwhu.github.io/svnt2/malom_v01`],
         files: [{
-            type:   `svelte`,
+            type:   `language-html`,
             fn:     `Malom.svelte`
         }],
         keywords:[
