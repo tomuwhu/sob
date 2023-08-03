@@ -131,7 +131,7 @@ ds = [{
     }, {
         name: `Malom tábla`,
         date: `2023-08-04`,
-        text: `Gráf adatszerkezet alkalmazása`,
+        text: `Gráf adatszerkezet alkalmazása, SVG`,
         git:    [   `svnt2`,
                     `https://github.com/tomuwhu/svnt2`,
                     `https://tomuwhu.github.io/svnt2/malom_v01`],
@@ -141,6 +141,40 @@ ds = [{
         }],
         keywords:[
             `svelte`, `malom`, `gráf`, `adatszerkezet`, `svg`, `line`, `circle`, `{#each}` 
+        ]
+    }, {
+        name: `Drag & Drop példa`,
+        date: `2023-08-05`,
+        text: ``,
+        git:    [   `svnt2`,
+                    `https://github.com/tomuwhu/svnt2`,
+                    `https://tomuwhu.github.io/svnt2/dragdrop`],
+        files: [{
+            type:   `svelte`,
+            fn:     `Dragndrop.svelte`
+        }],
+        keywords:[
+            `svelte`, `drag`, `drop`
+        ]
+    }, {
+        name: `Malom bábuk mozgatása`,
+        date: `2023-08-06`,
+        text: `Drag & Drop alkalmazása`,
+        git:    [   `svnt2`,
+                    `https://github.com/tomuwhu/svnt2`,
+                    `https://tomuwhu.github.io/svnt2/malom_v02`],
+        keywords:[
+            `svelte`, `malom`, `drag`, `drop`, `svg`
+        ]
+    }, {
+        name: `Malom teljes játék`,
+        date: `2023-08-07`,
+        text: `SVG, Gráf adatszerkezet, Drag & Drop`,
+        git:    [   `svnt2`,
+                    `https://github.com/tomuwhu/svnt2`,
+                    `https://tomuwhu.github.io/svnt2/malom_v03`],
+        keywords:[
+            `svelte`, `malom`, `drag`, `drop`, `svg`
         ]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
