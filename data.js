@@ -59,7 +59,7 @@ ds = [{
             fn:     `Counter.svelte`
         }],
         keywords:[
-            `` 
+            `svelte`, `counter`, `onclick`, `click`, `egyszerű` 
         ]
     },
     {
@@ -74,7 +74,7 @@ ds = [{
             fn:     `Array.svelte`
         }],
         keywords:[
-            `` 
+            `Array`, `Svelte`, `minimal`, `egyszerű` 
         ]
     }, {
         name: `Damerau–Levenshtein távolság`,
@@ -88,7 +88,7 @@ ds = [{
             fn:     `Damerau.svelte`
         }],
         keywords:[
-            `` 
+            `svelte`, `damerau`, `levendhtein`, `input`, `bind` 
         ]
     },
     {
@@ -110,7 +110,7 @@ ds = [{
             fn:     `Fetch3.html`
         }],
         keywords:[
-            `` 
+            `Egyszerű`, `Svelte`, `FullStack` 
         ]
     },
     {
@@ -126,7 +126,7 @@ ds = [{
             fn:     `Amoba.html`
         }],
         keywords:[
-            `` 
+            `amőba`, `svelte`, `táblázat` 
         ]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
@@ -151,14 +151,23 @@ s = x => `${x.map((e, i) => `<div class="c">
     </div><div class="break"></div>
 `).join('')}`
 ar = () => ds.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) 
-té = (bsz, hsz1, hsz2) => {
+té = (bsz, hsz1, hsz2, kwt) => {
+    vt = []
     hsz1 = hsz1.split("<")[0]
     lt = new Levenshtein(hsz1, bsz).distance
     len = hsz1.length
     hsz2 = hsz2.split("<")[0]
     lt2 = new Levenshtein(hsz2, bsz).distance
     len2 = hsz2.length
-    return Math.min(lt/len, lt2/len2)
+    vt.push(lt/len)
+    vt.push(lt2/len2)
+    kwt.forEach(v => {
+        hsz1 = v
+        lt = new Levenshtein(hsz1, bsz).distance
+        len = hsz1.length
+        vt.push(lt/len)
+    })
+    return Math.min(...vt)
 }
 sz = t => {
     $(`#code`).text("")
