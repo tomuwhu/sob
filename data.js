@@ -235,6 +235,10 @@ function disp() {
     }
 }
 function pd(x) {
+    $(`#code`).hide()
+    $(`.bt`).removeClass("active")
+    a[0] = -1
+    a[1] = -1
     if (x == 5) {
         if (ds.length > k + 5) {
             k += 5
