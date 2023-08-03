@@ -24,7 +24,7 @@ ds = [{
             fn:     `Amoba.svelte`
         }],
         keywords:[
-            `táblázat`, `onclick`, `svelte`
+            `táblázat`, `onclick`, `svelte`, `{#each}`
         ]
     },
     {
@@ -44,7 +44,7 @@ ds = [{
             fn:     `+page.svelte`
         }],
         keywords:[
-            `táblázat`, `onclick`, `svelte`, `amőba` 
+            `táblázat`, `onclick`, `svelte`, `amőba`, `{#each}` 
         ]
     },
     {
@@ -126,7 +126,21 @@ ds = [{
             fn:     `Amoba.html`
         }],
         keywords:[
-            `amőba`, `svelte`, `táblázat`, `onclick`
+            `amőba`, `svelte`, `táblázat`, `onclick`, `{#each}`
+        ]
+    }, {
+        name: `Malom tábla`,
+        date: `2023-08-04`,
+        text: `Gráf adatszerkezet alkalmazása`,
+        git:    [   `svnt2`,
+                    `https://github.com/tomuwhu/svnt2`,
+                    `https://tomuwhu.github.io/svnt2/malom_v01`],
+        files: [{
+            type:   `svelte`,
+            fn:     `Malom.svelte`
+        }],
+        keywords:[
+            `svelte`, `malom`, `gráf`, `adatszerkezet`, `svg`, `line`, `circle`, `{#each}` 
         ]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
