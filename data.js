@@ -147,7 +147,7 @@ ds = [{
         date: `2023-08-05`,
         text: ``,
         git:    [   `svnt2`,
-                    `https://github.com/tomuwhu/svnt2`,
+                    `https://github.com/tomuwhu/svnt2/blob/master/src/routes/dragdrop/%2Bpage.svelte`,
                     `https://tomuwhu.github.io/svnt2/dragdrop`],
         files: [{
             type:   `svelte`,
@@ -161,7 +161,7 @@ ds = [{
         date: `2023-08-06`,
         text: `Drag & Drop alkalmazása`,
         git:    [   `svnt2`,
-                    `https://github.com/tomuwhu/svnt2`,
+                    `https://github.com/tomuwhu/svnt2/blob/master/src/routes/malom_v02/%2Bpage.svelte`,
                     `https://tomuwhu.github.io/svnt2/malom_v02`],
         keywords:[
             `svelte`, `malom`, `drag`, `drop`, `svg`
@@ -171,7 +171,7 @@ ds = [{
         date: `2023-08-07`,
         text: `SVG, Gráf adatszerkezet, Drag & Drop`,
         git:    [   `svnt2`,
-                    `https://github.com/tomuwhu/svnt2`,
+                    `https://github.com/tomuwhu/svnt2/tree/master/src/routes/malom_v03`,
                     `https://tomuwhu.github.io/svnt2/malom_v03`],
         keywords:[
             `svelte`, `malom`, `drag`, `drop`, `svg`
