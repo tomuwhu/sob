@@ -5,7 +5,10 @@ ds = [{
         name:   `Weboldal forráskód`,
         date:   `2023-07-20`,
         text:   `Példaprogramokat tároló adatszerkezet, forráskód-megjelenítő`,
-        git:    [`SOB`, `https://github.com/tomuwhu/sob`, ``]
+        git:    [`SOB`, `https://github.com/tomuwhu/sob`, ``],
+        keywords:[
+                `Damerau`, `Levenshtein`, `JQuery`, `HTML`, `CSS`, `JavaScript`
+        ]
     },
     {
         name:   `Amőba <a href="https://svelte.dev/" target="x">Svelte</a>`,
@@ -19,7 +22,10 @@ ds = [{
         files: [{
             type:   `svelte`,
             fn:     `Amoba.svelte`
-        }]
+        }],
+        keywords:[
+            `táblázat`, `onclick`, `svelte`
+        ]
     },
     {
         name:   `A válasz mindenre <a href="https://svelte.dev/" target="x">Svelte</a> Példa`,
@@ -36,7 +42,10 @@ ds = [{
         {
             type:   `svelte`,
             fn:     `+page.svelte`
-        }]
+        }],
+        keywords:[
+            `táblázat`, `onclick`, `svelte`, `amőba` 
+        ]
     },
     {
         name: `Számláló`,
@@ -48,7 +57,10 @@ ds = [{
         files: [{
             type:   `svelte`,
             fn:     `Counter.svelte`
-        }]
+        }],
+        keywords:[
+            `` 
+        ]
     },
     {
         name: `Lista kezelése`,
@@ -60,7 +72,10 @@ ds = [{
         files: [{
             type:   `svelte`,
             fn:     `Array.svelte`
-        }]
+        }],
+        keywords:[
+            `` 
+        ]
     }, {
         name: `Damerau–Levenshtein távolság`,
         date: `2023-08-01`,
@@ -71,7 +86,10 @@ ds = [{
         files: [{
             type:   `svelte`,
             fn:     `Damerau.svelte`
-        }]
+        }],
+        keywords:[
+            `` 
+        ]
     },
     {
         name:   `A válasz mindenre`,
@@ -90,7 +108,10 @@ ds = [{
         },{
             type:   `language-html`,
             fn:     `Fetch3.html`
-        }]
+        }],
+        keywords:[
+            `` 
+        ]
     },
     {
         name:   `Amőba`,
@@ -103,7 +124,10 @@ ds = [{
         files: [{
             type:   `language-html`,
             fn:     `Amoba.html`
-        }]
+        }],
+        keywords:[
+            `` 
+        ]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
@@ -140,8 +164,8 @@ sz = t => {
     $(`#code`).text("")
     if (!t.value.length) ar()
     else ds.sort( (r1, r2) => {
-        e1 = té(t.value.toUpperCase(), r1.name.toUpperCase(), r1.text.toUpperCase())
-        e2 = té(t.value.toUpperCase(), r2.name.toUpperCase(), r2.text.toUpperCase())
+        e1 = té(t.value.toUpperCase(), r1.name.toUpperCase(), r1.text.toUpperCase(), r1.keywords.map( v => v.toUpperCase()))
+        e2 = té(t.value.toUpperCase(), r2.name.toUpperCase(), r2.text.toUpperCase(), r2.keywords.map( v => v.toUpperCase()))
         return e1 - e2
     } )
     $('#content').html(s(ds.slice(k, k + n)))
