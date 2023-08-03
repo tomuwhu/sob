@@ -126,7 +126,7 @@ ds = [{
             fn:     `Amoba.html`
         }],
         keywords:[
-            `amőba`, `svelte`, `táblázat` 
+            `amőba`, `svelte`, `táblázat`, `onclick`
         ]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
