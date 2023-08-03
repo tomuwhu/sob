@@ -134,7 +134,7 @@ té = (bsz, hsz1, hsz2) => {
     hsz2 = hsz2.split("<")[0]
     lt2 = new Levenshtein(hsz2, bsz).distance
     len2 = hsz2.length
-    return Math.min(lt/len + lt2/len2)
+    return Math.min(lt/len, lt2/len2)
 }
 sz = t => {
     $(`#code`).text("")
