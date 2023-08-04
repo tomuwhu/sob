@@ -147,7 +147,7 @@ ds = [{
         date: `2023-08-05`,
         text: `<a
             target="_blank" 
-            href="https://svelte.dev/repl/adf5a97b91164c239cc1e6d0c76c2abe?version=3.14.1">Forrás</a>`,
+            href="https://svelte.dev/repl/b225504c9fea44b189ed5bfb566df6e6?version=4.1.2">Forrás (Svelte.dev)</a>`,
         git:    [   `svnt2`,
                     `https://github.com/tomuwhu/svnt2/blob/master/src/routes/dragdrop/%2Bpage.svelte`,
                     `https://tomuwhu.github.io/svnt2/dragdrop`],
