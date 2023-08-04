@@ -29,10 +29,11 @@
 
 ## NodeJS, NeDB, MongoDB, SQLite, MySQL
 
-- NodeJS telepítése, alapok, event-loop
-- json
+- JSON
+- NodeJS telepítése
+- alapok, event-loop
 - modulok
-- npm
+- npm, package.json
 - események
 - fájlrendszer
 - Reguláris kifejezések
