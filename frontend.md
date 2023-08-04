@@ -5,9 +5,11 @@
 - github regisztráció
 - git telepítés
 - git beállítása
-  - git init
+  - git init, clone, add, commit, push, pull
   - .gitignore
 - GitHub Desktop
+- index.html, README.md
+- Beállítások, GitHub Pages
 
 ```text
 git config --global user.name "Your Name"
