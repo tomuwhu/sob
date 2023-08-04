@@ -163,6 +163,10 @@ ds = [{
         git:    [   `svnt2`,
                     `https://github.com/tomuwhu/svnt2/blob/master/src/routes/malom_v02/%2Bpage.svelte`,
                     `https://tomuwhu.github.io/svnt2/malom_v02`],
+        files: [{
+            type:   `svelte`,
+            fn:     `Malomdd.svelte`
+        }],
         keywords:[
             `svelte`, `malom`, `drag`, `drop`, `svg`
         ]
