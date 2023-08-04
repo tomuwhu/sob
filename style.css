@@ -284,3 +284,8 @@ td.b1 a,
 td.b3 a {
     background: transparent;
 }
+.hljs {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: calc(100vh - 600px);
+}
