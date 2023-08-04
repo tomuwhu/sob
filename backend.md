@@ -30,10 +30,12 @@
 ## NodeJS, NeDB, MongoDB, SQLite, MySQL
 
 - NodeJS telepítése, alapok, event-loop
+- json
 - modulok
 - npm
 - események
 - fájlrendszer
+- Reguláris kifejezések
 - NodeJs NeDB
 - NodeJS MongoDB, Mongoose
 - NodeJs SQLite
