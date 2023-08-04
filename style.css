@@ -287,5 +287,6 @@ td.b3 a {
 .hljs {
     overflow-x: auto;
     overflow-y: auto;
-    max-height: calc(100vh - 600px);
+    max-height: calc(100vh - 480px);
+    max-width: 95%;
 }
