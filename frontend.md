@@ -22,9 +22,14 @@ git config --global user.email "<youremail@yourdomain.com>"
 - UTF-8, Szimbólumok
 - témák használata
 - pluginek
+  - ESLint
+  - GitHub Pull Requests
+  - indent-rainbow
   - Live Server
   - Live Share
   - Markdown All in One
+  - IntelliCode
+  - Material Icon Theme
   - _Svelte preview_
   - _Svelte counter példaalkalmazás_
 
