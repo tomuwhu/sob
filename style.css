@@ -290,3 +290,21 @@ td.b3 a {
     max-height: calc(100vh - 480px);
     max-width: 95%;
 }
+
+@media (max-width: 500px) {
+    .c2 {
+        width: 440px;
+    }
+    .hljs {
+        width: 440px;
+    }
+}
+
+@media (max-width: 400px) {
+    .c2 {
+        width: 340px;
+    }
+    .hljs {
+        width: 340px;
+    }
+}
