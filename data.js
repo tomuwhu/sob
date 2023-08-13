@@ -191,7 +191,7 @@ ds = [{
         date: `2023-08-13`,
         text: `Változó hozzárendelése, Range Input`,
         git:    [   `svnt2`,
-                    `https://github.com/tomuwhu/svnt2/tree/master/src/routes/animation`,
+                    `https://github.com/tomuwhu/svnt2/blob/master/src/routes/animation/%2Bpage.svelte`,
                     `https://tomuwhu.github.io/svnt2/animation`],
         files: [{
             type:   `svelte`,
@@ -205,7 +205,7 @@ ds = [{
         date: `2023-08-12`,
         text: `Változó változtatása időzítővel`,
         git:    [   `svnt2`,
-                    `https://github.com/tomuwhu/svnt2/tree/master/src/routes/seti`,
+                    `https://github.com/tomuwhu/svnt2/blob/master/src/routes/seti/%2Bpage.svelte`,
                     `https://tomuwhu.github.io/svnt2/seti`],
         files: [{
             type:   `svelte`,
