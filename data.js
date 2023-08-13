@@ -202,7 +202,7 @@ ds = [{
         ]
     }, {
         name: `Időzítő`,
-        date: `2023-08-13`,
+        date: `2023-08-12`,
         text: `Változó változtatása időzítővel`,
         git:    [   `svnt2`,
                     `https://github.com/tomuwhu/svnt2/tree/master/src/routes/seti`,
