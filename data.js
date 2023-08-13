@@ -187,9 +187,9 @@ ds = [{
             `svelte`, `malom`, `drag`, `drop`, `svg`
         ]
     }, {
-        name: `Minimal animáció`,
+        name: `Animáció`,
         date: `2023-08-13`,
-        text: `Animáció, Input, Bind`,
+        text: `Változó hozzárendelése, Range Input`,
         git:    [   `svnt2`,
                     `https://github.com/tomuwhu/svnt2/tree/master/src/routes/animation`,
                     `https://tomuwhu.github.io/svnt2/animation`],
@@ -198,7 +198,7 @@ ds = [{
             fn:     `Animation.svelte`
         }],
         keywords:[
-            `svelte`, `malom`, `drag`, `drop`, `svg`
+            `svelte`, `input`, `range`, `bind`, `position`
         ]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
