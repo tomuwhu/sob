@@ -322,3 +322,7 @@ td.b3 a {
         font-size: 10px;
     }
 }
+.bl {
+    margin: 4px;
+    box-shadow: 1px 1px 4px black;
+}
