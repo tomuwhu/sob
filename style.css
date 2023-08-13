@@ -294,17 +294,31 @@ td.b3 a {
 @media (max-width: 500px) {
     .c2 {
         width: 440px;
+        font-size: 11px;
     }
     .hljs {
         width: 440px;
+        font-size: 11px;
     }
 }
 
 @media (max-width: 400px) {
     .c2 {
         width: 340px;
+        font-size: 11px;
     }
     .hljs {
         width: 340px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 320px) {
+    .c2 {
+        width: 270px;
+        font-size: 10px;
+    }
+    .hljs {
+        width: 270px;
+        font-size: 10px;
     }
 }
