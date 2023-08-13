@@ -200,6 +200,20 @@ ds = [{
         keywords:[
             `svelte`, `input`, `range`, `bind`, `position`
         ]
+    }, {
+        name: `Időzítő`,
+        date: `2023-08-13`,
+        text: `Változó változtatása időzítővel`,
+        git:    [   `svnt2`,
+                    `https://github.com/tomuwhu/svnt2/tree/master/src/routes/seti`,
+                    `https://tomuwhu.github.io/svnt2/seti`],
+        files: [{
+            type:   `svelte`,
+            fn:     `setInterval.svelte`
+        }],
+        keywords:[
+            `svelte`, `setInterval`, `időzítő`, `négyzet`, `hatványozás`
+        ]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
