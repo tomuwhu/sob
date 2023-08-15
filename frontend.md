@@ -106,6 +106,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## NodeJS frontend-hez
 
+- http-server
 - WebpPack
   - Entry
   - Output

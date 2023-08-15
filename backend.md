@@ -60,9 +60,6 @@
 
 ## _Svelte Kit_ AJAX
 
-- PHP
-- ExpressJS
-
 ## Full-stack multiplatform alkalmazás készítése
 
   {Tárgyak közötti együttműködéssel}
