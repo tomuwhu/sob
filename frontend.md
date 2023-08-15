@@ -117,9 +117,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - deploy
   - Server-Side Rendering
   
-## _Svelte Kit_
-
-## _SvelteUI_
+## _SvelteKit, SvelteUI_
 
 ## Full-stack multiplatform alkalmazás készítése
 

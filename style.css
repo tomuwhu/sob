@@ -227,9 +227,10 @@ em {
 }
 
 .cx h2+p {
-    font-size: 9px;
+    font-size: 10px;
     margin-top: -10px;
     color: rgb(107, 137, 151);
+    text-align: right;
 }
 
 .nev {
@@ -291,7 +292,23 @@ td.b3 a {
     max-width: 95%;
 }
 
+div#html h2 {
+    font-size: 14px;
+}
+
+div#html ul {
+    font-size: 12px;
+}
 @media (max-width: 500px) {
+    .cx h2+p {
+        font-size: 9px;
+    }
+    div#html h2 {
+        font-size: 12px;
+    }
+    div#html ul {
+        font-size: 10px;
+    }
     .c2 {
         width: 440px;
         font-size: 11px;
@@ -303,6 +320,12 @@ td.b3 a {
 }
 
 @media (max-width: 400px) {
+    div#html h2 {
+        font-size: 11px;
+    }
+    div#html ul {
+        font-size: 10px;
+    }
     .c2 {
         width: 340px;
         font-size: 11px;
@@ -313,6 +336,12 @@ td.b3 a {
     }
 }
 @media (max-width: 320px) {
+    div#html h2 {
+        font-size: 11px;
+    }
+    div#html ul {
+        font-size: 9px;
+    }
     .c2 {
         width: 270px;
         font-size: 10px;
