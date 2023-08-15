@@ -88,3 +88,5 @@
 - Autentikáció, Oatuh
 - BlockChain Serverless Keretrendszerek
 - Peer-To-Peer hálózatok, WebRTC
+- SEJB: SQLite-PHP-JQuery-BrowserJS
+- NESN: NeDB-Express-Svelte-NodeJS
