@@ -106,13 +106,19 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## NodeJS frontend-hez
 
+- VITE
+  - dev server
+  - build
+  - deploy
+  - Server-Side Rendering
+  
 ## _Svelte Kit_
 
 ## _SvelteUI_
 
 ## Full-stack multiplatform alkalmazás készítése
 
-  {Tárgyak közötti együttműködésel}
+  {Tárgyak közötti együttműködéssel}
 
 - Felhasználó kezelő modul
   - Bejelentkező űrlap¹

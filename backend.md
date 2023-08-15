@@ -1,5 +1,10 @@
 # Backend alkalmazásfejlesztés tematika
 
+## Bash
+
+- Terminál app
+- Terminál parancsok
+
 ## XAMPP, PHP, MySQL
 
 - XAMPP
@@ -61,7 +66,7 @@
 
 ## Full-stack multiplatform alkalmazás készítése
 
-  {Tárgyak közötti együttműködésel}
+  {Tárgyak közötti együttműködéssel}
 
 - Felhasználó kezelő modul
   - Bejelentkező űrlap *
