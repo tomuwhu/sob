@@ -46,7 +46,6 @@
 - NodeJS MongoDB, Mongoose
 - NodeJs SQLite
 - NodeJS MySQL
-- http
 
 ## ExpressJS
 
