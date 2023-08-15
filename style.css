@@ -300,6 +300,9 @@ div#html ul {
     font-size: 12px;
 }
 @media (max-width: 500px) {
+    #code {
+        font-size: 10px;
+    }
     .cx h2+p {
         font-size: 9px;
     }
@@ -320,6 +323,9 @@ div#html ul {
 }
 
 @media (max-width: 400px) {
+    #code {
+        font-size: 9.5px;
+    }
     div#html h2 {
         font-size: 11px;
     }
@@ -336,6 +342,9 @@ div#html ul {
     }
 }
 @media (max-width: 320px) {
+    #code {
+        font-size: 9px;
+    }
     div#html h2 {
         font-size: 11px;
     }
