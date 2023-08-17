@@ -88,7 +88,8 @@ ds = [{
             fn:     `Damerau.svelte`
         }],
         keywords:[
-            `svelte`, `damerau`, `levendhtein`, `input`, `bind` 
+            `svelte`, `damerau`, `levenshtein`, `input`, `bind`, `hasonlósági`, `mérték`,
+            `string`, `szöveg`, `távolság` 
         ]
     },
     {
