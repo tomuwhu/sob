@@ -56,6 +56,7 @@
 - express.json (body)
 - response
 - CORS
+- Session
 - EJS
 
 ## _Svelte Kit_ AJAX
