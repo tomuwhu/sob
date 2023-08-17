@@ -74,7 +74,7 @@ ds = [{
             fn:     `Array.svelte`
         }],
         keywords:[
-            `Array`, `Svelte`, `minimal`, `egyszerű` 
+            `Array`, `Svelte`, `minimal`, `egyszerű`, `lista`, `map`
         ]
     }, {
         name: `Damerau–Levenshtein távolság`,
