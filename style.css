@@ -289,6 +289,7 @@ td.b3 a {
     overflow-x: auto;
     overflow-y: auto;
     max-height: calc(100vh - 480px);
+    min-height: 160px;
     max-width: 95%;
 }
 
