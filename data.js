@@ -157,7 +157,7 @@ ds = [{
             fn:     `Dragndrop.svelte`
         }],
         keywords:[
-            `svelte`, `drag`, `drop`
+            `svelte`, `drag`, `drop`, `{#each}`
         ]
     }, {
         name: `Drag & Drop példa 2`,
@@ -171,7 +171,7 @@ ds = [{
             fn:     `Dragntable.svelte`
         }],
         keywords:[
-            `svelte`, `drag`, `drop`, `table`, `számjáték`
+            `svelte`, `drag`, `drop`, `table`, `számjáték`, `{#each}`
         ]
     }, {
         name: `Malom bábuk mozgatása`,
