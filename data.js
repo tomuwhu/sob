@@ -160,6 +160,20 @@ ds = [{
             `svelte`, `drag`, `drop`
         ]
     }, {
+        name: `Drag & Drop példa 2`,
+        date: `2023-08-20`,
+        text: ``,
+        git:    [   `svnt2`,
+                    `https://github.com/tomuwhu/svnt2/blob/master/src/routes/dragntable/%2Bpage.svelte`,
+                    `https://tomuwhu.github.io/svnt2/dragntable`],
+        files: [{
+            type:   `svelte`,
+            fn:     `Dragntable.svelte`
+        }],
+        keywords:[
+            `svelte`, `drag`, `drop`, `table`, `számjáték`
+        ]
+    }, {
         name: `Malom bábuk mozgatása`,
         date: `2023-08-06`,
         text: `Drag & Drop alkalmazása`,
