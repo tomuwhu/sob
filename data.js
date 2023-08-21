@@ -137,7 +137,7 @@ ds = [{
                     `https://github.com/tomuwhu/svnt2/blob/master/src/routes/malom_v01/%2Bpage.svelte`,
                     `https://tomuwhu.github.io/svnt2/malom_v01`],
         files: [{
-            type:   `language-html`,
+            type:   `svelte`,
             fn:     `Malom.svelte`
         }],
         keywords:[
@@ -430,6 +430,10 @@ function f(i, j, fn, type) {
             $(`#code`).text(data)
             $(`#code`).removeAttr('class')
             $(`#code`).addClass(type)
+            if (type == "svelte") {
+                $(`#code`).removeClass('language-yaml')
+                $(`#code`).addClass('language-xml')
+            }
             $(`.bt`).removeClass("active")
             $(`.md`).removeClass("active")
             $(`#g${i}-${j}`).addClass("active")
