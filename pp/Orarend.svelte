@@ -33,27 +33,27 @@
     return `${ora}:${perc < 10 ? '0' + perc : perc}`
   }
   </script>
-    {#if appdata.mounted == true}
-      {#each ["Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek"] as nap, i}
-        <div class="nn" style={snn(nap, i)}><div>{nap}</div></div>
-      {/each}
-      {#each Array(41).fill(0) as _, i}
-        <div style={hrs2(i)} class="hr" />
-        <div style={hrs(i, 107)} class="ip">{opp(i)}</div>
-        <div style={hrs(i, 638)} class="ip">{opp(i)}</div>
-      {/each}
-      {#each appdata.orak as ora}
-        <div 
-          class="cont {ora.type}"
-          style={style(ora)}>
-          <div class="text">{ora.text}</div>
-          <div class="csh"><span class="csop">{ora.csop}</span> - <span class="hsz">{ora.helysz}</span></div>
-        </div>
-      {/each}
-      <div class="orr" style="left: {appdata.left + 107}px; top: {appdata.top - 50}px;"><span>Órarend</span></div>
-    {:else}
-      <div class="orr">{appdata.msg}</div>
-    {/if}
+  {#if appdata.mounted == true}
+    {#each ["Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek"] as nap, i}
+      <div class="nn" style={snn(nap, i)}><div>{nap}</div></div>
+    {/each}
+    {#each Array(41).fill(0) as _, i}
+      <div style={hrs2(i)} class="hr" />
+      <div style={hrs(i, 107)} class="ip">{opp(i)}</div>
+      <div style={hrs(i, 638)} class="ip">{opp(i)}</div>
+    {/each}
+    {#each appdata.orak as ora}
+      <div 
+        class="cont {ora.type}"
+        style={style(ora)}>
+        <div class="text">{ora.text}</div>
+        <div class="csh"><span class="csop">{ora.csop}</span> - <span class="hsz">{ora.helysz}</span></div>
+      </div>
+    {/each}
+    <div class="orr" style="left: {appdata.left + 107}px; top: {appdata.top - 50}px;"><span>Órarend</span></div>
+  {:else}
+    <div class="orr">{appdata.msg}</div>
+  {/if}
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
     div.cont {
