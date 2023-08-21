@@ -241,7 +241,7 @@ ds = [{
             fn:     `Orarend.svelte`
         },{
             type:   `json`,
-            fn:     `orarend.json`
+            fn:     `input.json`
         }],
         keywords:[
             `svelte`, `setInterval`, `időzítő`, `each`, `onMount`, `fixed`, `position`, `dinamikus`, `órarend`
