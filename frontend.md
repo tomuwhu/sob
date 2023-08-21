@@ -53,9 +53,8 @@ git config --global user.email "<youremail@yourdomain.com>"
   - _események (on:click, bind:value, ...)_
 - Szintaxis
   - Értékek, típusok (számok, szöveg)
-  - Változók
-  - Operátorok
-  - Kifejezések, precedencia
+  - Változók, definiálás, értékadás (var, let, const)
+  - Operátorok, kifejezések, precedencia
   - Feltételes értékadás: ண ? ண : ண
   - Kulcsszavak
   - Kommentek: //, /⁕ &lt;!-- ண -->
@@ -67,17 +66,21 @@ git config --global user.email "<youremail@yourdomain.com>"
   - for, .forEach(ண), .map(ண), ...
   - _{#if ண} ... {:else if ண} ... {:else} ... {/if}_
   - _{#each ஃ as ୦} ... {/each}_
+  - try...catch
 - Objektumok
 - Osztályok
 
 ## JavaScript fogások
 
 - String template
-- Array.map
+- Array (map, forEach, fill, ...)
 - Callback
 - Promisse
 - SetInterval, SetTimeout
 - Fetch
+- Date, Time
+- JSON
+- RegExp
 - Modulok, CDN
   - levenshtein
   - marked
@@ -98,6 +101,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 ## Browser JavaScript
 
 - Browser DevTools
+- \<script src='...'\>, \<script type="module" src="./main.js"></script>
 - Helyi tárhey
 - IndexedDB
 - WebSQL
