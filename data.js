@@ -239,6 +239,9 @@ ds = [{
         files: [{
             type:   `svelte`,
             fn:     `Orarend.svelte`
+        },{
+            type:   `json`,
+            fn:     `orarend.json`
         }],
         keywords:[
             `svelte`, `setInterval`, `időzítő`, `each`, `onMount`, `fixed`, `position`, `dinamikus`, `órarend`

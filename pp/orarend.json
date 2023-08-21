@@ -1,0 +1,9 @@
+[
+  {"type":"E","text":"Számítástechnikai alapismeretek","csop":"Bio","helysz":"IR-227","n":"H","ok":[8,0],"it":90},
+  {"type":"E","text":"Számítástechnikai alapismeretek","csop":"IT","helysz":"IR-226","n":"K","ok":[9,0],"it":45},
+  {"type":"E","text":"Programozási versenyek feladatainak megoldása","csop":"IT","helysz":"IR-227","n":"K","ok":[16,0],"it":90},
+  {"type":"E","text":"Informatikai alapismeretek","csop":"IT","helysz":"IR-227","n":"Cs","ok":[14,0],"it":45},
+  {"type":"E","text":"Számítógépes rendszerek","csop":"IT","helysz":"IR-227","n":"Cs","ok":[15,0],"it":135},
+  {"type":"S","text":"Digitális Kultúra","csop":"11/I","helysz":"I19","n":"K","ok":[7,25],"it":90},
+  {"type":"S","text":"Digitális Kultúra","csop":"12/I","helysz":"I17","n":"H","ok":[10,20],"it":90}
+]
