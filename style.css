@@ -365,3 +365,9 @@ div#html ul {
     margin: 4px;
     box-shadow: 1px 1px 4px black;
 }
+code.language-json {
+    background-color: rgb(12, 45, 34);
+}
+code.svelte {
+    background-color: rgb(4, 37, 68);
+}
