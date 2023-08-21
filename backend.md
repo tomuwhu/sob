@@ -39,6 +39,7 @@
 - alapok, event-loop
 - modulok
 - npm, package.json
+- nodemon
 - események
 - fájlrendszer
 - Reguláris kifejezések
@@ -53,10 +54,10 @@
 - routing
 - request
 - params
+- Session
 - express.json (body)
 - response
 - CORS
-- Session
 - EJS
 
 ## _Svelte Kit_ AJAX

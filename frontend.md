@@ -110,17 +110,18 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## NodeJS frontend-hez
 
-- http-server
-- WebpPack
-  - Entry
-  - Output
-  - Loaders
-  - Plugins
-- VITE
-  - dev server
-  - build
-  - deploy
-  - Server-Side Rendering
+- Development server
+  - http-server
+  - WebpPack
+    - Entry
+    - Output
+    - Loaders
+    - Plugins
+  - VITE
+    - dev server
+    - build
+    - deploy
+    - Server-Side Rendering
   
 ## _SvelteKit, SvelteUI_
 
