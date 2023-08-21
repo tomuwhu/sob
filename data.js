@@ -24,7 +24,7 @@ ds = [{
             fn:     `Amoba.svelte`
         }],
         keywords:[
-            `táblázat`, `onclick`, `svelte`, `{#each}`
+            `táblázat`, `onclick`, `svelte`, `{#each}`, `amőba`
         ]
     },
     {
@@ -44,7 +44,7 @@ ds = [{
             fn:     `+page.svelte`
         }],
         keywords:[
-            `táblázat`, `onclick`, `svelte`, `amőba`, `{#each}` 
+            `táblázat`, `onclick`, `svelte`, `amőba`, `{#each}`, `válasz`, `mindenre`, `42`
         ]
     },
     {
@@ -59,7 +59,7 @@ ds = [{
             fn:     `Counter.svelte`
         }],
         keywords:[
-            `svelte`, `counter`, `onclick`, `click`, `egyszerű` 
+            `svelte`, `counter`, `onclick`, `click`, `egyszerű`, `számláló`
         ]
     },
     {
@@ -111,7 +111,7 @@ ds = [{
             fn:     `Fetch3.html`
         }],
         keywords:[
-            `Egyszerű`, `Svelte`, `FullStack` 
+            `Egyszerű`, `Svelte`, `FullStack`, `válasz`, `mindenre`, `42`
         ]
     },
     {
@@ -141,7 +141,7 @@ ds = [{
             fn:     `Malom.svelte`
         }],
         keywords:[
-            `svelte`, `malom`, `gráf`, `adatszerkezet`, `svg`, `line`, `circle`, `{#each}` 
+            `svelte`, `malom`, `gráf`, `adatszerkezet`, `svg`, `line`, `circle`, `{#each}`, `tábla`
         ]
     }, {
         name: `Drag & Drop példa`,
@@ -185,7 +185,7 @@ ds = [{
             fn:     `Malomdd.svelte`
         }],
         keywords:[
-            `svelte`, `malom`, `drag`, `drop`, `svg`
+            `svelte`, `malom`, `drag`, `drop`, `svg`, `bábuk`, `mozgatása`
         ]
     }, {
         name: `Malom teljes játék`,
@@ -199,7 +199,7 @@ ds = [{
             fn:     `Malomfull.svelte`
         }],
         keywords:[
-            `svelte`, `malom`, `drag`, `drop`, `svg`
+            `svelte`, `malom`, `drag`, `drop`, `svg`, `teljes`, `játék` 
         ]
     }, {
         name: `Animáció`,
@@ -213,7 +213,7 @@ ds = [{
             fn:     `Animation.svelte`
         }],
         keywords:[
-            `svelte`, `input`, `range`, `bind`, `position`
+            `svelte`, `input`, `range`, `bind`, `position`, `animáció`
         ]
     }, {
         name: `Időzítő`,
@@ -228,6 +228,20 @@ ds = [{
         }],
         keywords:[
             `svelte`, `setInterval`, `időzítő`, `négyzet`, `hatványozás`
+        ]
+    }, {
+        name: `Órarend`,
+        date: `2023-08-21`,
+        text: `Dinamikus tartalom-generálás`,
+        git:    [   `sv02`,
+                    `https://github.com/tomuwhu/sv02/blob/master/src/routes/orarend/%2Bpage.svelte`,
+                    `https://tomuwhu.github.io/sv02/orarend.html`],
+        files: [{
+            type:   `svelte`,
+            fn:     `Orarend.svelte`
+        }],
+        keywords:[
+            `svelte`, `setInterval`, `időzítő`, `each`, `onMount`, `fixed`, `position`, `dinamikus`, `órarend`
         ]
     }]
 s = x => `${x.map((e, i) => `<div class="c">
