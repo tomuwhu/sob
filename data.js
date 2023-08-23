@@ -5,7 +5,7 @@ ds = [{
         name:   `FullStack példa 1`,
         date:   `2023-08-22`,
         text:   `PHP - Sveltekit - MySQL FullStack Web APP`,
-        git:    [`SOB`, `https://github.com/tomuwhu/svs`, `https://github.com/tomuwhu/svs/tree/master`],
+        git:    [`SOB`, `"https://tomuwhu.github.io/svs/`, `https://github.com/tomuwhu/svs/tree/master`],
         keywords:[
                 `PHP`, `SvelteKit`, `FullStack`, `HTML`, `CSS`, `JavaScript`, `vite`
         ]
