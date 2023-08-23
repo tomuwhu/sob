@@ -2,6 +2,15 @@ k = 0
 n = 5
 a = [-1, -1]
 ds = [{
+        name:   `FullStack példa`,
+        date:   `2023-08-23`,
+        text:   `ExpressJS - Sveltekit FullStack Web APP`,
+        git:    [`SOB`, `https://github.com/tomuwhu/express-svelte`, ``],
+        keywords:[
+                `ExpressJS`, `SvelteKit`, `FullStack`, `HTML`, `CSS`, `JavaScript`, `nodejs`
+        ]
+    },
+    {
         name:   `Weboldal forráskód`,
         date:   `2023-07-20`,
         text:   `Példaprogramokat tároló adatszerkezet, forráskód-megjelenítő`,
