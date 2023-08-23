@@ -285,6 +285,7 @@ td.b1 a,
 td.b3 a {
     background: transparent;
 }
+
 .hljs {
     overflow-x: auto;
     overflow-y: auto;
@@ -300,23 +301,29 @@ div#html h2 {
 div#html ul {
     font-size: 12px;
 }
+
 @media (max-width: 500px) {
     #code {
         font-size: 10px;
     }
+
     .cx h2+p {
         font-size: 9px;
     }
+
     div#html h2 {
         font-size: 12px;
     }
+
     div#html ul {
         font-size: 10px;
     }
+
     .c2 {
         width: 440px;
         font-size: 11px;
     }
+
     .hljs {
         width: 440px;
         font-size: 11px;
@@ -327,47 +334,72 @@ div#html ul {
     #code {
         font-size: 9.5px;
     }
+
     div#html h2 {
         font-size: 11px;
     }
+
     div#html ul {
         font-size: 10px;
     }
+
     .c2 {
         width: 340px;
         font-size: 11px;
     }
+
     .hljs {
         width: 340px;
         font-size: 11px;
     }
 }
+
 @media (max-width: 320px) {
     #code {
         font-size: 9px;
     }
+
     div#html h2 {
         font-size: 11px;
     }
+
     div#html ul {
         font-size: 9px;
     }
+
     .c2 {
         width: 270px;
         font-size: 10px;
     }
+
     .hljs {
         width: 270px;
         font-size: 10px;
     }
 }
+
 .bl {
     margin: 4px;
     box-shadow: 1px 1px 4px black;
 }
+
 code.language-json {
     background-color: rgb(12, 45, 34);
 }
+
 code.svelte {
     background-color: rgb(4, 37, 68);
+}
+
+a.bl3 {
+    background-color: rgb(123, 54, 64);
+    color: rgb(215, 178, 178);
+}
+a.bl3:hover {
+    background-color: rgb(185, 57, 76);
+    color: rgb(215, 178, 178);
+}
+a.bl3:active {
+    background-color: rgb(186, 10, 37);
+    color: rgb(215, 178, 178);
 }
