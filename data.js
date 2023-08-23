@@ -2,7 +2,7 @@ k = 0
 n = 5
 a = [-1, -1]
 ds = [{
-        name:   `FullStack példa`,
+        name:   `FullStack példa 1`,
         date:   `2023-08-22`,
         text:   `PHP - Sveltekit - MySQL FullStack Web APP`,
         git:    [`SOB`, `https://github.com/tomuwhu/svs`, `https://github.com/tomuwhu/svs/tree/master`],
@@ -10,7 +10,7 @@ ds = [{
                 `PHP`, `SvelteKit`, `FullStack`, `HTML`, `CSS`, `JavaScript`, `vite`
         ]
     },{
-        name:   `FullStack példa`,
+        name:   `FullStack példa 2`,
         date:   `2023-08-23`,
         text:   `ExpressJS - Sveltekit FullStack Web APP`,
         git:    [`SOB`, `https://github.com/tomuwhu/express-svelte`, ``],
