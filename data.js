@@ -6,6 +6,13 @@ ds = [
     name: `SvelteUI Template`,
     date: `2023-08-24`,
     text: `Alap frontend template`,
+    files: [{
+      type: `svelte`,
+      fn: `SvelteUI.svelte`
+    }, {
+      type: `svelte`,
+      fn: `SvelteUI_link.svelte`
+    }],
     git: [`SOB`, `https://github.com/tomuwhu/svelteui`, `https://tomuwhu.github.io/svelteui`],
     keywords: [
       `SvelteKit`, `SvelteUI`, `HTML`, `CSS`, `JavaScript`, `vite`, `simple`, `egyszerű`, `counter`, `app`
