@@ -62,6 +62,10 @@
 
 ## _Svelte Kit_ AJAX
 
+- fetch
+- axios
+- md5
+
 ## Full-stack multiplatform alkalmazás készítése
 
   {Tárgyak közötti együttműködéssel}

@@ -69,14 +69,16 @@ git config --global user.email "<youremail@yourdomain.com>"
   - try...catch
 - Objektumok
 - Osztályok
+- TypeScript: Interface
 
 ## JavaScript fogások
 
 - String template
 - Array (map, forEach, fill, ...)
-- Callback
-- Promisse
 - SetInterval, SetTimeout
+- Callback
+- async, await
+- Promisse
 - Fetch
 - Date, Time
 - JSON
@@ -124,6 +126,12 @@ git config --global user.email "<youremail@yourdomain.com>"
     - Server-Side Rendering
   
 ## _SvelteKit, SvelteUI_
+
+- npm create svelte
+- adapter-static, .nojekyll, svelte.config, {basedir}
+- sass: rollup.config, prettierrc
+- routes
+- onMount
 
 ## Full-stack multiplatform alkalmazás készítése
 
