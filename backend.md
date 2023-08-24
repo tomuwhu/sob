@@ -39,13 +39,14 @@
 - alapok, event-loop
 - modulok
 - npm, package.json
+- node_modules, npm i, package.json
 - nodemon
 - események
 - fájlrendszer
 - Reguláris kifejezések
 - NodeJs NeDB
 - NodeJS MongoDB, Mongoose
-- NodeJs SQLite
+- NodeJs SQLite3
 - NodeJS MySQL
 
 ## ExpressJS
