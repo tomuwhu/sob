@@ -131,13 +131,13 @@ git config --global user.email "<youremail@yourdomain.com>"
     - deploy
     - Server-Side Rendering
 
-## BootStrap
+## BootStrap/_SvelteStrap, SvelteUI_
 
 - Telepítés
 - Funkciók
 - Beállítás
 - Tartalom
-- Formok
+- Űrlapok
 - Komponensek
 
 ## _SvelteKit_
@@ -147,15 +147,6 @@ git config --global user.email "<youremail@yourdomain.com>"
 - sass: rollup.config, prettierrc
 - routes
 - onMount
-
-## _SvelteStrap, SvelteUI_
-
-- Telepítés
-- Funkciók
-- Beállítás
-- Tartalom
-- Formok
-- Komponensek
 
 ## Full-stack multiplatform alkalmazás fejlesztése
 
