@@ -46,9 +46,8 @@ ds = [
     ]
   },
   {
-    name: `Weboldal forráskód`,
+    name: `sob.es6.eu forráskód`,
     date: `2023-07-20`,
-    text: `Példaprogramokat tároló adatszerkezet, forráskód-megjelenítő`,
     git: [`SOB`, `https://github.com/tomuwhu/sob`, ``],
     keywords: [
       `Damerau`, `Levenshtein`, `JQuery`, `HTML`, `CSS`, `JavaScript`
@@ -294,7 +293,7 @@ ds = [
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
     <div class="x">${e.name}</div>
-    ${e.text ? `<div class="x"><u class="k1">${e.text}</u></div>` : `` }
+    ${e.text ? `<div class="x"><u class="k1">${e.text}</u></div>` : ``}
     <div><table>
     ${e.git && e.git[2].length ?
     `<td class="test bt"><a class="ap" href="${e.git[2]}" target="git">Futtat</a></td>`
