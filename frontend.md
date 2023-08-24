@@ -106,6 +106,9 @@ git config --global user.email "<youremail@yourdomain.com>"
 ## Browser JavaScript
 
 - Browser DevTools
+- window, document objects, DOM
+- getElementById, querySelectorAll()
+- element attribútumok
 - \<script src='...'\>, \<script type="module" src="./main.js"></script>
 - Helyi tárhey
 - IndexedDB
