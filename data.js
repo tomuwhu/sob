@@ -11,7 +11,7 @@ ds = [
       fn: `SvelteUI.svelte`
     }, {
       type: `svelte`,
-      fn: `SvelteUI_link.svelte`
+      fn: `Link.svelte`
     }],
     git: [`SOB`, `https://github.com/tomuwhu/svelteui`, `https://tomuwhu.github.io/svelteui`],
     keywords: [
