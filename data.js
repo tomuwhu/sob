@@ -2,7 +2,7 @@ k = 0
 n = 5
 a = [-1, -1]
 ds = [{
-  name: `Svelte animáció`,
+  name: `Fizikai szimuláció`,
   date: `2023-08-23`,
   text: `Sebesség állítása példa`,
   files: [{
@@ -11,7 +11,7 @@ ds = [{
   }],
   git: [`SOB`, `https://github.com/tomuwhu/svs/blob/master/src/routes/anim/%2Bpage.svelte`, `https://tomuwhu.github.io/svs/anim`],
   keywords: [
-    `SvelteKit`, `Animáció`, `HTML`, `CSS`, `JavaScript`, `vite`, 'range'
+    `SvelteKit`, `Animáció`, `HTML`, `CSS`, `JavaScript`, `vite`, 'range', 'fizika', 'szimuláció', 'egyenes', 'egyenletes', 'mozgás', 'vonalú'
   ]
 }, {
   name: `FullStack példa 1`,
