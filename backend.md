@@ -83,9 +83,9 @@
 
 ## Kapcsolódó technológiák
 
+- MPJ: MySQL-PHP-JQuery
+- MESN: MySQL-ExpressJS-SvelteKit-NodeJS
 - RestAPI, SSE, WebSocket
 - Autentikáció, Oatuh
 - BlockChain Serverless Keretrendszerek
 - Peer-To-Peer hálózatok, WebRTC
-- SEJB: SQLite-PHP-JQuery-BrowserJS
-- NESN: NeDB-Express-Svelte-NodeJS
