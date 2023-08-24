@@ -11,7 +11,7 @@
 - index.html, README.md
 - Beállítások, GitHub Pages
 
-```text
+```bash
 git config --global user.name "Your Name"
 git config --global user.email "<youremail@yourdomain.com>"
 ```
@@ -28,8 +28,9 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Live Server
   - Live Share
   - Markdown All in One
+  - Markdownlint
   - IntelliCode
-  - Material Icon Theme
+  - Material Icons
   - _Svelte preview_
   - _Svelte counter példaalkalmazás_
 
