@@ -5,7 +5,6 @@ ds = [
   {
     name: `SvelteUI Template`,
     date: `2023-08-24`,
-    text: `Alap frontend template`,
     files: [{
       type: `svelte`,
       fn: `SvelteUI.svelte`
@@ -295,7 +294,7 @@ ds = [
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date}</div>
     <div class="x">${e.name}</div>
-    <div class="x"><u class="k1">${e.text}</u></div>
+    ${e.text ? `<div class="x"><u class="k1">${e.text}</u></div>` : `` }
     <div><table>
     ${e.git && e.git[2].length ?
     `<td class="test bt"><a class="ap" href="${e.git[2]}" target="git">Futtat</a></td>`
