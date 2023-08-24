@@ -23,8 +23,9 @@ git config --global user.email "<youremail@yourdomain.com>"
 - témák használata
 - pluginek
   - ESLint
+  - Prettier
   - GitHub Pull Requests
-  - indent-rainbow
+  - Indent-rainbow
   - Live Server
   - Live Share
   - Markdown All in One
