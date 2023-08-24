@@ -52,7 +52,7 @@
   - Dates
 - Motion
 
-## Full-stack multiplatform alkalmazás készítése
+## Full-stack multiplatform alkalmazás fejlesztése
 
   {Tárgyak közötti együttműködésel}
 

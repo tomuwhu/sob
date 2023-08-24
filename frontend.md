@@ -36,6 +36,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## HTML/CSS/Markdown ismétlés
 
+- Markdown
 - HTML objektumok, attribútumok, szelektorok
 - CSS szelektorok, FlexBox
 - Táblázatok
@@ -125,8 +126,17 @@ git config --global user.email "<youremail@yourdomain.com>"
     - build
     - deploy
     - Server-Side Rendering
-  
-## _SvelteKit, SvelteUI_
+
+## BootStrap
+
+- Telepítés
+- Funkciók
+- Beállítás
+- Tartalom
+- Formok
+- Komponensek
+
+## _SvelteKit_
 
 - npm create svelte
 - adapter-static, .nojekyll, svelte.config, {basedir}
@@ -134,7 +144,16 @@ git config --global user.email "<youremail@yourdomain.com>"
 - routes
 - onMount
 
-## Full-stack multiplatform alkalmazás készítése
+## _SvelteStrap, SvelteUI_
+
+- Telepítés
+- Funkciók
+- Beállítás
+- Tartalom
+- Formok
+- Komponensek
+
+## Full-stack multiplatform alkalmazás fejlesztése
 
   {Tárgyak közötti együttműködéssel}
 

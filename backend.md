@@ -66,7 +66,7 @@
 - axios
 - md5
 
-## Full-stack multiplatform alkalmazás készítése
+## Full-stack multiplatform alkalmazás fejlesztése
 
   {Tárgyak közötti együttműködéssel}
 
