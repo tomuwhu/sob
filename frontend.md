@@ -135,6 +135,7 @@ git config --global user.email "<youremail@yourdomain.com>"
     - deploy
     - Server-Side Rendering
 - Axios, RestApi
+- Socket.io
 
 ## _SvelteKit_
 
