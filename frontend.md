@@ -59,21 +59,27 @@ git config --global user.email "<youremail@yourdomain.com>"
   - _események (on:click, ...)_
 - Szintaxis
   - Értékek, típusok (számok, szöveg)
-  - Változók, definiálás, értékadás 
+  - Változók, definiálás, értékadás
   - _var, let, const_
   - JavaScript / TypeScript
-  - Operátorok, kifejezések, precedencia
-  - Feltételes értékadás: ண ? ண : ண
+    - alap típusok: string, number, boolean
+    - bigint, symbol, object, funtion, any
   - Kulcsszavak
   - Kommentek: //, /⁕ &lt;!-- ண -->
+  - Operátorok, kifejezések, precedencia
+  - String függvények, template
+  - Feltételes értékadás: ண ? ண : ண
 - Függvények
   - function f() {}
   - f = (...) => { ... ; return ௐ}
   - f = ௐ => ண
+  - alapértelmezett érték
+  - _nem kötelező paraméter kötelező típussal: ௐ?:ண_
+  - objektum paraméter
 - _Számított értékek: $: ௐ_
 - Tömbök (listák)
 - Utasítások
-  - if, elseif, else, switch-case
+  - if, elseif, else, switch...case
   - for, .forEach(ண), .map(ண), ...
   - _{#if ண} ... {:else if ண} ... {:else} ... {/if}_
   - _{#each ஃ as ୦} ... {/each}_
