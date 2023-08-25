@@ -74,7 +74,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - f = (...) => { ... ; return ௐ}
   - f = ௐ => ண
   - alapértelmezett érték
-  - _nem kötelező paraméter kötelező típussal: ௐ?:ண_
+  - _nem kötelező paraméter, kötelező típussal: ௐ?:ண_
   - objektum paraméter
 - _Számított értékek: $: ௐ_
 - Tömbök (listák)
