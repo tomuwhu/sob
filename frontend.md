@@ -90,8 +90,10 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Osztályok
   - jellemzők
   - metódusok
+  - constructor
+  - extends, static
   - példányosítás
-- _TypeScript: Interface_
+- _TypeScript: interface, implements, private, protected, \<T>_
 
 ## JavaScript fogások
 
