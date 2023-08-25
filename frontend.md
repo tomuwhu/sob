@@ -44,6 +44,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Űrlapok, Űrlapelemek
 - Események
 - CSS Animációk
+- Favicon
 
 ## JavaScript/TypeScript (Browser)
 
@@ -114,23 +115,10 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Chart.js
   - vis.js
   - jQuery
-
-## JQUERY (ha lesz idő)
-
-- Szintaxis
-- Szelektorok
-- Események
-- html, text, css
-- méretek
-- filterek
-
-## Browser JavaScript
-
-- Helyi tárhey
-- IndexedDB
-- WebSQL
-
-## Axios, RestAPI, CORS
+- Browser Alkalmazás
+  - Helyi tárhey (localStorage, sessionStorage)
+  - IndexedDB
+  - WebSQL
 
 ## NodeJS frontend-hez
 
@@ -146,6 +134,7 @@ git config --global user.email "<youremail@yourdomain.com>"
     - build
     - deploy
     - Server-Side Rendering
+- Axios, RestApi
 
 ## _SvelteKit_
 
