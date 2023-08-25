@@ -301,12 +301,20 @@ div#html h2 {
 div#html ul {
     font-size: 12px;
 }
-
+strong {
+    font-weight: normal;
+    color: rgb(150, 211, 208);
+    font-size: 10px;
+}
 @media (max-width: 500px) {
     #code {
         font-size: 10px;
     }
-
+    strong {
+        font-weight: normal;
+        color: rgb(150, 211, 208);
+        font-size: 9px;
+    }
     .cx h2+p {
         font-size: 9px;
     }
@@ -334,7 +342,11 @@ div#html ul {
     #code {
         font-size: 9.5px;
     }
-
+    strong {
+        font-weight: normal;
+        color: rgb(150, 211, 208);
+        font-size: 8.5px;
+    }
     div#html h2 {
         font-size: 11px;
     }
@@ -375,6 +387,11 @@ div#html ul {
     .hljs {
         width: 270px;
         font-size: 10px;
+    }
+    strong {
+        font-weight: normal;
+        color: rgb(150, 211, 208);
+        font-size: 8px;
     }
 }
 

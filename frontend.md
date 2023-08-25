@@ -45,23 +45,31 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Események
 - CSS Animációk
 
-## JavaScript/TypeScript Szintaxis
+## JavaScript/TypeScript (Browser)
 
 - JavaScript megjelenítés
-  - böngésző funkciók (.innerHTML(), ...)
-  - console.log()
+  - Browser DevTools, console
+  - window, document objects, DOM
+  - getElementById, querySelectorAll()
+  - element attribútumok
+  - \<script src='...'\>, \<script type="module" src="./main.js"></script>
   - _{}, bind:value, ..._
-- Eseménykezelés
+- Eseménykezelés __~Függvények__
   - böngésző események (onclick, ...)
-  - _események (on:click, bind:value, ...)_
+  - _események (on:click, ...)_
 - Szintaxis
   - Értékek, típusok (számok, szöveg)
-  - Változók, definiálás, értékadás (var, let, const)
+  - Változók, definiálás, értékadás 
+  - _var, let, const_
+  - JavaScript / TypeScript
   - Operátorok, kifejezések, precedencia
   - Feltételes értékadás: ண ? ண : ண
   - Kulcsszavak
   - Kommentek: //, /⁕ &lt;!-- ண -->
 - Függvények
+  - function f() {}
+  - f = (...) => { ... ; return ௐ}
+  - f = ௐ => ண
 - _Számított értékek: $: ௐ_
 - Tömbök (listák)
 - Utasítások
@@ -71,8 +79,13 @@ git config --global user.email "<youremail@yourdomain.com>"
   - _{#each ஃ as ୦} ... {/each}_
   - try...catch
 - Objektumok
+  - jellemzők
+  - metódusok
 - Osztályok
-- TypeScript: Interface
+  - jellemzők
+  - metódusok
+  - példányosítás
+- _TypeScript: Interface_
 
 ## JavaScript fogások
 
@@ -105,11 +118,6 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## Browser JavaScript
 
-- Browser DevTools
-- window, document objects, DOM
-- getElementById, querySelectorAll()
-- element attribútumok
-- \<script src='...'\>, \<script type="module" src="./main.js"></script>
 - Helyi tárhey
 - IndexedDB
 - WebSQL
@@ -131,15 +139,6 @@ git config --global user.email "<youremail@yourdomain.com>"
     - deploy
     - Server-Side Rendering
 
-## BootStrap/_SvelteStrap, SvelteUI_
-
-- Telepítés
-- Funkciók
-- Beállítás
-- Tartalom
-- Űrlapok
-- Komponensek
-
 ## _SvelteKit_
 
 - npm create svelte
@@ -147,6 +146,15 @@ git config --global user.email "<youremail@yourdomain.com>"
 - sass: rollup.config, prettierrc
 - routes
 - onMount
+
+## _SvelteUI_
+
+- Telepítés
+- Funkciók
+- Beállítás
+- Tartalom
+- Űrlapok
+- Komponensek
 
 ## Full-stack multiplatform alkalmazás fejlesztése
 
