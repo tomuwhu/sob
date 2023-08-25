@@ -18,6 +18,7 @@
   - Osztályok, objektumok
   - FullStack: HTML FORM POST
   - CORS
+  - Event-stream
 - MySQL
   - SELECT
   - WHERE

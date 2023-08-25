@@ -105,6 +105,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - async, await
 - Promisse
 - Fetch
+- EventSource
 - Date, Time
 - JSON
 - RegExp
