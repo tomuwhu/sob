@@ -32,7 +32,7 @@ ds = [
     name: `FullStack példa 1`,
     date: `2023-08-22`,
     text: `PHP - Sveltekit - MySQL FullStack Web APP`,
-    git: [`SOB`, `https://github.com/tomuwhu/svs/tree/master`, `https://tomuwhu.github.io/svs`],
+    git: [`SOB`, `https://github.com/tomuwhu/SOB_Intranet`, `https://tomuwhu.github.io/SOB_Intranet`],
     keywords: [
       `PHP`, `SvelteKit`, `FullStack`, `HTML`, `CSS`, `JavaScript`, `vite`
     ]
