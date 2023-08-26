@@ -10,6 +10,7 @@
 - GitHub Desktop
 - index.html, README.md
 - Beállítások, GitHub Pages
+- Adatvédelmi tudnivalók, GitGuardian
 
 ```bash
 git config --global user.name "Your Name"
