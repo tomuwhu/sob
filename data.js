@@ -334,8 +334,8 @@ sz = t => {
   $(`#code`).text("")
   if (!t.value.length) ar()
   else ds.sort((r1, r2) => {
-    e1 = té(t.value.toUpperCase(), r1.name.toUpperCase(), r1.text.toUpperCase(), r1.keywords.map(v => v.toUpperCase()))
-    e2 = té(t.value.toUpperCase(), r2.name.toUpperCase(), r2.text.toUpperCase(), r2.keywords.map(v => v.toUpperCase()))
+    e1 = té(t.value.toUpperCase(), r1.name.toUpperCase(), r1.text ? r1.text.toUpperCase() : '', r1.keywords.map(v => v.toUpperCase()))
+    e2 = té(t.value.toUpperCase(), r2.name.toUpperCase(), r2.text ? r2.text.toUpperCase() : '', r2.keywords.map(v => v.toUpperCase()))
     return e1 - e2
   })
   $('#content').html(s(ds.slice(k, k + n)))
