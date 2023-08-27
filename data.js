@@ -211,7 +211,7 @@ ds = [
       `https://tomuwhu.github.io/svnt2/dragntable`],
     files: [{
       type: `svelte`,
-      fn: `Dragntable.svelte`
+      fn: `DragnTable.svelte`
     }],
     keywords: [
       `svelte`, `drag`, `drop`, `table`, `számjáték`, `{#each}`
