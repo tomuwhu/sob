@@ -2,6 +2,11 @@
 
 ## Bash
 
+- Fájltendszer, könyvtárstruktúra
+  - fájltípusok, kiterjesztések
+  - fa könyvtár-struktúra
+  - abszolút-, relatív elérési út
+  - file, könyvtár
 - Terminál app
 - Terminál parancsok
 
@@ -38,6 +43,7 @@
 - JSON
 - NodeJS telepítése
 - alapok, event-loop
+- parancssoros alkalmazás készítése
 - modulok
 - npm, package.json
 - node_modules, npm i, package.json
