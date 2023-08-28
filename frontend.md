@@ -46,6 +46,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Események
 - CSS Animációk
 - Favicon
+- BootStrap
 
 ## JavaScript/TypeScript (Browser)
 
@@ -111,12 +112,14 @@ git config --global user.email "<youremail@yourdomain.com>"
 - JSON
 - RegExp
 - Modulok, CDN
+  - jQuery
+  - Axios, RestApi
+  - Socket.io<sup>*</sup>
   - levenshtein
   - marked
   - highlight.js
   - Chart.js
   - vis.js
-  - jQuery
 - Browser Alkalmazás
   - Helyi tárhey (localStorage, sessionStorage)
   - IndexedDB
@@ -124,20 +127,11 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## NodeJS frontend-hez
 
-- Development server
-  - http-server
-  - WebpPack
-    - Entry
-    - Output
-    - Loaders
-    - Plugins
-  - VITE
-    - dev server
-    - build
-    - deploy
-    - Server-Side Rendering
-- Axios, RestApi
-- Socket.io
+- Development server: VITE
+  - dev server
+  - build
+  - deploy
+  - Server-Side Rendering
 
 ## _SvelteKit_
 
