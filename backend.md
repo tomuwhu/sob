@@ -17,9 +17,11 @@
   - Install
 - PHP
   - Szintaxis
-  - Változók, mommentek, típusok
+  - Változók, kommentek, típusok
   - Vezérlési szerkezetek, asszociatív tömb
-  - GET, POST, SESSION
+  - echo, print_r(), template (\<?php ?>, {})
+  - GET, POST, file_get_contents('php://input')
+  - SESSION, session_start(), session_id()
   - Osztályok, objektumok
   - FullStack: HTML FORM POST
   - CORS
