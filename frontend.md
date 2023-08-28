@@ -123,8 +123,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - vis.js
 - Browser Alkalmazás
   - Helyi tárhey (localStorage, sessionStorage)
-  - IndexedDB
-  - WebSQL
+  - Firefox: Svelte Dev Tools
 
 ## NodeJS frontend-hez
 
