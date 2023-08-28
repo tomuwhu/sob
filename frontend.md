@@ -46,6 +46,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Események
 - CSS Animációk
 - Favicon
+- .css file, \<link>
 - BootStrap
 
 ## JavaScript/TypeScript (Browser)
