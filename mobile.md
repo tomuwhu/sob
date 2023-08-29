@@ -1,4 +1,4 @@
-# Mobil alkalmazásfejlesztés tematika
+# Asztali- és Mobil alkalmazásfejlesztés tematika
 
 ## HTML/CSS/JS Mobile
 
