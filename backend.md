@@ -17,8 +17,9 @@
 ## XAMPP, PHP, MySQL
 
 - XAMPP
+  - Telepítés
   - Tools
-  - Install
+  - htdocs mappa, xampp control panel
 - PHP
   - Szintaxis
   - Változók, kommentek, típusok
@@ -54,14 +55,16 @@
 
 - JSON
 - NodeJS telepítése
+- Node konzol, console
 - alapok, event-loop
 - parancssoros alkalmazás készítése
+- input, standard input
+- FS, fájlok olvasása
 - modulok
 - npm, package.json
 - node_modules, npm i, package.json
 - nodemon
-- események
-- fájlrendszer
+- események, EventEmitter
 - Reguláris kifejezések
 - NodeJs NeDB
 - NodeJS MongoDB, Mongoose
