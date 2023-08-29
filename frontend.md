@@ -108,6 +108,9 @@ git config --global user.email "<youremail@yourdomain.com>"
 - async, await
 - Promisse
 - Fetch
+  - Stream
+  - Stream => Text
+  - Stream => JSON
 - EventSource
 - Date, Time
 - JSON
