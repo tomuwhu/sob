@@ -79,9 +79,14 @@ git config --global user.email "<youremail@yourdomain.com>"
   - f = ௐ => ண
   - alapértelmezett érték
   - _nem kötelező paraméter, kötelező típussal: ௐ?:ண_
-  - objektum paraméter
+  - objektum paraméter,
+  - beépített függvények
 - _Számított értékek: $: ௐ_
 - Tömbök (listák)
+  - Lista létrehozása
+  - Elem hozzáadása, adott elem kiválasztása
+  - Elem törlése, adott elem keresése
+  - Szűrés, rendezés, elemek módosítása
 - Utasítások
   - if, elseif, else, switch...case
   - for, .forEach(ண), .map(ண), ...
@@ -91,18 +96,22 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Objektumok
   - jellemzők
   - metódusok
+- Beépített objektumok
+  - Math, Array, ...
 - Osztályok
   - jellemzők
   - metódusok
   - constructor
   - extends, static
   - példányosítás
+- Beépített osztályok
+  - Set, Map, ...
 - _TypeScript: interface, implements, private, protected, \<T>_
 
 ## JavaScript fogások
 
 - String template
-- Array (map, forEach, fill, ...)
+- Array (map, forEach, fill, sort, filter, reduce)
 - SetInterval, SetTimeout
 - Callback
 - async, await
