@@ -22,13 +22,15 @@
 - PHP
   - Szintaxis
   - Változók, kommentek, típusok
-  - Vezérlési szerkezetek, asszociatív tömb
-  - echo, print_r(), template (\<?php ?>, {})
-  - $argv
-  - GET, POST, file_get_contents('php://input')
-  - SESSION, session_start(), session_id()
-  - Osztályok, objektumok
+  - echo, template (\<?php ?>, {})
+  - Vezérlési szerkezetek
+  - Tömbök, listák
+  - Asszociatív tömbök
+  - print_r(), var_export()
   - FullStack: HTML FORM POST
+  - $_GET, $_POST
+  - $_SESSION, session_start(), session_id()
+  - Osztályok, objektumok
   - CORS
   - Event-stream
 - MySQL
@@ -42,8 +44,11 @@
   - LIMIT
   - LIKE
   - JOIN, LEFT JOIN
+- Szerver oldali alkalmazás készítése
 - Hagyományos FullStack alkalmazás fejlesztése
 - Ajax-os Full Stack alkalmazás fejlesztése
+  - file_get_contents('php://input')
+  - json_encode()
 
 ## NodeJS, NeDB, MongoDB, SQLite, MySQL
 
