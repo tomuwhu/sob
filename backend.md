@@ -17,8 +17,9 @@
 ## XAMPP, PHP, MySQL
 
 - XAMPP
+  - Telepítés
   - Tools
-  - Install
+  - htdocs mappa, xampp control panel
 - PHP
   - Szintaxis
   - Változók, kommentek, típusok
