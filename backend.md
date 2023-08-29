@@ -26,7 +26,7 @@
   - Vezérlési szerkezetek
   - Tömbök, listák
   - Asszociatív tömbök
-  - print_r(), var_export()
+  - print_r(), var_export(), echo json_encode()
   - FullStack: HTML FORM POST
   - $_GET, $_POST
   - $_SESSION, session_start(), session_id()
