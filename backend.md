@@ -7,9 +7,12 @@
   - fa könyvtár-struktúra
   - abszolút-, relatív elérési út
   - file, könyvtár
+  - futtatható fájl, command line applications
 - Terminál app
 - Terminál parancsok
-  - ls, cd, mkdir, chmod
+  - ls (dir), cd, mkdir, chmod
+  - touch, rm, cp, mv
+  - su, sudo, pwd, cat (type)
 
 ## XAMPP, PHP, MySQL
 
@@ -21,6 +24,7 @@
   - Változók, kommentek, típusok
   - Vezérlési szerkezetek, asszociatív tömb
   - echo, print_r(), template (\<?php ?>, {})
+  - $argv
   - GET, POST, file_get_contents('php://input')
   - SESSION, session_start(), session_id()
   - Osztályok, objektumok
