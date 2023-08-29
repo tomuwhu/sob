@@ -55,14 +55,16 @@
 
 - JSON
 - NodeJS telepítése
+- Node konzol, console
 - alapok, event-loop
 - parancssoros alkalmazás készítése
+- input, standard input
+- FS, fájlok olvasása
 - modulok
 - npm, package.json
 - node_modules, npm i, package.json
 - nodemon
 - események, EventEmitter
-- fájlrendszer
 - Reguláris kifejezések
 - NodeJs NeDB
 - NodeJS MongoDB, Mongoose
