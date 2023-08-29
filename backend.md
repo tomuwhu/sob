@@ -61,7 +61,7 @@
 - npm, package.json
 - node_modules, npm i, package.json
 - nodemon
-- események, EventEmmiter
+- események, EventEmitter
 - fájlrendszer
 - Reguláris kifejezések
 - NodeJs NeDB
