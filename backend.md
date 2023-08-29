@@ -9,6 +9,8 @@
   - file, könyvtár
 - Terminál app
 - Terminál parancsok
+  - ls, cd, mkdir, chmod
+  - 
 
 ## XAMPP, PHP, MySQL
 
