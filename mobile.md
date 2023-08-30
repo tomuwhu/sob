@@ -28,10 +28,18 @@
   - Input feldolgozása
   - Parancssori paraméterek feldolgozása
   - Szövegfájl feldolgozása
+- [CSES Problem SET](https://cses.fi/problemset/) megoldása
 - Visual Studio telepítése
 - WPF alkalmazás készítése
   - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
 
 ## JAVA
+
+- Szintaxis
+- Console alkalmazások fejlesztése
+  - Input feldolgozása
+  - Parancssori paraméterek feldolgozása
+  - Szövegfájl feldolgozása
+- [CSES Problem SET](https://cses.fi/problemset/) megoldása
 
 [központi tematika](pdf/Asztali%20és%20mobil%20alkalmazások%20fejlesztése%20és%20tesztelése.pdf)
