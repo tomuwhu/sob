@@ -33,7 +33,7 @@
 - WPF alkalmazás készítése
   - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
 
-## JAVA
+## Java
 
 - Szintaxis
 - Console alkalmazások fejlesztése
