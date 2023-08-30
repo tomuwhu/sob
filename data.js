@@ -211,9 +211,9 @@ ds = [
       `svelte`, `drag`, `drop`, `{#each}`
     ]
   }, {
-    name: `Drag & Drop példa 2`,
+    name: `Számjáték`,
+    text: `Drag & Drop példa`,
     date: `2023-08-20`,
-    text: ``,
     git: [`svnt2`,
       `https://github.com/tomuwhu/svnt2/blob/master/src/routes/dragntable/%2Bpage.svelte`,
       `https://tomuwhu.github.io/svnt2/dragntable`],
@@ -300,11 +300,11 @@ ds = [
   }]
 s = x => `${x.map((e, i) => `<div class="c">
     <div class="x">${e.date} &nbsp; | &nbsp; </div>
-    <div class="x">${e.name} &nbsp; | &nbsp; </div>
-    ${e.text ? `<div class="x"><u class="k1">${e.text}</u></div>` : ``}
+    <div class="x">${e.name}</div>
+    ${e.text ? `<div class="x"> &nbsp; | &nbsp; <u class="k1">${e.text}</u></div>` : ``}
     <div><table>
     ${e.git && e.git[2].length ?
-    `<td class="test bt"><a class="ap" href="${e.git[2]}" target="git">Futtat</a></td>`
+    `<td> | </td><td class="test bt"><a class="ap" href="${e.git[2]}" target="git">Futtat</a></td>`
     : ``}
     <td> | </td>
     ${e.files ? `<td class="bt">Forrás:` : ``}
