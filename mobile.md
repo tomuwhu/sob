@@ -12,6 +12,7 @@
 - LIMIT
 - LIKE
 - JOIN, LEFT JOIN
+- [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
 
 ## C\#
 
@@ -28,6 +29,7 @@
   - Input feldolgozása
   - Parancssori paraméterek feldolgozása
   - Szövegfájl feldolgozása
+  - [HackerRank](https://www.hackerrank.com/domains/algorithms) feladatok megoldása C# nyelven
 - Visual Studio telepítése
 - WPF alkalmazások fejlesztése
   - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
