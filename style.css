@@ -241,16 +241,21 @@ div.tz {
 #fny,
 #lny {
     text-shadow: 1px 1px 3px black;
-    background-color: rgb(60, 65, 65);
-    box-shadow: 1px 1px 4px inset black;
-    padding: 5px;
+    background-color: rgb(7, 62, 62);
+    box-shadow: 0px 0px 3px rgb(209, 215, 215);
+    padding: 0px;
 }
 
 #fny:hover,
 #lny:hover {
-    background-color: rgb(80, 100, 100);
-    box-shadow: 1px 1px 4px black;
-    color: black;
+    background-color: rgb(5, 107, 107);
+    color: rgb(186, 184, 28);
+}
+
+#fny:active,
+#lny:active {
+    background-color: rgb(6, 159, 159);
+    color: rgb(186, 184, 28);
 }
 
 table {
