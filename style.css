@@ -23,7 +23,7 @@ h3 div {
 body {
     margin: 0px;
     margin-top: 15px;
-    background-color: rgb(12, 12, 12);
+    background-color: black;
     color: rgb(152, 174, 177);
     text-align: center;
 }
@@ -37,7 +37,7 @@ div.c {
     user-select: none;
     grid-template-columns: 20% 40% 60%;
     justify-content: center;
-    background-color: rgb(18, 34, 48);
+    background-color: rgb(0, 11, 15);
     box-shadow: 1px 1px 4px inset black;
 }
 
@@ -100,14 +100,15 @@ b {
 
 input {
     font-family: Verdana;
-    font-size: 11px;
+    font-size: 10px;
     border-radius: 2px;
     border: none;
-    padding: 2px;
-    padding-left: 7px;
+    padding: 3px;
+    padding-left: 8px;
     margin: 5px;
     box-shadow: 1px 1px 3px inset black;
     width: 190px;
+    height: 13px;
 }
 
 input,
@@ -232,7 +233,8 @@ em {
 }
 
 div.tz {
-    background-color: rgb(51, 34, 67);
+    background-color: rgb(15, 62, 55);
+    padding: 5px;
 }
 
 #fny,
