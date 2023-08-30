@@ -299,8 +299,8 @@ ds = [
     ]
   }]
 s = x => `${x.map((e, i) => `<div class="c">
-    <div class="x">${e.date}</div>
-    <div class="x">${e.name}</div>
+    <div class="x">${e.date} &nbsp; | &nbsp; </div>
+    <div class="x">${e.name} &nbsp; | &nbsp; </div>
     ${e.text ? `<div class="x"><u class="k1">${e.text}</u></div>` : ``}
     <div><table>
     ${e.git && e.git[2].length ?

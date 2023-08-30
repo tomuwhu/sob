@@ -37,19 +37,14 @@ div.c {
     user-select: none;
     grid-template-columns: 20% 40% 60%;
     justify-content: center;
-    background-color: rgb(60, 103, 140);
+    background-color: rgb(18, 34, 48);
     box-shadow: 1px 1px 4px inset black;
 }
 
 div.c div {
-    background-color: rgb(17, 31, 56);
+    background: transparent;
     font-family: 'Franklin Gothic Medium';
-    font-size: 13px;
-    padding-left: 4px;
-    padding-right: 4px;
-    margin: 3px;
-    border-bottom: solid 0.5px white;
-    border-top: solid 0.5px white;
+    font-size: 12px;
 }
 
 div.x {
@@ -68,7 +63,6 @@ td.bt {
     padding: 5px;
     border: none;
     color: rgb(238, 145, 145);
-    background-color: rgb(12, 38, 56);
 }
 
 i:hover,
@@ -238,7 +232,7 @@ em {
 }
 
 div.tz {
-    background-color: rgb(185, 149, 219);
+    background-color: rgb(51, 34, 67);
 }
 
 #fny,
