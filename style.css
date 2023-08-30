@@ -240,10 +240,11 @@ div.tz {
 
 #fny,
 #lny {
+    font-size: 10px;
     text-shadow: 1px 1px 3px black;
     background-color: rgb(7, 62, 62);
     box-shadow: 0px 0px 3px rgb(209, 215, 215);
-    padding: 0px;
+    padding: 2px;
 }
 
 #fny:hover,
