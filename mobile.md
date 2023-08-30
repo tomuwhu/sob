@@ -1,6 +1,6 @@
 # Asztali- és Mobil alkalmazásfejlesztés tematika
 
-## MySQL
+## SQL: MySQL
 
 - SELECT
 - WHERE
