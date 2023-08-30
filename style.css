@@ -26,6 +26,7 @@ body {
     background-color: black;
     color: rgb(152, 174, 177);
     text-align: center;
+    user-select: none;
 }
 
 div.c {
