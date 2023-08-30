@@ -162,6 +162,39 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Űrlapok
 - Komponensek
 
+## HTML/CSS/JS Mobile
+
+- viewport
+- @media
+- inspect
+- device toolbar
+- touchstart, touchend, touchmove, touchcancel események
+- dragndrop speciális tulajdonságok
+- navigator.geolocation
+- DeviceOrientationEvent
+- DeviceMotionEvent
+  - acceleration, accelerationIncludingGravity
+  - interval
+  - rotationRate
+
+## JQuery UI
+
+- HTML
+- JavaScript
+- Options
+- Metódusok
+- Események
+- Styílusok
+- Interakciók
+- Widgetek
+- Effektek
+- Eszközök
+
+## JQuery Mobile
+
+- ThemeRoller
+- Eszközök
+
 ## Full-stack multiplatform alkalmazás fejlesztése
 
   {Tárgyak közötti együttműködéssel}
@@ -180,3 +213,5 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Elkészült rendszer közzététele
 
   {¹ tervezése és fejlesztése}
+
+[Központi tematika](pdf/Frontend%20programozás%20és%20tesztelés.pdf)
