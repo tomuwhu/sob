@@ -28,7 +28,7 @@
   - Input feldolgozása
   - Parancssori paraméterek feldolgozása
   - Szövegfájl feldolgozása
-- [CSES Problem SET](https://cses.fi/problemset/) megoldása
+- [CSES Problem SET](https://cses.fi/problemset/) megoldása C\# nyelven
   - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
   - Missing Number
   - Repetitions
@@ -40,7 +40,7 @@
   - Dice Combinations
   - Counting Rooms
 - Visual Studio telepítése
-- WPF alkalmazás készítése
+- WPF alkalmazások fejlesztése
   - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
 
 ## Java
@@ -50,7 +50,7 @@
   - Input feldolgozása
   - Parancssori paraméterek feldolgozása
   - Szövegfájl feldolgozása
-- [CSES Problem SET](https://cses.fi/problemset/) megoldása
+- [CSES Problem SET](https://cses.fi/problemset/) megoldása Java nyelven
   - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
   - Missing Number
   - Repetitions
@@ -61,5 +61,5 @@
   - Distinct Numbers
   - Dice Combinations
   - Counting Rooms
-
+- Java FX alkalmazások fejlesztése
 [központi tematika](pdf/Asztali%20és%20mobil%20alkalmazások%20fejlesztése%20és%20tesztelése.pdf)
