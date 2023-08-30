@@ -3,7 +3,7 @@ n = 5
 a = [-1, -1]
 ds = [
   {
-    name: `SOB_Intranet forrás`,
+    name: `SOB Intranet forráskód`,
     date: `2023-08-29`,
     git: [`SOB`, `https://github.com/tomuwhu/SOB_Intranet/`, `https://tomuwhu.github.io/SOB_Intranet/`],
     keywords: [
