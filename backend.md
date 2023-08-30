@@ -26,18 +26,18 @@
   - echo, template (\<?php ?>, {})
   - Vezérlési szerkezetek
   - Tömbök, listák
+  - Szerver oldali alkalmazás készítése
   - Asszociatív tömbök
   - print_r(), var_export(), echo json_encode()
   - FullStack: HTML FORM POST
   - $_GET, $_POST
-  - Parse json_encode(): PUT, DELETE
-  - Postman alkalmazás telepítése, használata
   - $_SESSION, session_start(), session_id()
+  - Hagyományos FullStack alkalmazás fejlesztése
+  - Postman alkalmazás telepítése, használata
+  - Parse json_encode(): PUT, PATCH, DELETE, HEAD, OPTIONS
   - Osztályok, objektumok
   - CORS
   - Event-stream
-- Szerver oldali alkalmazás készítése
-- Hagyományos FullStack alkalmazás fejlesztése
 - Ajax-os Full Stack alkalmazás fejlesztése
   - file_get_contents('php://input')
   - json_encode()
