@@ -24,7 +24,10 @@
     - Kulcsszavak
     - Utasítások, @, $
     - Attribútumok
-
+- Console alkalmazások fejlesztése
+  - Input feldolgozása
+  - Parancssori paraméterek feldolgozása
+  - Szövegfájl feldolgozása
 - Visual Studio telepítése
 - WPF alkalmazás készítése
   - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
