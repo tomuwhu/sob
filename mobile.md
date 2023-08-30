@@ -13,7 +13,7 @@
 - LIKE
 - JOIN, LEFT JOIN
 
-## C#
+## C\#
 
 - VSCode: C# for Visual Studio Code Plugin
 - C# programozási nyelv
