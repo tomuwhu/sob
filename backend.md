@@ -14,7 +14,7 @@
   - touch, rm, cp, mv
   - su, sudo, pwd, cat (type)
 
-## XAMPP: PHP + MySQL
+## XAMPP: PHP + MySQL/MariaDB
 
 - XAMPP
   - Telepítés
@@ -33,14 +33,13 @@
   - $_GET, $_POST
   - $_SESSION, session_start(), session_id()
   - Hagyományos FullStack alkalmazás fejlesztése
-  - Postman alkalmazás telepítése, használata
   - Parse json_encode(): PUT, PATCH, DELETE, HEAD, OPTIONS
   - Osztályok, objektumok
   - mysqli: query, fetch_assoc
   - CORS
   - Event-stream, flush, ob_flush, sleep
   - Packagist/Composer
-- MySQL
+- MySQL/MariaDB
   - SELECT
   - WHERE
   - AND, OR, NOT
@@ -53,7 +52,9 @@
   - JOIN, LEFT JOIN
   - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
   - phpMyAdmin
-- Ajax-os Full Stack alkalmazás fejlesztése
+- Postman alkalmazás telepítése, használata
+- Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
+  - DTO, JSON Mapping
   - file_get_contents('php://input')
   - json_encode()
 - Adatbázis tervezés, kapcsolatok
