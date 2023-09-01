@@ -22,6 +22,7 @@
 
 ## Java
 
+- JavaFX telepítése
 - Szintaxis
 - Console alkalmazások fejlesztése
   - Input feldolgozása
@@ -38,7 +39,7 @@
   - Distinct Numbers
   - Dice Combinations
   - Counting Rooms
-- Java FX alkalmazások fejlesztése
+- JavaFX alkalmazások fejlesztése
 
 ***
 
@@ -93,11 +94,11 @@
 
 - String osztály
 - Nyelvi beépített osztályok használatának alapja, dokumentációértelmezés
-- String osztály legfontosabb függvényei és használatuk: indexOf, charAt, substring()  
+- String osztály legfontosabb függvényei és használatuk: indexOf, charAt, substring()
 - A Stringkonkatenálás és az immutable fogalma
 - Stringek összehasonlítása
 - A Random osztály
-- Véletlenszám-generálás felhasználása a programozásban, pszeudo-véletlen elméleti kitekintő
+- Véletlenszám-generálás felhasználása a programozásban
 - Véletlenszám generálása a Random osztály segítségével, next...() függvények
 - A Math osztály
 - Math osztály felhasználásának lehetőségei
@@ -178,7 +179,7 @@
 
 - Példányosítás
   - Esettanulmány bevezetése
-  - Esettanulmány osztály létrehozása, osztályok példányosításának szintaxisa 
+  - Esettanulmány osztály létrehozása, osztályok példányosításának szintaxisa
   - New kulcsszó
   - Objektumok, objektumok összehasonlítása
   - Objektumreferenciák
