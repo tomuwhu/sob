@@ -14,7 +14,7 @@
   - touch, rm, cp, mv
   - su, sudo, pwd, cat (type)
 
-## XAMPP, PHP + MySQL
+## XAMPP: PHP + MySQL
 
 - XAMPP
   - Telepítés
@@ -58,7 +58,7 @@
 - Adatfolyam-tervezés, adatfolyam-diagrammok
 - Unit teszt,  integrációs tesztelés, rendszertesztelés
 
-## NodeJS, NeDB, MongoDB, SQLite, MySQL
+## NodeJS + NeDB/MongoDB/SQLite/MySQL
 
 - JSON
 - NodeJS telepítése
