@@ -1,19 +1,5 @@
 # Asztali- és Mobil alkalmazásfejlesztés tematika
 
-## SQL: MySQL
-
-- SELECT
-- WHERE
-- AND, OR, NOT
-- ORDER BY
-- INSERT INTO
-- UPDATE
-- DELETE
-- LIMIT
-- LIKE
-- JOIN, LEFT JOIN
-- [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
-
 ## C\#
 
 - VSCode: C# for Visual Studio Code Plugin

@@ -155,6 +155,8 @@ git config --global user.email "<youremail@yourdomain.com>"
 - sass: rollup.config, prettierrc
 - routes
 - onMount
+- komponensek
+- MVC alkalmazások fejlesztése
 
 ## _SvelteUI_
 

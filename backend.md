@@ -14,7 +14,7 @@
   - touch, rm, cp, mv
   - su, sudo, pwd, cat (type)
 
-## XAMPP, PHP, MySQL
+## XAMPP, PHP + MySQL
 
 - XAMPP
   - Telepítés
@@ -36,11 +36,27 @@
   - Postman alkalmazás telepítése, használata
   - Parse json_encode(): PUT, PATCH, DELETE, HEAD, OPTIONS
   - Osztályok, objektumok
+  - mysqli: query, fetch_assoc
   - CORS
-  - Event-stream
+  - Event-stream, flush, ob_flush, sleep
+- MySQL
+  - SELECT
+  - WHERE
+  - AND, OR, NOT
+  - ORDER BY
+  - INSERT INTO
+  - UPDATE
+  - DELETE
+  - LIMIT
+  - LIKE
+  - JOIN, LEFT JOIN
+  - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
 - Ajax-os Full Stack alkalmazás fejlesztése
   - file_get_contents('php://input')
   - json_encode()
+- Adatbázis tervezés, kapcsolatok
+- Adatfolyam-tervezés, adatfolyam-diagrammok
+- Unit teszt,  integrációs tesztelés, rendszertesztelés
 
 ## NodeJS, NeDB, MongoDB, SQLite, MySQL
 
