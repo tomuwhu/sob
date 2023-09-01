@@ -108,4 +108,7 @@
 - BlockChain Serverless Keretrendszerek
 - Peer-To-Peer hálózatok, WebRTC
 
+***
+
 [Központi tematika](pdf/Backend%20programozás%20és%20tesztelés.pdf)
+  
