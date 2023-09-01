@@ -217,4 +217,6 @@ git config --global user.email "<youremail@yourdomain.com>"
 
   {¹ tervezése és fejlesztése}
 
+***
+
 [Központi tematika](pdf/Frontend%20programozás%20és%20tesztelés.pdf)
