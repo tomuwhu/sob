@@ -53,4 +53,7 @@
   - Dice Combinations
   - Counting Rooms
 - Java FX alkalmazások fejlesztése
+
+***
+
 [központi tematika](pdf/Asztali%20és%20mobil%20alkalmazások%20fejlesztése%20és%20tesztelése.pdf)
