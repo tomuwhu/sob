@@ -39,6 +39,7 @@
   - mysqli: query, fetch_assoc
   - CORS
   - Event-stream, flush, ob_flush, sleep
+  - Packagist/Composer
 - MySQL
   - SELECT
   - WHERE
@@ -51,12 +52,14 @@
   - LIKE
   - JOIN, LEFT JOIN
   - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
+  - phpMyAdmin
 - Ajax-os Full Stack alkalmazás fejlesztése
   - file_get_contents('php://input')
   - json_encode()
 - Adatbázis tervezés, kapcsolatok
 - Adatfolyam-tervezés, adatfolyam-diagrammok
 - Unit teszt,  integrációs tesztelés, rendszertesztelés
+- Hosting: ATW
 
 ## NodeJS + NeDB/MongoDB/SQLite/MySQL
 
@@ -89,6 +92,7 @@
 - response
 - CORS
 - EJS
+- Hosting: Heroku
 
 ## _Svelte Kit_ AJAX
 
