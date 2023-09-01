@@ -3,6 +3,18 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `PHP Full Stack Form Template`,
+    date: `2023-09-01`,
+    git: [`SOB`, ``, `https://www.inf.u-szeged.hu/~tnemeth/SOB/Osszeado.php`],
+    files: [{
+      type: `php`,
+      fn: `Osszeado.php`
+    }],
+    keywords: [
+      `PHP`, `HTML`, `CSS`, `Backend`, `Form`, `REST`, `GET`, `POST`
+    ]
+  },
+  {
     name: `SOB Intranet forráskód`,
     date: `2023-08-29`,
     git: [`SOB`, `https://github.com/tomuwhu/SOB_Intranet/`, `https://tomuwhu.github.io/SOB_Intranet/`],
