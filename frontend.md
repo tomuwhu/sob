@@ -36,7 +36,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - _Svelte preview_
   - _Svelte counter példaalkalmazás_
 
-## HTML/CSS/Markdown ismétlés
+## HTML/CSS/Markdown/SVG ismétlés
 
 - Markdown
 - HTML objektumok, attribútumok, szelektorok
@@ -48,6 +48,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Favicon
 - .css file, \<link>
 - BootStrap
+- SVG formátum, SVG használata HTML-ben
 
 ## JavaScript/TypeScript (Browser)
 
@@ -55,12 +56,14 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Browser DevTools, console
   - window, document objects, DOM
   - getElementById, querySelectorAll()
-  - element attribútumok
+  - element attribútumok (id, class, draggable, ...)
   - \<script src='...'\>, \<script type="module" src="./main.js"></script>
   - _{}, bind:value, ..._
 - Eseménykezelés __~Függvények__
-  - böngésző események (onclick, ...)
-  - _események (on:click, ...)_
+  - böngésző események
+  - (onclick, keydown, keyup, onmousemove, onmouseout, ...)
+  - (oninput, onchange, dragstart, dragover, drop...)
+  - _események (on:click, bind:value, on:dragstart, ...)_
 - Szintaxis
   - Értékek, típusok (számok, szöveg)
   - Változók, definiálás, értékadás
