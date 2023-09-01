@@ -1,6 +1,12 @@
 # Asztali- és Mobil alkalmazásfejlesztés tematika
 
-## C\#
+***
+
+[központi tematika](pdf/Asztali%20és%20mobil%20alkalmazások%20fejlesztése%20és%20tesztelése.pdf)
+
+***
+
+## [C\#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference)
 
 - VSCode: C# for Visual Studio Code Plugin
 - C# programozási nyelv
@@ -19,33 +25,6 @@
 - Visual Studio telepítése
 - WPF alkalmazások fejlesztése
   - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
-
-## Java
-
-- JavaFX telepítése
-- Szintaxis
-- Console alkalmazások fejlesztése
-  - Input feldolgozása
-  - Parancssori paraméterek feldolgozása
-  - Szövegfájl feldolgozása
-- [CSES Problem SET](https://cses.fi/problemset/) megoldása Java nyelven
-  - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
-  - Missing Number
-  - Repetitions
-  - Increasing Array
-  - Permutations
-  - Number Spiral
-  - Tower of Hanoi
-  - Distinct Numbers
-  - Dice Combinations
-  - Counting Rooms
-- JavaFX alkalmazások fejlesztése
-
-***
-
-[központi tematika](pdf/Asztali%20és%20mobil%20alkalmazások%20fejlesztése%20és%20tesztelése.pdf)
-
-***
 
 ## Procedurális és objektumorientált szoftverfejlesztés
 
@@ -209,3 +188,24 @@
   - Eseményvezérelt programozás, elmélet
   - JavaFX / WPF gomb, beviteli mező
   - JavaFX / WPF eseményfigyelés, aszinkron kód, szintaxis
+
+## Java
+
+- JavaFX, Eclipse telepítése
+- Szintaxis
+- Console alkalmazások fejlesztése
+  - Input feldolgozása
+  - Parancssori paraméterek feldolgozása
+  - Szövegfájl feldolgozása
+- [CSES Problem SET](https://cses.fi/problemset/) megoldása Java nyelven
+  - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
+  - Missing Number
+  - Repetitions
+  - Increasing Array
+  - Permutations
+  - Number Spiral
+  - Tower of Hanoi
+  - Distinct Numbers
+  - Dice Combinations
+  - Counting Rooms
+- JavaFX alkalmazások fejlesztése
