@@ -1,8 +1,7 @@
 ### MainWindow.xaml:
 
-```xaml
+```xml
 <Grid Margin="10">
-
     <Grid.RowDefinitions>
         <RowDefinition Height="Auto" />
         <RowDefinition Height="*" />
@@ -26,9 +25,6 @@
 ```cs
 namespace Próba
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()

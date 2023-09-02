@@ -435,6 +435,10 @@ $(() => {
   $('#t3').click(() => { tget('mobile.md', 't3') })
   disp()
   $(`#html`).hide()
+  ol = [['main_example.md', '.NET példa'], ['p01.md', 'canvas + random példa']]
+      .map(v => `<option value="${v[0]}">${v[1]}</option>`)
+  $(`#csc`).html(`<select id="cscs"><option selected disabled>c# pélák</option>${ol}</select>`)
+  $(`#cscs`).bind("input", (e) => tget(`wps/${e.target.value}`))
 })
 function disp() {
   if (ds.length <= k + n) {
