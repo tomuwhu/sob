@@ -14,7 +14,11 @@ a:visited {
     color: rgb(94, 198, 163);
 }
 a:hover img {
-    filter: drop-shadow(1px 1px 7px white) invert(0) contrast(175%) brightness(103%);
+    filter: 
+        drop-shadow(1px 1px 7px white)
+        invert(0) 
+        contrast(115%)
+        brightness(143%);
 }
 h1 {
     font-size: 19px;
@@ -301,6 +305,9 @@ td.b3 {
 img.logo {
     width: 60px;
     height: 60px;
+    filter: 
+        invert(0)
+        drop-shadow(1px 1px 7px white);
 }
 
 td.b1 a,
