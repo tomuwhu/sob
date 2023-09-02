@@ -180,9 +180,10 @@
 
 ## Asztali- és mobilalkalmazások fejlesztése (C\#/Electron)
 
-- Visual Studio telepítése, [Electron](https://electron-vite.org/)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/) telepítése
 - WPF alkalmazások fejlesztése
   - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
+- [Electron](https://electron-vite.org/guide/)/TypeScript+Svelte telepítése
 - Bevezetés:
   - GUI programozási alapok
   - Svelte/WPF program szerkezete, létrehozása
