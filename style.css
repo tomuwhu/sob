@@ -1,6 +1,7 @@
 img {
-    height: 11px;
-    aspect-ratio: 1/1;
+    height: 9px;
+    width: 55px;
+    filter: invert(1);
 }
 a {
     text-decoration: none;
@@ -11,6 +12,9 @@ a:hover {
 }
 a:visited {
     color: rgb(94, 198, 163);
+}
+a:hover img {
+    filter: drop-shadow(1px 1px 7px white) invert(0) contrast(175%) brightness(103%);
 }
 h1 {
     font-size: 19px;
@@ -294,8 +298,9 @@ td.b3 {
     text-align: right;
 }
 
-img {
+img.logo {
     width: 60px;
+    height: 60px;
 }
 
 td.b1 a,
