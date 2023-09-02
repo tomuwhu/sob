@@ -6,26 +6,6 @@
 
 ***
 
-## [C\#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference)
-
-- VSCode: C# for Visual Studio Code Plugin
-- C# programozási nyelv
-  - [Az első C#-kód megírása](https://learn.microsoft.com/hu-hu/training/modules/csharp-write-first/)
-  - [Debugolás, hibakeresés](https://learn.microsoft.com/hu-hu/training/modules/dotnet-debug/3-analyze-your-program-state)
-  - [C# referencia](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
-    - Típusok
-    - Kulcsszavak
-    - Utasítások, @, $
-    - Attribútumok
-- Console alkalmazások fejlesztése
-  - Input feldolgozása
-  - Parancssori paraméterek feldolgozása
-  - Szövegfájl feldolgozása
-  - [HackerRank](https://www.hackerrank.com/domains/algorithms) feladatok megoldása C# nyelven
-- Visual Studio telepítése
-- WPF alkalmazások fejlesztése
-  - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
-
 ## Procedurális és objektumorientált szoftverfejlesztés
 
 - A procedurális és az objektumorientált szemlélet összevetése
@@ -173,30 +153,8 @@
   - Default konstruktor
   - This kulcssszó
 
-## Grafikus programozás
+## Console alkalmazás fejlesztése NodeJS/TypeScript nyelven
 
-- Bevezetés:
-  - GUI programozási alapok
-  - JavaFX / WPF program szerkezete, létrehozása
-  - JavaFX / WPF komponensek
-- Színek és formák:
-  - JavaFX / WPF színkezelés
-  - JavaFX / WPF shape-ek, property-k, és működési minták
-  - JavaFX / WPF egyszerűbb sokszögek kirajzolása
-  - JavaFX / WPF Image és ImageView
-- Eseményvezérelt szoftverfejlesztés:
-  - Eseményvezérelt programozás, elmélet
-  - JavaFX / WPF gomb, beviteli mező
-  - JavaFX / WPF eseményfigyelés, aszinkron kód, szintaxis
-
-## Java
-
-- JavaFX, Eclipse telepítése
-- Szintaxis
-- Console alkalmazások fejlesztése
-  - Input feldolgozása
-  - Parancssori paraméterek feldolgozása
-  - Szövegfájl feldolgozása
 - [CSES Problem SET](https://cses.fi/problemset/) megoldása Java nyelven
   - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
   - Missing Number
@@ -209,4 +167,40 @@
   - Distinct Numbers
   - Dice Combinations
   - Counting Rooms
-- JavaFX alkalmazások fejlesztése
+- Parancssori paraméterek beolvasása
+
+## [C\#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference)
+
+- VSCode: C# for Visual Studio Code Plugin
+- C# programozási nyelv
+  - [Az első C#-kód megírása](https://learn.microsoft.com/hu-hu/training/modules/csharp-write-first/)
+  - [Debugolás, hibakeresés](https://learn.microsoft.com/hu-hu/training/modules/dotnet-debug/3-analyze-your-program-state)
+  - [C# referencia](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
+    - Típusok
+    - Kulcsszavak
+    - Utasítások, @, $
+    - Attribútumok
+- Console alkalmazások fejlesztése
+  - Input feldolgozása
+  - Parancssori paraméterek feldolgozása
+  - Szövegfájl feldolgozása
+  - [HackerRank](https://www.hackerrank.com/domains/algorithms) feladatok megoldása C# nyelven
+- Visual Studio telepítése
+- WPF alkalmazások fejlesztése
+  - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
+
+## Grafikus programozás
+
+- Bevezetés:
+  - GUI programozási alapok
+  - WPF program szerkezete, létrehozása
+  - WPF komponensek
+- Színek és formák:
+  - WPF színkezelés
+  - WPF shape-ek, property-k, és működési minták
+  - WPF egyszerűbb sokszögek kirajzolása
+  - WPF Image és ImageView
+- Eseményvezérelt szoftverfejlesztés:
+  - Eseményvezérelt programozás, elmélet
+  - WPF gomb, beviteli mező
+  - WPF eseményfigyelés, aszinkron kód, szintaxis
