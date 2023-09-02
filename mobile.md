@@ -12,9 +12,9 @@
 - Az osztály és az objektum fogalma, a köztük lévő különbségek
 - Példányosítás
 - Property-k
-- Java/C# szintaxisban kifejezve az objektumorientáltság
+- TypeScript/C# szintaxisban kifejezve az objektumorientáltság
 
-## Változók
+## Változók (TypeScript/C\#)
 
 - Elméleti bevezetés
 - Primitívek: boolean, int, double és String
@@ -40,7 +40,7 @@
 - User input beolvasása grafikus felületről
 - Fájlbeolvasási alapok
 
-## Metódusok
+## Metódusok (TypeScript/C\#)
 
 - Függvénydefiníciók
 - Kód strukturálása osztályszinten
@@ -49,7 +49,7 @@
 - Scope
 - Argumentumok, visszatérési érték
 
-## Beépített segédosztályok
+## Beépített segédosztályok (TypeScript/C\#)
 
 - String osztály
 - Nyelvi beépített osztályok használatának alapja, dokumentációértelmezés
@@ -64,7 +64,7 @@
 - Statikus metódusok szerepe
 - Legfontosabb függvények: max(), min(), sqrt()
 
-## Vezérlési szerkezetek, ciklusok
+## Vezérlési szerkezetek, ciklusok (TypeScript/C\#)
 
 - Logikai (boolean) kifejezések
   - Boolean változók értelmezése, inicializálása, deklarálása
@@ -98,7 +98,7 @@
   - Ciklus futtatásának leállítása, Break
   - Ciklusátugrás, Continue
 
-## Tömbök és listák
+## Tömbök és listák (TypeScript/C\#)
 
 - Egydimenziós tömb
 - Tömbök bevezetése
@@ -114,7 +114,7 @@
 - ArrayList / List bejárása iterátor- és ciklusok segítségével
 - Autoboxing
 
-## Kivételkezelés, hibakeresés
+## Kivételkezelés, hibakeresés (TypeScript/C\#)
 
 - Kivételkezelés:  
   - Kivételkezelés elméleti bevezető
@@ -126,7 +126,7 @@
   - Hibakezelési technikák: print, IDE, kifejezésszerkesztő, előnyök-hátrányok
   - Leggyakoribb hibák
 
-## Objektumorientált fejlesztés
+## Objektumorientált fejlesztés (TypeScript/C\#)
 
 - Osztályok
   - OOP-projekt létrehozása, osztályok létrehozása IDE segítségével
@@ -155,7 +155,7 @@
 
 ## Console alkalmazás fejlesztése NodeJS/TypeScript nyelven
 
-- [CSES Problem SET](https://cses.fi/problemset/) megoldása Java nyelven
+- [CSES Problem SET](https://cses.fi/problemset/) megoldása NodeJS nyelven
   - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
   - Missing Number
   - Repetitions
@@ -189,18 +189,18 @@
 - WPF alkalmazások fejlesztése
   - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
 
-## Grafikus programozás
+## Grafikus programozás (TypeScript/C\#)
 
 - Bevezetés:
   - GUI programozási alapok
-  - WPF program szerkezete, létrehozása
-  - WPF komponensek
+  - Svelte/WPF program szerkezete, létrehozása
+  - Svelte/WPF komponensek
 - Színek és formák:
-  - WPF színkezelés
-  - WPF shape-ek, property-k, és működési minták
-  - WPF egyszerűbb sokszögek kirajzolása
-  - WPF Image és ImageView
+  - Svelte/WPF színkezelés
+  - Svelte/WPF shape-ek, property-k, és működési minták
+  - Svelte/WPF egyszerűbb sokszögek kirajzolása
+  - Svelte/WPF Image és ImageView
 - Eseményvezérelt szoftverfejlesztés:
   - Eseményvezérelt programozás, elmélet
-  - WPF gomb, beviteli mező
-  - WPF eseményfigyelés, aszinkron kód, szintaxis
+  - Svelte/WPF gomb, beviteli mező
+  - Svelte/WPF eseményfigyelés, aszinkron kód, szintaxis
