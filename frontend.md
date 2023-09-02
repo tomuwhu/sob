@@ -145,14 +145,16 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Development server: VITE
   - dev server
   - build
-  - deploy
-  - Server-Side Rendering
+  - vite.config.ts
+    - plugins
+    - rollupOptions
+    - build.chunkSizeWarningLimit
+- sass: rollup.config, prettierrc
 
 ## _SvelteKit_
 
 - npm create svelte
 - adapter-static, .nojekyll, svelte.config, {basedir}
-- sass: rollup.config, prettierrc
 - routes
 - onMount
 - komponensek
