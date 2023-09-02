@@ -2,7 +2,7 @@
 
 ***
 
-[központi tematika](pdf/Asztali%20és%20mobil%20alkalmazások%20fejlesztése%20és%20tesztelése.pdf)
+[Központi tematika](pdf/Asztali%20és%20mobil%20alkalmazások%20fejlesztése%20és%20tesztelése.pdf)
 
 ***
 
@@ -205,6 +205,7 @@
   - Permutations
   - Number Spiral
   - Tower of Hanoi
+  - [Two Sets](https://tomuwhu.github.io/sv03/2sets)
   - Distinct Numbers
   - Dice Combinations
   - Counting Rooms

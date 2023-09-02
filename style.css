@@ -1,3 +1,11 @@
+a {
+    text-decoration: none;
+    color: rgb(164, 211, 176);
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(224, 171, 171);
+}
 h1 {
     font-size: 19px;
     text-align: center;
@@ -68,7 +76,7 @@ td.bt {
 
 i:hover,
 td.bt,
-a:hover {
+a.g:hover {
     color: rgb(216, 207, 97);
     cursor: pointer;
 }
@@ -87,9 +95,9 @@ div.cx {
 }
 
 i,
-a,
-a:visited,
-a:active,
+a.g,
+a.g:visited,
+a.g:active,
 b {
     font-weight: normal;
     font-style: normal;
@@ -163,7 +171,7 @@ div.cx {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgb(36, 54, 58);
+    background-color: rgb(64, 104, 112);
 }
 
 .cx:hover,
@@ -194,7 +202,7 @@ a.ap {
 
 span.bt,
 i.md,
-a {
+a.g {
     background-color: rgb(30, 46, 41);
     padding: 3px;
     border-radius: 5px;

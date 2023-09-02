@@ -1,6 +1,6 @@
 # Frontend alkalmazásfejlesztés tematika
 
-## GitHub
+## [![Logók](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png)](https://github.com/logos)
 
 - github regisztráció
 - git telepítés
