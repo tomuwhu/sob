@@ -6,13 +6,21 @@
 
 ***
 
-## Procedurális és objektumorientált szoftverfejlesztés
+## [C\#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference)
+
+- VSCode: C\# for Visual Studio Code Plugin
+- C\# programozási nyelv
+  - [Az első C\#-kód megírása](https://learn.microsoft.com/hu-hu/training/modules/csharp-write-first/)
+  - [Debugolás, hibakeresés](https://learn.microsoft.com/hu-hu/training/modules/dotnet-debug/3-analyze-your-program-state)
+  - [C\# referencia](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
+
+## Procedurális és objektumorientált szoftverfejlesztés  (C\#/TypeScript)
 
 - A procedurális és az objektumorientált szemlélet összevetése
 - Az osztály és az objektum fogalma, a köztük lévő különbségek
 - Példányosítás
 - Property-k
-- TypeScript/C# szintaxisban kifejezve az objektumorientáltság
+- TypeScript/C\# szintaxisban kifejezve az objektumorientáltság
 
 ## Változók (TypeScript/C\#)
 
@@ -153,7 +161,7 @@
   - Default konstruktor
   - This kulcssszó
 
-## Console alkalmazás fejlesztése NodeJS/TypeScript nyelven
+## Konzolalkalmazás fejlesztése TypeScript/C\# nyelven
 
 - [CSES Problem SET](https://cses.fi/problemset/) megoldása NodeJS nyelven
   - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
@@ -168,29 +176,13 @@
   - Dice Combinations
   - Counting Rooms
 - Parancssori paraméterek beolvasása
+- [HackerRank](https://www.hackerrank.com/domains/algorithms) feladatok megoldása TypeScript/C\# nyelven
 
-## [C\#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference)
+## Asztali- és mobilalkalmazások fejlesztése (C\#/Electron)
 
-- VSCode: C# for Visual Studio Code Plugin
-- C# programozási nyelv
-  - [Az első C#-kód megírása](https://learn.microsoft.com/hu-hu/training/modules/csharp-write-first/)
-  - [Debugolás, hibakeresés](https://learn.microsoft.com/hu-hu/training/modules/dotnet-debug/3-analyze-your-program-state)
-  - [C# referencia](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
-    - Típusok
-    - Kulcsszavak
-    - Utasítások, @, $
-    - Attribútumok
-- Console alkalmazások fejlesztése
-  - Input feldolgozása
-  - Parancssori paraméterek feldolgozása
-  - Szövegfájl feldolgozása
-  - [HackerRank](https://www.hackerrank.com/domains/algorithms) feladatok megoldása C# nyelven
-- Visual Studio telepítése
+- Visual Studio telepítése, [Electron](https://electron-vite.org/)
 - WPF alkalmazások fejlesztése
   - [Tutorial: Create a new WPF app with .NET](https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0)
-
-## Grafikus programozás (TypeScript/C\#)
-
 - Bevezetés:
   - GUI programozási alapok
   - Svelte/WPF program szerkezete, létrehozása
