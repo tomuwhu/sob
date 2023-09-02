@@ -1,10 +1,16 @@
+img {
+    height: 11px;
+    aspect-ratio: 1/1;
+}
 a {
     text-decoration: none;
-    color: rgb(164, 211, 176);
+    color: aquamarine;
 }
 a:hover {
-    text-decoration: none;
     color: rgb(224, 171, 171);
+}
+a:visited {
+    color: rgb(94, 198, 163);
 }
 h1 {
     font-size: 19px;
