@@ -363,23 +363,18 @@ sz = t => {
 function fallbackCopyTextToClipboard(text) {
   var textArea = document.createElement("textarea");
   textArea.value = text;
-
-  // Avoid scrolling to bottom
   textArea.style.top = "0";
   textArea.style.left = "0";
   textArea.style.position = "fixed";
-
   document.body.appendChild(textArea);
   textArea.focus();
   textArea.select();
-
   try {
     var successful = document.execCommand('copy');
     var msg = successful ? 'successful' : 'unsuccessful';
   } catch (err) {
     console.error('Fallback: Oops, unable to copy', err);
   }
-
   document.body.removeChild(textArea);
 }
 function copyTextToClipboard(text) {
@@ -393,7 +388,7 @@ function copyTextToClipboard(text) {
     console.error('Async: Could not copy text: ', err);
   });
 }
-function tget(fn, id, mdo = false) {
+function tget(fn, id) {
   if (a[0] != id) {
     a[0] = id
     $.get(fn, data => {
@@ -421,10 +416,6 @@ function tget(fn, id, mdo = false) {
       $(`#${id}`).addClass("active")
       $(`#code`).addClass("cx")
       hljs.highlightAll()
-      if (mdo) {
-        $(`#html`).hide()
-        $(`#code`).show()
-      }
     }, "text")
   } else {
     $(`.md`).removeClass("active")
@@ -439,10 +430,6 @@ $(() => {
   $('#t3').click(() => { tget('mobile.md', 't3') })
   disp()
   $(`#html`).hide()
-  ol = [['main_example.md', '.NET példa'], ['p01.md', 'canvas + random példa']]
-      .map(v => `<option value="${v[0]}">${v[1]}</option>`)
-  $(`#csc`).html(`<select id="cscs"><option selected disabled>c# pélák</option>${ol}</select>`)
-  $(`#cscs`).bind("input", (e) => tget(`wps/${e.target.value}`, 0, true))
 })
 function disp() {
   if (ds.length <= k + n) {
