@@ -404,7 +404,7 @@ function copyTextToClipboard(text) {
     console.error('Async: Could not copy text: ', err);
   });
 }
-function tget(fn, id) {
+function tget(fn, id, i, j) {
   if (a[0] != id) {
     a[0] = id
     $.get(fn, data => {
@@ -429,7 +429,11 @@ function tget(fn, id) {
       $(`#code`).addClass('markdown')
       $(`.bt`).removeClass("active")
       $(`.md`).removeClass("active")
-      $(`#${id}`).addClass("active")
+      if (i > 0) {
+        $(`#g${i}-${j}`).addClass("active")
+      } else {
+        $(`#${id}`).addClass("active")
+      }
       $(`#code`).addClass("cx")
       hljs.highlightAll()
     }, "text")
@@ -495,7 +499,7 @@ function f(i, j, fn, type) {
   }
   else {
     if (type == 'md') {
-      tget(fn)
+      tget(fn, null, i , j)
     } else
       $.get(fn, data => {
         copyTextToClipboard(data)

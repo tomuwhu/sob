@@ -207,14 +207,9 @@ div.c2 {
     justify-content: center;
 }
 
-a.ap {
-    font-size: 13px;
-    color: rgb(129, 167, 98);
-}
-
 span.bt,
 i.md,
-a.g {
+a.g, a.ap {
     background-color: rgb(30, 46, 41);
     padding: 3px;
     border-radius: 5px;
@@ -222,12 +217,15 @@ a.g {
     padding-right: 6px;
 }
 
+
+a.bt.active, 
 span.active,
 i.active {
     background-color: rgb(119, 118, 29);
     box-shadow: 1px 1px 4px inset black;
 }
 
+a.bt.active,
 span.active i,
 i.md.active {
     color: bisque;
