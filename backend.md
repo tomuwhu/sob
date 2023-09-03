@@ -10,10 +10,13 @@
   - futtatható fájl, command line applications
 - Terminál app
 - Terminál parancsok
-  - ls (dir), cd, mkdir, chmod
+  - ls, cd, mkdir, chmod
   - touch, rm, cp, mv
   - su, sudo, pwd, cat (type)
   - apt-get, brew
+- Windows CMD
+  - dir
+  - set PATH=%PATH%;C:/php
 
 ## XAMPP: PHP + MySQL/MariaDB
 
