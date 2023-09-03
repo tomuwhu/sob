@@ -7,11 +7,11 @@ a {
     text-decoration: none;
     color: aquamarine;
 }
-a:hover {
-    color: rgb(224, 171, 171);
-}
 a:visited {
     color: rgb(94, 198, 163);
+}
+a:hover {
+    color: rgb(224, 171, 171);
 }
 a:hover img {
     filter: 
@@ -72,8 +72,8 @@ div.c div {
 }
 
 div.x {
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 3px;
+    padding-bottom: 0px;
 }
 
 u.k1 {
@@ -84,7 +84,7 @@ u.k1 {
 
 td.bt {
     text-align: left;
-    padding: 5px;
+    padding: 0px;
     border: none;
     color: rgb(238, 145, 145);
 }
@@ -129,7 +129,7 @@ input {
     border: none;
     padding: 3px;
     padding-left: 8px;
-    margin: 5px;
+    margin: 0px;
     box-shadow: 1px 1px 3px inset black;
     width: 190px;
     height: 13px;
@@ -189,8 +189,7 @@ div.cx {
     background-color: rgb(64, 104, 112);
 }
 
-.cx:hover,
-a:hover {
+.cx:hover {
     background-color: rgb(50, 80, 70);
 }
 
@@ -258,7 +257,7 @@ em {
 
 div.tz {
     background-color: rgb(15, 62, 55);
-    padding: 5px;
+    padding: 2px;
 }
 
 #fny,
