@@ -3,6 +3,18 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `C# WPS Alap példa`,
+    date: `2023-09-01`,
+    git: [`SOB`, `https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0`, ``],
+    files: [{
+      type: `md`,
+      fn: `Main_example.md`
+    }],
+    keywords: [
+      `C#`, `Desktop`, `WPS`, `Alkalmazás`
+    ]
+  },
+  {
     name: `PHP Full Stack Form Template`,
     date: `2023-09-01`,
     git: [`SOB`, ``, `https://www.inf.u-szeged.hu/~tnemeth/SOB/Osszeado.php`],
@@ -18,6 +30,10 @@ ds = [
     name: `SOB Intranet forráskód`,
     date: `2023-08-29`,
     git: [`SOB`, `https://github.com/tomuwhu/SOB_Intranet/`, `https://tomuwhu.github.io/SOB_Intranet/`],
+    files: [{
+      type: `md`,
+      fn: `Configs.md`
+    }],
     keywords: [
       `SvelteKit`, `HTML`, `CSS`, `JavaScript`, `vite`, `drag`, `drop`, `app`
     ]
@@ -402,7 +418,7 @@ function tget(fn, id) {
       )
       $(`#html`).click(() => {
         $(`#html`).hide()
-        $(`#code`).show()
+        $('#code').css('display', 'inline-block')
       })
       $(`#code`).text(data)
       $(`#code`).click(() => {
@@ -478,27 +494,30 @@ function f(i, j, fn, type) {
     a[1] = -1
   }
   else {
-    $.get(fn, data => {
-      copyTextToClipboard(data)
-      $(`#html`).hide()
-      $(`#code`).show()
-      $(`#code`).unbind('click')
-      $(`#code`).parent().removeClass('click')
-      $('pre').css('display', 'inline-block')
-      $(`#html`).hide()
-      $(`#code`).text(data)
-      $(`#code`).removeAttr('class')
-      $(`#code`).addClass(type)
-      $(`#code`).css('display', 'inline-block')
-      if (type == "svelte") {
-        $(`#code`).removeClass('language-yaml')
-        $(`#code`).addClass('language-xml')
-      }
-      $(`.bt`).removeClass("active")
-      $(`.md`).removeClass("active")
-      $(`#g${i}-${j}`).addClass("active")
-      hljs.highlightAll()
-    }, "text")
+    if (type == 'md') {
+      tget(fn)
+    } else
+      $.get(fn, data => {
+        copyTextToClipboard(data)
+        $(`#html`).hide()
+        $(`#code`).show()
+        $(`#code`).unbind('click')
+        $(`#code`).parent().removeClass('click')
+        $('pre').css('display', 'inline-block')
+        $(`#html`).hide()
+        $(`#code`).text(data)
+        $(`#code`).removeAttr('class')
+        $(`#code`).addClass(type)
+        $(`#code`).css('display', 'inline-block')
+        if (type == "svelte") {
+          $(`#code`).removeClass('language-yaml')
+          $(`#code`).addClass('language-xml')
+        }
+        $(`.bt`).removeClass("active")
+        $(`.md`).removeClass("active")
+        $(`#g${i}-${j}`).addClass("active")
+        hljs.highlightAll()
+      }, "text")
     a[0] = i
     a[1] = j
   }
