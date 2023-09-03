@@ -63,11 +63,12 @@
 - Unit teszt,  integrációs tesztelés, rendszertesztelés
 - Hosting: ATW
 - PHP telepítés, php command line app
-- [Laravel telepítés](https://laravel.com/docs/10.x/installation), használata (SSR)
-- [Routing](https://laravel.com/docs/10.x/routing)
-- [Request](https://laravel.com/docs/10.x/routing)
-- [Views](https://laravel.com/docs/10.x/routing)
-- [Blade](https://laravel.com/docs/10.x/blade#loops)
+- Laravel
+  - [Laravel telepítés](https://laravel.com/docs/10.x/installation), használata (SSR)
+  - [Routing](https://laravel.com/docs/10.x/routing)
+  - [Request](https://laravel.com/docs/10.x/routing)
+  - [Views](https://laravel.com/docs/10.x/routing)
+  - [Blade](https://laravel.com/docs/10.x/blade#loops)
 
 ## NodeJS + NeDB/MongoDB/SQLite/MySQL
 
