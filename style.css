@@ -136,7 +136,7 @@ input {
 
 input,
 hr,
-pre {
+code#code {
     display: none;
 }
 
@@ -318,11 +318,16 @@ td.b3 a {
 .hljs {
     overflow-x: auto;
     overflow-y: auto;
+    max-width: 95%;
+    border-radius: 10px;
+}
+code#code.hljs {
+    overflow-x: auto;
+    overflow-y: auto;
     max-height: calc(100vh - 480px);
     min-height: 160px;
-    max-width: 95%;
+    max-width: calc(90vh);
 }
-
 div#html h2 {
     font-size: 14px;
 }
@@ -429,7 +434,7 @@ strong {
     box-shadow: 1px 1px 4px black;
 }
 
-code.language-json {
+code#code.language-json {
     background-color: rgb(12, 45, 34);
 }
 

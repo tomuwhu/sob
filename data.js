@@ -428,6 +428,7 @@ $(() => {
   $('#t1').click(() => { tget('frontend.md', 't1') })
   $('#t2').click(() => { tget('backend.md', 't2') })
   $('#t3').click(() => { tget('mobile.md', 't3') })
+  $('#t4').click(() => { tget('configs.md', 't4') })
   disp()
   $(`#html`).hide()
 })
@@ -488,6 +489,7 @@ function f(i, j, fn, type) {
       $(`#code`).text(data)
       $(`#code`).removeAttr('class')
       $(`#code`).addClass(type)
+      $(`#code`).css('display', 'inline-block')
       if (type == "svelte") {
         $(`#code`).removeClass('language-yaml')
         $(`#code`).addClass('language-xml')
