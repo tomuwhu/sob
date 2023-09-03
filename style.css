@@ -89,13 +89,6 @@ td.bt {
     color: rgb(238, 145, 145);
 }
 
-i:hover,
-td.bt,
-a.g:hover {
-    color: rgb(216, 207, 97);
-    cursor: pointer;
-}
-
 #code,
 div.cx {
     margin: 5px auto;
@@ -121,7 +114,12 @@ b {
     font-size: 12px;
     font-family: 'Lucida Sans';
 }
-
+i:hover,
+td.bt,
+a.g:hover {
+    color: rgb(216, 207, 97);
+    cursor: pointer;
+}
 input {
     font-family: Verdana;
     font-size: 10px;
