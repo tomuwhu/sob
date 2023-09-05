@@ -5,50 +5,19 @@ bash
 ```bash
 npm i -D @sveltejs/adapter-static
 touch static/.nojekyll
+echo "export const prerender = true;" >> ./src/routes/+layout.js
 ```
 
 svelte.config.js
 
 ```js
-import adapter from '@sveltejs/adapter-static'
-import { vitePreprocess } from '@sveltejs/kit/vite'
+import adapter from '@sveltejs/adapter-static';
 const dev = process.argv.includes('dev')
 export default {
-  preprocess: vitePreprocess(),
-  kit: {
-    adapter: adapter({ pages: 'docs' }),
-    paths: { base: dev ? '' : '/svelteui' }
-  }
-}
-```
-
-src/routes/+layout.js
-
-```js
-export const prerender = true;
-```
-
-#### Prettiers
-
-.eslint.cjs
-
-```javascript
-module.exports = {
-  rules: {
-    allowConciseArrowFunctionExpressionsStartingWithVoid: true
-  },
-  ...
-}
-```
-
-markdownlint.json
-
-```json
-{
-    "MD013": false,
-    "MD033": false,
-    "MD036": false,
-    "MD049": false
+ kit: {
+  adapter: adapter({ pages: 'docs' }),
+  paths: { base: dev ? '' : process.env.BASE_PATH }
+ }
 }
 ```
 
@@ -78,4 +47,28 @@ export default defineConfig({
   }
  }
 })
+```
+
+#### Prettiers
+
+.eslint.cjs
+
+```javascript
+module.exports = {
+  rules: {
+    allowConciseArrowFunctionExpressionsStartingWithVoid: true
+  },
+  ...
+}
+```
+
+markdownlint.json
+
+```json
+{
+    "MD013": false,
+    "MD033": false,
+    "MD036": false,
+    "MD049": false
+}
 ```

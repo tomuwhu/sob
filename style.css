@@ -450,3 +450,7 @@ a.bl3:active {
     background-color: rgb(186, 10, 37);
     color: rgb(215, 178, 178);
 }
+div#html.markdown, code#code.markdown {
+    user-select: text;
+    cursor: text;
+}

@@ -416,17 +416,20 @@ function tget(fn, id, i, j) {
       $(`#html`).html(
         marked.parse(data, { mangle: false, headerIds: false })
       )
-      $(`#html`).click(() => {
+      $(`#html`).on("contextmenu", () => {
         $(`#html`).hide()
         $('#code').css('display', 'inline-block')
+        return false
       })
-      $(`#code`).text(data)
-      $(`#code`).click(() => {
+      $(`#code`).on("contextmenu", () => {
         $(`#html`).show()
         $(`#code`).hide()
+        return false
       })
-      $(`#code`).removeAttr('class')
       $(`#code`).addClass('markdown')
+      $(`#html`).addClass('markdown')
+      $(`#code`).text(data)
+      $(`#code`).removeAttr('class')
       $(`.bt`).removeClass("active")
       $(`.md`).removeClass("active")
       if (i > 0) {
@@ -499,13 +502,14 @@ function f(i, j, fn, type) {
   }
   else {
     if (type == 'md') {
-      tget(fn, null, i , j)
+      tget(fn, null, i, j)
     } else
       $.get(fn, data => {
         copyTextToClipboard(data)
         $(`#html`).hide()
         $(`#code`).show()
-        $(`#code`).unbind('click')
+        $(`#html`).unbind()
+        $(`#code`).unbind()
         $(`#code`).parent().removeClass('click')
         $('pre').css('display', 'inline-block')
         $(`#html`).hide()
