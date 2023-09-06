@@ -3,6 +3,17 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `C# File Beolvasás`,
+    date: `2023-09-06`,
+    files: [{
+      type: `csharp`,
+      fn: `FileIO.cs`
+    }],
+    keywords: [
+      `C#`, `Console`, `konzol`, `File`, `Alkalmazás`, `olvasás`, `fájl olvasás`
+    ]
+  },
+  {
     name: `C# WPS Alap példa`,
     date: `2023-09-01`,
     git: [`SOB`, `https://learn.microsoft.com/hu-hu/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-7.0`, ``],
