@@ -3,8 +3,9 @@ $a = $_GET['a'] or 0;
 $b = $_GET['b'] or 0;
 ?>
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-          rel="stylesheet">
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet">
     <title>Document</title>
     <style>
         body { text-align: center; }
