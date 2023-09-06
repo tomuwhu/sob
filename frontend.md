@@ -50,6 +50,12 @@ git config --global user.email "<youremail@yourdomain.com>"
 - BootStrap
 - SVG formátum, SVG használata HTML-ben
 
+## PHP on frontend: [Laravel Livewire](https://www.youtube.com/watch?v=VJlpDlxPZ0k)
+
+- komponensek
+- változók
+- változó hozzárendelése HTML objektumhoz (binding)
+
 ## JavaScript/TypeScript (Browser)
 
 - JavaScript megjelenítés
