@@ -1,6 +1,4 @@
 // Szövegfájl beolvasása
-using System.Reflection;
-
 var l = File.ReadAllLines("file.txt").Select(int.Parse).ToArray();
 
 // Elemek száma, összege, szorzata
@@ -28,5 +26,5 @@ foreach (var num in new ArraySegment<int>(l, 0, 2))
 
 Console.WriteLine();
 
-var l = "45 34 54 23 23 54 32 43".Split(" ").Select(int.Parse).ToArray();
-Console.WriteLine($"{l[0]}, {l.Sum()}");
+var lx = "45 34 54 23 23 54 32 43".Split(" ").Select(int.Parse).ToArray();
+Console.WriteLine($"{lx[0]}, {lx.Sum()}");
