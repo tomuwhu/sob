@@ -18,7 +18,7 @@
   - dir
   - set PATH=%PATH%;C:/php
 
-## XAMPP: PHP + MySQL/MariaDB
+## PHP I. - XAMPP, MySQL/MariaDB
 
 - XAMPP
   - Telepítés
@@ -65,13 +65,6 @@
 - Adatfolyam-tervezés, adatfolyam-diagrammok
 - Unit teszt,  integrációs tesztelés, rendszertesztelés
 - Hosting: ATW
-- PHP telepítés, php command line app
-- Laravel
-  - [Laravel telepítés](https://laravel.com/docs/10.x/installation), használata (SSR)
-  - [Routing](https://laravel.com/docs/10.x/routing)
-  - [Request](https://laravel.com/docs/10.x/routing)
-  - [Views](https://laravel.com/docs/10.x/routing)
-  - [Blade](https://laravel.com/docs/10.x/blade#loops)
 
 ## NodeJS + NeDB/MongoDB/SQLite/MySQL
 
@@ -141,6 +134,17 @@
 - Peer-To-Peer hálózatok, WebRTC
 
 ***
+
+## PHP II. Laravel
+
+- Php parancsosros alkalmazás (command line app)
+- Laravel
+  - [Laravel telepítés](https://laravel.com/docs/10.x/installation), használata (SSR)
+  - [Routing](https://laravel.com/docs/10.x/routing)
+  - [Request](https://laravel.com/docs/10.x/routing)
+  - [Views](https://laravel.com/docs/10.x/routing)
+  - [Blade](https://laravel.com/docs/10.x/blade#loops)
+  - Livewire connect
 
 [Központi tematika](pdf/Backend%20programozás%20és%20tesztelés.pdf)
   
