@@ -325,7 +325,7 @@ ds = [
     text: `Dinamikus tartalom-generálás`,
     git: [`sv02`,
       `https://github.com/tomuwhu/sv02/blob/master/src/routes/orarend/%2Bpage.svelte`,
-      `https://tomuwhu.github.io/sv02/orarend.html`],
+      `https://or.es6.eu/orarend.html`],
     files: [{
       type: `svelte`,
       fn: `Orarend.svelte`
