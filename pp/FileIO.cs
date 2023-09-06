@@ -17,17 +17,16 @@ Console.WriteLine($"A páros számok ({String.Join(", ", csp)}) szorzata: {prod2
 
 Console.WriteLine($"A számok növekvő sorrendben: {String.Join("; ", l.Order())}");
 
-// Számtani közép (átlag)
-var átlag = l.Average();
-var első = l[0];
-var utcsó = l[n - 1];
-Console.WriteLine($"Átlag: {l.Average().ToString("N2")}; Első elem: {első}; Utolsó elem: {utcsó}");
+// Számtani közép, elem elérése (átlag)
+Console.WriteLine($"Átlag: {l.Average().ToString("N2")}; Első elem: {l[0]}; Utolsó elem: {l[n - 1]}");
 
-var s = String.Join(", ", l);
-Console.WriteLine($"Min: {l.Min()} | Max: {l.Max()} | Összes elem: {s}");
+// Minimum, maximum, toString()
+Console.WriteLine($"Min: {l.Min()} | Max: {l.Max()} | Összes elem: {String.Join(", ", l)}");
 
-foreach (var num in new ArraySegment<int>(l, 0, 1))
-{
+foreach (var num in new ArraySegment<int>(l, 0, 2))
     Console.Write($"{num}: {Math.Pow(num, 2)} | ");
-}
+
 Console.WriteLine();
+
+var l = "45 34 54 23 23 54 32 43".Split(" ").Select(int.Parse).ToArray();
+Console.WriteLine($"{l[0]}, {l.Sum()}");
