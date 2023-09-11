@@ -3,7 +3,7 @@ n = 5
 a = [-1, -1]
 ds = [
   {
-    name: `Hanoi torony animácoó`,
+    name: `Hanoi torony animáció`,
     date: `2023-09-06`,
     git: [`SOB`, ``, `purejs/hanoi`],
     keywords: [
