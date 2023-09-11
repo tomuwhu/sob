@@ -18,10 +18,10 @@ setInterval(() => {
                 pm[honnan]--
                 pm[hova]++
             }, 1000)
-        }, 1000)
+        }, 650)
     }
     c = 2 ** n - 2 > c ? c + s : (s = 0, c)
-}, 3000)
+}, 2200)
 g = [[], [], []]
 kt = Array(n).fill(0).map((_, i) => i)
 kt.forEach(v => g[i - 1].push(v))
