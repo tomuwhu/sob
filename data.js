@@ -362,8 +362,7 @@ s = x => `${x.map((e, i) => `<div class="c">
     ${e.git && e.git[1].length ?
     `<td class="git bt"><a class="ap" href="${e.git[1]}" target="git">GitHub</a></td>`
     : ``}
-    <td> | </td>
-    </table></div>
+     </table></div>
     </div><div class="break"></div>
 `).join('')}`
 ar = () => ds.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
