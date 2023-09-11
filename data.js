@@ -4,7 +4,7 @@ a = [-1, -1]
 ds = [
   {
     name: `Hanoi torony animáció`,
-    date: `2023-09-06`,
+    date: `2023-09-11`,
     git: [`SOB`, ``, `purejs/hanoi`],
     keywords: [
       `html`, `css`, `js`, `egyszerű`, `animáció`, `hanoi`, `rekurzió`
