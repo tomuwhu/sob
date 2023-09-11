@@ -1,75 +1,91 @@
 body {
-    text-align: center;
-    background-color: beige;
+  background-color: beige;
+  text-align: center;
 }
 div.c {
-    position: absolute;
-    height: 18px;
-    background-color: rgba(0, 255, 255, 0.192);
-    border-radius: 8px;
-    border: solid 1px black;
-    transition: 1s;
-    box-shadow: 1px 1px 3px black;
+  position: absolute;
+  height: 18px;
+  background-color: rgba(0, 255, 255, 0.192);
+  border-radius: 8px;
+  border: solid 1px black;
+  transition: 1s;
+  box-shadow: 1px 1px 3px black;
 }
 div.c0 {
-    width: 100px;
-    left: 10px;
-    top: 150px;
+  width: 100px;
+  left: 10px;
+  top: 150px;
 }
 div.c1 {
-    width: 80px;
-    left: 20px;
-    top: 130px;
+  width: 80px;
+  left: 20px;
+  top: 130px;
 }
 div.c2 {
-    width: 60px;
-    left: 30px;
-    top: 110px;
+  width: 60px;
+  left: 30px;
+  top: 110px;
 }
 div.c3 {
-    width: 40px;
-    left: 40px;
-    top: 90px;
+  width: 40px;
+  left: 40px;
+  top: 90px;
 }
 div.c4 {
-    width: 20px;
-    left: 50px;
-    top: 70px;
+  width: 20px;
+  left: 50px;
+  top: 70px;
 }
 div#o1, div#o2, div#o3 {
-    position: fixed;
-    width: 2px;
-    height: 128px;
-    top: 40px;
-    background-color: rgb(7, 67, 75); 
+  position: fixed;
+  width: 2px;
+  height: 128px;
+  top: 40px;
+  background-color: rgb(7, 67, 75);
 }
 div#o1 {
-    left:60px;
+  left:60px;
 }
 div#o2 {
-    left: 160px;
+  left: 160px;
 }
 div#o3 {
-    left: 260px;
+  left: 260px;
 }
 div i {
-    background-color: rgb(188, 255, 241);
-    padding-top: 3px;
-    padding-left: 6px;
-    padding-right: 6px;
-    font-size: 12px;
-    border-radius: 6px;
-    box-shadow: 1px 1px 3px inset black;
+  background-color: rgb(188, 255, 241);
+  padding-top: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 12px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px inset black;
 }
 div#cont {
-    position: fixed;
-    display: inline-block;
-    background: url('bc.jpg');
-    left: 6px;
-    top: 6px;
-    width: 304px;
-    height: 168px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 3px inset black;
-
+  position: fixed;
+  display: inline-block;
+  background: url('bc.jpg');
+  left: 6px;
+  top: 6px;
+  width: 304px;
+  height: 168px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px inset black;
+}
+div#info {
+  font-family: Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 3px white;
+  position: fixed;
+  height: 20px;
+  background-color: black;
+  color: white;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 2px;
+}
+b {
+  all: unset;
+  color: pink;
+  text-shadow: 1px 1px 1px rgb(122, 97, 97);
 }

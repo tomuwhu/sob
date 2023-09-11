@@ -9,6 +9,7 @@ setInterval(() => {
         mit = m
         honnan = mt[c][0] - 1
         hova = mt[c][1] - 1
+        document.getElementById("info").innerHTML = `<b>${c + 1}. lépés</b>: ${n - mit}. korong mozgatása | ${honnan + 1} ⇛ ${hova + 1} |`
         document.getElementById(`k${m}`).style.top = "10px"
         setTimeout(() => {
             document.getElementById(`k${m}`).style.left = `${10 + 10 * mit + hova * 100}px`
