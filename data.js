@@ -353,8 +353,7 @@ s = x => `${x.map((e, i) => `<div class="c">
     ${e.git && e.git[2].length ?
     `<td> | </td><td class="test bt"><a class="ap" href="${e.git[2]}" target="git">Futtat</a></td>`
     : ``}
-    <td> | </td>
-    ${e.files ? `<td class="bt">Forrás:` : ``}
+    ${e.files ? ` <td> | </td><td class="bt">Forrás:` : ``}
     ${e.files ? e.files.map((fi, j) => `
     <span onclick='f(${i}, ${j}, "pp/${fi.fn}", "${fi.type}")' class="bt" id="g${i}-${j}"><i>${fi.fn.split(".")[0]}</i></span>
     ` ).join('') : ''} 
