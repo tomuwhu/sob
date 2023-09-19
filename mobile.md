@@ -53,18 +53,17 @@
   - Egyszerű problémák megoldása (CSES Problem SET)
   - Egyszerű problémák megoldása (HackerrRank Problem Solving)
 
-## A tiszta kód elméleti alapjai és gyakorlata
+## A [tiszta kód](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) elméleti alapjai és gyakorlata
 
-- Clean Code
-- Elnevezések
-- Függvények
-- Kommentek
-- Kódformázás
-- Objektumok és adatstruktúrák
-- Hibakezelés
+- Elnevezések (Python/JavaScript/TypeScript/C++/C#/Java/PHP)
+- Függvények (Python/JavaScript/TypeScript/C++/C#/Java/PHP)
+- Kommentek (HTML/MarkDown/CSS/Python/JavaScript/TypeScript/C++/C#/Java/PHP)
+- Kódformázás (Prettier)
+- Objektumok és adatstruktúrák (JavScript/TypeScript)
+- Hibakezelés (NodeJS: Try-Catch)
 - Határok és külső kód használata
-- Unit tesztek
-- Osztályok
+- Unit tesztek (NodeJS: Jest)
+- Osztályok (NodeJS/C#/Java)
 
 ## Unit tesztelés
 
@@ -74,7 +73,8 @@
   - Integrációs teszt
   - Rendszerteszt
   - Átvételi teszt
-- Unit test case-ek létrehozása és futtatása C# vagy Java környezetben
+- Unit test case-ek létrehozása és futtatása NodeJS/C#/Java környezetben
+  - NodeJS: Jest
   - Java: Junit, @Test, @Suite
   - C#: Nunit, [Test], [TestFixture]
 - Assertiönök
