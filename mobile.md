@@ -8,33 +8,36 @@
   - [Debugolás, hibakeresés](https://learn.microsoft.com/hu-hu/training/modules/dotnet-debug/3-analyze-your-program-state)
   - [C\# referencia](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
 
-## Haladó szintű objektumorientált programozási technikák ismerete:
+## Haladó szintű objektumorientált programozási technikák ismerete
 
 - Öröklődés és polimorfizmus (extends, polimorfizmus, interface)
 - Metódus- és konstruktor-túlterhelés (több konstruktor együttes használata, a method overloading hasznossága, felhasználási korlátok)
-- Egységbezárás, objektumok közötti kommunikáció (objektumok együttműködése és kommunikációja, az egységbezárás hasznosságának szemléltetése, getter és set-ter függvények)
-- IDE fejlesztői eszközeinek használata, refaktorálási lehetőségek egységbezárás tá-mogatására
-Haladó szintű objektumorientált programozási technikák gyakorlati alkalmazása:
-- Létező osztályból új osztályt származtat le
-- A származtatott osztályban új tulajdonságokat és metódusokat definiál
-- A származtatott osztályban az ősosztály tulajdonságait és metódusait felüldefiniálja
-- Adott probléma megoldására öröklődést alkalmazó osztályhierarchiát tervez és va-lósít meg (instrukció alapján részben önállóan)
+- Egységbezárás, objektumok közötti kommunikáció (objektumok együttműködése és kommunikációja, az egységbezárás hasznosságának szemléltetése, getter és setter függvények)
+- IDE fejlesztői eszközeinek használata, refaktorálási lehetőségek egységbezárás támogatására
+
+## Haladó szintű objektumorientált programozási technikák gyakorlati alkalmazása
+
+- Létező osztályból új osztály leszármaztatása
+- A származtatott osztályban új tulajdonságok és metódusok definiálása
+- A származtatott osztályban az ősosztály tulajdonságainak és metódusainak felüldefiniálása
+- Öröklődést alkalmazó osztályhierarchia tervezése és megvalósítása
 
 ## Nevezetes algoritmusok és megvalósításuk OOP-technológiával
 
 - Futásiidő-komplexitás, az   - - jelölés, memóriaigény
 - Nevezetes adatstruktúrák memóriaigénye és műveletek időkomplexitása:
-  - Tömb (használata Java-ban / C#-ban)
-  - Láncolt lista (használata Java-ban / C#-ban)
-  - Verem (használata Java-ban / C#-ban)
+  - Tömb (Java/C#/JavaScript/TypeScript/PHP)
+  - Láncolt lista (Java/C#)
+  - Verem (Java/C#)
   - Többszörösen láncolt lista
   - Fa, bináris fa
-- Hash map (használata Java-ban / C#-ban)
+- Hash map (használata Java/C#)
 - Nevezetes algoritmusok és implementálásuk:
   - Bináris keresés
   - Buborékrendezés
   - Beszúrásos rendezés
-  - Quick Sort - Reguláris Kifejezések (használata Java-ban / C#-ban)
+  - Quick Sort (Java/C#)
+  - Reguláris Kifejezések (JavaScript/TypeScript)
 - Rekurzió és alkalmazása
   - Hanoi tornyai
   - Hátizsák és töredékes hátizsák, pénzváltás probléma
@@ -95,7 +98,9 @@ Haladó szintű objektumorientált programozási technikák gyakorlati alkalmaz�
   - a küldendő vagy érkező JSON-adatok szerializálása, deszerializálása
 - HTTP kérés eredményének tárolása, megjelenítése
 
-## Konzolalkalmazás fejlesztése TypeScript/C\#/Java nyelven
+## Projektmunka
+
+### Konzolalkalmazás fejlesztése TypeScript/C\#/Java nyelven
 
 - [CSES Problem SET](https://cses.fi/problemset/) megoldása NodeJS nyelven
   - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
@@ -112,7 +117,7 @@ Haladó szintű objektumorientált programozási technikák gyakorlati alkalmaz�
 - Parancssori paraméterek beolvasása
 - [HackerRank](https://www.hackerrank.com/domains/algorithms) feladatok megoldása TypeScript/C\# nyelven
 
-## Projektmunka: Asztali- és mobilalkalmazások fejlesztése (C\#/Electron)
+### Asztali- és mobilalkalmazások fejlesztése (C\#/Electron)
 
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/) telepítése
 - WPF alkalmazások fejlesztése
