@@ -12,9 +12,12 @@
 
 - Öröklődés és polimorfizmus (extends, polimorfizmus, interface)
 - Metódus- és konstruktor-túlterhelés
-  (több konstruktor együttes használata, a method overloading hasznossága, felhasználási korlátok)
+  (több konstruktor együttes használata, a method overloading hasznossága,
+  felhasználási korlátok)
 - Egységbezárás, objektumok közötti kommunikáció
-  (objektumok együttműködése és kommunikációja, az egységbezárás hasznosságának szemléltetése, getter és setter függvények)
+
+  (objektumok együttműködése és kommunikációja, az egységbezárás hasznosságának
+  szemléltetése, getter és setter függvények)
 - IDE fejlesztői eszközeinek használata
   - Refaktorálási lehetőségek egységbezárás támogatására
 
