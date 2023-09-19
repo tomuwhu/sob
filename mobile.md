@@ -178,8 +178,14 @@
   - Quick Sort - Reguláris Kifejezések (használata Java-ban / C#-ban)
 - Rekurzió és alkalmazása
   - Hanoi tornyai
+  - Hátizsák és töredékes hátizsák, pénzváltás probléma
+  - Tükörszó probléma
+  - Dinamikus programozás, Mohó stratégia
+  - Gráf adatszerkezet és alapvető gráf-algoritmusok
+  - Egyszerű problémák megoldása (CSES Problem SET)
+  - Egyszerű problémák megoldása (HackerrRank Problem Solving)
 
-## Konzolalkalmazás fejlesztése TypeScript/C\# nyelven
+## Konzolalkalmazás fejlesztése TypeScript/C\#/Java nyelven
 
 - [CSES Problem SET](https://cses.fi/problemset/) megoldása NodeJS nyelven
   - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
