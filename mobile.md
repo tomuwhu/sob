@@ -116,7 +116,7 @@
   - Permutations
   - Number Spiral
   - Tower of Hanoi
-  - [Tw  - Sets](https://tomuwhu.github.io/sv03/2sets)
+  - [Two Sets](https://tomuwhu.github.io/sv03/2sets)
   - Distinct Numbers
   - Dice Combinations
   - Counting Rooms
