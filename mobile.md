@@ -176,7 +176,8 @@
   - Buborékrendezés
   - Beszúrásos rendezés
   - Quick Sort - Reguláris Kifejezések (használata Java-ban / C#-ban)
-- Rekurzió
+- Rekurzió és alkalmazása
+  - Hanoi tornyai
 
 ## Konzolalkalmazás fejlesztése TypeScript/C\# nyelven
 

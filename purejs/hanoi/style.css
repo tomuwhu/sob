@@ -89,3 +89,9 @@ b {
   color: pink;
   text-shadow: 1px 1px 1px rgb(122, 97, 97);
 }
+div#x {
+  position: absolute;
+  text-align: left;
+  top: 180px;
+  left: 46px;
+}
