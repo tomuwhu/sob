@@ -163,7 +163,7 @@
 
 ## Nevezetes algoritmusok és megvalósításuk OOP-technológiával
 
-- Futásiidő-komplexitás, a nagy   - jelölés, memóriaigény
+- Futásiidő-komplexitás, az O - jelölés, memóriaigény
 - Nevezetes adatstruktúrák memóriaigénye és műveletek időkomplexitása:
   - Tömb (használata Java-ban / C#-ban)
   - Láncolt lista (használata Java-ban / C#-ban)
