@@ -8,7 +8,7 @@
 
 ## [C\#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference)
 
-- VSCode: C\# for Visual Studio Code Plugin
+- VSCode: C\# for Visual Studi  - Code Plugin
 - C\# programozási nyelv
   - [Az első C\#-kód megírása](https://learn.microsoft.com/hu-hu/training/modules/csharp-write-first/)
   - [Debugolás, hibakeresés](https://learn.microsoft.com/hu-hu/training/modules/dotnet-debug/3-analyze-your-program-state)
@@ -161,6 +161,23 @@
   - Default konstruktor
   - This kulcssszó
 
+## Nevezetes algoritmusok és megvalósításuk OOP-technológiával
+
+- Futásiidő-komplexitás, a nagy   - jelölés, memóriaigény
+- Nevezetes adatstruktúrák memóriaigénye és műveletek időkomplexitása:
+  - Tömb (használata Java-ban / C#-ban)
+  - Láncolt lista (használata Java-ban / C#-ban)
+  - Verem (használata Java-ban / C#-ban)
+  - Többszörösen láncolt lista
+  - Fa, bináris fa
+- Hash map (használata Java-ban / C#-ban)
+- Nevezetes algoritmusok és implementálásuk:
+  - Bináris keresés
+  - Buborékrendezés
+  - Beszúrásos rendezés
+  - Quick Sort - Reguláris Kifejezések (használata Java-ban / C#-ban)
+- Rekurzió
+
 ## Konzolalkalmazás fejlesztése TypeScript/C\# nyelven
 
 - [CSES Problem SET](https://cses.fi/problemset/) megoldása NodeJS nyelven
@@ -171,7 +188,7 @@
   - Permutations
   - Number Spiral
   - Tower of Hanoi
-  - [Two Sets](https://tomuwhu.github.io/sv03/2sets)
+  - [Tw  - Sets](https://tomuwhu.github.io/sv03/2sets)
   - Distinct Numbers
   - Dice Combinations
   - Counting Rooms
