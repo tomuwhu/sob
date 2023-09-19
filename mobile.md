@@ -12,6 +12,7 @@
 
 - Öröklődés és polimorfizmus (extends, polimorfizmus, interface)
 - Metódus- és konstruktor-túlterhelés
+
   (több konstruktor együttes használata, a method overloading hasznossága,
   felhasználási korlátok)
 - Egységbezárás, objektumok közötti kommunikáció
