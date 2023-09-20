@@ -3,6 +3,21 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `Verem (objektom || osztály)`,
+    date: `2023-09-20`,
+    files: [{
+      type: `javascript`,
+      fn: `veremobj.js`
+    },
+    {
+      type: `csharp`,
+      fn: `veremclass.js`
+    }],
+    keywords: [
+      `html`, `css`, `js`, `egyszerű`, `animáció`, `hanoi`, `rekurzió`
+    ]
+  },
+  {
     name: `Hanoi torony animáció`,
     date: `2023-09-11`,
     git: [`SOB`, ``, `purejs/hanoi`],
