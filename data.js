@@ -3,6 +3,19 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `Aknakereső`,
+    date: `2023-09-20`,
+    text: `Svelte Frontend példa`,
+    files: [{
+      type: `svelte`,
+      fn: `Aknakereso.svelte`
+    }],
+    git: [`SOB`, `https://github.com/tomuwhu/aknakereso/blob/master/src/routes/%2Bpage.svelte`, `https://tomuwhu.github.io/aknakereso/`],
+    keywords: [
+      `SvelteKit`, `Táblázat`, `HTML`, `CSS`, `JavaScript`, `vite`
+    ]
+  },
+  {
     name: `Jest teszte (verem)`,
     date: `2023-09-20`,
     files: [{
