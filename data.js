@@ -3,7 +3,22 @@ n = 5
 a = [-1, -1]
 ds = [
   {
-    name: `Verem (objektom || osztály)`,
+    name: `Jest teszte (verem)`,
+    date: `2023-09-20`,
+    files: [{
+      type: `javascript`,
+      fn: `jest_verem.js`
+    },
+    {
+      type: `javascript`,
+      fn: `jest_verem_test.js`
+    }],
+    keywords: [
+      `js`, `objektum`, `osztály`, `verem`, `teszt`, `unit_teszt`, `jest`, `module`
+    ]
+  },
+  {
+    name: `Verem (objektum || osztály)`,
     date: `2023-09-20`,
     files: [{
       type: `javascript`,
@@ -18,7 +33,7 @@ ds = [
       fn: `queue.js`
     }],
     keywords: [
-      `html`, `css`, `js`, `egyszerű`, `animáció`, `hanoi`, `rekurzió`
+      `js`, `objektum`, `osztály`, `verem`, `sor`, `kupac`, `prioritási`
     ]
   },
   {

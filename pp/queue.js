@@ -26,23 +26,23 @@ class Stack {
             while (this.size) 
                 rv.push(this.get())
             return rv
-        }
-        [Symbol.iterator]() { // O( n * get() )
-            return {
-                next: () => {
-                    if (this.size > 0) {
-                        return {
-                            value: this.get(),
-                            done: false
-                        }
-                    } else {
-                        return {
-                            done: true
-                        }
+    }
+    [Symbol.iterator]() { // O( n * get() )
+        return {
+            next: () => {
+                if (this.size > 0) {
+                    return {
+                        value: this.get(),
+                        done: false
+                    }
+                } else {
+                    return {
+                        done: true
                     }
                 }
             }
         }
+    }
 }
 class BadQueue extends Stack {
     constructor() {
