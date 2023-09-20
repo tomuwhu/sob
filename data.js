@@ -10,8 +10,12 @@ ds = [
       fn: `veremobj.js`
     },
     {
-      type: `csharp`,
+      type: `javascript`,
       fn: `veremclass.js`
+    },
+    {
+      type: `javascript`,
+      fn: `queue.js`
     }],
     keywords: [
       `html`, `css`, `js`, `egyszerű`, `animáció`, `hanoi`, `rekurzió`
