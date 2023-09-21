@@ -31,13 +31,13 @@
 
 ## Nevezetes algoritmusok és megvalósításuk OOP-technológiával
 
-- Futásiidő-komplexitás, az   - - jelölés, memóriaigény
+- Futásiidő-komplexitás, az 𝒪-jelölés, memóriaigény
 - Nevezetes adatstruktúrák memóriaigénye és műveletek időkomplexitása:
   - Tömb (Java/C#/JavaScript/TypeScript/PHP)
-  - Láncolt lista (Java/C#)
-  - Verem (Java/C#)
+  - Láncolt lista (JavaScript/Java/C#)
+  - Verem (JavaScript/Java/C#)
   - Többszörösen láncolt lista
-  - Fa, bináris fa
+  - Fa, bináris fa, kupac, keresőfák
 - Hash map (használata Java/C#)
 - Nevezetes algoritmusok és implementálásuk:
   - Bináris keresés
@@ -47,9 +47,10 @@
   - Reguláris Kifejezések (JavaScript/TypeScript)
 - Rekurzió és alkalmazása
   - Hanoi tornyai
-  - Hátizsák és töredékes hátizsák, pénzváltás probléma
+  - Az aknakereső rekurzív hívása 0 aknánál
   - Tükörszó probléma
   - Dinamikus programozás, Mohó stratégia
+  - Hátizsák és töredékes hátizsák, pénzváltás probléma
   - Gráf adatszerkezet és alapvető gráf-algoritmusok
   - Egyszerű problémák megoldása (CSES Problem SET)
   - Egyszerű problémák megoldása (HackerrRank Problem Solving)
