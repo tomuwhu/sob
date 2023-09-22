@@ -13,9 +13,13 @@ ds = [
     {
       type: `javascript`,
       fn: `mymap.test.js`
+    },
+    {
+      type: `javascript`,
+      fn: `bracket.js`
     }],
     keywords: [
-      `js`, `objektum`, `osztály`, `Map`, `extends`, `kupac`, `szótár`
+      `js`, `objektum`, `osztály`, `Map`, `extends`, `kupac`, `szótár`, `objektum`, `értékadás`
     ]
   },
   {
