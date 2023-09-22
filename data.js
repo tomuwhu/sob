@@ -5,7 +5,7 @@ ds = [
   {
     name: `Map osztály felüldefiniálása`,
     date: `2023-09-20`,
-    text: `Ismétlődő elemek átlaga`,
+    text: `Ismétlődő elemek szorzata`,
     files: [{
       type: `javascript`,
       fn: `mymap.js`
