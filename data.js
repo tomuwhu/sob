@@ -8,11 +8,11 @@ ds = [
     text: `Ismétlődő elemek átlaga`,
     files: [{
       type: `javascript`,
-      fn: `nset.js`
+      fn: `mymap.js`
     },
     {
       type: `javascript`,
-      fn: `nset.test.js`
+      fn: `mymap.test.js`
     }],
     keywords: [
       `js`, `objektum`, `osztály`, `Map`, `extends`, `kupac`, `szótár`
