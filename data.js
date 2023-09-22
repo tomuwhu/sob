@@ -3,6 +3,22 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `Map osztály felüldefiniálása`,
+    date: `2023-09-20`,
+    text: `Ismétlődő elemek átlaga`,
+    files: [{
+      type: `javascript`,
+      fn: `nset.js`
+    },
+    {
+      type: `javascript`,
+      fn: `nset.test.js`
+    }],
+    keywords: [
+      `js`, `objektum`, `osztály`, `Map`, `extends`, `kupac`, `szótár`
+    ]
+  },
+  {
     name: `Aknakereső`,
     date: `2023-09-20`,
     text: `Svelte Frontend példa`,
@@ -16,7 +32,7 @@ ds = [
     ]
   },
   {
-    name: `Jest teszte (verem)`,
+    name: `Jest tesztek (verem)`,
     date: `2023-09-20`,
     files: [{
       type: `javascript`,
