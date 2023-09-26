@@ -36,6 +36,14 @@ a.z:active, button.z:active {
 h1 {
     color: rgb(17, 74, 74);
     text-shadow: 1px 1px 3px gray;
+    display: inline-block;
+    background-color: antiquewhite;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px inset black;
+    border: solid 10px white;
+    margin: 5px;
 }
 pre#p1 {
     display: inline-block;
@@ -63,4 +71,7 @@ div.row {
     box-shadow: 1px 1px 3px inset black;
     border: solid 4px rgb(61, 122, 116);
     padding: 6px;
+}
+body {
+    background-color: black;
 }
