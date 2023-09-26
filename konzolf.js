@@ -1,11 +1,49 @@
 data = [{
     text: 'Morze - Programozás vizsgafeladat',
     path: 'morze',
-    files: ['feladat.pdf', 'morze.txt', 'morzeabc.txt', 'program.js']
+    files: ['feladat.pdf', 'morze.txt', 'morzeabc.txt', 'morze.js']
 }]
-setTimeout(() => 
-    document.getElementById("cont").innerHTML = data.map(v => `<span class="cim">${v.text}</span>${v.files.map(fn => (
+function fallbackCopyTextToClipboard(text) {
+    var textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.top = "0";
+    textArea.style.left = "0";
+    textArea.style.position = "fixed";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    try {
+        var successful = document.execCommand('copy');
+        var msg = successful ? 'successful' : 'unsuccessful';
+    } catch (err) {
+        console.error('Fallback: Oops, unable to copy', err);
+    }
+    document.body.removeChild(textArea);
+}
+function copyTextToClipboard(text) {
+if (!navigator.clipboard) {
+    fallbackCopyTextToClipboard(text);
+    return;
+}
+navigator.clipboard.writeText(text).then(function () {
+
+}, function (err) {
+    console.error('Async: Could not copy text: ', err);
+});
+}
+function fl(fn) {
+    $.get(fn, data => {
+        copyTextToClipboard(data)
+        $(`#code`).text(data)
+        hljs.highlightAll()
+    }, "text")
+}
+$(() => 
+    $("#cont").html(data.map(v => `<span class="z cim">${v.text}</span>${v.files.map(fn => (
         [f, k] = fn.split("."),
-        `<a href="konzol/${v.path}/${fn}" ${k === "txt" ? "download" : ""} target="_blank">${f}</a>`
-    )).join("")}`).join("<br>")
-, 1000)
+        k === 'js'
+        ?   `<button class="z" onclick="fl('konzol/${v.path}/${fn}')">program: ${fn}</button>`
+        :   `<a class="z" href="konzol/${v.path}/${fn}" ${k === "txt" ? "download" : ""} target="_blank">${f}</a>`
+    )).join("")}`).join("<br>"))
+)
+

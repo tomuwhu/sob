@@ -1,12 +1,14 @@
-span, a {
+span.z, a.z, button.z {
     all: unset;
-    padding: 6px;
+    padding: 3px;
+    padding-left: 18px;
+    padding-right: 18px;
     margin: 2px;
     display: inline-block;
     background-color: rgb(218, 222, 197);
     border-radius: 10px;
     border: solid 1px black;
-    box-shadow: 1px 1px 3px inset black;
+    box-shadow: 1px 1px 3px black;
 }
 body {
     text-align: center;
@@ -14,19 +16,29 @@ body {
     user-select: none;
 }
 span.cim {
-    width: 300px;
+    background-color: aqua;
+    border-color: rgb(20, 106, 78);
+    box-shadow: 1px 1px 3px inset black;
 }
-a {
+a.z, button.z {
     color: rgb(14, 49, 68);
     text-decoration: wavy;
     cursor: pointer;
 }
-a:hover {
+a.z:hover, button.z:hover {
     background-color: aquamarine;
 }
-a:active {
+a.z:active, button.z:active {
     background-color: rgb(238, 173, 230);
+    box-shadow: 1px 1px 3px inset black;
 }
 h1 {
     color: rgb(10, 44, 44);
+}
+#code {
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 1px 1px 7px black;
+    display: inline-block;
+    padding: 20px;
 }
