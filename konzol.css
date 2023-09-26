@@ -7,7 +7,7 @@ span.z, a.z, button.z {
     display: inline-block;
     background-color: rgb(186, 237, 224);
     border-radius: 10px;
-    border: solid 1px black;
+    border: solid 3px rgb(138, 50, 50);
     box-shadow: 1px 1px 3px black;
 }
 body {
@@ -54,4 +54,13 @@ pre#p1 {
 }
 i.i {
     color: rgb(52, 115, 133);
+}
+div.row {
+    text-align: left;
+    display: inline-block;
+    background-color: rgb(175, 209, 216);
+    border-radius: 16px;
+    box-shadow: 1px 1px 3px inset black;
+    border: solid 4px rgb(61, 122, 116);
+    padding: 6px;
 }
