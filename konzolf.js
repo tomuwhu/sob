@@ -36,14 +36,16 @@ function fl(fn) {
         copyTextToClipboard(data)
         $(`#code`).text(data)
         hljs.highlightAll()
+        $(`#code`).show()
     }, "text")
 }
-$(() => 
+$(() => {
+    $(`#code`).hide()
     $("#cont").html(data.map(v => `<span class="z cim">${v.text}</span>${v.files.map(fn => (
         [f, k] = fn.split("."),
         k === 'js'
         ?   `<button class="z" onclick="fl('konzol/${v.path}/${fn}')">program: ${fn}</button>`
         :   `<a class="z" href="konzol/${v.path}/${fn}" ${k === "txt" ? "download" : ""} target="_blank">${f}</a>`
     )).join("")}`).join("<br>"))
-)
+})
 
