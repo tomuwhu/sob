@@ -5,7 +5,7 @@ span.z, a.z, button.z {
     padding-right: 18px;
     margin: 2px;
     display: inline-block;
-    background-color: rgb(218, 222, 197);
+    background-color: rgb(186, 237, 224);
     border-radius: 10px;
     border: solid 1px black;
     box-shadow: 1px 1px 3px black;
@@ -16,7 +16,8 @@ body {
     user-select: none;
 }
 span.cim {
-    background-color: aqua;
+    background-color: rgb(176, 239, 239);
+    color: rgb(15, 55, 80);
     border-color: rgb(20, 106, 78);
     box-shadow: 1px 1px 3px inset black;
 }
@@ -33,7 +34,16 @@ a.z:active, button.z:active {
     box-shadow: 1px 1px 3px inset black;
 }
 h1 {
-    color: rgb(10, 44, 44);
+    color: rgb(17, 74, 74);
+    text-shadow: 1px 1px 3px gray;
+}
+pre#p1 {
+    display: inline-block;
+    background-color: aqua;
+    border:solid 10px rgb(69, 168, 193);
+    padding: 15px;
+    border-radius: 27px;
+    box-shadow: 1px 1px 8px inset black;
 }
 #code {
     text-align: left;
@@ -41,4 +51,7 @@ h1 {
     box-shadow: 1px 1px 7px black;
     display: inline-block;
     padding: 20px;
+}
+i.i {
+    color: rgb(52, 115, 133);
 }
