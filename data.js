@@ -3,6 +3,19 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `Sakk`,
+    date: `2023-09-28`,
+    text: `Svelte Frontend példa - Sakk`,
+    files: [{
+      type: `svelte`,
+      fn: `Chess.svelte`
+    }],
+    git: [`SOB`, `https://github.com/tomuwhu/sv03/blob/master/src/routes/chess/%2Bpage.svelte`, `https://tomuwhu.github.io/sv03/chess`],
+    keywords: [
+      `SvelteKit`, `Táblázat`, `HTML`, `CSS`, `JavaScript`, `vite`, 'sakk', 'chess', 'get'
+    ]
+  },
+  {
     name: `Map osztály felüldefiniálása`,
     date: `2023-09-20`,
     text: `Ismétlődő elemek szorzata`,
