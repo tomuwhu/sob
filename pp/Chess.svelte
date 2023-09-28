@@ -44,7 +44,7 @@
     }
 </script>
 {#if mate}
-<h1 class="matt">Matt</h1>
+<h1 class="matt">{checkmate()}</h1>
 {:else}
 <h1>Sakk</h1> 
 {/if}
