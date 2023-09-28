@@ -16,7 +16,7 @@
     const turn = () => {
         chess.reset()
         iam =  iam == 'b' ? 'w' : 'b'
-        fetcfish()
+        if (iam == 'w') fetcfish()
     }
     const refresh = () => {
         cb = chess.board()
@@ -29,7 +29,7 @@
         +chess.fen()
         +'&depth=11&mode=bestmove')
         .then(v => v.json())
-        .then( v => {
+        .then(v => {
             chess.move(v.data.split(" ")[1])
             refresh()
         })
