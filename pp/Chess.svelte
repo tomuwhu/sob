@@ -11,6 +11,7 @@
         chess.undo()
         chess.undo()
         refresh()
+        msg = ''
     }
     const turn = () => {
         chess.reset()
@@ -33,7 +34,7 @@
             refresh()
         })
     const checkmate = () => chess.isCheckmate() ? 'Matt' : chess.isDraw() ? 'Döntetlen'  : ''
-    function drop(loc) {
+    const drop = loc => {
         msg = ''
         try {
             chess.move(st.square + loc)
