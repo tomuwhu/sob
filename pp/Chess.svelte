@@ -16,7 +16,8 @@
     const turn = () => {
         chess.reset()
         iam =  iam == 'b' ? 'w' : 'b'
-        if (iam == 'w') fetcfish()
+        refresh()
+        if (iam == 'b') fetcfish()
     }
     const refresh = () => {
         cb = chess.board()
