@@ -83,9 +83,17 @@ ds = [
     ]
   },
   {
-    name: `Hanoi torony animáció`,
+    name: `Hanoi torony + animáció`,
     date: `2023-09-11`,
     git: [`SOB`, ``, `purejs/hanoi`],
+    files: [{
+      type: `javascript`,
+      fn: `Hanoi JavaScript.js`
+    },
+    {
+      type: `python`,
+      fn: `Hanoi Python.py`
+    }],
     keywords: [
       `html`, `css`, `js`, `egyszerű`, `animáció`, `hanoi`, `rekurzió`
     ]
