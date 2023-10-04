@@ -3,6 +3,15 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `Sakk2`,
+    date: `2023-10-04`,
+    text: `Svelte Frontend példa - Sakk2`,
+    git: [`SOB`, `https://github.com/tomuwhu/chess/blob/master/src/routes/%2Bpage.svelte`, `https://tomuwhu.github.io/chess/`],
+    keywords: [
+      `SvelteKit`, `Táblázat`, `HTML`, `CSS`, `JavaScript`, `vite`, 'sakk', 'chess', 'get'
+    ]
+  },
+  {
     name: `Sakk`,
     date: `2023-09-28`,
     text: `Svelte Frontend példa - Sakk`,
