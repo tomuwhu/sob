@@ -8,7 +8,7 @@ ds = [
     text: `Svelte Frontend példa - Sakk2`,
     git: [`SOB`, `https://github.com/tomuwhu/chess/blob/master/src/routes/%2Bpage.svelte`, `https://tomuwhu.github.io/chess/`],
     keywords: [
-      `SvelteKit`, `Táblázat`, `HTML`, `CSS`, `JavaScript`, `vite`, 'sakk', 'chess', 'get'
+      `SvelteKit`, `Táblázat`, `HTML`, `CSS`, `JavaScript`, `vite`, 'sakk', 'chess'
     ]
   },
   {
