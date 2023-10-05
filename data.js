@@ -3,6 +3,15 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `Órarend`,
+    date: `2023-10-05`,
+    text: `Svelte Frontend példa - Órarend`,
+    git: [`SOB`, `https://github.com/tomuwhu/legyenmonjuk`, `https://tomuwhu.github.io/legyenmonjuk/`],
+    keywords: [
+      `SvelteKit`, `Táblázat`, `HTML`, `CSS`, `JavaScript`, `vite`, 'todo', 'órarend', 'elválasztó'
+    ]
+  },
+  {
     name: `Sakk2`,
     date: `2023-10-04`,
     text: `Svelte Frontend példa - Sakk2`,
