@@ -3,6 +3,15 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `Menü + Értékelő`,
+    date: `2023-10-07`,
+    text: `Svelte Frontend példa - Csillagozós`,
+    git: [`SOB`, `https://github.com/tomuwhu/ertekelo`, `https://tomuwhu.github.io/ertekelo/`],
+    keywords: [
+      `SvelteKit`, `Táblázat`, `HTML`, `CSS`, `JavaScript`, `vite`, 'dragndrop', 'értékelő', 'menü', 'komponens'
+    ]
+  },
+  {
     name: `Órarend`,
     date: `2023-10-05`,
     text: `Svelte Frontend példa - Órarend`,
