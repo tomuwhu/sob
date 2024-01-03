@@ -4,8 +4,9 @@ body {
 }
 h1 {
     font-family: 'Lucida Sans';
-    font-size: 22px;
-    color: rgb(26, 57, 92);
+    font-size: 30px;
+    color: rgb(31, 88, 152);
+    text-shadow: 1px 1px 3px gray;
 }
 td {
     width: 30px;
@@ -23,6 +24,7 @@ table {
     border-spacing: 0px;
     margin: 10px auto;
     border: solid 2px rgb(155, 131, 131);
+    box-shadow: 1px 1px 7px rgb(101, 101, 101);
 }
 div.al {
     display: inline-block;
