@@ -31,6 +31,7 @@ div.al {
     border: solid 0.1px rgba(224, 193, 193, .8);
     margin: 10px;
     cursor: grab;
+    box-shadow: 1px 1px 3px black;
 }
 div.al0 {
     cursor: default;
