@@ -84,7 +84,7 @@ def ut():
         )
         .bind("click", rotate)
         .bind("dragstart", ds)
-        for (i, x, y, c) in al
+        for (i, x, y, c) in filter(lambda x: x[3], al)
     )
 
 D <= H.H1("Mondrian")

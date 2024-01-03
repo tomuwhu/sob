@@ -21,7 +21,7 @@ td.x1 {
 table {
     user-select: none;
     border-spacing: 0px;
-    margin: 0 auto;
+    margin: 10px auto;
     border: solid 2px rgb(155, 131, 131);
 }
 div.al {
@@ -56,4 +56,22 @@ div.al8, td.x8 {
 }
 div.al9, td.x9 {
     background-color: rgb(229, 236, 167);
+}
+button {
+    cursor: pointer;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px black;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(213, 186, 151);
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px black;
+}
+button:active {
+    cursor: pointer;
+    background-color: rgb(251, 136, 121);
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px black;
 }
