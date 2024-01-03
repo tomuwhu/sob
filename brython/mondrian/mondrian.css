@@ -1,0 +1,59 @@
+body {
+    background-color: azure;
+    text-align: center;
+}
+h1 {
+    font-family: 'Lucida Sans';
+    font-size: 22px;
+    color: rgb(26, 57, 92);
+}
+td {
+    width: 30px;
+    height: 30px;
+    border: solid 0.1px rgba(224, 193, 193, .8);
+    font-size: 8px;
+    color: rgb(119, 179, 193);
+    cursor: default;
+}
+td.x1 {
+    background-color: black;
+}
+table {
+    user-select: none;
+    border-spacing: 0px;
+    margin: 0 auto;
+    border: solid 2px rgb(155, 131, 131);
+}
+div.al {
+    display: inline-block;
+    border: solid 0.1px rgba(224, 193, 193, .8);
+    margin: 10px;
+    cursor: grab;
+}
+div.al0 {
+    cursor: default;
+}
+div.al2, td.x2 {
+    background-color: rgb(183, 189, 100);
+}
+div.al3, td.x3 {
+    background-color: rgb(106, 86, 196);
+}
+div.al4, td.x4 {
+    background-color: rgb(129, 179, 226);
+}
+div.al5, td.x5 {
+    background-color: rgb(86, 139, 11);
+}
+div.al6, td.x6 {
+    background-color: rgb(98, 234, 186);
+}
+div.al7, td.x7 {
+    background-color: rgb(157, 93, 28);
+}
+div.al8, td.x8 {
+    background-color: rgb(231, 108, 108);
+}
+div.al9, td.x9 {
+    background-color: rgb(229, 236, 167);
+}

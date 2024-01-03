@@ -3,6 +3,15 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `Mondrian`,
+    date: `2024-01-03`,
+    text: `01-03 Online óra 2. feladat megoldása`,
+    git: [`SOB`, ``, `/brython/mondrian/mondrian.html`],
+    keywords: [
+      `Brython`, `Mondrian`, `HTML`, `CSS`, `Python`, 'dragndrop'
+    ]
+  },
+  {
     name: `Menü + Értékelő`,
     date: `2023-10-07`,
     text: `Svelte Frontend példa - Csillagozós`,
