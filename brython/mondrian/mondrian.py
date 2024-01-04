@@ -123,7 +123,7 @@ def g():
             else "Modiran játék: <i>sikeres kirakás</i>"
         )
         if s1 < s2:
-            G <= H.BUTTON(
+            G <= H.BR() + H.BUTTON(
                 "Reset" if s1 else f"Következő pálya ({ap + 1}.)",
                 Class="a" if s1 else "b",
             ).bind("click", reset)
