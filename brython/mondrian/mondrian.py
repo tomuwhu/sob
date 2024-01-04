@@ -8,7 +8,7 @@ def read(req):
     tbl = list(map(lambda x: list(map(int, x)), dat[0].split()))
     al = list(map(lambda x: [x[0]] + list(map(int, x[1])), enumerate(dat[1].split())))
     ut()
-
+    g()
 
 def reset(e):
     global tbl, al, ap, psz
@@ -56,7 +56,7 @@ def de(e):
         ut()
     if len(list(filter(lambda x: x[3], al))) == 0:
         ap += 1
-
+        g()
 
 def do(e):
     e.preventDefault()
@@ -81,6 +81,14 @@ def ut():
     )
 
 
+def g():
+    global G, al
+    G.clear()
+    G <= H.BUTTON(
+        "Reset" if len(list(filter(lambda x: x[3], al))) else "Következő pálya"
+    ).bind("click", reset)
+
+
 tbl = []
 al = []
 psz = 5
@@ -88,6 +96,7 @@ ap = 0
 T = H.DIV()
 D <= H.H1("Mondrian")
 D <= T
-D <= H.BUTTON("Reset").bind("click", reset)
+G = H.SPAN()
+D <= G
 reset(0)
-ut()
+
