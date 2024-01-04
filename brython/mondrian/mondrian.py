@@ -10,11 +10,13 @@ def read(req):
     ut()
     g()
 
+
 def reset(e):
-    global tbl, al, ap, psz
+    global G, tbl, al, ap, psz
     if ap > psz - 1:
-        ap = 0
-    A.get(f"p{ap}.dat", oncomplete=read)
+        G.clear()
+    else:
+        A.get(f"p{ap}.dat", oncomplete=read)
 
 
 def rotate(e):
@@ -58,6 +60,7 @@ def de(e):
         ap += 1
         g()
 
+
 def do(e):
     e.preventDefault()
     return True
@@ -84,9 +87,12 @@ def ut():
 def g():
     global G, al
     G.clear()
-    G <= H.BUTTON(
-        "Reset" if len(list(filter(lambda x: x[3], al))) else "Következő pálya"
-    ).bind("click", reset)
+    if ap == psz:
+        G <= H.DIV("Nincs több pálya. :(")
+    else:
+        G <= H.BUTTON(
+            "Reset" if len(list(filter(lambda x: x[3], al))) else f"Következő, ( {ap + 1}.) pálya"
+        ).bind("click", reset)
 
 
 tbl = []
@@ -99,4 +105,3 @@ D <= T
 G = H.SPAN()
 D <= G
 reset(0)
-
