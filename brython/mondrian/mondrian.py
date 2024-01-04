@@ -38,8 +38,8 @@ def de(e):
     obj = al[int(me)]
     global dx, dy, t, ap
     trect = t.getBoundingClientRect()
-    px = int((e.x + dx - trect.left + 20) // 34)
-    py = int((e.y + dy - trect.top + 20) // 34)
+    px = int((e.x + dx - trect.left + 15) // 34)
+    py = int((e.y + dy - trect.top + 15) // 34)
     rx = obj[1]
     ry = obj[2]
     if px + rx > len(tbl[0]):
