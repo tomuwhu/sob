@@ -2,6 +2,14 @@ from browser import document as D, html as H
 from browser import ajax as A
 
 
+def f(s):
+    sx = ""
+    cl = ["#c71210", "#0080c0", "#f0d034", "black"]
+    for i, c in enumerate(s):
+        sx += f"<b style='color: {cl[i%4]};'>{c}<b>"
+    return sx
+
+
 def read(req):
     global tbl, al
     dat = list(req.text.split("."))
@@ -73,7 +81,6 @@ def do(e):
         return True
 
 
-
 def ut():
     global t
     T.clear()
@@ -110,9 +117,9 @@ def g():
         s1 = len(list(filter(lambda x: x[3], al)))
         s2 = len(al)
         H1 <= H.H1(
-            f"Mondrian <i>{ap+1}. pálya</i>"
+            f"Mondrian {f('blocks')}: <i>{ap+1}. pálya</i>"
             if s1
-            else "Modiran játék: <i>sikeres kirakás</i>"
+            else f"Modiran {f('blocks')}: <i>sikeres kirakás</i>"
         )
         if s1 < s2:
             G <= H.BR() + H.BUTTON(
