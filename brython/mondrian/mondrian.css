@@ -107,6 +107,17 @@ a.svg {
   left: 80px;
   filter: drop-shadow(1px 1px 3px rgb(0 0 0 / 0.9));
 }
+a.mli {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  
+}
+a.mli img {
+  width: 200px;
+  height: 200px;
+  border-radius: 70px;
+}
 a.sob {
   all: unset;
   font-size: 10px;
