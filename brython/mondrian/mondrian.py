@@ -113,7 +113,7 @@ def g():
             ).bind("click", reset)
 
 
-tbl, al, psz, ap, H1, T, G = [], [], 9, 4, H.DIV(), H.DIV(), H.DIV()
+tbl, al, psz, ap, H1, T, G = [], [], 9, 0, H.DIV(), H.DIV(), H.DIV()
 D <= H1 + T + G + H.DIV(
     H.A(
         "SOB Példaprogram - Dr. Németh Tamás",
