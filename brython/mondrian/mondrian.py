@@ -5,17 +5,19 @@ from browser import ajax as A
 def read(req):
     global tbl, al
     dat = list(req.text.split("."))
-    tbl = list(map(lambda x: list(map(int, x)),dat[0].split()))
-    al = list(map(lambda x: list(map(int, str(x[0])+x[1])), enumerate(dat[1].split())))
+    tbl = list(map(lambda x: list(map(int, x)), dat[0].split()))
+    al = list(
+        map(lambda x: list(map(int, str(x[0]) + x[1])), enumerate(dat[1].split()))
+    )
     ut()
 
 
 def reset(e):
-    global tbl, al, ap
-    if ap > 2:
+    global tbl, al, ap, psz
+    if ap > psz - 1:
         ap = 0
     A.get(f"p{ap}.dat", oncomplete=read)
-    
+
 
 def rotate(e):
     id = int(e.target.id)
@@ -83,7 +85,8 @@ def ut():
 
 tbl = []
 al = []
-ap = 2
+psz = 3
+ap = 0
 T = H.DIV()
 D <= H.H1("Mondrian")
 D <= T
