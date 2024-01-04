@@ -6,7 +6,7 @@ ds = [
     name: `Mondrian`,
     date: `2024-01-03`,
     text: `01-03 Online óra 2. feladat megoldása`,
-    git: [`SOB`, ``, `/brython/mondrian/mondrian.html`],
+    git: [`SOB`, `https://github.com/tomuwhu/sob/tree/main/brython/mondrian`, `/brython/mondrian/mondrian.html`],
     keywords: [
       `Brython`, `Mondrian`, `HTML`, `CSS`, `Python`, 'dragndrop'
     ]
