@@ -112,5 +112,5 @@ def g():
 
 
 tbl, al, psz, ap, H1, T, G = [], [], 5, 0, H.DIV(), H.DIV(), H.DIV()
-D <= H1 + T + G
+D <= H1 + T + G + H.DIV(H.A("SOB Példaprogram - Dr. Németh Tamás", href="https://sob.es6.eu", target="sob", Class="sob"))
 reset(0)
