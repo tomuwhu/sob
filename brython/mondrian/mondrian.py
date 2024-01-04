@@ -70,6 +70,7 @@ def ut():
     global t
     T.clear()
     t = H.TABLE([H.TR([H.TD(Class=f"x{e}") for e in row]) for row in tbl])
+    tx = 34 * len(tbl[0]) - 22
     T <= H.DIV(t.bind("drop", de).bind("dragover", do))
     alx = list(filter(lambda x: x[3], al))
     if len(alx):
@@ -86,6 +87,7 @@ def ut():
                 for (i, x, y, c) in alx
             ],
             Class="xc",
+            style={"min-inline-size": f"{tx}px"},
         )
 
 
@@ -111,6 +113,13 @@ def g():
             ).bind("click", reset)
 
 
-tbl, al, psz, ap, H1, T, G = [], [], 9, 0, H.DIV(), H.DIV(), H.DIV()
-D <= H1 + T + G + H.DIV(H.A("SOB Példaprogram - Dr. Németh Tamás", href="https://sob.es6.eu", target="sob", Class="sob"))
+tbl, al, psz, ap, H1, T, G = [], [], 9, 4, H.DIV(), H.DIV(), H.DIV()
+D <= H1 + T + G + H.DIV(
+    H.A(
+        "SOB Példaprogram - Dr. Németh Tamás",
+        href="https://sob.es6.eu",
+        target="sob",
+        Class="sob",
+    )
+)
 reset(0)

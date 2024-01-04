@@ -105,7 +105,6 @@ i {
 .xc {
   display: inline-block;
   padding: 10px;
-  min-inline-size: 219px;
   padding-top: 20px;
   background-color: rgb(250, 216, 166);
   border: solid 9px rgb(243, 192, 97);
