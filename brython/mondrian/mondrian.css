@@ -106,6 +106,7 @@ i {
   padding: 10px;
   padding-top: 20px;
   background-color: rgb(250, 216, 166);
+  border: solid 9px rgb(243, 192, 97);
   border-radius: 10px;
   box-shadow: 1px 1px 3px inset black;
 }
