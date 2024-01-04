@@ -42,9 +42,9 @@ def de(e):
     py = int((e.y + dy - trect.top + 20) // 34)
     rx = obj[1]
     ry = obj[2]
-    if px + rx > 7:
+    if px + rx > len(tbl[0]):
         return
-    if py + ry > 7:
+    if py + ry > len(tbl):
         return
     o = 0
     for ix in range(rx):
@@ -85,8 +85,8 @@ def ut():
 
 tbl = []
 al = []
-psz = 3
-ap = 0
+psz = 5
+ap = 4
 T = H.DIV()
 D <= H.H1("Mondrian")
 D <= T
