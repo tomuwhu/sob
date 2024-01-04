@@ -7,7 +7,7 @@ def read(req):
     dat = list(req.text.split("."))
     tbl = list(map(lambda x: list(map(int, x)), dat[0].split()))
     al = list(
-        map(lambda x: list(map(int, str(x[0]) + x[1])), enumerate(dat[1].split()))
+        map(lambda x: [x[0]] + list(map(int, x[1])), enumerate(dat[1].split()))
     )
     ut()
 
@@ -86,7 +86,7 @@ def ut():
 tbl = []
 al = []
 psz = 5
-ap = 0
+ap = 4
 T = H.DIV()
 D <= H.H1("Mondrian")
 D <= T
