@@ -62,8 +62,24 @@ def de(e):
 
 
 def do(e):
-    e.preventDefault()
-    return True
+    obj = al[int(me)]
+    global dx, dy, t, ap
+    trect = t.getBoundingClientRect()
+    px = int((e.x + dx - trect.left + 15) // 34)
+    py = int((e.y + dy - trect.top + 15) // 34)
+    rx = obj[1]
+    ry = obj[2]
+    if px + rx > len(tbl[0]):
+        return
+    if py + ry > len(tbl):
+        return
+    o = 0
+    for ix in range(rx):
+        for iy in range(ry):
+            o += tbl[py + iy][px + ix]
+    if o == 0:
+        e.preventDefault()
+        return True
 
 
 def ut():
