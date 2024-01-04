@@ -71,7 +71,8 @@ def ut():
     T.clear()
     t = H.TABLE([H.TR([H.TD(Class=f"x{e}") for e in row]) for row in tbl])
     T <= H.DIV(t.bind("drop", de).bind("dragover", do))
-    T <= H.DIV(
+    alx = list(filter(lambda x: x[3], al))
+    if len(alx): T <= H.DIV(
         [H.DIV(
             Class=f"al al{c}",
             id=f"{i}",
@@ -80,7 +81,7 @@ def ut():
         )
         .bind("click", rotate)
         .bind("dragstart", ds)
-        for (i, x, y, c) in filter(lambda x: x[3], al)], Class="xc"
+        for (i, x, y, c) in alx], Class="xc"
     )
 
 
