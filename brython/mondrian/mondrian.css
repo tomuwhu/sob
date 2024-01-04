@@ -101,3 +101,9 @@ i {
   border-radius: 10px;
   box-shadow: 1px 1px 3px inset black;
 }
+a.svg {
+  position: fixed;
+  top: 0px;
+  left: 80px;
+  filter: drop-shadow(1px 1px 3px rgb(0 0 0 / 0.9));
+}
