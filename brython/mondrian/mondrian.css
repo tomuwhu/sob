@@ -122,12 +122,18 @@ a.mli {
   position: fixed;
   top: 40px;
   right: 40px;
-  
+}
+a.mli:hover img {
+  box-shadow: 1px 1px 8px black;
+}
+a.mli:active img {
+  border: solid 3px white;
+  box-shadow: 1px 1px 3px inset black;
 }
 a.mli img {
   width: 200px;
   height: 200px;
-  border-radius: 70px;
+  border-radius: 110px;
 }
 a.sob {
   all: unset;
