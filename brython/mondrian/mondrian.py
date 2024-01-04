@@ -106,7 +106,7 @@ def g():
         )
         if s1 < s2:
             G <= H.BUTTON(
-                "Reset" if s1 else f"Következő pálya ({ap + 2}.)",
+                "Reset" if s1 else f"Következő pálya ({ap + 1}.)",
                 Class="a" if s1 else "b",
             ).bind("click", reset)
 
