@@ -58,7 +58,7 @@ def de(e):
         ut()
     if len(list(filter(lambda x: x[3], al))) == 0:
         ap += 1
-        g()
+    g()
 
 
 def do(e):
@@ -90,9 +90,13 @@ def g():
     if ap == psz:
         G <= H.DIV("Nincs több pálya. :(")
     else:
-        G <= H.BUTTON(
-            "Reset" if len(list(filter(lambda x: x[3], al))) else f"Következő, ( {ap + 1}.) pálya"
-        ).bind("click", reset)
+        s1 = len(list(filter(lambda x: x[3], al)))
+        s2 = len(al)
+        if s1 < s2:
+            G <= H.BUTTON(
+                "Reset" if s1 else f"Következő, ( {ap + 1}.) pálya",
+                Class="a" if s1 else "b"
+            ).bind("click", reset)
 
 
 tbl = []
