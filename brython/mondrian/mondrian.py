@@ -6,7 +6,7 @@ def f(s):
     sx = ""
     cl = ["#c71210", "#0080c0", "#f0d034", "black"]
     for i, c in enumerate(s):
-        sx += f"<b style='color: {cl[i%4]};'>{c}<b>"
+        sx += f"<b style='color: {cl[i % 4]};'>{c}<b>"
     return sx
 
 
