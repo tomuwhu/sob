@@ -38,8 +38,8 @@ def de(e):
     obj = al[int(me)]
     global dx, dy, t, ap
     trect = t.getBoundingClientRect()
-    px = int((e.x + dx - trect.left + 15) // 34)
-    py = int((e.y + dy - trect.top + 15) // 34)
+    px = int((e.x + dx - trect.left + 13) // 34)
+    py = int((e.y + dy - trect.top + 13) // 34)
     rx = obj[1]
     ry = obj[2]
     for ix in range(rx):
@@ -56,8 +56,8 @@ def do(e):
     obj = al[int(me)]
     global dx, dy, t, ap
     trect = t.getBoundingClientRect()
-    px = int((e.x + dx - trect.left + 15) // 34)
-    py = int((e.y + dy - trect.top + 15) // 34)
+    px = int((e.x + dx - trect.left + 13) // 34)
+    py = int((e.y + dy - trect.top + 13) // 34)
     rx = obj[1]
     ry = obj[2]
     if px + rx > len(tbl[0]) or px < 0:
