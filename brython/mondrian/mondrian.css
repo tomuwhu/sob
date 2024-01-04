@@ -40,27 +40,35 @@ div.al0 {
 }
 div.al2, td.x2 {
   background-color: rgb(226, 163, 104);
+  background-image: url('bimg/b1.jpg');
 }
 div.al3, td.x3 {
   background-color: rgb(171, 76, 234);
+  background-image: url('bimg/b2.jpg');
 }
 div.al4, td.x4 {
   background-color: rgb(102, 151, 197);
+  background-image: url('bimg/b3.jpg');
 }
 div.al5, td.x5 {
   background-color: rgb(86, 139, 11);
+  background-image: url('bimg/b4.jpg');
 }
 div.al6, td.x6 {
   background-color: rgb(98, 234, 186);
+  background-image: url('bimg/b5.jpg');
 }
 div.al7, td.x7 {
   background-color: rgb(157, 93, 28);
+  background-image: url('bimg/b6.jpg');
 }
 div.al8, td.x8 {
   background-color: rgb(231, 108, 108);
+  background-image: url('bimg/b7.jpg');
 }
 div.al9, td.x9 {
   background-color: rgb(229, 236, 167);
+  background-image: url('bimg/b8.jpg');
 }
 button {
   cursor: pointer;
