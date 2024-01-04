@@ -56,9 +56,9 @@ def de(e):
                 tbl[py + iy][px + ix] = obj[3]
         al[me] = (obj[0], obj[1], obj[2], 0)
         ut()
-        g()
     if len(list(filter(lambda x: x[3], al))) == 0:
         ap += 1
+    g()
 
 
 def do(e):
