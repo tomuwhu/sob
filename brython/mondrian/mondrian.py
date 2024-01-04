@@ -42,20 +42,11 @@ def de(e):
     py = int((e.y + dy - trect.top + 15) // 34)
     rx = obj[1]
     ry = obj[2]
-    if px + rx > len(tbl[0]):
-        return
-    if py + ry > len(tbl):
-        return
-    o = 0
     for ix in range(rx):
         for iy in range(ry):
-            o += tbl[py + iy][px + ix]
-    if o == 0:
-        for ix in range(rx):
-            for iy in range(ry):
-                tbl[py + iy][px + ix] = obj[3]
-        al[me] = (obj[0], obj[1], obj[2], 0)
-        ut()
+            tbl[py + iy][px + ix] = obj[3]
+    al[me] = (obj[0], obj[1], obj[2], 0)
+    ut()
     if len(list(filter(lambda x: x[3], al))) == 0:
         ap += 1
     g()
@@ -69,9 +60,9 @@ def do(e):
     py = int((e.y + dy - trect.top + 15) // 34)
     rx = obj[1]
     ry = obj[2]
-    if px + rx > len(tbl[0]):
+    if px + rx > len(tbl[0]) or px < 0:
         return
-    if py + ry > len(tbl):
+    if py + ry > len(tbl) or py < 0:
         return
     o = 0
     for ix in range(rx):
@@ -80,6 +71,7 @@ def do(e):
     if o == 0:
         e.preventDefault()
         return True
+
 
 
 def ut():
