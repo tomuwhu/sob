@@ -56,9 +56,9 @@ def de(e):
                 tbl[py + iy][px + ix] = obj[3]
         al[me] = (obj[0], obj[1], obj[2], 0)
         ut()
+        g()
     if len(list(filter(lambda x: x[3], al))) == 0:
         ap += 1
-    g()
 
 
 def do(e):
@@ -94,18 +94,12 @@ def g():
         s2 = len(al)
         if s1 < s2:
             G <= H.BUTTON(
-                "Reset" if s1 else f"Következő, ( {ap + 1}.) pálya",
-                Class="a" if s1 else "b"
+                "Reset" if s1 else f"Következő pálya ({ap + 2}.)",
+                Class="a" if s1 else "b",
             ).bind("click", reset)
 
 
-tbl = []
-al = []
-psz = 5
-ap = 0
-T = H.DIV()
-D <= H.H1("Mondrian")
-D <= T
-G = H.SPAN()
-D <= G
+tbl, al, psz, ap = [], [], 5, 0
+T, G = H.DIV(), H.DIV()
+D <= H.H1("Mondrian") + T + G
 reset(0)
