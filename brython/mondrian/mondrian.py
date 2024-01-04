@@ -72,17 +72,21 @@ def ut():
     t = H.TABLE([H.TR([H.TD(Class=f"x{e}") for e in row]) for row in tbl])
     T <= H.DIV(t.bind("drop", de).bind("dragover", do))
     alx = list(filter(lambda x: x[3], al))
-    if len(alx): T <= H.DIV(
-        [H.DIV(
-            Class=f"al al{c}",
-            id=f"{i}",
-            draggable="true",
-            style={"width": f"{34*x}px", "height": f"{34*y}px"},
+    if len(alx):
+        T <= H.DIV(
+            [
+                H.DIV(
+                    Class=f"al al{c}",
+                    id=f"{i}",
+                    draggable="true",
+                    style={"width": f"{34*x}px", "height": f"{34*y}px"},
+                )
+                .bind("click", rotate)
+                .bind("dragstart", ds)
+                for (i, x, y, c) in alx
+            ],
+            Class="xc",
         )
-        .bind("click", rotate)
-        .bind("dragstart", ds)
-        for (i, x, y, c) in alx], Class="xc"
-    )
 
 
 def g():
@@ -91,10 +95,15 @@ def g():
     G.clear()
     if ap == psz:
         G <= H.DIV("Nincs több pálya. :(")
+        H1 <= H.H1("Modiran játék vége")
     else:
         s1 = len(list(filter(lambda x: x[3], al)))
         s2 = len(al)
-        H1 <= H.H1(f"Mondrian <i>{ap+1}. pálya</i>" if s1 else "Modiran játék: <i>sikeres kirakás</i>")
+        H1 <= H.H1(
+            f"Mondrian <i>{ap+1}. pálya</i>"
+            if s1
+            else "Modiran játék: <i>sikeres kirakás</i>"
+        )
         if s1 < s2:
             G <= H.BUTTON(
                 "Reset" if s1 else f"Következő pálya ({ap + 2}.)",
