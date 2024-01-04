@@ -72,7 +72,7 @@ def ut():
     t = H.TABLE([H.TR([H.TD(Class=f"x{e}") for e in row]) for row in tbl])
     T <= H.DIV(t.bind("drop", de).bind("dragover", do))
     T <= H.DIV(
-        H.DIV(
+        [H.DIV(
             Class=f"al al{c}",
             id=f"{i}",
             draggable="true",
@@ -80,7 +80,7 @@ def ut():
         )
         .bind("click", rotate)
         .bind("dragstart", ds)
-        for (i, x, y, c) in filter(lambda x: x[3], al)
+        for (i, x, y, c) in filter(lambda x: x[3], al)], Class="xc"
     )
 
 
@@ -93,7 +93,7 @@ def g():
     else:
         s1 = len(list(filter(lambda x: x[3], al)))
         s2 = len(al)
-        H1 <= H.H1(f"Mondrian {ap+1} pálya" if s1 else "Modiran játék: Sikeres kirakás")
+        H1 <= H.H1(f"Mondrian <i>{ap+1}. pálya</i>" if s1 else "Modiran játék: <i>sikeres kirakás</i>")
         if s1 < s2:
             G <= H.BUTTON(
                 "Reset" if s1 else f"Következő pálya ({ap + 2}.)",
@@ -101,7 +101,6 @@ def g():
             ).bind("click", reset)
 
 
-tbl, al, psz, ap = [], [], 5, 0
-H1, T, G = H.DIV(), H.DIV(), H.DIV()
+tbl, al, psz, ap, H1, T, G = [], [], 5, 0, H.DIV(), H.DIV(), H.DIV()
 D <= H1 + T + G
 reset(0)
