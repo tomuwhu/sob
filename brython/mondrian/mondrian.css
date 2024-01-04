@@ -11,14 +11,15 @@ h1 {
 td {
   width: 30px;
   height: 30px;
-  border: solid 0.1px rgba(224, 193, 193, .8);
+  border: solid 0.1px rgb(227, 185, 107);
   font-size: 8px;
   background-color: rgb(248, 249, 237);
   color: rgb(119, 179, 193);
   cursor: default;
+  box-shadow: 1px 1px 3px inset rgb(135, 133, 128);
 }
 td.x1 {
-  background-color: black;
+  background-color: rgb(118, 106, 44);
 }
 table {
   user-select: none;
@@ -104,11 +105,12 @@ i {
 .xc {
   display: inline-block;
   padding: 10px;
+  min-inline-size: 219px;
   padding-top: 20px;
   background-color: rgb(250, 216, 166);
   border: solid 9px rgb(243, 192, 97);
   border-radius: 10px;
-  box-shadow: 1px 1px 3px inset black;
+  box-shadow: 1px 1px 7px rgb(101, 101, 101);
 }
 a.svg {
   position: fixed;
