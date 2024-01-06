@@ -3,7 +3,6 @@ from browser import document as D, html as H, window as W
 
 def f(e):
     global qr
-    qr.clear()
     qr.makeCode(e.target.value)
 
 
