@@ -1,8 +1,24 @@
 body {
     text-align: center;
+    background-color: bisque;
 }
 div.qc {
     display: inline-block;
+    background-color: rgb(202, 231, 231);
+    box-shadow: 1px 1px 3px inset black;
+    padding: 20px;
+    border-radius: 20px;
+}
+div.ic {
+    padding: 20px;
+}
+input {
+    font-size: 20px;
+    border: solid 3px rgb(137, 64, 64);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 3px black;
 }
 h1 {
     color: rgb(27, 93, 71);

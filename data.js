@@ -2,6 +2,15 @@ k = 0
 n = 5
 a = [-1, -1]
 ds = [
+    {
+    name: `QRCode brython`,
+    date: `2024-01-04`,
+    text: `01-04 Online órai péda`,
+    git: [`SOB`, `https://github.com/tomuwhu/sob/tree/main/brython/qrcode`, `brython/qrcode/`],
+    keywords: [
+      `Brython`, `Mondrian`, `blocks`, `HTML`, `CSS`, `Python`, 'dragndrop'
+    ]
+  },
   {
     name: `Mondrian blocks`,
     date: `2024-01-03`,

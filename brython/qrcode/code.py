@@ -1,17 +1,25 @@
 from browser import document as D, html as H, window as W
 
+
+def f(e):
+    global qr
+    qr.clear()
+    qr.makeCode(e.target.value)
+
+
 D <= H.H1("QRCode példa")
-Q = H.DIV(Class='qc')
+D <= H.DIV(H.INPUT(value="http://es6.eu").bind("input", f), Class="ic")
+Q = H.DIV(Class="qc")
 Qr = W.QRCode
-Qr.new(
+qr = Qr.new(
     Q,
     {
-        'text': "http://es6.eu",
-        'width': 256,
-        'height': 256,
-        'colorDark': "#046073",
-        'colorLight': "#ffffff",
-        'correctLevel': Qr.CorrectLevel.H,
+        "text": "http://es6.eu",
+        "width": 256,
+        "height": 256,
+        "colorDark": "#046073",
+        "colorLight": "#ffffff",
+        "correctLevel": Qr.CorrectLevel.H,
     },
 )
 D <= Q
