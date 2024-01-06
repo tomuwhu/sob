@@ -9,10 +9,10 @@ def f(e):
 
 D <= H.H1("QRCode példa")
 D <= H.DIV(H.INPUT(value="http://es6.eu").bind("input", f), Class="ic")
-Q = H.DIV(Class="qc")
+Qc = H.DIV(Class="qc")
 Qr = W.QRCode
 qr = Qr.new(
-    Q,
+    Qc,
     {
         "text": "http://es6.eu",
         "width": 256,
@@ -22,4 +22,4 @@ qr = Qr.new(
         "correctLevel": Qr.CorrectLevel.H,
     },
 )
-D <= Q
+D <= Qc
