@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+div.qc {
+    display: inline-block;
+}
+h1 {
+    color: rgb(27, 93, 71);
+    text-shadow: 1px 1px 3px gray;
+}
