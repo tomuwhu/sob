@@ -2,13 +2,22 @@ k = 0
 n = 5
 a = [-1, -1]
 ds = [
+  {
+    name: `Tetris`,
+    date: `2024-01-05`,
+    text: `01-05 Online órai péda`,
+    git: [`SOB`, `https://github.com/tomuwhu/sob/tree/main/brython/tetris`, `brython/tetris/`],
+    keywords: [
+      `Brython`, `Tetris`, `table`,`blocks`, `HTML`, `CSS`, `Python`, 'dragndrop', `game`, `játék`
+    ]
+  },
     {
     name: `QRCode brython`,
     date: `2024-01-04`,
     text: `01-04 Online órai péda`,
     git: [`SOB`, `https://github.com/tomuwhu/sob/tree/main/brython/qrcode`, `brython/qrcode/`],
     keywords: [
-      `Brython`, `Mondrian`, `blocks`, `HTML`, `CSS`, `Python`, 'dragndrop'
+      `Brython`, `HTML`, `CSS`, `Python`, `qrcode`
     ]
   },
   {
@@ -17,7 +26,7 @@ ds = [
     text: `01-03 Online óra 2. feladat megoldása`,
     git: [`SOB`, `https://github.com/tomuwhu/sob/tree/main/brython/mondrian`, `/brython/mondrian/mondrian.html`],
     keywords: [
-      `Brython`, `Mondrian`, `blocks`, `HTML`, `CSS`, `Python`, 'dragndrop'
+      `Brython`, `Mondrian`, `table`, `blocks`, `HTML`, `CSS`, `Python`, 'dragndrop', `game`, `játék`
     ]
   },
   {
