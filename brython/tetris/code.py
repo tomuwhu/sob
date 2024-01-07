@@ -212,3 +212,8 @@ t, psz = [], 0
 start()
 D <= H.H1("Tetrisz")
 D <= H.DIV([T, M], Class="mc")
+D <= H.A(
+    "SOB Szoftverfejlesztő képzés - példaprogtam By Dr. Németh Tamás",
+    href="http://sob.es6.eu",
+    target="sob"
+)

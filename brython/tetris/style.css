@@ -105,3 +105,13 @@ div.next {
   text-align: center;
   color:rgb(18, 75, 98);
 }
+a {
+  all: unset;
+  font-size: 12px;
+  text-shadow: 1px 1px 3px gray;
+  cursor: pointer;
+}
+a:hover {
+    font-size: 14px;
+    color: rgb(41, 92, 95);
+}
