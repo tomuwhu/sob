@@ -2,9 +2,19 @@ body {
 	text-align: center;
 	background-color: bisque;
 }
+div.mc {
+  background-color: rgb(206, 193, 176);
+  border-radius: 16px;
+  box-shadow: 1px 1px 3px inset black;
+  margin-left: 70px;
+  margin-right: 70px;
+}
 h1 {
 	color: rgb(27, 93, 71);
 	text-shadow: 1px 1px 3px gray;
+  font-size: 36px;
+  padding: 3px;
+  margin: 5px;
 }
 td {
   width: 30px;
@@ -37,7 +47,9 @@ td.x6 {
 td.x7 {
   background: url('bimg/b7.jpg');
 }
-
+b {
+  color: rgb(234, 129, 17);
+}
 td.xa {
   background-color: rgb(227, 185, 107);
   box-shadow: none;

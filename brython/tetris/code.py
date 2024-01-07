@@ -125,8 +125,11 @@ def step():
         for e in actu:
             if t[e[0] + yp][e[1] + xp] != 0:
                 go = True
-        if not go: kirak()
-        else: T <= H.DIV("Játék vége", Class="go")
+        if not go:
+            kirak()
+        else:
+            T <= H.DIV("Játék vége", Class="go")
+
 
 def mutat():
     global nextid
@@ -144,7 +147,7 @@ def kirak():
         t[yp + e[0]][xp + e[1]] = actuid + 1
     T.clear()
     T <= H.TABLE([H.TR([H.TD(Class=f"x{a}") for a in row]) for row in t])
-    T <= H.DIV(f"Pontszám: {psz}", Class="psz")
+    T <= H.DIV(f"Pontszám: <b>{psz}</b> pont", Class="psz")
 
 
 def size(x):
@@ -207,5 +210,5 @@ def start():
 
 t, psz = [], 0
 start()
-D <= H.H1("Tetris")
-D <= T + M
+D <= H.H1("Tetrisz")
+D <= H.DIV([T, M], Class="mc")
