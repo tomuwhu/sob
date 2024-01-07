@@ -16,7 +16,6 @@ xp = 5
 def act(e):
     global yp, xp, ti, speed
     if not go:
-        timer.clear_interval(ti)
         if e.keyCode == 65:
             torol()
             if checkl():
@@ -28,10 +27,9 @@ def act(e):
                 xp += 1
             kirak()
         if e.keyCode in [83, 32]:
-            torol()
-            if check():
-                yp += 1
-            kirak()
+            timer.clear_interval(ti)
+            step()
+            ti = timer.set_interval(step, speed)
         if e.keyCode == 69:
             torol()
             checkrotl()
@@ -40,8 +38,6 @@ def act(e):
             torol()
             checkrotr()
             kirak()
-        ti = timer.set_interval(step, speed)
-        step()
 
 
 def check():
@@ -94,7 +90,7 @@ def step():
     global xp, yp, actu, next, nextid, actuid, al, go, psz, speed
     if not go:
         if speed > 800:
-            speed -= 0.7
+            speed -= 1.3
         if speed > 400:
             speed -= 0.3
         if speed > 200:
@@ -201,7 +197,7 @@ T, M = H.DIV(Class="tb"), H.DIV(Class="tb next")
 
 def start():
     global t, al, next, nextid, actu, actuid, go, ti, psz, speed
-    speed = 1000
+    speed = 900
     t = [[0 for i in range(12)] for j in range(24)]
     for i in range(12):
         t[23][i] = "a"
