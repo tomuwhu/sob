@@ -14,7 +14,7 @@ xp = 5
 
 @bind(D["body"], "keydown")
 def act(e):
-    global yp, xp, ti
+    global yp, xp, ti, speed
     if not go:
         timer.clear_interval(ti)
         if e.keyCode == 65:
@@ -40,7 +40,7 @@ def act(e):
             torol()
             checkrotr()
             kirak()
-        ti = timer.set_interval(step, 1000)
+        ti = timer.set_interval(step, speed)
         step()
 
 
@@ -91,8 +91,17 @@ def checkl():
 
 
 def step():
-    global xp, yp, actu, next, nextid, actuid, al, go, psz
+    global xp, yp, actu, next, nextid, actuid, al, go, psz, speed
     if not go:
+        if speed > 800:
+            speed -= 0.7
+        if speed > 400:
+            speed -= 0.3
+        if speed > 200:
+            speed -= 0.1
+        if speed > 100:
+            speed -= 0.03
+        speed -= 0.01
         psz += 1
         torol()
         if check():
@@ -191,7 +200,8 @@ T, M = H.DIV(Class="tb"), H.DIV(Class="tb next")
 
 
 def start():
-    global t, al, next, nextid, actu, actuid, go, ti, psz
+    global t, al, next, nextid, actu, actuid, go, ti, psz, speed
+    speed = 1000
     t = [[0 for i in range(12)] for j in range(24)]
     for i in range(12):
         t[23][i] = "a"
@@ -205,15 +215,15 @@ def start():
     go = False
     mutat()
     kirak()
-    ti = timer.set_interval(step, 1000)
+    ti = timer.set_interval(step, speed)
 
 
-t, psz = [], 0
+t, psz, speed = [], 0, 0
 start()
 D <= H.H1("Tetrisz")
 D <= H.DIV([T, M], Class="mc")
 D <= H.A(
     "SOB Szoftverfejlesztő képzés - példaprogtam By Dr. Németh Tamás",
     href="http://sob.es6.eu",
-    target="sob"
+    target="sob",
 )
