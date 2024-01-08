@@ -3,7 +3,7 @@ n = 5
 a = [-1, -1]
 ds = [
   {
-    name: `<a href="https://brython.info/">Brython</a> - Tetris`,
+    name: `<a href="https://brython.info/" target="bry">Brython</a> - Tetris`,
     date: `2024-01-05`,
     text: `01-05 Online órai péda`,
     git: [`SOB`, `https://github.com/tomuwhu/sob/tree/main/brython/tetris`, `brython/tetris/`],
@@ -12,7 +12,7 @@ ds = [
     ]
   },
     {
-    name: `<a href="https://brython.info/">Brython</a> - QRCode`,
+    name: `<a href="https://brython.info/" target="bry">Brython</a> - QRCode`,
     date: `2024-01-04`,
     text: `01-04 Online órai péda`,
     git: [`SOB`, `https://github.com/tomuwhu/sob/tree/main/brython/qrcode`, `brython/qrcode/`],
@@ -21,7 +21,7 @@ ds = [
     ]
   },
   {
-    name: `<a href="https://brython.info/">Brython</a> - Mondrian Blocks`,
+    name: `<a href="https://brython.info/" target="bry">Brython</a> - Mondrian Blocks`,
     date: `2024-01-03`,
     text: `01-03 Online óra 2. feladat megoldása`,
     git: [`SOB`, `https://github.com/tomuwhu/sob/tree/main/brython/mondrian`, `/brython/mondrian/mondrian.html`],
