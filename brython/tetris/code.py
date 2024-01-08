@@ -176,21 +176,6 @@ def forgat_r():
     actu = y
 
 
-al = [
-    [list(map(int, list(z))) for z in x.split(",")]
-    for x in [
-        "20,21,22,23",
-        "00,01,02,11",
-        "00,01,10,11",
-        "10,11,12,20",
-        "10,11,12,22",
-        "00,01,11,12",
-        "10,11,01,02",
-    ]
-]
-T, M = H.DIV(Class="tb"), H.DIV(Class="tb next")
-
-
 def start():
     global t, al, next, nextid, actu, actuid, go, ti, psz, speed
     speed = 900
@@ -210,6 +195,19 @@ def start():
     ti = timer.set_interval(step, speed)
 
 
+al = [
+    [list(map(int, list(z))) for z in x.split(",")]
+    for x in [
+        "20,21,22,23",
+        "00,01,02,11",
+        "00,01,10,11",
+        "10,11,12,20",
+        "10,11,12,22",
+        "00,01,11,12",
+        "10,11,01,02",
+    ]
+]
+T, M = H.DIV(Class="tb"), H.DIV(Class="tb next")
 t, psz, speed, yp, xp = [], 0, 0, 0, 5
 start()
 D <= H.H1("Tetrisz")
