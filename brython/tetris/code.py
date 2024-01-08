@@ -8,10 +8,6 @@ def torol():
         t[yp + e[0]][xp + e[1]] = 0
 
 
-yp = 0
-xp = 5
-
-
 @bind(D["body"], "keydown")
 def act(e):
     global yp, xp, ti, speed
@@ -214,7 +210,7 @@ def start():
     ti = timer.set_interval(step, speed)
 
 
-t, psz, speed = [], 0, 0
+t, psz, speed, yp, xp = [], 0, 0, 0, 5
 start()
 D <= H.H1("Tetrisz")
 D <= H.DIV([T, M], Class="mc")
