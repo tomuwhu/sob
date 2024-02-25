@@ -2,7 +2,7 @@
 
 ## Ismétlés: [C\#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference)
 
-- VSCode: C\# for Visual Studi  - Code Plugin
+- VSCode: C\# for Visual Studio Code Plugin
 - C\# programozási nyelv
   - [Az első C\#-kód megírása](https://learn.microsoft.com/hu-hu/training/modules/csharp-write-first/)
   - Konzol alkalmazás
@@ -58,8 +58,16 @@
   - Az aknakereső rekurzív hívása 0 aknánál
   - Tükörszó probléma
   - Dinamikus programozás, Mohó stratégia
-  - Hátizsák és töredékes hátizsák, pénzváltás probléma
+    - Hátizsák és töredékes hátizsák, pénzváltás probléma
+    - Kincskereső
   - Gráf adatszerkezet és alapvető gráf-algoritmusok
+    - Mélységi bejárás, mélységi keresés, erősen összefüggő komponensek
+    - Szélességi bejárás, szélességi keresés, legrövidebb út keresése
+    - Súlyozott gráfok, Floyd-Warshall algoritmus, Dijsktra algoritmus
+    - A* algoritmus, 
+    - Utazóugynök probléma, Problémák osztályozása, NP teljesség
+    - Turing gép, Church-Turing tézis
+    - Approximációs algoritmusok
   - Egyszerű problémák megoldása (CSES Problem SET)
   - Egyszerű problémák megoldása (HackerrRank Problem Solving)
 
