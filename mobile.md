@@ -9,12 +9,24 @@
   - Változók, típusok
   - Input/Output
   - Fájl beolvásás
-  - Txt és Csv parsing
+  - TXT és CSV parsing
   - Típuskonvezió
   - Osztályok, objektumok, property-k, methódusok
   - Adatfeldolgozás, kiválasztás, kiválogatás, szűrés, rendezés, összegzés
   - [Debugolás, hibakeresés](https://learn.microsoft.com/hu-hu/training/modules/dotnet-debug/3-analyze-your-program-state)
   - [C\# referencia](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
+    - Types
+    - KeyWords
+      - Modifiers
+      - Operators
+      - Statements
+        - if, switch
+        - do, for, foreach, while
+        - break, continue, goto, return
+        - exception handling
+        - fixed, lock, yield
+      - namespace, base, this
+      - from, where, select, group, join, ascending...
 
 ## Haladó szintű objektumorientált programozási technikák ismerete
 
