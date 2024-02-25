@@ -10,6 +10,7 @@
 - GitHub Desktop
 - index.html, README.md
 - Beállítások, GitHub Pages
+- Domain beállítások
 - Adatvédelmi tudnivalók, GitGuardian
 
 ```bash
