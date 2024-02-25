@@ -217,6 +217,11 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Types
   - Classes
   - Templates
+- Vite technológiák:
+  - Vanilla
+  - Vue
+  - React
+  - Svelte
 
 ## _SvelteKit_
 
