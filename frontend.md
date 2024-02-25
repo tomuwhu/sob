@@ -142,9 +142,14 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Helyi tárhey (localStorage, sessionStorage)
   - Firefox: Svelte Dev Tools
 - FrontEnd technológiák, fogások
+  - Egér és billentyűzet események
   - Drag & Drop
-  - Animations
-  - Design
+  - Animációk, fizikai szimulációk
+    - Egyenes vonalú egyenletes mozgás, sebességvektor
+    - Gyorsulás, Lassulás
+    - Ütközésdetektálás
+    - Lendületmegmaradás törvénye és alkalmazása
+  - Design fogások
 
 ## Python ismétlés
 
