@@ -18,6 +18,19 @@
   - dir
   - set PATH=%PATH%;C:/php
 
+## MySQL/SQLite ismététlés
+
+- Adatbázis felépítése (MySQL, SQLite, MariaDB, XAMPP)
+- SQL TOOLS: DB Browser/MySQL Workbench/PHPMyAdmin/Navicat
+- User Privilegs, root, admin
+- Táblák
+- Mezőtípusok
+- Kulcsok: elsődleges kulcs, külső kulcs
+- Kapcsolatok táblák között, Normalizálás
+- Descartes szorzat
+- Distinct
+- DQL/DDL/DCL/DML
+
 ## PHP I. - XAMPP, MySQL/MariaDB
 
 - XAMPP
@@ -67,6 +80,11 @@
 - Hosting: ATW
 - JQuery + PHP
 - AngulatJS + PHP
+
+## Python BackEnd
+
+- Flask
+- FastAPI
 
 ## NodeJS + NeDB/MongoDB/SQLite/MySQL
 

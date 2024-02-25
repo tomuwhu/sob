@@ -141,6 +141,13 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Helyi tárhey (localStorage, sessionStorage)
   - Firefox: Svelte Dev Tools
 
+## FrontEnd Python: Brython
+
+- browser
+- html
+- bind
+- axios
+
 ## NodeJS frontend-hez
 
 - Development server: VITE
