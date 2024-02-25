@@ -129,6 +129,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - RegExp
 - Modulok, CDN
   - jQuery
+  - AngularJS
   - Axios, RestApi
   - Socket.io<sup>*</sup>
   - levenshtein
@@ -150,6 +151,10 @@ git config --global user.email "<youremail@yourdomain.com>"
     - rollupOptions
     - build.chunkSizeWarningLimit
 - sass: rollup.config, prettierrc
+- TypeScript
+  - Types
+  - Classes
+  - Templates
 
 ## _SvelteKit_
 

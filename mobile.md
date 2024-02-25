@@ -5,6 +5,14 @@
 - VSCode: C\# for Visual Studi  - Code Plugin
 - C\# programozási nyelv
   - [Az első C\#-kód megírása](https://learn.microsoft.com/hu-hu/training/modules/csharp-write-first/)
+  - Konzol alkalmazás
+  - Változók, típusok
+  - Input/Output
+  - Fájl beolvásás
+  - Txt és Csv parsing
+  - Típuskonvezió
+  - Osztályok, objektumok, property-k, methódusok
+  - Adatfeldolgozás, kiválasztás, kiválogatás, szűrés, rendezés, összegzés
   - [Debugolás, hibakeresés](https://learn.microsoft.com/hu-hu/training/modules/dotnet-debug/3-analyze-your-program-state)
   - [C\# referencia](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
 
@@ -117,7 +125,6 @@
   - Increasing Array
   - Permutations
   - Number Spiral
-  - 
   - Tower of Hanoi
   - [Two Sets](https://tomuwhu.github.io/sv03/2sets)
   - Distinct Numbers

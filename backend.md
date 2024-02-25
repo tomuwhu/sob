@@ -65,6 +65,8 @@
 - Adatfolyam-tervezés, adatfolyam-diagrammok
 - Unit teszt,  integrációs tesztelés, rendszertesztelés
 - Hosting: ATW
+- JQuery + PHP
+- AngulatJS + PHP
 
 ## NodeJS + NeDB/MongoDB/SQLite/MySQL
 
@@ -98,9 +100,11 @@
 - CORS
 - EJS
 - Hosting: Heroku
+- EJS
 
 ## _Svelte Kit_ AJAX
 
+- svelte adapter-node
 - fetch
 - axios
 - md5
