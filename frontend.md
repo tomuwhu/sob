@@ -140,6 +140,55 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Browser Alkalmazás
   - Helyi tárhey (localStorage, sessionStorage)
   - Firefox: Svelte Dev Tools
+- FrontEnd technológiák, fogások
+  - Drag & Drop
+  - Animations
+  - Design
+
+## Python ismétlés
+
+- python telepítése
+- python futtatása terminálban
+- hello world pythonban
+- számok (int, float, nagy számok)
+- operátorok (+, -, *, /, //, %, **, ... )
+- python függvények használata ( int(), float(), max(), min() )
+- számrendszerek (0x, 0b, 0o, format())
+- python stringek
+- python programok szerkesztése vscode-ban
+- print()
+- input()
+- string template, format
+- if - elif - else, tabulálás a pythonban
+- logikai típus és operátorai
+- while ciklus és használata
+- függvények definiálása
+- bemeneti paraméterek
+- visszatérési érték (return)
+- generátor függvények (yield)
+- rekurzió
+- rekurzió a generátorokban (yield from)
+- a *operátor
+- range, python listák
+- listák és generátorok bejárása, a for utasítás
+- lista generátor használata [i for i in l if i]
+- alapvető algoritmusok
+  - eldöntés (in)
+  - keresés (find)
+  - összegzés (max, min, sum, count)
+  - szűrés (filter)
+  - rendezés (sort, sorted)
+  - további lista és stringműveletek
+- szövegfájlok kezelése
+- teknőcgrafika (like logo) vs. graphics
+- random modul, valószínűségszámítás, statisztika
+- összetett feladatok
+- objektum, referencia
+- console alkalmazások, sys.argv
+- szótárak
+- osztályok, objektumok
+- fájlkezelés
+- modulok
 
 ## FrontEnd Python: Brython
 
