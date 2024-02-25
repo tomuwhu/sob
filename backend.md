@@ -78,53 +78,53 @@
 - Adatfolyam-tervezés, adatfolyam-diagrammok
 - Unit teszt,  integrációs tesztelés, rendszertesztelés
 - Hosting: ATW
-- JQuery + PHP
-- AngulatJS + PHP
+- *JQuery + PHP*
+- *AngulatJS + PHP*
 
-## Python BackEnd
+## *Python BackEnd*
 
-- Flask
-- FastAPI
+- *Flask*
+- *FastAPI*
 
-## NodeJS + NeDB/MongoDB/SQLite/MySQL
+## *NodeJS + NeDB/MongoDB/SQLite/MySQL*
 
-- JSON
-- NodeJS telepítése
-- Node konzol, console
-- alapok, event-loop
-- parancssoros alkalmazás készítése
-- input, standard input
-- FS, fájlok olvasása
-- modulok
-- npm, package.json
-- node_modules, npm i, package.json
-- nodemon
-- események, EventEmitter
-- Reguláris kifejezések
-- NodeJs NeDB
-- NodeJS MongoDB, Mongoose
-- NodeJs SQLite3
-- NodeJS MySQL
+- *JSON*
+- *NodeJS telepítése*
+- *Node konzol, console*
+- *alapok, event-loop*
+- *parancssoros alkalmazás készítése*
+- *input, standard input*
+- *FS, fájlok olvasása*
+- *modulok*
+- *npm, package.json*
+- *node_modules, npm i, package.json*
+- *nodemon*
+- *események, EventEmitter*
+- *Reguláris kifejezések*
+- *NodeJs NeDB*
+- *NodeJS MongoDB, Mongoose*
+- *NodeJs SQLite3*
+- *NodeJS MySQL*
 
-## ExpressJS
+## *ExpressJS*
 
-- hello world
-- routing
-- request
-- params
-- Session
-- express.json (body)
-- response
+- *hello world*
+- *routing*
+- *request*
+- *params*
+- *Session*
+- *express.json (body)*
+- *response*
 - CORS
-- EJS
-- Hosting: Heroku
-- EJS
+- *EJS*
+- *Hosting: Heroku*
+- *EJS*
 
-## _Svelte Kit_ AJAX
+## *_Svelte Kit_ AJAX*
 
-- svelte adapter-node
-- fetch
-- axios
+- *svelte adapter-node*
+- *fetch*
+- *axios*
 - md5
 
 ## Full-stack multiplatform alkalmazás fejlesztése
@@ -132,10 +132,10 @@
   {Tárgyak közötti együttműködéssel}
 
 - Felhasználó kezelő modul
-  - Bejelentkező űrlap *
-  - Regisztrációs űrlap *
-  - Felhasználói profil szerkesztő *
-- Funkcionális modul *
+  - Bejelentkező űrlap
+  - Regisztrációs űrlap
+  - Felhasználói profil szerkesztő
+- Funkcionális modul
   - Rendszerelemek, komponensek azonosítása
   - Komponensek tervezése
   - Komponenstesztek tervezése
@@ -148,16 +148,16 @@
 
 ## Kapcsolódó technológiák
 
-- MPJ: MySQL-PHP-JQuery
-- MESN: MySQL-ExpressJS-SvelteKit-NodeJS
-- RestAPI, SSE, WebSocket
-- Autentikáció, Oatuh
-- BlockChain Serverless Keretrendszerek
-- Peer-To-Peer hálózatok, WebRTC
+- MP*J*: MySQL-PHP-*JQuery*
+- *MESN: MySQL-ExpressJS-SvelteKit-NodeJS*
+- RestAPI, *SSE, WebSocket*
+- Autentikáció, *Oatuh*
+- *BlockChain Serverless Keretrendszerek*
+- *Peer-To-Peer hálózatok, WebRTC*
 
 ***
 
-## PHP II. Laravel
+## *PHP II. Laravel*
 
 - Php parancsosros alkalmazás (command line app)
 - Laravel
