@@ -150,8 +150,9 @@
 
 ## Kapcsolódó technológiák
 
-- MP*J*: MySQL-PHP-*JQuery*
-- *MESN: MySQL-ExpressJS-SvelteKit-NodeJS*
+- MP: MySQL - PHP
+- *MPJ*: MySQL - PHP - *JQuery*
+- *MESN: MySQL - ExpressJS - SvelteKit - NodeJS (Vite)*
 - RestAPI, *SSE, WebSocket*
 - Autentikáció, *Oatuh*
 - *BlockChain Serverless Keretrendszerek*
