@@ -26,9 +26,11 @@
 - Táblák
 - Mezőtípusok
 - Kulcsok: elsődleges kulcs, külső kulcs
-- Kapcsolatok táblák között, Normalizálás
+- Szűrés, rendezés
+- Kapcsolatok táblák között, JOIN
 - Descartes szorzat
 - Distinct
+- [Normalizálás](https://www.youtube.com/watch?v=GFQaEYEc8_8)
 - DQL/DDL/DCL/DML
 
 ## PHP I. - XAMPP, MySQL/MariaDB
