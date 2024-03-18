@@ -131,7 +131,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Modulok, CDN
   - jQuery
   - AngularJS
-  - Axios, RestApi
+  - Axios, RestAPI
   - Socket.io<sup>*</sup>
   - levenshtein
   - marked
@@ -150,6 +150,39 @@ git config --global user.email "<youremail@yourdomain.com>"
     - Ütközésdetektálás
     - Lendületmegmaradás törvénye és alkalmazása
   - Design fogások
+
+## HTML/CSS/JS Mobile
+
+- viewport
+- @media
+- inspect
+- device toolbar
+- touchstart, touchend, touchmove, touchcancel események
+- dragndrop speciális tulajdonságok
+- navigator.geolocation
+- DeviceOrientationEvent
+- DeviceMotionEvent
+  - acceleration, accelerationIncludingGravity
+  - interval
+  - rotationRate
+
+## JQuery UI
+
+- HTML
+- JavaScript
+- Options
+- Metódusok
+- Események
+- Styílusok
+- Interakciók
+- Widgetek
+- Effektek
+- Eszközök
+
+## JQuery Mobile
+
+- ThemeRoller
+- Eszközök
 
 ## Python ismétlés
 
@@ -203,7 +236,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - bind
 - axios
 
-## NodeJS frontend-hez
+## NodeJS frontend-hez, fullstack-hez
 
 - Development server: VITE
   - dev server
@@ -231,6 +264,14 @@ git config --global user.email "<youremail@yourdomain.com>"
 - onMount
 - komponensek
 - MVC alkalmazások fejlesztése
+- SvelteKit FullStack Framework
+  - routing
+  - loading data
+  - form actions
+  - page options
+  - state management, store
+  - building and deploying
+  - hooks
 
 ## _SvelteUI_
 
@@ -240,39 +281,6 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Tartalom
 - Űrlapok
 - Komponensek
-
-## HTML/CSS/JS Mobile
-
-- viewport
-- @media
-- inspect
-- device toolbar
-- touchstart, touchend, touchmove, touchcancel események
-- dragndrop speciális tulajdonságok
-- navigator.geolocation
-- DeviceOrientationEvent
-- DeviceMotionEvent
-  - acceleration, accelerationIncludingGravity
-  - interval
-  - rotationRate
-
-## JQuery UI
-
-- HTML
-- JavaScript
-- Options
-- Metódusok
-- Események
-- Styílusok
-- Interakciók
-- Widgetek
-- Effektek
-- Eszközök
-
-## JQuery Mobile
-
-- ThemeRoller
-- Eszközök
 
 ## Full-stack multiplatform alkalmazás fejlesztése
 

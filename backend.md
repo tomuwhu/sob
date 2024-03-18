@@ -72,6 +72,7 @@
   - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
   - phpMyAdmin
 - Postman alkalmazás telepítése, használata
+- SSR Full STack alkalmazás fejlesztése
 - Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
   - DTO, JSON Mapping
   - file_get_contents('php://input')
@@ -120,14 +121,17 @@
 - CORS
 - *EJS*
 - *Hosting: Heroku*
-- *EJS*
 
-## *_Svelte Kit_ AJAX*
+## *_Svelte Kit_*
 
-- *svelte adapter-node*
-- *fetch*
-- *axios*
-- md5
+- SvelteKit FullStack Framework
+  - routing
+  - loading data
+  - form actions
+  - page options
+  - state management, store
+  - building and deploying
+  - hooks
 
 ## Full-stack multiplatform alkalmazás fejlesztése
 
@@ -152,7 +156,8 @@
 
 - MP: MySQL - PHP
 - *MPJ*: MySQL - PHP - *JQuery*
-- *MESN: MySQL - ExpressJS - SvelteKit - NodeJS (Vite)*
+- *MEEN: MySQL - ExpressJS - EJS - NodeJS (Vite)*
+- *MSN: MySQL - SvelteKit - NodeJS (Vite)*
 - RestAPI, *SSE, WebSocket*
 - Autentikáció, *Oatuh*
 - *BlockChain Serverless Keretrendszerek*
@@ -163,6 +168,7 @@
 ## *PHP II. Laravel*
 
 - Php parancsosros alkalmazás (command line app)
+- XAMPP PHP
 - Laravel
   - [Laravel telepítés](https://laravel.com/docs/10.x/installation), használata (SSR)
   - [Routing](https://laravel.com/docs/10.x/routing)
