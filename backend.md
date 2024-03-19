@@ -98,6 +98,7 @@
 - *NodeJS telepítése*
 - *Node konzol, console*
 - *alapok, event-loop*
+- *debugging*
 - *parancssoros alkalmazás készítése*
 - *input, standard input*
 - *FS, fájlok olvasása*
