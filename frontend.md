@@ -256,22 +256,24 @@ git config --global user.email "<youremail@yourdomain.com>"
   - React
   - Svelte
 
-## _SvelteKit_
+## _Svelte_
 
-- npm create svelte
-- adapter-static, .nojekyll, svelte.config, {basedir}
-- routes
-- onMount
-- komponensek
-- MVC alkalmazások fejlesztése
-- SvelteKit FullStack Framework
-  - routing
-  - loading data
-  - form actions
-  - page options
+- Svelte komponensek
+  - export prop
+  - reactivitás, számított változók
   - state management, store
-  - building and deploying
-  - hooks
+  - style :global
+- Logikai blokkok (#if, #each, #await, #key)
+  - speciális elemek (@html, @debug, @const)
+- Direktívák
+  - on:__, bind:__, class:__, style:__
+  - use:__, transition:__, animate:__
+- Svelte runtime
+  - onMount, beforeUpdate, afterUpdate, onDestroy, tick
+  - setContext, getContext, hasContext, getAllContexts
+  - createEventDispatcher
+- Svelte Store
+- Motion, Transition, Animation
 
 ## _SvelteUI_
 

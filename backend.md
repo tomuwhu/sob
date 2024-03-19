@@ -115,6 +115,7 @@
 - *NodeJS MongoDB, Mongoose*
 - *NodeJs SQLite3*
 - *NodeJS MySQL*
+- *Unit Test: Jest*
 
 ## *ExpressJS*
 
@@ -129,8 +130,14 @@
 - *EJS*
 - *Hosting: Heroku*
 
-## *_Svelte Kit_*
+## *Vite, _Svelte Kit_*
 
+- npm create svelte
+- adapter-static, .nojekyll, svelte.config, {basedir}
+- routes
+- onMount
+- komponensek
+- MVC alkalmazások fejlesztése
 - SvelteKit FullStack Framework
   - routing
   - loading data
