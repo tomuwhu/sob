@@ -76,7 +76,7 @@
     - Mélységi bejárás, mélységi keresés, erősen összefüggő komponensek
     - Szélességi bejárás, szélességi keresés, legrövidebb út keresése
     - Súlyozott gráfok, Floyd-Warshall algoritmus, Dijsktra algoritmus
-    - A* algoritmus, 
+    - A* algoritmus,
     - Utazóugynök probléma, Problémák osztályozása, NP teljesség
     - Turing gép, Church-Turing tézis
     - Approximációs algoritmusok
