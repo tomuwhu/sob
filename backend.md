@@ -101,10 +101,12 @@
 - *parancssoros alkalmazás készítése*
 - *input, standard input*
 - *FS, fájlok olvasása*
-- környezeti változók elérése: process.env.
+- *környezeti változók elérése: process.env.*
+- *env-file*
 - *modulok*
 - *npm, package.json*
 - *node_modules, npm i, package.json*
+- *node git integráció*
 - *nodemon*
 - *események, EventEmitter*
 - *Reguláris kifejezések*
