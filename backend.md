@@ -17,6 +17,7 @@
 - Windows CMD
   - dir
   - set PATH=%PATH%;C:/php
+- Környezeti változók
 
 ## MySQL/SQLite ismététlés
 
@@ -43,12 +44,14 @@
   - Szintaxis
   - Változók, kommentek, típusok
   - echo, template (\<?php ?>, {})
+  - környezeti változók elérése, . => _
   - Vezérlési szerkezetek
   - Tömbök, listák
   - Szerver oldali alkalmazás készítése
   - Asszociatív tömbök
   - print_r(), var_export(), echo json_encode()
   - FullStack: HTML FORM POST
+  - $HTTP_POST_VARS, $HTTP_GET_VARS, és/vagy $HTTP_POST_FILES
   - $_GET, $_POST
   - $_SESSION, session_start(), session_id()
   - Hagyományos FullStack alkalmazás fejlesztése
@@ -98,6 +101,7 @@
 - *parancssoros alkalmazás készítése*
 - *input, standard input*
 - *FS, fájlok olvasása*
+- környezeti változók elérése: process.env.
 - *modulok*
 - *npm, package.json*
 - *node_modules, npm i, package.json*
