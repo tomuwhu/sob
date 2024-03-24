@@ -48,7 +48,6 @@ git config --global user.email "<youremail@yourdomain.com>"
 - CSS Animációk
 - Favicon
 - .css file, \<link>
-- BootStrap
 - SVG formátum, SVG használata HTML-ben
 
 ## JavaScript/TypeScript (Browser)
@@ -150,6 +149,7 @@ git config --global user.email "<youremail@yourdomain.com>"
     - Ütközésdetektálás
     - Lendületmegmaradás törvénye és alkalmazása
   - Design fogások
+  - BootStrap
 
 ## HTML/CSS/JS Mobile
 

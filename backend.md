@@ -19,79 +19,6 @@
   - set PATH=%PATH%;C:/php
 - Környezeti változók
 
-## MySQL/SQLite ismététlés
-
-- Adatbázis felépítése (MySQL, SQLite, MariaDB, XAMPP)
-- SQL TOOLS: DB Browser/MySQL Workbench/PHPMyAdmin/Navicat
-- User Privilegs, root, admin
-- Táblák
-- Mezőtípusok
-- Kulcsok: elsődleges kulcs, külső kulcs
-- Szűrés, rendezés
-- Kapcsolatok táblák között, JOIN
-- Descartes szorzat
-- Distinct
-- [Normalizálás](https://www.youtube.com/watch?v=GFQaEYEc8_8)
-- DQL/DDL/DCL/DML
-
-## PHP I. - XAMPP, MySQL/MariaDB
-
-- XAMPP
-  - Telepítés
-  - Tools
-  - htdocs mappa, xampp control panel
-- PHP
-  - Szintaxis
-  - Változók, kommentek, típusok
-  - echo, template (\<?php ?>, {})
-  - környezeti változók elérése, . => _
-  - Vezérlési szerkezetek
-  - Tömbök, listák
-  - Szerver oldali alkalmazás készítése
-  - Asszociatív tömbök
-  - print_r(), var_export(), echo json_encode()
-  - FullStack: HTML FORM POST
-  - $HTTP_POST_VARS, $HTTP_GET_VARS, és/vagy $HTTP_POST_FILES
-  - $_GET, $_POST
-  - $_SESSION, session_start(), session_id()
-  - Hagyományos FullStack alkalmazás fejlesztése
-  - Parse json_encode(): PUT, PATCH, DELETE, HEAD, OPTIONS
-  - Osztályok, objektumok
-  - mysqli: query, fetch_assoc
-  - CORS
-  - Event-stream, flush, ob_flush, sleep
-  - Packagist/Composer
-- MySQL/MariaDB
-  - SELECT
-  - WHERE
-  - AND, OR, NOT
-  - ORDER BY
-  - INSERT INTO
-  - UPDATE
-  - DELETE
-  - LIMIT
-  - LIKE
-  - JOIN, LEFT JOIN
-  - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
-  - phpMyAdmin
-- Postman alkalmazás telepítése, használata
-- SSR Full STack alkalmazás fejlesztése
-- Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
-  - DTO, JSON Mapping
-  - file_get_contents('php://input')
-  - json_encode()
-- Adatbázis tervezés, kapcsolatok
-- Adatfolyam-tervezés, adatfolyam-diagrammok
-- Unit teszt,  integrációs tesztelés, rendszertesztelés
-- Hosting: ATW
-- *JQuery + PHP*
-- *AngulatJS + PHP*
-
-## *Python BackEnd*
-
-- *Flask*
-- *FastAPI*
-
 ## *NodeJS + NeDB/MongoDB/SQLite/MySQL*
 
 - *JSON*
@@ -168,8 +95,6 @@
 
 ## Kapcsolódó technológiák
 
-- MP: MySQL - PHP
-- *MPJ*: MySQL - PHP - *JQuery*
 - *MEEN: MySQL - ExpressJS - EJS - NodeJS (Vite)*
 - *MSN: MySQL - SvelteKit - NodeJS (Vite)*
 - RestAPI, *SSE, WebSocket*
@@ -177,7 +102,73 @@
 - *BlockChain Serverless Keretrendszerek*
 - *Peer-To-Peer hálózatok, WebRTC*
 
-***
+## MySQL/SQLite ismététlés
+
+- Adatbázis felépítése (MySQL, SQLite, MariaDB, XAMPP)
+- SQL TOOLS: DB Browser/MySQL Workbench/PHPMyAdmin/Navicat
+- User Privilegs, root, admin
+- Táblák
+- Mezőtípusok
+- Kulcsok: elsődleges kulcs, külső kulcs
+- Szűrés, rendezés
+- Kapcsolatok táblák között, JOIN
+- Descartes szorzat
+- Distinct
+- [Normalizálás](https://www.youtube.com/watch?v=GFQaEYEc8_8)
+- DQL/DDL/DCL/DML
+
+## PHP I. - XAMPP, MySQL/MariaDB
+
+- XAMPP
+  - Telepítés
+  - Tools
+  - htdocs mappa, xampp control panel
+- PHP
+  - Szintaxis
+  - Változók, kommentek, típusok
+  - echo, template (\<?php ?>, {})
+  - környezeti változók elérése, . => _
+  - Vezérlési szerkezetek
+  - Tömbök, listák
+  - Szerver oldali alkalmazás készítése
+  - Asszociatív tömbök
+  - print_r(), var_export(), echo json_encode()
+  - FullStack: HTML FORM POST
+  - $HTTP_POST_VARS, $HTTP_GET_VARS, és/vagy $HTTP_POST_FILES
+  - $_GET, $_POST
+  - $_SESSION, session_start(), session_id()
+  - Hagyományos FullStack alkalmazás fejlesztése
+  - Parse json_encode(): PUT, PATCH, DELETE, HEAD, OPTIONS
+  - Osztályok, objektumok
+  - mysqli: query, fetch_assoc
+  - CORS
+  - Event-stream, flush, ob_flush, sleep
+  - Packagist/Composer
+- MySQL/MariaDB
+  - SELECT
+  - WHERE
+  - AND, OR, NOT
+  - ORDER BY
+  - INSERT INTO
+  - UPDATE
+  - DELETE
+  - LIMIT
+  - LIKE
+  - JOIN, LEFT JOIN
+  - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
+  - phpMyAdmin
+- Postman alkalmazás telepítése, használata
+- SSR Full STack alkalmazás fejlesztése
+- Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
+  - DTO, JSON Mapping
+  - file_get_contents('php://input')
+  - json_encode()
+- Adatbázis tervezés, kapcsolatok
+- Adatfolyam-tervezés, adatfolyam-diagrammok
+- Unit teszt,  integrációs tesztelés, rendszertesztelés
+- Hosting: ATW
+- *JQuery + PHP*
+- *AngulatJS + PHP*
 
 ## *PHP II. Laravel*
 
@@ -192,4 +183,17 @@
   - Livewire connect
 
 [Központi tematika](pdf/Backend%20programozás%20és%20tesztelés.pdf)
-  
+
+## Kapcsolódó technológiák II.
+
+- MP: MySQL - PHP
+- *MPJ*: MySQL - PHP - *JQuery*
+
+## *Python BackEnd*
+
+- *Flask*
+- *FastAPI*
+
+## Kapcsolódó technológiák III.
+
+- MFB: MySQL - Flask - Brython
