@@ -32,11 +32,9 @@
 
 - Öröklődés és polimorfizmus (extends, polimorfizmus, interface)
 - Metódus- és konstruktor-túlterhelés
-
   (több konstruktor együttes használata, a method overloading hasznossága,
   felhasználási korlátok)
 - Egységbezárás, objektumok közötti kommunikáció
-
   (objektumok együttműködése és kommunikációja, az egységbezárás hasznosságának
   szemléltetése, getter és setter függvények)
 - IDE fejlesztői eszközeinek használata
@@ -51,6 +49,8 @@
 
 ## Nevezetes algoritmusok és megvalósításuk OOP-technológiával
 
+- A véletlen és tulajdonságai: valószínűségi változó mint véletlen, véletlenek összege
+- Eloszlásfüggvény fogalma, egyenletes eloszlás, normális eloszlás
 - Futásiidő-komplexitás, az 𝒪-jelölés, memóriaigény
 - Nevezetes adatstruktúrák memóriaigénye és műveletek időkomplexitása:
   - Tömb (Java/C#/JavaScript/TypeScript/PHP)
@@ -63,7 +63,8 @@
   - Bináris keresés
   - Buborékrendezés
   - Beszúrásos rendezés
-  - Quick Sort (Java/C#)
+  - Quick Sort (Java/C#), felosztóelem-választási stratégiák
+  - Mintaillesztés automatával
   - Reguláris Kifejezések (JavaScript/TypeScript)
 - Rekurzió és alkalmazása
   - Hanoi tornyai
@@ -82,6 +83,8 @@
     - Approximációs algoritmusok
   - Egyszerű problémák megoldása (CSES Problem SET)
   - Egyszerű problémák megoldása (HackerrRank Problem Solving)
+  - Véletlenített algoritmusok
+  - Online algoritmusok és elemzésük
 
 ## A [tiszta kód](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) elméleti alapjai és gyakorlata
 
