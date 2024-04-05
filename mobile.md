@@ -53,19 +53,19 @@
 - Eloszlásfüggvény fogalma, egyenletes eloszlás, normális eloszlás
 - Futásiidő-komplexitás, az 𝒪-jelölés, memóriaigény
 - Nevezetes adatstruktúrák memóriaigénye és műveletek időkomplexitása:
-  - Tömb (Java/C#/JavaScript/TypeScript/PHP)
-  - Láncolt lista (JavaScript/Java/C#)
-  - Verem (JavaScript/Java/C#)
+  - Tömb (C#/JavaScript/TypeScript/PHP)
+  - Láncolt lista (JavaScript/C#)
+  - Verem (JavaScript/C#)
   - Többszörösen láncolt lista
   - Fa, bináris fa, kupac, keresőfák
-- Hash map (használata Java/C#)
+- Hash map (használata C#)
 - Nevezetes algoritmusok és implementálásuk:
   - Bináris keresés
   - Buborékrendezés
   - Beszúrásos rendezés
-  - Quick Sort (Java/C#), felosztóelem-választási stratégiák
+  - Quick Sort (C#), felosztóelem-választási stratégiák
   - Mintaillesztés automatával
-  - Reguláris Kifejezések (JavaScript/TypeScript)
+  - Reguláris Kifejezések (JavaScript)
 - Rekurzió és alkalmazása
   - Hanoi tornyai
   - Az aknakereső rekurzív hívása 0 aknánál
@@ -88,15 +88,15 @@
 
 ## A [tiszta kód](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) elméleti alapjai és gyakorlata
 
-- Elnevezések (Python/JavaScript/TypeScript/C++/C#/Java/PHP)
-- Függvények (Python/JavaScript/TypeScript/C++/C#/Java/PHP)
-- Kommentek (HTML/MarkDown/CSS/Python/JavaScript/TypeScript/C++/C#/Java/PHP)
+- Elnevezések (Python/JavaScript/TypeScript/C++/C#/PHP)
+- Függvények (Python/JavaScript/TypeScript/C++/C#/PHP)
+- Kommentek (HTML/MarkDown/CSS/Python/JavaScript/TypeScript/C++/C#/PHP)
 - Kódformázás (Prettier)
 - Objektumok és adatstruktúrák (JavScript/TypeScript)
-- Hibakezelés (NodeJS: Try-Catch)
+- Hibakezelés (NodeJS/C#: Try-Catch)
 - Határok és külső kód használata
 - Unit tesztek (NodeJS: Jest)
-- Osztályok (NodeJS/C#/Java)
+- Osztályok (NodeJS/C#)
 
 ## Unit tesztelés
 
@@ -106,17 +106,15 @@
   - Integrációs teszt
   - Rendszerteszt
   - Átvételi teszt
-- Unit test case-ek létrehozása és futtatása NodeJS/C#/Java környezetben
+- Unit test case-ek létrehozása és futtatása NodeJS/C# környezetben
   - NodeJS: Jest
-  - Java: Junit, @Test, @Suite
-  - C#: Nunit, [Test], [TestFixture]
-- Assertiönök
-  - Java: assertEquals, assertTrue, assertFalse, assertNull, assertNotNull, as-sertSame, assertNotSame, assertArrayEquals
-  - C#: AreEqual, AreNotEqual, AreSame, AreNotSame, IsNull, IsNotNull, IsTrue, IsFalse
+  - C#: Nunit, Test, TestFixture
+- Assertiönök (C#)
+  - AreEqual, AreNotEqual, AreSame, AreNotSame
+  - IsNull, IsNotNull, IsTrue, IsFalse
 - AAA minta
-- „felépítő” és „lebontó” funkcionalitás unit test framework-ben
-  - Java: @Before, @After
-  - C#: [SetUp], [TearDown]
+- „felépítő” és „lebontó” funkcionalitás unit test framework-ben (C#)
+  - SetUp, TearDown
 - osztály, függvény vagy metódus teljes működésének lefedése unit tesztekkel:
   - összes lehetséges bemenet-kimenet páros
   - a tesztek futtatásakor a tesztelendő kód minden eleme lefusson
@@ -124,7 +122,6 @@
 ## Mobil alkalmazások fejlesztése
 
 - Android mobilalkalmazás-fejlesztői környezetet kialakítása
-  - Java: Android Studio, Android Emulator
   - React Native: Editor, NodeJS, npm, react-native, expo
   - Progressive Web App: Editor, NodeJS, npm, manifest, serviceWorker
 - “Hello, World!” alkalmazás fejlesztése és eszközre történő telepítése
@@ -139,7 +136,7 @@
 
 ## Projektmunka
 
-### Konzolalkalmazás fejlesztése TypeScript/C\#/Java nyelven
+### Konzolalkalmazás fejlesztése NodeJS/C\# nyelven
 
 - [CSES Problem SET](https://cses.fi/problemset/) megoldása NodeJS nyelven
   - [Weird algorithm](https://www.youtube.com/watch?v=094y1Z2wpJg)
@@ -154,7 +151,7 @@
   - Dice Combinations
   - Counting Rooms
 - Parancssori paraméterek beolvasása
-- [HackerRank](https://www.hackerrank.com/domains/algorithms) feladatok megoldása TypeScript/C\# nyelven
+- [HackerRank](https://www.hackerrank.com/domains/algorithms) feladatok megoldása NodeJS/C\# nyelven
 
 ### Asztali- és mobilalkalmazások fejlesztése (C\#/Electron)
 
