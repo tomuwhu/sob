@@ -82,7 +82,8 @@ git config --global user.email "<youremail@yourdomain.com>"
   - f = ௐ => ண
   - alapértelmezett érték
   - _nem kötelező paraméter, kötelező típussal: ௐ?:ண_
-  - objektum paraméter,
+  - objektum paraméter
+  - get, set
   - beépített függvények
   - generátorfüggvények, yield, yield*
 - _Számított értékek: $: ௐ_
@@ -101,7 +102,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - jellemzők
   - metódusok
 - Osztályok
-  - jellemzők
+  - jellemzők, private, public
   - metódusok
   - constructor
   - extends, static
@@ -129,6 +130,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - JSON
   - RegExp
 - _TypeScript: interface, implements, private, protected, \<T>_
+[JavaScript referencia](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
 ## JavaScript fogások
 
