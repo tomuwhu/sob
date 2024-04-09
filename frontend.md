@@ -162,13 +162,21 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Helyi tárhey (localStorage, sessionStorage)
   - Firefox: Svelte Dev Tools
 - FrontEnd technológiák, fogások
+  - JS => HTML Táblázat generálása
+    - Table, Flex, Grid
   - Egér és billentyűzet események
+    - eseménykezelés JS-ben
+    - eseménykezelés generálása
+  - Egyszerű HTML-CSS-JS játékok készítése
+    - Amőba, Aknakereső, Tron, Tetris, Tologatós kirakó, ...
   - Drag & Drop
+    - Kártyajáték, Kirakó készítése
   - Animációk, fizikai szimulációk
     - Egyenes vonalú egyenletes mozgás, sebességvektor
     - Gyorsulás, Lassulás
     - Ütközésdetektálás
     - Lendületmegmaradás törvénye és alkalmazása
+  - HTML, CSS, JS Játékok készítése
   - Design fogások
   - BootStrap
 
