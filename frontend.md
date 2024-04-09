@@ -84,6 +84,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - _nem kötelező paraméter, kötelező típussal: ௐ?:ண_
   - objektum paraméter,
   - beépített függvények
+  - generátorfüggvények, yield, yield*
 - _Számított értékek: $: ௐ_
 - Tömbök (listák)
   - Lista létrehozása
@@ -99,8 +100,6 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Objektumok
   - jellemzők
   - metódusok
-- Beépített objektumok
-  - Math, Array, ...
 - Osztályok
   - jellemzők
   - metódusok
@@ -108,7 +107,27 @@ git config --global user.email "<youremail@yourdomain.com>"
   - extends, static
   - példányosítás
 - Beépített osztályok
-  - Set, Map, ...
+  - Math
+    - E, LN10, LN2, LOG10E, LOG2E, PI, SQRT1_2, SQRT2
+    - abs, sin, cos, asin, acos, ceil, trunc, floor, round
+    - sin, cos, exp, sgn, sqrt, log, log2, log10
+    - max, min, pow, random
+  - Array
+    - length
+    - fill, every, join, keys, values, push, pop, *shift, unshift*
+    - splice, toSpliced, reverse, toReversed
+    - forEach, map, filter, sort, toSorted
+  - Set
+    - size
+    - add, delete, has, keys (values), forEach, clear
+    - union, intersection, symmetricDifference
+  - Map, WeakMap
+    - size
+    - set, has, gat, delete, forEach, keys, values, clear
+  - Date
+  - eval()
+  - JSON
+  - RegExp
 - _TypeScript: interface, implements, private, protected, \<T>_
 
 ## JavaScript fogások
