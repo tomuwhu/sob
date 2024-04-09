@@ -27,6 +27,7 @@
         - fixed, lock, yield
       - namespace, base, this
       - from, where, select, group, join, ascending...
+  - [C# Programming Exercises](https://www.w3resource.com/csharp-exercises/)
 
 ## Haladó szintű objektumorientált programozási technikák ismerete
 
@@ -65,7 +66,7 @@
   - Beszúrásos rendezés
   - Quick Sort (C#), felosztóelem-választási stratégiák
   - Mintaillesztés automatával
-  - Reguláris Kifejezések (JavaScript)
+  - Reguláris Kifejezések (C#, JavaScript)
 - Rekurzió és alkalmazása
   - Hanoi tornyai
   - Az aknakereső rekurzív hívása 0 aknánál
