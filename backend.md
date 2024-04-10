@@ -63,16 +63,19 @@
 
 ## Flask: Python BackEnd
 
-- routing
+- routing 
+- RestAPI
+  - GET, POST, PUT, PATCH, DELETE
 - params
 - templating (Jinja2)
   - kifejezések {{ ... }}, kommentek {# ... #}
   - utasítások {% ... %} (for, if, macro)
   - filterek
+- Flask-MySQL
 
 ## *NodeJS + NeDB/MongoDB/SQLite/MySQL*
 
-- *JSON*
+- JSON
 - *NodeJS telepítése*
 - *Node konzol, console*
 - *alapok, event-loop*
@@ -89,6 +92,7 @@
 - *nodemon*
 - *események, EventEmitter*
 - *Reguláris kifejezések*
+- JSON Server
 - *NodeJs NeDB*
 - *NodeJS MongoDB, Mongoose*
 - *NodeJs SQLite3*
