@@ -19,6 +19,13 @@
   - set PATH=%PATH%;C:/php
 - Környezeti változók
 
+## BackEnd alapok
+- REST API
+  - GET, POST, PUT, PATCH, DELETE
+- Postman alkalmazás telepítése, használata
+- JSON Server telepítése, használata
+- JSON Server + HTML Only Full-Stack minimal
+
 ## Python ismétlés
 
 - python telepítése
@@ -72,6 +79,25 @@
   - utasítások {% ... %} (for, if, macro)
   - filterek
 - Flask-MySQL
+
+## MySQL/SQLite ismététlés
+
+- Adatbázis felépítése (MySQL, SQLite, MariaDB, XAMPP)
+- SQL TOOLS: DB Browser/MySQL Workbench/PHPMyAdmin/Navicat
+- User Privilegs, root, admin
+- Táblák
+- Mezőtípusok
+- Kulcsok: elsődleges kulcs, külső kulcs
+- Szűrés, rendezés
+- Kapcsolatok táblák között, JOIN
+- Descartes szorzat
+- Distinct
+- [Normalizálás](https://www.youtube.com/watch?v=GFQaEYEc8_8)
+- DQL/DDL/DCL/DML
+
+## Flask MySQL Backend SSR: Jinja2
+
+- Komplex 3-4 táblás full-stack webalkalmás tervezés, fejlesztése
 
 ## *NodeJS + NeDB/MongoDB/SQLite/MySQL*
 
@@ -157,21 +183,6 @@
 - *BlockChain Serverless Keretrendszerek*
 - *Peer-To-Peer hálózatok, WebRTC*
 
-## MySQL/SQLite ismététlés
-
-- Adatbázis felépítése (MySQL, SQLite, MariaDB, XAMPP)
-- SQL TOOLS: DB Browser/MySQL Workbench/PHPMyAdmin/Navicat
-- User Privilegs, root, admin
-- Táblák
-- Mezőtípusok
-- Kulcsok: elsődleges kulcs, külső kulcs
-- Szűrés, rendezés
-- Kapcsolatok táblák között, JOIN
-- Descartes szorzat
-- Distinct
-- [Normalizálás](https://www.youtube.com/watch?v=GFQaEYEc8_8)
-- DQL/DDL/DCL/DML
-
 ## PHP I. - XAMPP, MySQL/MariaDB
 
 - XAMPP
@@ -212,7 +223,6 @@
   - JOIN, LEFT JOIN
   - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
   - phpMyAdmin
-- Postman alkalmazás telepítése, használata
 - SSR Full STack alkalmazás fejlesztése
 - Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
   - DTO, JSON Mapping
