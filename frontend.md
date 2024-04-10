@@ -164,12 +164,18 @@ git config --global user.email "<youremail@yourdomain.com>"
 - FrontEnd technológiák, fogások
   - JS => HTML Táblázat generálása
     - Table, Flex, Grid
+  - &lt;select> - optionok JavaScriptes kitöltése
   - Egér és billentyűzet események
     - eseménykezelés JS-ben
     - eseménykezelés generálása
   - Egyszerű HTML-CSS-JS játékok készítése
     - Amőba, Aknakereső, Tron, Tetris, Tologatós kirakó, ...
+  - Pozíció (relative, fixed) és méret módosítása JS segítségével
+    - naptár megjelenítő alkalmazás fejlesztése
+    - órarend megjelenítő alkalmazás fejlesztése
   - Drag & Drop
+    - drag, dragstart, dragenter, dragover, dragend, dragleave, drop
+    - Drag & Drop - fájl feltöltés  
     - Kártyajáték, Kirakó készítése
   - Animációk, fizikai szimulációk
     - Egyenes vonalú egyenletes mozgás, sebességvektor
@@ -178,7 +184,11 @@ git config --global user.email "<youremail@yourdomain.com>"
     - Lendületmegmaradás törvénye és alkalmazása
   - HTML, CSS, JS Játékok készítése
   - Design fogások
-  - BootStrap
+    - BootStrap
+  - Hasznos JS modulok (CDN only)
+    - ChartJS
+    - dragNdrop
+    - levenshtein
 
 ## HTML/CSS/JS Mobile
 
