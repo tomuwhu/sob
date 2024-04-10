@@ -164,6 +164,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - FrontEnd technológiák, fogások
   - JS => HTML Táblázat generálása
     - Table, Flex, Grid
+  - JS => SVG grafika generálása
   - &lt;select> - optionok JavaScriptes kitöltése
   - Egér és billentyűzet események
     - eseménykezelés JS-ben
@@ -176,17 +177,18 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Drag & Drop
     - drag, dragstart, dragenter, dragover, dragend, dragleave, drop
     - Drag & Drop - fájl feltöltés  
-    - Kártyajáték, Kirakó készítése
+    - Kártyajáték, Kirakó készítése, Mondrian Blocks
   - Animációk, fizikai szimulációk
+    - SVG objektumok mozgatása
     - Egyenes vonalú egyenletes mozgás, sebességvektor
-    - Gyorsulás, Lassulás
+    - Gyorsulás, Lassulás, Gravitáció
     - Ütközésdetektálás
     - Lendületmegmaradás törvénye és alkalmazása
   - HTML, CSS, JS Játékok készítése
   - Design fogások
     - BootStrap
   - Hasznos JS modulok (CDN only)
-    - ChartJS
+    - ChartJS, visjs
     - dragNdrop
     - levenshtein
 
