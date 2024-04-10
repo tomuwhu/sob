@@ -20,6 +20,7 @@
 - Környezeti változók
 
 ## BackEnd alapok
+- Cookie-k
 - REST API
   - GET, POST, PUT, PATCH, DELETE
 - Postman alkalmazás telepítése, használata
@@ -70,14 +71,18 @@
 
 ## Flask: Python BackEnd
 
+- telepítés, indítás, debug mód
+- flask app fejlesztés, tesztelés
 - routing 
 - RestAPI
   - GET, POST, PUT, PATCH, DELETE
-- params
+- params, escaping
+- serve static files
 - templating (Jinja2)
   - kifejezések {{ ... }}, kommentek {# ... #}
   - utasítások {% ... %} (for, if, macro)
   - filterek
+- Fáklok feltöltése
 - Flask-MySQL
 
 ## MySQL/SQLite ismététlés

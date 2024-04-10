@@ -144,6 +144,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Stream
   - Stream => Text
   - Stream => JSON
+- Cookie-k
 - EventSource
 - Date, Time
 - JSON
