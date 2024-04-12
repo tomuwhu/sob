@@ -45,10 +45,11 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Táblázatok
 - Űrlapok, Űrlapelemek
 - Események
-- CSS Animációk
 - Favicon
 - .css file, \<link>
 - SVG formátum, SVG használata HTML-ben
+- CSS Transform
+- CSS Animációk
 
 ## JavaScript/TypeScript (Browser)
 
