@@ -15,11 +15,16 @@ amire hivatkozások formájában a tanév során gyűlytik az
 
 A portfólió navigációs oldalának online elérhetőségét a tanév második hetének végéig meg kell adni a tanár által megjelölt módon, ezt később külön kérésre lehet változtatni.
 
-A portfólióba csatolt megoldásoknak:
+A portfólióba csatolt megoldásoknak (portfólió elemei):
 
 - lehetőleg hibamentesnek kell lennie, félig elkészült, hibákat tartalmazó szoftvereket ne tegyünk be a portfólióba a megfelelő dokumentációval együtt
-- a webes projektek online működőképesek legyenek és a dokumentációjuk markdown formátumban a README.md fájlban szerepeljen
 - a konzolos és windows appok (C#) telepíthető, kipróbáljató (lefordított) formában kerüljenek feltöltésre zip formátumban
+- a webes projektek online működőképesek legyenek és a dokumentációjuk markdown formátumban a README.md fájlban szerepeljen
+- az portfólió elemeinek dokumentációiban szerepelnie kell minden elemre vonatkozóan:
+    - telepítési útmutató
+    - felhasznált irodalom és külső szoftverek
+    - felhasználói dokumentáció
+    - tervezési és fejlesztői dokumentáció
 
 *A portfólió alapú oktatásban az értékelés alapját a portfólió képzi, minden tárgyelemre a jegyek nagy része a portfólió folyamatos értékeléséből adódik.*
 
