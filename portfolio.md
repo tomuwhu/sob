@@ -15,9 +15,9 @@ amire hivatkozások formájában a tanév során gyűlytik az
 
 A portfólió navigációs oldalának online elérhetőségét a tanév második hetének végéig meg kell adni a tanár által megjelölt módon, ezt később külön kérésre lehet változtatni.
 
-A portfólióba csatolt megoldásoknak (portfólió elemei):
+A portfólióba csatolt megoldásoknak a megfelelő dokumentációval együtt (portfólió elemei):
 
-- lehetőleg hibamentesnek kell lennie, félig elkészült, hibákat tartalmazó szoftvereket ne tegyünk be a portfólióba a megfelelő dokumentációval együtt
+- lehetőleg hibamentesnek kell lennie, félig elkészült, hibákat tartalmazó szoftvereket ne tegyünk be a portfólióba
 - a konzolos és windows appok (C#) telepíthető, kipróbáljató (lefordított) formában kerüljenek feltöltésre zip formátumban
 - a webes projektek online működőképesek legyenek és a dokumentációjuk markdown formátumban a README.md fájlban szerepeljen
 - az portfólió elemeinek dokumentációiban szerepelnie kell minden elemre vonatkozóan:
@@ -39,7 +39,7 @@ A portfólióban nem kell elhelyezni az oktatól előre titkosítási engedélyt
 ## Teljes portfólió értékelése
 
 - kötelező elemek megjelenése (házi feladatok, órai munkák, projektfeladat előrehaladása...)
-- nem kötelező elemek: mefelelő haladás, fejlődés (a nem választható és önálló elemek is kötelezőek, csak az nem kötelező hogy mit és hogyan fejlesszen)
+- nem kötelező elemek: mefelelő haladás, fejlődés (a nem választható és önálló elemek is kötelezőek, csak az nem kötelező, hogy mit és hogyan fejlesszen)
 
 ## A portfólió elemek értékelésének szempontjai
 
