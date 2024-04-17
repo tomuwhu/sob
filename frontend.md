@@ -198,6 +198,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## FrontEnd Python: Brython
 
+- python ismétlés backend tárgyban
 - browser
 - html
 - bind
@@ -218,7 +219,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - interval
   - rotationRate
 
-## JQuery UI
+## JQuery, JQuery UI
 
 - HTML
 - JavaScript

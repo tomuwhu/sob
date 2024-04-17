@@ -105,43 +105,42 @@
 
 - Komplex 3-4 táblás full-stack webalkalmás tervezés, fejlesztése
 
-## *NodeJS + NeDB/MongoDB/SQLite/MySQL*
+## *NodeJS*
 
 - JSON
-- *NodeJS telepítése*
-- *Node konzol, console*
-- *alapok, event-loop*
-- *debugging*
-- *parancssoros alkalmazás készítése*
-- *input, standard input*
-- *FS, fájlok olvasása*
-- *környezeti változók elérése: process.env.*
-- *env-file*
-- *modulok*
-- *npm, package.json*
-- *node_modules, npm i, package.json*
-- *node git integráció*
-- *nodemon*
-- *események, EventEmitter*
-- *Reguláris kifejezések*
+- NodeJS telepítése
+- Node konzol, console
+- alapok, event-loop
+- debugging
+- parancssoros alkalmazás készítése
+- input, standard input
+- FS, fájlok olvasása
+- környezeti változók elérése: process.env
+- env-file
+- modulok
+- node_modules, npm, package.json
+- node git integráció, .gitignore
+- nodemon
+- események, EventEmitter
+- Reguláris kifejezések
 - JSON Server
-- *NodeJs NeDB*
+- NodeJs NeDB
 - *NodeJS MongoDB, Mongoose*
 - *NodeJs SQLite3*
-- *NodeJS MySQL*
-- *Unit Test: Jest*
+- NodeJS MySQL
+- Unit Test: Jest
 
 ## *ExpressJS*
 
-- *hello world*
-- *routing*
-- *request*
-- *params*
-- *Session*
-- *express.json (body)*
-- *response*
+- hello world
+- routing
+- request
+- params
+- Session
+- express.json (body)
+- response
 - CORS
-- *EJS*
+- EJS
 - *Hosting: Heroku*
 
 ## *Vite, _Svelte Kit_*
@@ -184,8 +183,8 @@
 
 - *MEEN: MySQL - ExpressJS - EJS - NodeJS (Vite)*
 - *MSN: MySQL - SvelteKit - NodeJS (Vite)*
-- RestAPI, *SSE, WebSocket*
-- Autentikáció, *Oatuh*
+- RestAPI, SSE, WebSocket
+- Autentikáció, Oatuh 2.0
 - *BlockChain Serverless Keretrendszerek*
 - *Peer-To-Peer hálózatok, WebRTC*
 
@@ -241,7 +240,7 @@
 - *JQuery + PHP*
 - *AngulatJS + PHP*
 
-## *PHP II. Laravel*
+## Laravel
 
 - Php parancsosros alkalmazás (command line app)
 - XAMPP PHP
