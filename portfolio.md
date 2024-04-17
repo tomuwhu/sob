@@ -36,7 +36,12 @@ A portfólióban határidőig el nem helyezett szoftverek, megoldások - külön
 
 A portfólióban nem kell elhelyezni az oktatól előre titkosítási engedélyt kapott projekteket (pl. külső projektek, elfogadás előtti tudományos publikációk, ...)
 
-## A portfólió értékelésének szempontjai
+## Teljes portfólió értékelése
+
+- kötelező elemek megjelenése (házi feladatok, órai munkák, projektfeladat előrehaladása...)
+- nem kötelező elemek: mefelelő haladás, fejlődés (a nem választható és önálló elemek is kötelezőek, csak az nem kötelező hogy mit és hogyan fejlesszen)
+
+## A portfólió elemek értékelésének szempontjai
 
 - vizualizáció, megjelenés, stílus
 - felhasználói interfész, használhatóság, kényelem
