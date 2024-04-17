@@ -1,4 +1,6 @@
-## Portfólió alapú oktatás
+# Portfólió alapú oktatás
+
+## A Portfólió elkészítése, folyamatos frissítése
 
 *A képzés elején a diákok egy online elérhető gyűlytemény kezdőoldalát hozzák létre (a portfólió navigációs oldala), amire hivatkozások formájában a tanév során gyűlytik az*
 
@@ -17,6 +19,11 @@ A portfólióba csatolt megoldásoknak:
 - a konzolos és windows appok (C#) telepíthető, kipróbáljató (lefordított) formában kerüljenek feltöltésre zip formátumban
 
 *A portfólió alapú oktatásban az értékelés alapját a portfólió képzi, minden tárgyelemre a jegyek nagy része a portfólió folyamatos értékeléséből adódik.*
+
+Ezért a portfóliót a tanév során folyamatosan karban kell tartani, az elkészített kötelező feladatok linkjét külön felszólítás nélkül a leadási határidőig be kell tenni a portfólió navigációs oldalára.
+Az órai munkákat és egyéf feladatokat az elkészülést követően legkésőbb a következő munkanap kezdetéig kell elhelyezni a portfólióban.
+
+A portfólióban határidőig el nem helyezett szoftverek, megoldások - külön értesítés nélkül - elégtelen osztályzattal lesznek értékelve. 
 
 ## A portfólió értékelésének szempontjai
 
