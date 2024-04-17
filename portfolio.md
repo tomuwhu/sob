@@ -43,3 +43,4 @@ A portfólióban nem kell elhelyezni az oktatól előre titkosítási engedélyt
 - optimalizástság: (futási idők, tárigény, ...)
 - teljesség (funkcionalitás, hibamentesség)
 - ötletesség, egyediség
+- dokumentáció teljessége, olvashatósága, szerkezete, megjelenése, helyessége
