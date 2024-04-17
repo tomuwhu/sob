@@ -27,7 +27,9 @@ A portfóliót a tanév során folyamatosan karban kell tartani, az elkészítet
 
 Az órai munkákat és egyéb feladatokat az elkészülést követően legkésőbb a következő munkanap kezdetéig kell elhelyezni a portfólióban.
 
-A portfólióban határidőig el nem helyezett szoftverek, megoldások - külön értesítés nélkül - elégtelen osztályzattal lesznek értékelve. 
+A portfólióban határidőig el nem helyezett szoftverek, megoldások - külön értesítés nélkül - elégtelen osztályzattal lesznek értékelve.
+
+A portfólióban nem kell elhelyezni az oktatól előre titkosítási engedélyt kapott projekteket (pl. külső projektek, elfogadás előtti tudományos publikációk, ...)
 
 ## A portfólió értékelésének szempontjai
 
