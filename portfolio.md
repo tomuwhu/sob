@@ -1,0 +1,27 @@
+## Portfólió alapú oktatás
+
+*A képzés elején a diákok egy online elérhető gyűlytemény kezdőoldalát hozzák létre (a portfólió navigációs oldala), amire hivatkozások formájában a tanév során gyűlytik az*
+
+- órai kötelező munkákat/feladatokat
+- az otthonra kiadott kötelező feladatokat
+- az órai és otthoni választható és szorgalmi feladatokat
+- az önálló fejlődést bemutató munkákat
+- a csoportos projektmunkát
+
+A portfólió navigációs oldalának online elérhetőségét a tanév második hetének végéig meg kell adni a tanár által megjelölt módon, ezt később külön kérésre lehet változtatni.
+
+A portfólióba csatolt megoldásoknak:
+
+- lehetőleg hibamentesnek kell lennie, félig elkészült, hibákat tartalmazó szoftvereket ne tegyünk be a portfólióba a megfelelő dokumentációval együtt
+- a webes projektek online működőképesek legyenek és a dokumentációjuk markdown formátumban a README.md fájlban szerepeljen
+- a konzolos és windows appok (C#) telepíthető, kipróbáljató (lefordított) formában kerüljenek feltöltésre zip formátumban
+
+*A portfólió alapú oktatásban az értékelés alapját a portfólió képzi, minden tárgyelemre a jegyek nagy része a portfólió folyamatos értékeléséből adódik.*
+
+## A portfólió értékelésének szempontjai
+
+- vizualizáció, megjelenés, stílus
+- felhasználói interfész, használhatóság, kényelem
+- optimalizástság: (futási idők, tárigény, ...)
+- teljesség (funkcionalitás, hibamentesség)
+- ötletesség, egyediség

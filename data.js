@@ -611,6 +611,7 @@ $(() => {
   $('#t2').click(() => { tget('backend.md', 't2') })
   $('#t3').click(() => { tget('mobile.md', 't3') })
   $('#t4').click(() => { tget('configs.md', 't4') })
+  $('#pf').click(() => { tget('portfolio.md', 'pf') })
   disp()
   $(`#html`).hide()
 })
