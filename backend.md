@@ -20,6 +20,7 @@
 - Környezeti változók
 
 ## BackEnd alapok
+
 - Cookie-k
 - REST API
   - GET, POST, PUT, PATCH, DELETE
