@@ -145,7 +145,7 @@
 
 ## *Vite, _Svelte Kit_*
 
-- npm create svelte
+- npm create svelte@latest
 - adapter-static, .nojekyll, svelte.config, {basedir}
 - routes
 - onMount
