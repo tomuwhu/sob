@@ -74,7 +74,7 @@
 
 - telepítés, indítás, debug mód
 - flask app fejlesztés, tesztelés
-- routing 
+- routing
 - RestAPI
   - GET, POST, PUT, PATCH, DELETE
 - params, escaping
