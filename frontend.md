@@ -41,8 +41,10 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 - Markdown
 - HTML objektumok, attribútumok, szelektorok
-- CSS szelektorok, FlexBox
+- CSS szelektorok
 - Táblázatok
+- Grid
+- FlexBox
 - Űrlapok, Űrlapelemek
 - Események
 - Favicon

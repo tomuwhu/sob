@@ -74,7 +74,7 @@
 
 - telepítés, indítás, debug mód
 - flask app fejlesztés, tesztelés
-- routing 
+- routing
 - RestAPI
   - GET, POST, PUT, PATCH, DELETE
 - params, escaping
@@ -145,7 +145,7 @@
 
 ## *Vite, _Svelte Kit_*
 
-- npm create svelte
+- npm create svelte@latest
 - adapter-static, .nojekyll, svelte.config, {basedir}
 - routes
 - onMount
