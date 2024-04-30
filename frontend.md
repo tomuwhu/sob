@@ -32,7 +32,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Live Share
   - Markdown All in One
   - Markdownlint
-  - IntelliCode
+  - IntelliCode or codeium
   - Material Icons
   - _Svelte preview_
   - _Svelte counter példaalkalmazás_
