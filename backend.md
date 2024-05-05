@@ -28,6 +28,28 @@
 - JSON Server telepítése, használata
 - JSON Server + HTML Only Full-Stack minimal
 
+## PHP I. - XAMPP, SSR
+
+- XAMPP
+  - Telepítés
+  - Tools
+  - htdocs mappa, xampp control panel
+- PHP
+  - Szintaxis
+  - Változók, kommentek, típusok
+  - echo, template (\<?php ?>, {})
+  - környezeti változók elérése, . => _
+  - Vezérlési szerkezetek
+  - Tömbök, listák
+  - Szerver oldali alkalmazás készítése
+  - Asszociatív tömbök
+  - print_r(), var_export(), echo json_encode()
+  - FullStack: HTML FORM POST
+  - $HTTP_POST_VARS, $HTTP_GET_VARS, és/vagy $HTTP_POST_FILES
+  - $_GET, $_POST
+  - $_SESSION, session_start(), session_id()
+  - Hagyományos FullStack alkalmazás fejlesztése
+
 ## Python ismétlés
 
 - python telepítése
@@ -105,6 +127,10 @@
 
 - Komplex 3-4 táblás full-stack webalkalmás tervezés, fejlesztése
 
+## Kapcsolódó technológiák I.
+
+- MFB: MySQL - Flask - Brython
+
 ## *NodeJS*
 
 - JSON
@@ -179,7 +205,7 @@
 
   {* tervezése és fejlesztése}
 
-## Kapcsolódó technológiák
+## Kapcsolódó technológiák II.
 
 - *MEEN: MySQL - ExpressJS - EJS - NodeJS (Vite)*
 - *MSN: MySQL - SvelteKit - NodeJS (Vite)*
@@ -188,27 +214,9 @@
 - *BlockChain Serverless Keretrendszerek*
 - *Peer-To-Peer hálózatok, WebRTC*
 
-## PHP I. - XAMPP, MySQL/MariaDB
+## PHP II. - MySQL/MariaDB
 
-- XAMPP
-  - Telepítés
-  - Tools
-  - htdocs mappa, xampp control panel
 - PHP
-  - Szintaxis
-  - Változók, kommentek, típusok
-  - echo, template (\<?php ?>, {})
-  - környezeti változók elérése, . => _
-  - Vezérlési szerkezetek
-  - Tömbök, listák
-  - Szerver oldali alkalmazás készítése
-  - Asszociatív tömbök
-  - print_r(), var_export(), echo json_encode()
-  - FullStack: HTML FORM POST
-  - $HTTP_POST_VARS, $HTTP_GET_VARS, és/vagy $HTTP_POST_FILES
-  - $_GET, $_POST
-  - $_SESSION, session_start(), session_id()
-  - Hagyományos FullStack alkalmazás fejlesztése
   - Parse json_encode(): PUT, PATCH, DELETE, HEAD, OPTIONS
   - Osztályok, objektumok
   - mysqli: query, fetch_assoc
@@ -228,7 +236,6 @@
   - JOIN, LEFT JOIN
   - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
   - phpMyAdmin
-- SSR Full STack alkalmazás fejlesztése
 - Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
   - DTO, JSON Mapping
   - file_get_contents('php://input')
@@ -240,7 +247,12 @@
 - *JQuery + PHP*
 - *AngulatJS + PHP*
 
-## Laravel
+## Kapcsolódó technológiák III.
+
+- MP: MySQL - PHP
+- *MPJ*: MySQL - PHP - *JQuery*
+
+## PHP III. - Laravel
 
 - Php parancsosros alkalmazás (command line app)
 - XAMPP PHP
@@ -253,12 +265,3 @@
   - Livewire connect
 
 [Központi tematika](pdf/Backend%20programozás%20és%20tesztelés.pdf)
-
-## Kapcsolódó technológiák II.
-
-- MP: MySQL - PHP
-- *MPJ*: MySQL - PHP - *JQuery*
-
-## Kapcsolódó technológiák III.
-
-- MFB: MySQL - Flask - Brython
