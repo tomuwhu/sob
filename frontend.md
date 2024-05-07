@@ -56,7 +56,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 ## JavaScript/TypeScript (Browser)
 
 - JavaScript megjelenítés
-  - Browser DevTools, console
+  - Browser DevTools: elemek, vizsgálat, konzol, források
   - window, document objects, DOM
   - getElementById, querySelectorAll()
   - element attribútumok (id, class, draggable, ...)
@@ -132,6 +132,10 @@ git config --global user.email "<youremail@yourdomain.com>"
   - eval()
   - JSON
   - RegExp
+- Browser DevTools: Alkalmazás
+  - Helyi tárhely
+  - Cookie-k
+  - IndexedDB
 - _TypeScript: interface, implements, private, protected, \<T>_
 [JavaScript referencia](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
