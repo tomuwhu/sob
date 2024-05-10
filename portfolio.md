@@ -5,7 +5,7 @@
 - 
 
 A képzés elején a diákok egy online elérhető gyűjtemény kezdőoldalát hozzák létre (a portfólió navigációs oldala),
-amire hivatkozások formájában a tanév során gyűlytik az
+amire hivatkozások formájában a tanév során gyűjtik az
 
 - órai kötelező munkákat/feladatokat
 - az otthonra kiadott kötelező feladatokat
