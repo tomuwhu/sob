@@ -18,13 +18,14 @@ A portfólió navigációs oldalának online elérhetőségét a tanév második
 A portfólióba csatolt megoldásoknak a megfelelő dokumentációval együtt (portfólió elemei):
 
 - lehetőleg hibamentesnek kell lennie, félig elkészült, hibákat tartalmazó szoftvereket ne tegyünk be a portfólióba
-- a konzolos és windows appok (C#) telepíthető, kipróbáljató (lefordított) formában kerüljenek feltöltésre zip formátumban
+- a konzolos és windows appok (C#) a forrásfájlok mellet telepíthető, kipróbálható (lefordított) formában is kerüljenek feltöltésre zip formátumban
 - a webes projektek online működőképesek legyenek és a dokumentációjuk markdown formátumban a README.md fájlban szerepeljen
-- az portfólió elemeinek dokumentációiban szerepelnie kell minden elemre vonatkozóan:
+- a portfólió elemeinek dokumentációiban szerepelnie kell minden elemre vonatkozóan:
     - telepítési útmutató
     - felhasznált irodalom és külső szoftverek
     - felhasználói dokumentáció
     - tervezési és fejlesztői dokumentáció
+    - teljes forráskód, magyarázatokkal (kommentelve)
 
 *A portfólió alapú oktatásban az értékelés alapját a portfólió képzi, minden tárgyelemre a jegyek nagy része a portfólió folyamatos értékeléséből adódik.*
 
@@ -34,7 +35,7 @@ Az órai munkákat és egyéb feladatokat az elkészülést követően legkéső
 
 A portfólióban határidőig el nem helyezett szoftverek, megoldások - külön értesítés nélkül - elégtelen osztályzattal lesznek értékelve.
 
-A portfólióban nem kell elhelyezni az oktatól előre titkosítási engedélyt kapott projekteket (pl. külső projektek, elfogadás előtti tudományos publikációk, ...)
+A portfólióban nem kell elhelyezni az oktatótól előre titkosítási engedélyt kapott projektek forráskódját (pl. külső projektek, elfogadás előtti tudományos publikációk, ...)
 
 ## Teljes portfólió értékelése
 
@@ -43,9 +44,9 @@ A portfólióban nem kell elhelyezni az oktatól előre titkosítási engedélyt
 
 ## A portfólió elemek értékelésének szempontjai
 
-- vizualizáció, megjelenés, stílus
-- felhasználói interfész, használhatóság, kényelem
-- optimalizástság: (futási idők, tárigény, ...)
-- teljesség (funkcionalitás, hibamentesség)
-- ötletesség, egyediség
-- dokumentáció teljessége, olvashatósága, szerkezete, megjelenése, helyessége
+- *vizualizáció*: megjelenés, stílus
+- *felhasználói interfész*: funkcionalitás, átláthatóság, használhatóság, kényelem
+- *optimalizástság*: (futási idők, tárigény, ...)
+- *teljesség*: funkcionalitás, hibamentesség, tesztelési környezet, tesztek
+- *innováció*: ötletesség, egyediség
+- *dokumentáció*: teljesség, olvashatóság, szerkezet, megjelenés, helyesség
