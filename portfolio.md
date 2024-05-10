@@ -47,4 +47,5 @@ A portfólióban nem kell elhelyezni az oktatótól előre titkosítási engedé
 - *optimalizástság*: (futási idők, tárigény, ...)
 - *teljesség*: funkcionalitás, hibamentesség, tesztelési környezet, tesztek
 - *innováció*: ötletesség, egyediség
+- *it biztonság*: config fájlok, adatbiztonság, feltörhetőség
 - *dokumentáció*: teljesség, olvashatóság, szerkezet, megjelenés, helyesség
