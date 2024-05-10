@@ -3,6 +3,15 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `SvelteKIT Static - Amőba`,
+    date: `2024-05-10`,
+    text: `05-10 Vendégségben Dávidnál az elsősökkel`,
+    git: [`SOB`, `https://github.com/tomuwhu/sob/tree/main/brython/tetris`, `brython/tetris/`],
+    keywords: [
+      `Brython`, `Tetris`, `table`,`blocks`, `HTML`, `CSS`, `Python`, 'dragndrop', `game`, `játék`
+    ]
+  },
+  {
     name: `<a href="https://brython.info/" target="bry">Brython</a> - Tetris`,
     date: `2024-01-05`,
     text: `01-05 Online órai péda`,
