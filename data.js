@@ -6,7 +6,7 @@ ds = [
     name: `SvelteKIT Static - Amőba`,
     date: `2024-05-10`,
     text: `05-10 Vendégségben Dávidnál az elsősökkel`,
-    git: [`SOB`, `https://github.com/tomuwhu/Amoba_SOB/blob/main/src/routes/%2Bpage.svelte`, `https://tomuwhu.github.io/Amoba_SOB/`],
+    git: [`SOB`, `https://github.com/tomuwhu/Amoba_SOB/blob/main/src/routes/amoba/%2Bpage.svelte`, `https://tomuwhu.github.io/Amoba_SOB/`],
     keywords: [
       `SVELTE`, `Amőba`, `table`, `HTML`, `CSS`, `JavaScript`, `game`, `játék`
     ]
