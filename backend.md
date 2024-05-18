@@ -186,7 +186,7 @@
   - building and deploying
   - hooks
 
-## Full-stack multiplatform alkalmazás fejlesztése
+## Full-stack multiplatform alkalmazás fejlesztése (SvelteKit - SQLite)
 
   {Tárgyak közötti együttműködéssel}
 

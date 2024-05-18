@@ -162,7 +162,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## JavaScript fogások
 
-- String template
+- String template, Filterprefix
 - Array (map, forEach, fill, sort, filter, reduce)
 - SetInterval, SetTimeout
 - Callback
@@ -187,6 +187,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - highlight.js
   - Chart.js
   - vis.js
+  - dragNdrop
 - Browser Alkalmazás
   - Helyi tárhey (localStorage, sessionStorage)
   - Firefox: Svelte Dev Tools
@@ -198,6 +199,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Egér és billentyűzet események
     - eseménykezelés JS-ben
     - eseménykezelés generálása
+  - Levenshtein Filter készítése
   - Egyszerű HTML-CSS-JS játékok készítése
     - Amőba, Aknakereső, Tron, Tetris, Tologatós kirakó, ...
   - Pozíció (relative, fixed) és méret módosítása JS segítségével
@@ -216,12 +218,6 @@ git config --global user.email "<youremail@yourdomain.com>"
   - HTML, CSS, JS Játékok készítése
   - Design fogások
     - BootStrap
-  - Hasznos JS modulok (CDN only)
-    - ChartJS, visjs
-    - dragNdrop
-    - levenshtein
-    - jQuery
-    - AngularJS
 
 ## FrontEnd Python: Brython
 
@@ -312,7 +308,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Űrlapok
 - Komponensek
 
-## Full-stack multiplatform alkalmazás fejlesztése
+## Full-stack multiplatform alkalmazás fejlesztése (SvelteKit - SQLite)
 
   {Tárgyak közötti együttműködéssel}
 
