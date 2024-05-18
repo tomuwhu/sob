@@ -63,16 +63,18 @@ git config --global user.email "<youremail@yourdomain.com>"
   - getElementById, querySelectorAll()
   - element attribútumok (id, class, draggable, ...)
   - \<script src='...'\>, \<script type="module" src="./main.js"></script>
-  - _{}, bind:value, ..._
+  - _SVELTE {}, bind:value, ..._
 - Eseménykezelés __~Függvények__
   - böngésző események
-  - (onclick, keydown, keyup, onmousemove, onmouseout, ...)
-  - (oninput, onchange, dragstart, dragover, drop...)
-  - _események (on:click, bind:value, on:dragstart, ...)_
+  - onclick, keydown, keyup, onmousemove, onmouseout, ...
+  - oncontextmenu="return false"
+  - eseménybuborékozás, event.stopPropagation()
+  - oninput, onchange, dragstart, dragover, drop...
+  - _SVELTE események (on:click, bind:value, on:dragstart, ...)_
 - Szintaxis
   - Értékek, típusok (számok, szöveg)
   - Változók, definiálás, értékadás
-  - _var, let, const_
+  - _SVELTE var, let, const_
   - JavaScript / TypeScript
     - alap típusok: string, number, boolean
     - bigint, symbol, object, funtion, any
@@ -86,12 +88,11 @@ git config --global user.email "<youremail@yourdomain.com>"
   - f = (...) => { ... ; return ௐ}
   - f = ௐ => ண
   - alapértelmezett érték
-  - _nem kötelező paraméter, kötelező típussal: ௐ?:ண_
   - objektum paraméter
   - get, set
   - beépített függvények
   - generátorfüggvények, yield, yield*
-- _Számított értékek: $: ௐ_
+- _SVELTE számított értékek: $: ௐ_
 - Tömbök (listák)
   - Lista létrehozása
   - Elem hozzáadása, adott elem kiválasztása
@@ -101,7 +102,10 @@ git config --global user.email "<youremail@yourdomain.com>"
   - if, elseif, else, switch...case
   - for, .forEach(ண), .map(ண), ...
   - _{#if ண} ... {:else if ண} ... {:else} ... {/if}_
-  - _{#each ஃ as ୦} ... {/each}_
+  - _{#each ஃ as obj, index (key)} ... {:else} ... {/each}_
+  - _{#each items as { id, name, qty }, i (id)} ... {/each}_
+  - _{#await expression}...{:then name}...{:catch name}...{/await}_
+  - _{#key expression}...{/key}_
   - try...catch
 - Objektumok
   - jellemzők
@@ -127,7 +131,7 @@ git config --global user.email "<youremail@yourdomain.com>"
     - Instance methods
   - Array
     - length
-    - fill, every, join, keys, values, push, pop, *shift, unshift*
+    - fill, every, join, keys, values, push, pop, *shift*, *unshift*
     - splice, toSpliced, reverse, toReversed
     - forEach, map, filter, sort, toSorted
   - Set
