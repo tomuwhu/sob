@@ -131,11 +131,12 @@
 
 - MFB: MySQL - Flask - Brython
 
-## *NodeJS*
+## [*NodeJS*](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 
 - JSON
 - NodeJS telepítése
 - Node konzol, console
+- node
 - alapok, event-loop
 - debugging
 - parancssoros alkalmazás készítése
@@ -156,7 +157,7 @@
 - NodeJS MySQL
 - Unit Test: Jest
 
-## *ExpressJS*
+## [*ExpressJS*](https://expressjs.com/en/starter/installing.html)
 
 - hello world
 - routing
@@ -169,8 +170,9 @@
 - EJS
 - *Hosting: Heroku*
 
-## *Vite, _Svelte Kit_*
+## *[Vite](https://vitejs.dev/guide/), [SvelteKit](https://kit.svelte.dev/docs/introduction)*
 
+- [tutorial](https://learn.svelte.dev/tutorial/introducing-sveltekit)
 - npm create svelte@latest
 - adapter-static, .nojekyll, svelte.config, {basedir}
 - routes
