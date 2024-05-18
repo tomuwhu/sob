@@ -52,6 +52,8 @@ git config --global user.email "<youremail@yourdomain.com>"
 - SVG formátum, SVG használata HTML-ben
 - CSS Transform
 - CSS Animációk
+  - animation
+  - @keyframes
 
 ## JavaScript/TypeScript (Browser)
 
@@ -105,17 +107,24 @@ git config --global user.email "<youremail@yourdomain.com>"
   - jellemzők
   - metódusok
 - Osztályok
-  - jellemzők, private, public
-  - metódusok
+  - jellemzők (property - tulajdon)
+  - private, public
+  - metódusok (method - módszer)
   - constructor
   - extends, static
-  - példányosítás
+  - példányosítás, new (instance - eset)
+  - statikus metódusok
+  - statikus jellemzők
 - Beépített osztályok
   - Math
     - E, LN10, LN2, LOG10E, LOG2E, PI, SQRT1_2, SQRT2
     - abs, sin, cos, asin, acos, ceil, trunc, floor, round
     - sin, cos, exp, sgn, sqrt, log, log2, log10
     - max, min, pow, random
+  - Object
+    - Constructor
+    - Static methods
+    - Instance methods
   - Array
     - length
     - fill, every, join, keys, values, push, pop, *shift, unshift*
@@ -128,14 +137,26 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Map, WeakMap
     - size
     - set, has, gat, delete, forEach, keys, values, clear
+  - String
+    - Instance methods and propery
   - Date
   - eval()
   - JSON
   - RegExp
+  - Promise
+  - FormData
+  - Screen
+- Beépített objektumok
+  - document
+    - getElementById
+    - createElement
+    - querySelectorAll
+  - cookieStore
 - Browser DevTools: Alkalmazás
-  - Helyi tárhely
+  - Helyi tárhely (localStorage)
   - Cookie-k
   - IndexedDB
+  - ReadableStream
 - _TypeScript: interface, implements, private, protected, \<T>_
 [JavaScript referencia](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
