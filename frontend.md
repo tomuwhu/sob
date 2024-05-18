@@ -34,8 +34,8 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Markdownlint
   - IntelliCode or codeium
   - Material Icons
-  - _Svelte preview_
-  - _Svelte counter példaalkalmazás_
+  - Svelte preview
+  - Svelte counter példaalkalmazás
 
 ## HTML/CSS/Markdown/SVG ismétlés
 
@@ -157,8 +157,8 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Cookie-k
   - IndexedDB
   - ReadableStream
-- _TypeScript: interface, implements, private, protected, \<T>_
-[JavaScript referencia](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+- TypeScript: interface, implements, private, protected, \<T>
+- [JavaScript referencia](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
 ## JavaScript fogások
 
@@ -178,16 +178,13 @@ git config --global user.email "<youremail@yourdomain.com>"
 - JSON
 - RegExp
 - Modulok, CDN
-  - jQuery
-  - AngularJS
-  - Axios, RestAPI
-  - Socket.io<sup>*</sup>
-  - levenshtein
-  - marked
-  - highlight.js
-  - Chart.js
-  - vis.js
-  - dragNdrop
+  - [jQuery](https://jquery.com/)
+  - [Axios](https://axios-http.com/docs/intro), RestAPI
+  - [Socket.io<sup>*</sup>](https://socket.io/)
+  - [levenshtein](https://github.com/gf3/Levenshtein)
+  - [marked](https://marked.js.org/)
+  - [highlight.js](https://highlightjs.org/) v. [prism.js](https://prismjs.com/)
+  - [Chart.js](https://www.chartjs.org/) v. [vis.js](https://visjs.org/)
 - Browser Alkalmazás
   - Helyi tárhey (localStorage, sessionStorage)
   - Firefox: Svelte Dev Tools
@@ -280,8 +277,10 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Vue
   - Svelte
 
-## _Svelte_
+## [Svelte](https://svelte.dev/docs/introduction)
 
+- [Tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte)
+- [Examples, Játszótér](https://svelte.dev/examples/hello-world)
 - Svelte komponensek
   - export prop
   - reactivitás, számított változók
@@ -299,7 +298,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Svelte Store
 - Motion, Transition, Animation
 
-## _SvelteUI_
+## [SvelteUI](https://svelteui.dev/theming/dark-theme)
 
 - Telepítés
 - Funkciók

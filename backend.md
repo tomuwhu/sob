@@ -110,11 +110,11 @@
 
 ## MySQL/SQLite ismététlés
 
-- Adatbázis felépítése (MySQL, SQLite, MariaDB, XAMPP)
-- SQL TOOLS: DB Browser/MySQL Workbench/PHPMyAdmin/Navicat
-- User Privilegs, root, admin
+- Adatbázis felépítése (MySQL, SQLite)
+- SQL TOOLS: DB Browser/SQLiteStudio
+- User Privilegs, root, admin (MySQL)
 - Táblák
-- Mezőtípusok
+- Mezőtípusok (MySQL)
 - Kulcsok: elsődleges kulcs, külső kulcs
 - Szűrés, rendezés
 - Kapcsolatok táblák között, JOIN
@@ -122,6 +122,7 @@
 - Distinct
 - [Normalizálás](https://www.youtube.com/watch?v=GFQaEYEc8_8)
 - DQL/DDL/DCL/DML
+- Adatbázisok tervezése
 
 ## Flask MySQL Backend SSR: Jinja2
 
