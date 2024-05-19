@@ -45,7 +45,6 @@
   - Asszociatív tömbök
   - print_r(), var_export(), echo json_encode()
   - FullStack: HTML FORM POST
-  - $HTTP_POST_VARS, $HTTP_GET_VARS, és/vagy $HTTP_POST_FILES
   - $_GET, $_POST
   - $_SESSION, session_start(), session_id()
   - Hagyományos FullStack alkalmazás fejlesztése
@@ -72,9 +71,8 @@
   - Parse json_encode(): PUT, PATCH, DELETE, HEAD, OPTIONS
   - Osztályok, objektumok
   - mysqli: query, fetch_assoc
-  - CORS
-  - Event-stream, flush, ob_flush, sleep
-  - Packagist/Composer
+  - phpMyAdmin
+  - Hosting: ATW
 - MySQL/MariaDB
   - SELECT
   - WHERE
@@ -87,7 +85,9 @@
   - LIKE
   - JOIN, LEFT JOIN
   - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
-  - phpMyAdmin
+- Frontend/Backend szétválasztása, CORS
+- Event-stream, flush, ob_flush, sleep
+- Packagist/Composer
 - Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
   - DTO, JSON Mapping
   - file_get_contents('php://input')
@@ -95,7 +95,6 @@
 - Adatbázis tervezés, kapcsolatok
 - Adatfolyam-tervezés, adatfolyam-diagrammok
 - Unit teszt,  integrációs tesztelés, rendszertesztelés
-- Hosting: ATW
 - *JQuery + PHP*
 - *AngulatJS + PHP*
 
@@ -272,7 +271,7 @@
 
 - MFB: MySQL - Flask - Brython
 
-## PHP III. - Laravel
+## PHP III. - phpsocket.io / Laravel
 
 - Php parancsosros alkalmazás (command line app)
 - XAMPP PHP
@@ -282,6 +281,6 @@
   - [Request](https://laravel.com/docs/10.x/routing)
   - [Views](https://laravel.com/docs/10.x/routing)
   - [Blade](https://laravel.com/docs/10.x/blade#loops)
-  - Livewire connect
+  - [Livewire connect](https://laravel-livewire.com/)
 
 [Központi tematika](pdf/Backend%20programozás%20és%20tesztelés.pdf)
