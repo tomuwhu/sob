@@ -37,7 +37,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Svelte preview
   - Svelte counter példaalkalmazás
 
-## HTML/CSS/Markdown/SVG ismétlés
+## HTML/CSS/Markdown/SVG/JS ismétlés
 
 - Markdown
 - HTML objektumok, attribútumok, szelektorok
@@ -49,11 +49,19 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Események
 - Favicon
 - .css file, \<link>
+- Külső CSS/JS könyvtárak és egyebek
+  - [Google Fonts](https://fonts.google.com/)
+  - [Bootstrap](https://getbootstrap.com/)
+  - [Material UI](https://materializecss.com/)
+  - [React Material UI](https://mui.com/)
+  - [Svelte Material UI](https://sveltematerialui.com/)
 - SVG formátum, SVG használata HTML-ben
 - CSS Transform
 - CSS Animációk
   - animation
   - @keyframes
+- SCSS/SASS
+- Külső JavaScript könyvtárak
 
 ## JavaScript/TypeScript/Svelte (Browser)
 
