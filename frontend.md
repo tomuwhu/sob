@@ -255,8 +255,6 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## NodeJS frontend
 
-
-
 ## [Svelte](https://svelte.dev/docs/introduction)
 
 - [Tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte)
