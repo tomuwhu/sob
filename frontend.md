@@ -64,7 +64,12 @@ git config --global user.email "<youremail@yourdomain.com>"
   - animation
   - @keyframes
 - SCSS/SASS
-- Külső JavaScript könyvtárak
+- JavaScript online editor
+  - [JavaScript](https://playcode.io/javascript)
+  - [JQuery](https://playcode.io/jquery)
+  - [React](https://playcode.io/react)
+  - [Vue](https://playcode.io/vue)
+  - [Svelte](https://playcode.io/svelte)
 
 ## JavaScript/TypeScript/Svelte/Vue (Browser)
 
