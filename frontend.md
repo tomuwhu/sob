@@ -18,7 +18,7 @@ git config --global user.name "Your Name"
 git config --global user.email "<youremail@yourdomain.com>"
 ```
 
-## VSCode használata
+## [VSCode](https://code.visualstudio.com/) használata
 
 - kód bevitel
 - UTF-8, Szimbólumok
@@ -55,7 +55,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - animation
   - @keyframes
 
-## JavaScript/TypeScript (Browser)
+## JavaScript/TypeScript/Svelte (Browser)
 
 - JavaScript megjelenítés
   - Browser DevTools: elemek, vizsgálat, konzol, források
@@ -253,25 +253,9 @@ git config --global user.email "<youremail@yourdomain.com>"
 - ThemeRoller
 - Eszközök
 
-## NodeJS frontend-hez, fullstack-hez
+## NodeJS frontend
 
-- Development server: VITE
-  - dev server
-  - build
-  - vite.config.ts
-    - plugins
-    - rollupOptions
-    - build.chunkSizeWarningLimit
-- sass: rollup.config, prettierrc
-- TypeScript
-  - Types
-  - Classes
-  - Templates
-- Vite technológiák:
-  - Vanilla
-  - React
-  - Vue
-  - Svelte
+
 
 ## [Svelte](https://svelte.dev/docs/introduction)
 

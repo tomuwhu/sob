@@ -140,21 +140,38 @@
 
 ## *[Vite](https://vitejs.dev/guide/), [SvelteKit](https://kit.svelte.dev/docs/introduction)*
 
-- [tutorial](https://learn.svelte.dev/tutorial/introducing-sveltekit)
-- npm create svelte@latest
-- adapter-static, .nojekyll, svelte.config, {basedir}
-- routes
-- onMount
-- komponensek
-- MVC alkalmazások fejlesztése
-- SvelteKit FullStack Framework
-  - routing
-  - loading data
-  - form actions
-  - page options
-  - state management, store
-  - building and deploying
-  - hooks
+- Development server: VITE
+  - dev server
+  - build
+  - vite.config.ts
+    - plugins
+    - rollupOptions
+    - build.chunkSizeWarningLimit
+- sass: rollup.config, prettierrc
+- TypeScript
+  - Types
+  - Classes
+  - Templates
+- Vite technológiák:
+  - Vanilla
+  - React
+  - Vue
+  - Svelte
+    - [tutorial](https://learn.svelte.dev/tutorial/introducing-sveltekit)
+    - npm create svelte@latest
+    - adapter-static, .nojekyll, svelte.config, {basedir}
+    - routes
+    - onMount
+    - komponensek
+    - MVC alkalmazások fejlesztése
+    - SvelteKit FullStack Framework
+      - routing
+      - loading data
+      - form actions
+      - page options
+      - state management, store
+      - building and deploying
+      - hooks
 
 ## Full-stack multiplatform alkalmazás fejlesztése (SvelteKit - SQLite)
 
