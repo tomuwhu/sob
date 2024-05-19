@@ -39,7 +39,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 
 ## HTML/CSS/Markdown/SVG/JS ismétlés
 
-- Markdown
+- [Markdown](https://www.markdownguide.org/basic-syntax/)
 - HTML objektumok, attribútumok, szelektorok
 - CSS szelektorok
 - Táblázatok
@@ -52,9 +52,12 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Külső CSS/JS könyvtárak és egyebek
   - [Google Fonts](https://fonts.google.com/)
   - [Bootstrap](https://getbootstrap.com/)
+  - [BootstrapVue](https://bootstrap-vue.org/)
+  - [SVELTESTRAP](https://sveltestrap.js.org/?path=/docs/sveltestrap-overview--docs)
   - [Material UI](https://materializecss.com/)
-  - [React Material UI](https://mui.com/)
+  - [Vue Material UI](https://www.creative-tim.com/vuematerial/)
   - [Svelte Material UI](https://sveltematerialui.com/)
+  - [React Material UI](https://mui.com/)
 - SVG formátum, SVG használata HTML-ben
 - CSS Transform
 - CSS Animációk
