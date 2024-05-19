@@ -63,7 +63,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - SCSS/SASS
 - Külső JavaScript könyvtárak
 
-## JavaScript/TypeScript/Svelte (Browser)
+## JavaScript/TypeScript/Svelte/Vue (Browser)
 
 - JavaScript megjelenítés
   - Browser DevTools: elemek, vizsgálat, konzol, források
@@ -72,17 +72,22 @@ git config --global user.email "<youremail@yourdomain.com>"
   - element attribútumok (id, class, draggable, ...)
   - \<script src='...'\>, \<script type="module" src="./main.js"></script>
   - _SVELTE {}, bind:value, ..._
+  - _VUE API Styles_
 - Eseménykezelés __~Függvények__
   - böngésző események
   - onclick, keydown, keyup, onmousemove, onmouseout, ...
   - oncontextmenu="return false"
   - eseménybuborékozás, event.stopPropagation()
   - oninput, onchange, dragstart, dragover, drop...
-  - _SVELTE események (on:click, bind:value, on:dragstart, ...)_
+  - _SVELTE, VUE Binding bind:value, :value_
+  - _SVELTE események (on:click, on:dragstart, ...)_
+  - _VUE események (@click, @dragstart, :value, ...)_
 - Szintaxis
   - Értékek, típusok (számok, szöveg)
   - Változók, definiálás, értékadás
   - _SVELTE var, let, const_
+  - _SVELTE számított értékek: $: ௐ_
+  - _VUE reactive, computed_
   - JavaScript / TypeScript
     - alap típusok: string, number, boolean
     - bigint, symbol, object, funtion, any
@@ -100,7 +105,6 @@ git config --global user.email "<youremail@yourdomain.com>"
   - get, set
   - beépített függvények
   - generátorfüggvények, yield, yield*
-- _SVELTE számított értékek: $: ௐ_
 - Tömbök (listák)
   - Lista létrehozása
   - Elem hozzáadása, adott elem kiválasztása
@@ -109,11 +113,15 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Utasítások
   - if, elseif, else, switch...case
   - for, .forEach(ண), .map(ண), ...
-  - _{#if ண} ... {:else if ண} ... {:else} ... {/if}_
-  - _{#each ஃ as obj, index (key)} ... {:else} ... {/each}_
-  - _{#each items as { id, name, qty }, i (id)} ... {/each}_
-  - _{#await expression}...{:then name}...{:catch name}...{/await}_
-  - _{#key expression}...{/key}_
+  - _SVELTE_
+    - _{#if ண} ... {:else if ண} ... {:else} ... {/if}_
+    - _{#each ஃ as obj, index (key)} ... {:else} ... {/each}_
+    - _{#each items as { id, name, qty }, i (id)} ... {/each}_
+    - _{#await expression}...{:then name}...{:catch name}...{/await}_
+    - _{#key expression}...{/key}_
+  - _VUE: v-if, v-for, ..._
+  - body onload()
+  - _SVELTE, VUE: onMount(), onMounted_
   - try...catch
 - Objektumok
   - jellemzők
@@ -312,6 +320,12 @@ git config --global user.email "<youremail@yourdomain.com>"
 
   {¹ tervezése és fejlesztése}
 
+## FrontEnd Python: VUE
+
+- [Vue.js Tutorial](https://vuejs.org/tutorial/)
+- [Vue.js Documentáció](https://vuejs.org/guide/introduction.html)
+- [Vue-CLI](https://cli.vuejs.org/guide/)
+
 ## FrontEnd Python: Brython
 
 - python ismétlés backend tárgyban
@@ -320,8 +334,9 @@ git config --global user.email "<youremail@yourdomain.com>"
 - bind
 - axios
 
-## PHP on frontend: [Laravel Livewire](https://livewire.laravel.com/)
+## PHP on frontend: [Inertia-js](https://laracasts.com/series/build-modern-laravel-apps-using-inertia-js)
 
+- VUE Ismétlés
 - komponensek
 - változók
 - változó hozzárendelése HTML objektumhoz (binding)

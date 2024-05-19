@@ -281,6 +281,5 @@
   - [Request](https://laravel.com/docs/10.x/routing)
   - [Views](https://laravel.com/docs/10.x/routing)
   - [Blade](https://laravel.com/docs/10.x/blade#loops)
-  - [Livewire connect](https://laravel-livewire.com/)
 
 [Központi tematika](pdf/Backend%20programozás%20és%20tesztelés.pdf)
