@@ -50,64 +50,6 @@
   - $_SESSION, session_start(), session_id()
   - Hagyományos FullStack alkalmazás fejlesztése
 
-## Python ismétlés
-
-- python telepítése
-- python futtatása terminálban
-- hello world pythonban
-- számok (int, float, nagy számok)
-- operátorok (+, -, *, /, //, %, **, ... )
-- python függvények használata ( int(), float(), max(), min() )
-- számrendszerek (0x, 0b, 0o, format())
-- python stringek
-- python programok szerkesztése vscode-ban
-- print()
-- input()
-- string template, format
-- if - elif - else, tabulálás a pythonban
-- logikai típus és operátorai
-- while ciklus és használata
-- függvények definiálása
-- bemeneti paraméterek
-- visszatérési érték (return)
-- generátor függvények (yield)
-- rekurzió
-- rekurzió a generátorokban (yield from)
-- a *operátor
-- range, python listák
-- listák és generátorok bejárása, a for utasítás
-- lista generátor használata [i for i in l if i]
-- alapvető algoritmusok
-  - eldöntés (in)
-  - keresés (find)
-  - összegzés (max, min, sum, count)
-  - szűrés (filter)
-  - rendezés (sort, sorted)
-- további lista és stringműveletek
-- szövegfájlok kezelése
-- random modul, valószínűségszámítás, statisztika
-- objektum, referencia
-- halmazok (Set)
-- szótár adatszerkezet (Map)
-- numpy, matplotlib, pygame
-- osztályok, objektum-orientált programozás
-
-## Flask: Python BackEnd
-
-- telepítés, indítás, debug mód
-- flask app fejlesztés, tesztelés
-- routing
-- RestAPI
-  - GET, POST, PUT, PATCH, DELETE
-- params, escaping
-- serve static files
-- templating (Jinja2)
-  - kifejezések {{ ... }}, kommentek {# ... #}
-  - utasítások {% ... %} (for, if, macro)
-  - filterek
-- Fáklok feltöltése
-- Flask-MySQL
-
 ## MySQL/SQLite ismététlés
 
 - Adatbázis felépítése (MySQL, SQLite)
@@ -124,13 +66,38 @@
 - DQL/DDL/DCL/DML
 - Adatbázisok tervezése
 
-## Flask MySQL Backend SSR: Jinja2
+## PHP II. - MySQL/MariaDB
 
-- Komplex 3-4 táblás full-stack webalkalmás tervezés, fejlesztése
-
-## Kapcsolódó technológiák I.
-
-- MFB: MySQL - Flask - Brython
+- PHP
+  - Parse json_encode(): PUT, PATCH, DELETE, HEAD, OPTIONS
+  - Osztályok, objektumok
+  - mysqli: query, fetch_assoc
+  - CORS
+  - Event-stream, flush, ob_flush, sleep
+  - Packagist/Composer
+- MySQL/MariaDB
+  - SELECT
+  - WHERE
+  - AND, OR, NOT
+  - ORDER BY
+  - INSERT INTO
+  - UPDATE
+  - DELETE
+  - LIMIT
+  - LIKE
+  - JOIN, LEFT JOIN
+  - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
+  - phpMyAdmin
+- Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
+  - DTO, JSON Mapping
+  - file_get_contents('php://input')
+  - json_encode()
+- Adatbázis tervezés, kapcsolatok
+- Adatfolyam-tervezés, adatfolyam-diagrammok
+- Unit teszt,  integrációs tesztelés, rendszertesztelés
+- Hosting: ATW
+- *JQuery + PHP*
+- *AngulatJS + PHP*
 
 ## [*NodeJS*](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 
@@ -217,43 +184,76 @@
 - *BlockChain Serverless Keretrendszerek*
 - *Peer-To-Peer hálózatok, WebRTC*
 
-## PHP II. - MySQL/MariaDB
-
-- PHP
-  - Parse json_encode(): PUT, PATCH, DELETE, HEAD, OPTIONS
-  - Osztályok, objektumok
-  - mysqli: query, fetch_assoc
-  - CORS
-  - Event-stream, flush, ob_flush, sleep
-  - Packagist/Composer
-- MySQL/MariaDB
-  - SELECT
-  - WHERE
-  - AND, OR, NOT
-  - ORDER BY
-  - INSERT INTO
-  - UPDATE
-  - DELETE
-  - LIMIT
-  - LIKE
-  - JOIN, LEFT JOIN
-  - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
-  - phpMyAdmin
-- Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
-  - DTO, JSON Mapping
-  - file_get_contents('php://input')
-  - json_encode()
-- Adatbázis tervezés, kapcsolatok
-- Adatfolyam-tervezés, adatfolyam-diagrammok
-- Unit teszt,  integrációs tesztelés, rendszertesztelés
-- Hosting: ATW
-- *JQuery + PHP*
-- *AngulatJS + PHP*
-
 ## Kapcsolódó technológiák III.
 
 - MP: MySQL - PHP
 - *MPJ*: MySQL - PHP - *JQuery*
+
+## Python ismétlés
+
+- python telepítése
+- python futtatása terminálban
+- hello world pythonban
+- számok (int, float, nagy számok)
+- operátorok (+, -, *, /, //, %, **, ... )
+- python függvények használata ( int(), float(), max(), min() )
+- számrendszerek (0x, 0b, 0o, format())
+- python stringek
+- python programok szerkesztése vscode-ban
+- print()
+- input()
+- string template, format
+- if - elif - else, tabulálás a pythonban
+- logikai típus és operátorai
+- while ciklus és használata
+- függvények definiálása
+- bemeneti paraméterek
+- visszatérési érték (return)
+- generátor függvények (yield)
+- rekurzió
+- rekurzió a generátorokban (yield from)
+- a *operátor
+- range, python listák
+- listák és generátorok bejárása, a for utasítás
+- lista generátor használata [i for i in l if i]
+- alapvető algoritmusok
+  - eldöntés (in)
+  - keresés (find)
+  - összegzés (max, min, sum, count)
+  - szűrés (filter)
+  - rendezés (sort, sorted)
+- további lista és stringműveletek
+- szövegfájlok kezelése
+- random modul, valószínűségszámítás, statisztika
+- objektum, referencia
+- halmazok (Set)
+- szótár adatszerkezet (Map)
+- numpy, matplotlib, pygame
+- osztályok, objektum-orientált programozás
+
+## Flask: Python BackEnd
+
+- telepítés, indítás, debug mód
+- flask app fejlesztés, tesztelés
+- routing
+- RestAPI
+  - GET, POST, PUT, PATCH, DELETE
+- params, escaping
+- serve static files
+- templating (Jinja2)
+  - kifejezések {{ ... }}, kommentek {# ... #}
+  - utasítások {% ... %} (for, if, macro)
+  - filterek
+- Fáklok feltöltése
+- Flask-MySQL
+
+## Flask MySQL Backend SSR: Jinja2
+
+- Komplex 3-4 táblás full-stack webalkalmás tervezés, fejlesztése
+
+## Kapcsolódó technológiák I.
+
+- MFB: MySQL - Flask - Brython
 
 ## PHP III. - Laravel
 

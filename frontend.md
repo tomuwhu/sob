@@ -220,14 +220,6 @@ git config --global user.email "<youremail@yourdomain.com>"
   - Design fogások
     - BootStrap
 
-## FrontEnd Python: Brython
-
-- python ismétlés backend tárgyban
-- browser
-- html
-- bind
-- axios
-
 ## HTML/CSS/JS Mobile
 
 - viewport
@@ -330,7 +322,13 @@ git config --global user.email "<youremail@yourdomain.com>"
 
   {¹ tervezése és fejlesztése}
 
-***
+## FrontEnd Python: Brython
+
+- python ismétlés backend tárgyban
+- browser
+- html
+- bind
+- axios
 
 ## PHP on frontend: [Laravel Livewire](https://livewire.laravel.com/)
 
