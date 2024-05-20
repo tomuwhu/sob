@@ -65,7 +65,7 @@ git config --global user.email "<youremail@yourdomain.com>"
   - @keyframes
 - SCSS/SASS
 - JavaScript online editor
-  - [JavaScript](https://playcode.io/javascript)
+  - [Vanilla](https://playcode.io/javascript)
   - [JQuery](https://playcode.io/jquery)
   - [React](https://playcode.io/react)
   - [Vue](https://playcode.io/vue)
