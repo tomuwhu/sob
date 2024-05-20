@@ -328,11 +328,14 @@ git config --global user.email "<youremail@yourdomain.com>"
 
   {¹ tervezése és fejlesztése}
 
-## FrontEnd Python: VUE
+## FrontEnd: VUE, React, Angular
 
 - [Vue.js Tutorial](https://vuejs.org/tutorial/)
 - [Vue.js Documentáció](https://vuejs.org/guide/introduction.html)
 - [Vue-CLI](https://cli.vuejs.org/guide/)
+- [React Tutorial](https://react.dev/learn)
+- [React Documentáció](https://react.dev/reference/react)
+- [Angular](https://angular.io)
 
 ## FrontEnd Python: Brython
 
