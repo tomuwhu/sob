@@ -19,15 +19,6 @@
   - set PATH=%PATH%;C:/php
 - Környezeti változók
 
-## BackEnd alapok
-
-- Cookie-k
-- REST API
-  - GET, POST, PUT, PATCH, DELETE
-- Postman alkalmazás telepítése, használata
-- JSON Server telepítése, használata
-- JSON Server + HTML Only Full-Stack minimal
-
 ## PHP I. - XAMPP, SSR
 
 - XAMPP
@@ -43,7 +34,7 @@
   - Tömbök, listák
   - Szerver oldali alkalmazás készítése
   - Asszociatív tömbök
-  - print_r(), var_export(), echo json_encode()
+  - print_r()
   - FullStack: HTML FORM POST
   - $_GET, $_POST
   - $_SESSION, session_start(), session_id()
@@ -85,18 +76,6 @@
   - LIKE
   - JOIN, LEFT JOIN
   - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
-- Frontend/Backend szétválasztása, CORS
-- Event-stream, flush, ob_flush, sleep
-- Packagist/Composer
-- Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
-  - DTO, JSON Mapping
-  - file_get_contents('php://input')
-  - json_encode()
-- Adatbázis tervezés, kapcsolatok
-- Adatfolyam-tervezés, adatfolyam-diagrammok
-- Unit teszt,  integrációs tesztelés, rendszertesztelés
-- *JQuery + PHP*
-- *AngulatJS + PHP*
 
 ## [*NodeJS*](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 
@@ -124,6 +103,16 @@
 - NodeJS MySQL
 - Unit Test: Jest
 
+## BackEnd alapok
+
+- Cookie-k
+- REST API
+  - GET, POST, PUT, PATCH, DELETE
+- Postman alkalmazás telepítése, használata
+- JSON Server telepítése, használata
+- JSON Server + HTML Only Full-Stack minimal
+- Unit teszt,  integrációs tesztelés, rendszertesztelés
+
 ## [*ExpressJS*](https://expressjs.com/en/starter/installing.html)
 
 - hello world
@@ -133,9 +122,24 @@
 - Session
 - express.json (body)
 - response
-- CORS
+- Frontend/Backend szétválasztása, CORS
 - EJS
 - *Hosting: Heroku*
+
+## PHP III.
+
+- PHP CORS
+- var_export(), echo json_encode()
+- Event-stream, flush, ob_flush, sleep
+- Packagist/Composer
+- Ajax-os Full Stack alkalmazás fejlesztése (*Frontend alkalmazásfejlesztés*)
+  - DTO, JSON Mapping
+  - file_get_contents('php://input')
+  - json_encode()
+- Adatbázis tervezés, kapcsolatok
+- Adatfolyam-tervezés, adatfolyam-diagrammok
+- *JQuery + PHP*
+- *AngulatJS + PHP*
 
 ## *[Vite](https://vitejs.dev/guide/), [SvelteKit](https://kit.svelte.dev/docs/introduction)*
 
