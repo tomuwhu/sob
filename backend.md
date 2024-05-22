@@ -111,7 +111,10 @@
 - Postman alkalmazás telepítése, használata
 - JSON Server telepítése, használata
 - JSON Server + HTML Only Full-Stack minimal
-- Unit teszt,  integrációs tesztelés, rendszertesztelés
+- Unit teszt, integrációs tesztelés, rendszertesztelés
+- Hash-elés, ujjlenyomat-módszer (MD5, SHA256, ...)
+- Titkosítás, RSA Algoritmus
+- Authentikáció, 3rd parties authentikáció, OAUTH2.0
 
 ## [*ExpressJS*](https://expressjs.com/en/starter/installing.html)
 
