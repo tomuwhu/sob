@@ -205,6 +205,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Date, Time
 - JSON
 - RegExp
+- DOMParser
 - Modulok, CDN
   - [jQuery](https://jquery.com/)
   - [Axios](https://axios-http.com/docs/intro), RestAPI
