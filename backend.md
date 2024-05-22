@@ -106,7 +106,11 @@
 ## BackEnd alapok
 
 - Cookie-k
-- REST API (GET, POST, PUT, PATCH, DELETE)
+- Kommunikációs protokollok:
+  - REST API (GET, POST, PUT, PATCH, DELETE)
+  - Server Side Enents (SSE)
+  - WebSocket (Socket.io)
+  - WebRTC (PeerJS)
 - Postman alkalmazás telepítése, használata
 - JSON Server telepítése, használata
 - JSON Server + HTML Only Full-Stack minimal
