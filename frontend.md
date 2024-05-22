@@ -208,6 +208,7 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Modulok, CDN
   - [jQuery](https://jquery.com/)
   - [Axios](https://axios-http.com/docs/intro), RestAPI
+  - [Google Sheets Parser](https://www.npmjs.com/package/public-google-sheets-parser)
   - [Socket.io<sup>*</sup>](https://socket.io/)
   - [levenshtein](https://github.com/gf3/Levenshtein)
   - [marked](https://marked.js.org/)
