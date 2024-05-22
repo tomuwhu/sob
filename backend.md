@@ -292,6 +292,8 @@
   - [Views](https://laravel.com/docs/10.x/routing)
   - [Blade](https://laravel.com/docs/10.x/blade#loops)
 
+---
+
 [Központi tematika](pdf/Backend%20programozás%20és%20tesztelés.pdf)
 
 ---

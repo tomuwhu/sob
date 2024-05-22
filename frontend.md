@@ -352,6 +352,12 @@ git config --global user.email "<youremail@yourdomain.com>"
 - változók
 - változó hozzárendelése HTML objektumhoz (binding)
 
+## Integrációs tesztelés
+
+## CMS telepítése, működtetése
+
+---
+
 [Központi tematika](pdf/Frontend%20programozás%20és%20tesztelés.pdf)
 
 ---
