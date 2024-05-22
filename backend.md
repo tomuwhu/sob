@@ -106,15 +106,14 @@
 ## BackEnd alapok
 
 - Cookie-k
-- REST API
-  - GET, POST, PUT, PATCH, DELETE
+- REST API (GET, POST, PUT, PATCH, DELETE)
 - Postman alkalmazás telepítése, használata
 - JSON Server telepítése, használata
 - JSON Server + HTML Only Full-Stack minimal
 - Unit teszt, integrációs tesztelés, rendszertesztelés
 - Hash-elés, ujjlenyomat-módszer (MD5, SHA256, ...)
-- Titkosítás, RSA Algoritmus
-- Authentikáció, 3rd parties authentikáció, OAUTH2.0
+- Titkosítás (egykulcsos, két kulcsos, nyivános kulcsú), RSA Algoritmus
+- Authentikáció, token, 3rd parties authentikáció, OAUTH2.0
 
 ## [*ExpressJS*](https://expressjs.com/en/starter/installing.html)
 
