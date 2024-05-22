@@ -13,29 +13,20 @@
 - Domain beállítások
 - Adatvédelmi tudnivalók, GitGuardian
 
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "<youremail@yourdomain.com>"
-```
-
 ## [VSCode](https://code.visualstudio.com/) használata
 
 - kód bevitel
 - UTF-8, Szimbólumok
 - témák használata
 - pluginek
-  - ESLint
-  - Prettier
-  - GitHub Pull Requests
-  - Indent-rainbow
+  - ESLint, Prettier
+  - Indent-rainbow, Material Icons
   - Live Server
   - Live Share
   - Markdown All in One
-  - Markdownlint
-  - IntelliCode or codeium
-  - Material Icons
+  - IntelliCode/Codeium
   - Svelte preview
-  - Svelte counter példaalkalmazás
+- Svelte counter példaalkalmazás
 
 ## HTML/CSS/Markdown/SVG/JS ismétlés
 
@@ -49,6 +40,9 @@ git config --global user.email "<youremail@yourdomain.com>"
 - Események
 - Favicon
 - .css file, \<link>
+- CSS Szintaxis, Szelektorok, Színek, Háttér, Opacity
+- Display, Box model, Border, Text, Font
+- Position
 - Külső CSS/JS könyvtárak és egyebek
   - [Google Fonts](https://fonts.google.com/)
   - [Bootstrap](https://getbootstrap.com/)
