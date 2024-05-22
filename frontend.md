@@ -353,3 +353,12 @@ git config --global user.email "<youremail@yourdomain.com>"
 - változó hozzárendelése HTML objektumhoz (binding)
 
 [Központi tematika](pdf/Frontend%20programozás%20és%20tesztelés.pdf)
+
+---
+
+### Mérföldkövek
+
+1. GIT/VSCode beállítása, használata + HTML/CSS
+2. JavaScript nyelv + gyakorlat
+3. JavaScript programozás + gyakorlat
+4. JavaScript szoftverfejlesztés, keretrendszerek

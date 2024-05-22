@@ -293,3 +293,12 @@
   - [Blade](https://laravel.com/docs/10.x/blade#loops)
 
 [Központi tematika](pdf/Backend%20programozás%20és%20tesztelés.pdf)
+
+---
+
+### Mérföldkövek
+
+1. Programozási környezet beállítása, használata, markdown
+2. PHP/MyQL/XAMPP vagy NodeJS/SQLite/Express
+3. Ajax MVC FullStack alkalmazásfejlesztés
+  (Angular/React/Vue/SvelteKit/Laravel)
