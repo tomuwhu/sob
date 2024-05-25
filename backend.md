@@ -30,13 +30,17 @@
   - Változók, kommentek, típusok
   - echo, template (\<?php ?>, {})
   - környezeti változók elérése, . => _
+  - Stringek (strlen, explode, implode, md5, ...)
+  - számok, Math
   - Vezérlési szerkezetek
+  - függvények
   - Tömbök, listák
   - Szerver oldali alkalmazás készítése
   - Asszociatív tömbök
   - print_r()
   - FullStack: HTML FORM POST
   - $_GET, $_POST
+  - setcookie, $_COOKIE
   - $_SESSION, session_start(), session_id()
   - Hagyományos FullStack alkalmazás fejlesztése
 
