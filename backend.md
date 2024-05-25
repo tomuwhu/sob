@@ -8,7 +8,9 @@
   - abszolút-, relatív elérési út
   - file, könyvtár
   - futtatható fájl, command line applications
-- Terminál app
+- Terminál app beállítása
+  - Alacritty
+  - Powerlevel10k
 - Terminál parancsok
   - ls, cd, mkdir, chmod
   - touch, rm, cp, mv
