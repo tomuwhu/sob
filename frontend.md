@@ -209,6 +209,7 @@
   - [marked](https://marked.js.org/)
   - [highlight.js](https://highlightjs.org/) v. [prism.js](https://prismjs.com/)
   - [Chart.js](https://www.chartjs.org/) v. [vis.js](https://visjs.org/)
+- cdnjs api
 - Browser Alkalmazás
   - Helyi tárhey (localStorage, sessionStorage)
   - Firefox: Svelte Dev Tools

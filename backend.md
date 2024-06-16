@@ -108,6 +108,7 @@
 - *NodeJs SQLite3*
 - NodeJS MySQL
 - Unit Test: Jest
+- modulok publikálása az npm-re
 
 ## BackEnd alapok
 
@@ -179,7 +180,7 @@
     - onMount
     - komponensek
     - MVC alkalmazások fejlesztése
-    - SvelteKit FullStack Framework
+    - [SvelteKit FullStack Framework](https://kit.svelte.dev/docs/introduction)
       - routing
       - loading data
       - form actions
