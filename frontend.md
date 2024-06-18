@@ -28,6 +28,19 @@
   - Svelte preview
 - Svelte counter példaalkalmazás
 
+## Űrlap alapfogalmak, űrlapelemek
+
+- google űrlap készítése
+- input/textbox (rövid válasz / bekezdés)
+- select (legördülő lista)
+- option (jelölőnégyzetek)
+- radio buttons (feleletválasztós)
+- file input (fájl feltöltése)
+- range input (lineáris skála)
+- feladatválasztós rács / jelölőnégyzet rács
+- dátum/idő
+- táblázat hozzárendelése Form-hoz
+
 ## HTML/CSS/Markdown/SVG/JS ismétlés
 
 - [Markdown](https://www.markdownguide.org/basic-syntax/)
@@ -36,7 +49,7 @@
 - Táblázatok
 - Grid
 - FlexBox
-- Űrlapok, Űrlapelemek
+- Űrlapok, Űrlapelemek (form/input/select/...)
 - Események
 - Favicon
 - .css file, \<link>

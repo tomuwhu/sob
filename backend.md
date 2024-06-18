@@ -109,7 +109,7 @@
 - NodeJs NeDB
 - *NodeJS MongoDB, Mongoose*
 - *NodeJs SQLite3*
-- NodeJS MySQL
+- NodeJS mysql2, mysql2-async, mysql3
 - Unit Test: Jest
 - modulok publikálása az npm-re
 
@@ -140,6 +140,7 @@
 - response
 - Frontend/Backend szétválasztása, CORS
 - EJS
+- Express mysql2, mysql2-async integráció
 - *Hosting: Netlify*
 - *aiven connect: mysql2-async*
 
@@ -156,7 +157,7 @@
 - Adatbázis tervezés, kapcsolatok
 - Adatfolyam-tervezés, adatfolyam-diagrammok
 - *JQuery + PHP*
-- *AngulatJS + PHP*
+- *Angular/React/Vue/Svelte + PHP*
 
 ## *[Vite](https://vitejs.dev/guide/), [SvelteKit](https://kit.svelte.dev/docs/introduction)*
 
@@ -220,7 +221,7 @@
 ## Kapcsolódó technológiák II.
 
 - *MEEN: MySQL - ExpressJS - EJS - NodeJS*
-- *MSN: MySQL - SvelteKit - NodeJS (Vite)*
+- *MSN: MySQL (on aiven) - SvelteKit (on Netlify) - NodeJS (Vite on GitHub)*
 - RestAPI, SSE, WebSocket
 - Autentikáció, Oatuh 2.0
 - *BlockChain Serverless Keretrendszerek*
