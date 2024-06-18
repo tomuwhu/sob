@@ -3,6 +3,15 @@ n = 5
 a = [-1, -1]
 ds = [
   {
+    name: `Új SOB Honlap - Netlify`,
+    date: `2024-06-18`,
+    text: `SvelteKit FullStack Web APP on Netlify with MySQL on aiven`,
+    git: [`SOB`, `https://github.com/tomuwhu/netlify_sob`, `https://sobes.netlify.app/`],
+    keywords: [
+      `SVELTEKIT`, `MySQL`, `Host`, `Netlify`, `aiven`, `JavaScript`, `fullstack`, `hosting`
+    ]
+  },
+  {
     name: `SvelteKIT Static - Amőba`,
     date: `2024-05-10`,
     text: `05-10 Vendégségben Dávidnál az elsősökkel`,
