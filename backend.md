@@ -82,6 +82,9 @@
   - LIKE
   - JOIN, LEFT JOIN
   - [HackerRank](https://www.hackerrank.com/domains/sql) SQL feladatok megoldása
+- MySQL in Cloud: *aiven*
+  - setup
+  - connect
 
 ## [*NodeJS*](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 
@@ -137,7 +140,8 @@
 - response
 - Frontend/Backend szétválasztása, CORS
 - EJS
-- *Hosting: Heroku*
+- *Hosting: Netlify*
+- *aiven connect: mysql2-async*
 
 ## PHP III.
 
@@ -186,8 +190,13 @@
       - form actions
       - page options
       - state management, store
-      - building and deploying
       - hooks
+      - building, static site generation
+      - deploying: *Netlify*
+        - Build & Deploy
+        - Enviroment variables
+    - *Hosting: Netlify*
+    - *aiven connect: mysql2-async*
 
 ## Full-stack multiplatform alkalmazás fejlesztése (SvelteKit - SQLite)
 
@@ -204,13 +213,13 @@
   - Komponensek fejlesztése
   - Komponensek tesztelése
 - Elkészült rendszer tesztelése
-- Elkészült rendszer közzététele
+- Elkészült rendszer közzététele (Netlify + aiven)
 
   {* tervezése és fejlesztése}
 
 ## Kapcsolódó technológiák II.
 
-- *MEEN: MySQL - ExpressJS - EJS - NodeJS (Vite)*
+- *MEEN: MySQL - ExpressJS - EJS - NodeJS*
 - *MSN: MySQL - SvelteKit - NodeJS (Vite)*
 - RestAPI, SSE, WebSocket
 - Autentikáció, Oatuh 2.0
